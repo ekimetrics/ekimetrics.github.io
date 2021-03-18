@@ -1,0 +1,89 @@
+/* stylelint-disable docusaurus/copyright-header */
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-color-primary: #d7c378;
+  --ifm-color-primary-dark: #00ADD0;
+  --ifm-color-primary-darker:#00ADD0;
+  --ifm-color-primary-darkest: #00ADD0;
+  --ifm-color-primary-light: #d7c378;
+  --ifm-color-primary-lighter: #d7c378;
+  --ifm-color-primary-lightest: #d7c378;
+  --ifm-code-font-size: 95%;
+  --ifm-navbar-background-color: #16293c;
+  --ifm-background-color:#16293c;
+  --ifm-background-surface-color:var(--ifm-background-color);
+}
+
+@font-face {
+  font-family: "MetricRegular";
+  src: url("/fonts/Metric-Regular.otf");
+ }
+
+ @font-face {
+  font-family: "Tiempos";
+  src: url("/fonts/Tiempos.otf") format("opentype");
+ }
+
+
+body{
+  font-family: "MetricRegular";
+  font-size:18px;
+}
+
+h1{
+  font-family: "Tiempos";
+}
+
+.navbar__title{
+  font-family: "Tiempos";
+}
+
+.goldencolor{
+  color:var(--ifm-color-primary);
+}
+
+.hero__title{
+  font-size:40px;
+  text-align: left;
+}
+
+.hero__subtitle{
+  text-align: left;
+}
+
+html[data-theme="dark"]{
+  --ifm-background-color:#16293c;
+}
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+
+.card{
+  margin-bottom:1rem;
+}
+
+.badge.badge--primary{
+  margin-right:5px;
+}
+
+.badge{
+  font-size:70%
+}
+
+.badge.badge--primary > a{
+  color:black;
+  font-family: 'Segoe UI';
+}
+
+
