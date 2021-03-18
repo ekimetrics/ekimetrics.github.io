@@ -3,13 +3,13 @@ const path = require('path');
 module.exports = {
   title: 'Ekimetrics Tech',
   tagline: 'Ekimetrics Lab Website',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://ekimetrics.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'Ekimetrics', // Usually your GitHub org/user name.
-  projectName: 'ekimetrics', // Usually your repo name.
+  organizationName: 'ekimetrics', // Usually your GitHub org/user name.
+  projectName: 'ekimetrics.github.io', // Usually your repo name.
   themeConfig: {
     colorMode:{
       defaultMode:"dark",
