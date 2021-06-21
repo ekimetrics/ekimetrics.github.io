@@ -23,7 +23,10 @@ jobs:
         with:
           node-version: 12
       - run: npm install
-      - run: npm run deploy
+      - run: > 
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          npm run deploy
         env:
           GIT_USER: ${{ secrets.GIT_USER }}
           GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
