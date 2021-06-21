@@ -7,6 +7,7 @@ author_url: https://github.com/ekimetrics
 #author_image_url: https://avatars1.githubusercontent.com/u/17883920?s=460&v=4
 header_image_url: https://miro.medium.com/max/700/1*yWwbF0KF-DTnbUpNgqTCnA.jpeg
 tags: [hello, docusaurus]
+description: Blablabla
 ---
 <!--truncate-->
  

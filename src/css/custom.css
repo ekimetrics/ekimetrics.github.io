@@ -48,9 +48,27 @@ h1{
   color:var(--ifm-color-primary);
 }
 
+.gold{
+  color:var(--ifm-color-primary);
+}
+
 .hero__title{
   font-size:40px;
-  text-align: left;
+  text-align: center;
+}
+
+.hero--blue{
+  background-color:#16293c
+}
+.card {
+  /* box-shadow: 0 4px 8px 0 rgba(223, 18, 18, 0.2); */
+  /* max-width: 300px; */
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color:#32475a;
+  border-radius: 0px;
+  height:100%;
 }
 
 .hero__subtitle{
@@ -68,9 +86,8 @@ html[data-theme="dark"]{
   padding: 0 var(--ifm-pre-padding);
 }
 
-
-.card{
-  margin-bottom:1rem;
+.prism-code{
+  font-size: 14px;
 }
 
 .badge.badge--primary{
@@ -85,5 +102,46 @@ html[data-theme="dark"]{
   color:black;
   font-family: 'Segoe UI';
 }
+
+
+
+.longcard{
+  background-color: #32475a;
+  margin-bottom: 40px;
+  padding-bottom:0px !important;
+  min-height:200px;
+}
+
+.longcard-image{
+  padding:0px !important;
+  width:100%;
+  height:200px;
+}
+
+.longcard-image > img{
+  object-fit: cover;
+  width:100%;
+  height:100%;
+}
+
+
+.longcard-body{
+  padding:20px!important;
+  margin:auto;
+  min-height:200px;
+}
+
+.longcard-description{
+  font-family:"Metric";
+  margin-bottom:0px;
+}
+
+.longcard-title{
+  font-family:"Metric";
+  font-size:24px;
+  margin-bottom:0px;
+}
+
+
 
 

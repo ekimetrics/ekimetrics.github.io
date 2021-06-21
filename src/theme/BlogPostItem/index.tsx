@@ -32,7 +32,7 @@ const MONTHS = [
   'December',
 ];
 
-function BlogPostPreview(props: Props): JSX.Element {
+function BlogPostItem(props: Props): JSX.Element {
   const {
     children,
     frontMatter,
@@ -42,14 +42,16 @@ function BlogPostPreview(props: Props): JSX.Element {
   } = props;
   const {date, permalink, tags, readingTime} = metadata;
   const {author, title, image, keywords,description} = frontMatter;
-  let headerImageURL = frontMatter.header_image_url;
-  headerImageURL = useBaseUrl(headerImageURL);
 
   const authorURL = frontMatter.author_url || frontMatter.authorURL;
   const authorTitle = frontMatter.author_title || frontMatter.authorTitle;
   const authorImageURL =
     frontMatter.author_image_url || frontMatter.authorImageURL;
   const imageUrl = useBaseUrl(image, {absolute: true});
+
+  let headerImageURL = frontMatter.header_image_url;
+  headerImageURL = useBaseUrl(headerImageURL);
+
 
   const renderPostHeader = () => {
     const TitleHeading = isBlogPostPage ? 'h1' : 'h2';
@@ -61,17 +63,16 @@ function BlogPostPreview(props: Props): JSX.Element {
     return (
       <header>
         <TitleHeading
-          style={{"fontFamily":"MetricRegular"}}
           className={clsx('margin-bottom--sm', styles.blogPostTitle)}>
           {isBlogPostPage ? title : <Link to={permalink}>{title}</Link>}
         </TitleHeading>
-        <p style={{"fontFamily":"MetricRegular",fontSize:16,lineHeight:1}}>{description}</p>
-        {/* <div className="margin-vert--md">
+        <div className="margin-vert--md">
+          {description && <p>{description}</p>}
           <time dateTime={date} className={styles.blogPostDate}>
             {month} {day}, {year}{' '}
             {readingTime && <> · {Math.ceil(readingTime)} min read</>}
           </time>
-        </div> */}
+        </div>
         <div className="avatar margin-vert--md">
           {authorImageURL && (
             <a
@@ -82,7 +83,7 @@ function BlogPostPreview(props: Props): JSX.Element {
               <img src={authorImageURL} alt={author} />
             </a>
           )}
-          <div className="avatar__intro" style={{"fontFamily":"Metric"}}>
+          <div className="avatar__intro">
             {author && (
               <>
                 <h4 className="avatar__name">
@@ -90,30 +91,20 @@ function BlogPostPreview(props: Props): JSX.Element {
                     {author}
                   </a>
                 </h4>
-                <time dateTime={date} className={styles.blogPostDate}>
-                  {month} {day}, {year}{' '}
-                  {readingTime && <> · {Math.ceil(readingTime)} min read</>}
-                </time>
-                {/* <small className="avatar__subtitle">{authorTitle}</small> */}
+                <small className="avatar__subtitle">{authorTitle}</small>
               </>
             )}
           </div>
+        </div>
+        <div className="margin-vert--md">
+          <img className="img-blog-header" src={headerImageURL}/>
         </div>
       </header>
     );
   };
 
   return (
-    <div className="card">
-      <div className="card__image">
-        <img
-          src={headerImageURL}
-          // src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
-          alt="Image alt text"
-          title="Logo Title Text 1"
-        />
-      </div>
-      <div className="card__body">
+    <>
       <Head>
         {keywords && keywords.length && (
           <meta name="keywords" content={keywords.join(',')} />
@@ -125,29 +116,27 @@ function BlogPostPreview(props: Props): JSX.Element {
         )}
       </Head>
 
-      <article>
+      <article className={!isBlogPostPage ? 'margin-bottom--xl' : undefined}>
         {renderPostHeader()}
-
-        {/* <section className="markdown">
+        <section className="markdown blog-article-custom">
           <MDXProvider components={MDXComponents}>{children}</MDXProvider>
-        </section> */}
+        </section>
         {(tags.length > 0 || truncated) && (
-          <footer className="row margin-vert--sm">
+          <footer className="row margin-vert--lg">
             {tags.length > 0 && (
               <div className="col">
-                {/* <strong>Tags:</strong> */}
+                <strong>Tags:</strong>
                 {tags.map(({label, permalink: tagPermalink}) => (
-                  <span className="badge badge--primary">
                   <Link
                     key={tagPermalink}
+                    className="margin-horiz--sm"
                     to={tagPermalink}>
                     {label}
                   </Link>
-                  </span>
                 ))}
               </div>
             )}
-            {/* {truncated && (
+            {truncated && (
               <div className="col text--right">
                 <Link
                   to={metadata.permalink}
@@ -155,13 +144,12 @@ function BlogPostPreview(props: Props): JSX.Element {
                   <strong>Read More</strong>
                 </Link>
               </div>
-            )} */}
+            )}
           </footer>
         )}
       </article>
-      </div>
-    </div>
+    </>
   );
 }
 
-export default BlogPostPreview;
+export default BlogPostItem;

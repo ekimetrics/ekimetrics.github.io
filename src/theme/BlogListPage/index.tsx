@@ -29,10 +29,10 @@ function BlogListPage(props: Props): JSX.Element {
       wrapperClassName="blog-wrapper">
       <div className="container margin-vert--lg">
         <div className="row">
-          <div className="col col--2">
+          {/* <div className="col col--2">
             <BlogSidebar sidebar={sidebar} />
-          </div>
-          <main className="col col--10">
+          </div> */}
+          <main className="col col--12">
             <div className="row">
             {items.map(({content: BlogPostContent}) => (
               <div className="col col--4">

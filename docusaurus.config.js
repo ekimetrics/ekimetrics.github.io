@@ -1,41 +1,45 @@
 const path = require('path');
 
 module.exports = {
-  title: 'Ekimetrics Tech',
-  tagline: 'Ekimetrics Lab Website',
+  title: 'Eki.Lab',
+  tagline: 'Eki.Lab',
   url: 'https://ekimetrics.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'ekimetrics', // Usually your GitHub org/user name.
-  projectName: 'ekimetrics.github.io', // Usually your repo name.
+  organizationName: 'Ekimetrics', // Usually your GitHub org/user name.
+  projectName: 'ekimetrics', // Usually your repo name.
   themeConfig: {
+    prism: {
+      theme: require('prism-react-renderer/themes/dracula'),
+      additionalLanguages: ['python'],
+    },
     colorMode:{
       defaultMode:"dark",
       disableSwitch:true,
     },
     navbar: {
-      title: 'Ekimetrics Lab.',
+      title: 'Eki.Lab',
       items: [
         {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'docs/', label: 'Best practices & convictions', position: 'left'},
         {
-          to: 'homehack/',
-          label: 'Try our AI Challenge',
+          to: 'hacks/',
+          label: 'Hackathons',
           position: 'left',
         },
         {
           to: 'opensource/',
-          label: 'Open Source Contribution',
+          label: 'Open Source',
           position: 'left',
         },
-        {to: 'conviction/', label: 'Eki Tech Conviction', position: 'left'},
-        {to: 'https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9', label: 'NewsLetter', position: 'left'},
-        {to: 'https://ekimetrics.com/fr/', label: 'Website', position: 'left'},
+        {to: 'https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9', label: 'Newsletter', position: 'right'},
+        {to: 'https://ekimetrics.com/fr/', label: 'Ekimetrics website', position: 'right'},
         
         {
           href: 'https://github.com/ekimetrics',
-          label: 'Eki.GitHub',
+          label: 'Github',
           position: 'right',
         },
       ],
@@ -55,7 +59,7 @@ module.exports = {
               to: 'https://ekimetrics.com/our-team/',
             },
             {
-              label: 'Subscribe to our news letter',
+              label: 'Subscribe to our newsletter',
               to: 'https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9',
             },
           ],
@@ -64,7 +68,7 @@ module.exports = {
           title: 'Find us',
           items: [
             {
-              label: 'GitHub',
+              label: 'Github',
               href: 'https://github.com/ekimetrics',
             },
             {
