@@ -24,3 +24,5 @@ jobs:
           node-version: 12
       - run: npm install
       - run: npm run deploy
+        env:
+          GIT_USER: theolvs
