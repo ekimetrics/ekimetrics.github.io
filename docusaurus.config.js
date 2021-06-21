@@ -8,8 +8,8 @@ module.exports = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'Ekimetrics', // Usually your GitHub org/user name.
-  projectName: 'ekimetrics', // Usually your repo name.
+  organizationName: 'ekimetrics', // Usually your GitHub org/user name.
+  projectName: 'ekimetrics.github.io', // Usually your repo name.
   themeConfig: {
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
