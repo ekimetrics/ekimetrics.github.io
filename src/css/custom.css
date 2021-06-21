@@ -128,7 +128,7 @@ html[data-theme="dark"]{
 .longcard-body{
   padding:20px!important;
   margin:auto;
-  min-height:200px;
+  /* min-height:200px; */
 }
 
 .longcard-description{
