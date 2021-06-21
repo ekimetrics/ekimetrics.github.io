@@ -24,7 +24,7 @@ function Home() {
             </div>
         </div>
       <section>
-          <LongCard category="Python library" date="2020-09" title="Pyepidemics" description="Democratize epidemiological modeling and forecast in Python with classical models (SIR, SEIDR, SEIHDR) or custom models (COVID19), with bayesian calibration and many visualization tools" href="https://github.com/ekimetrics/pyepidemics" src="../../static/img/opensource/photo-1584036533827-45bce166ad94.jpg"/>
+          <LongCard category="Python library" date="2020-09" title="Pyepidemics" description="Democratize epidemiological modeling and forecast in Python with classical models (SIR, SEIDR, SEIHDR) or custom models (COVID19), with bayesian calibration and many visualization tools" href="https://github.com/ekimetrics/pyepidemics" src="img/opensource/photo-1584036533827-45bce166ad94.jpg"/>
       </section>
     </div>
   

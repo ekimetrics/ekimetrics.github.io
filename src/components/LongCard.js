@@ -1,5 +1,6 @@
 import React from 'react';
 import Link from '@docusaurus/Link';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 
 
 const LongCard = ({title,src,description,href,category,date}) => {
@@ -8,7 +9,7 @@ const LongCard = ({title,src,description,href,category,date}) => {
             <div class="col col--12 longcard">
                 <div class="row">
                     <div class="col col--4 longcard-image">
-                        <img src={src}/>
+                        <img src={useBaseUrl(src)}/>
                     </div>
                     <div class="col col--8 longcard-body">
                         <p class="longcard-description" style={{fontSize:14}}><span className="gold">{category}</span>{date && ` - ${date}`}</p>
