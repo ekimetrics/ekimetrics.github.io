@@ -25,4 +25,6 @@ jobs:
       - run: npm install
       - run: npm run deploy
         env:
-          GIT_USER: theolvs
+          GIT_USER: ${{ secrets.GIT_USER }}
+          GIT_PASSWORD: ${{ secrets.GIT_PASSWORD }}
+          
