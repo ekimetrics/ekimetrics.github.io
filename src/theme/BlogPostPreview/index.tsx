@@ -82,7 +82,7 @@ function BlogPostPreview(props: Props): JSX.Element {
               <img src={authorImageURL} alt={author} />
             </a>
           )}
-          <div className="avatar__intro" style={{"fontFamily":"Metric"}}>
+          <div className="avatar__intro">
             {author && (
               <>
                 <h4 className="avatar__name">

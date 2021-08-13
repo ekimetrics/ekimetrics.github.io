@@ -32,8 +32,8 @@
 
 
 body{
-  font-family: "MetricRegular";
-  font-size:18px;
+  font-family: "Inter";
+  font-size:14px;
 }
 
 h1{
@@ -42,6 +42,14 @@ h1{
 
 .navbar__title{
   font-family: "Tiempos";
+}
+
+.navbar__item{
+  font-size:16px;
+}
+
+.navbar__brand{
+  font-size:16px;
 }
 
 .goldencolor{
@@ -132,16 +140,21 @@ html[data-theme="dark"]{
 }
 
 .longcard-description{
-  font-family:"Metric";
+  font-family:"Inter";
   margin-bottom:0px;
 }
 
 .longcard-title{
-  font-family:"Metric";
+  font-family:"Inter";
   font-size:24px;
   margin-bottom:0px;
 }
 
 
+.avatar__name{
+  font-size:12px !important;
+}
 
-
+.avatar__intro > time{
+  font-size:12px !important;
+}
