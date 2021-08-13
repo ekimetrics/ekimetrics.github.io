@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[25],{59:function(e){e.exports=JSON.parse('{"title":"Recent posts","items":[{"title":"Deploying a Python Dash application for beginners","permalink":"/blog/dash-deployment"},{"title":"Welcome to the new Ekimetrics Tech website!","permalink":"/blog/welcome"}]}')}}]);
