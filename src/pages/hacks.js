@@ -15,6 +15,7 @@ function Home() {
     <Layout
       title="Hackathons & challenges by Ekimetrics"
       description="Browse our hackathons & challenges to test your Data Science skills"
+      keywords={["EkiLab","Ekimetrics","Eki.Lab","Data Science","Machine Learning","Artificial Intelligence","Hackathon"]}
     >
          
     <div class="container margin-vert--lg">

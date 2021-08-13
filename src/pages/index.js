@@ -88,46 +88,19 @@ function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
   return (
-    <Layout title={`Eki.Lab website`} description="Behind the scenes of the Data Science Company">
-      {/* <header className={clsx(styles.heroBanner)}>
-        <div className="container" >
-          <h1  className="hero__title">Hi there, you're on the <span className="goldencolor">tech blog of eki.</span></h1>
-          <h1 className="hero__title">Read <span className="goldencolor">our latest article</span>  about AI,</h1>
-          <h1 className="hero__title">have fun with our<span className="goldencolor"> AI challenges</span></h1>
-          <h1 className="hero__title"><span className="goldencolor">join our community</span> or check if we have</h1>
-          <h1 className="hero__title">the same<span className="goldencolor"> tech conviction</span></h1>
-          <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              to={useBaseUrl('blog/')}>
-              Get Started
-            </Link>
-          </div>
-        </div>
-  
-      </header> */}
-      <header 
+    <Layout 
+      title={`EkiLab - the Ekimetrics technology & innovation website`} 
+      description="EkiLab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company" 
+      keywords={["EkiLab","Ekimetrics","Eki.Lab","Data Science","Machine Learning","Artificial Intelligence"]}
+      >
+       <header 
         className={clsx('hero hero--primary', styles.heroBanner)} 
         style={{backgroundImage:`url(${useBaseUrl('img/10-cubecube03.jpg')})`,backgroundSize:"cover",backgroundPosition: "bottom", minHeight:"calc(100vh - 200px)",zIndex:-1}}
       >
         <div className={clsx("container", styles.card)}>
-          <h1 className="hero__subtitle" style={{color:"white",fontSize:"40px"}}>Eki<span class="gold">.</span>Lab</h1>
-          <h1 className="hero__subtitle" style={{color:"white"}}>Welcome to Ekimetrics' technology website!</h1>
-          <p className="hero__subtitle" style={{color:"white", marginBottom: 0}}>Behind the scenes of <span class="gold">the Data Science Company</span></p>
-          {/* <div className={styles.buttons}>
-            <Link
-              className={clsx(
-                'button button--outline button--secondary button--lg',
-                styles.getStarted,
-              )}
-              style={{color:"black",borderColor:"black"}}
-              to={useBaseUrl('blog/')}>
-              See articles
-            </Link>
-          </div> */}
+          <h1 className="hero__subtitle" style={{color:"white",fontSize:"40px"}}>Eki<span className="gold">.</span>Lab</h1>
+          <h1 className="hero__subtitle" style={{color:"white"}}>Welcome to Ekimetrics' technology & innovation website!</h1>
+          <p className="hero__subtitle" style={{color:"white", marginBottom: 0}}>Behind the scenes of <a href="https://ekimetrics.com">the Data Science Company</a></p>
         </div>
       </header>
       <main style={{ marginTop:"-40px" }}>
@@ -157,24 +130,24 @@ function Home() {
       </main>
       
 
-      {/* <div class="container">
+      {/* <div className="container">
         
         
       
         <h2 className = {clsx(styles.heroBanner)}>Read our latest articles about AI</h2>
       
-          <div class="row">
-            <div class="col col--3 col--offset-3">
-            <div class="card-demo">
-  <div class="card">
-    <div class="card__image">
+          <div className="row">
+            <div className="col col--3 col--offset-3">
+            <div className="card-demo">
+  <div className="card">
+    <div className="card__image">
       <img
         src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
         alt="Image alt text"
         title="Logo Title Text 1"
       />
     </div>
-    <div class="card__body">
+    <div className="card__body">
       <h4>Quaco Lighthouse</h4>
       <small>
         The Quaco Head Lighthouse is a well maintained lighthouse close to St.
@@ -182,23 +155,23 @@ function Home() {
         seashore.
       </small>
     </div>
-    <div class="card__footer">
-      <button class="button button--primary button--block">Visit</button>
+    <div className="card__footer">
+      <button className="button button--primary button--block">Visit</button>
     </div>
   </div>
 </div>
             </div>
-            <div class="col col--3 col--offset-1">
-            <div class="card-demo">
-  <div class="card">
-    <div class="card__image">
+            <div className="col col--3 col--offset-1">
+            <div className="card-demo">
+  <div className="card">
+    <div className="card__image">
       <img
         src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
         alt="Image alt text"
         title="Logo Title Text 1"
       />
     </div>
-    <div class="card__body">
+    <div className="card__body">
       <h4>Quaco Lighthouse</h4>
       <small>
         The Quaco Head Lighthouse is a well maintained lighthouse close to St.
@@ -206,8 +179,8 @@ function Home() {
         seashore.
       </small>
     </div>
-    <div class="card__footer">
-      <button class="button button--primary button--block">Visit</button>
+    <div className="card__footer">
+      <button className="button button--primary button--block">Visit</button>
     </div>
   </div>
 </div>
@@ -232,34 +205,34 @@ function Home() {
         
       </main>
 
-      <div class="hero shadow--lw">
-        <div class="container">
-        <h2 className="hero__title">Read <span className="goldencolor">our latest article</span>  about AI <a class="button button--link" href="#url">
+      <div className="hero shadow--lw">
+        <div className="container">
+        <h2 className="hero__title">Read <span className="goldencolor">our latest article</span>  about AI <a className="button button--link" href="#url">
           Link
         </a></h2>
-        <div class="card">
+        <div className="card">
           <h1>coucou</h1>
         </div>
         </div>
       </div>
 
-      <div class="hero hero--blue">
-        <div class="container">
-        <h2 className="hero__title">Read <span className="goldencolor">our latest article</span>  about AI <a class="button button--link" href="#url">
+      <div className="hero hero--blue">
+        <div className="container">
+        <h2 className="hero__title">Read <span className="goldencolor">our latest article</span>  about AI <a className="button button--link" href="#url">
           Link
         </a></h2>
-        <div class="card">
+        <div className="card">
           <h1>coucou</h1>
         </div>
         </div>
       </div>
 
-      <div class="hero shadow--lw">
-        <div class="container">
-        <h2 className="hero__title">Read <span className="goldencolor">our latest article</span>  about AI <a class="button button--link" href="#url">
+      <div className="hero shadow--lw">
+        <div className="container">
+        <h2 className="hero__title">Read <span className="goldencolor">our latest article</span>  about AI <a className="button button--link" href="#url">
           Link
         </a></h2>
-        <div class="card">
+        <div className="card">
           <h1>coucou</h1>
         </div>
         </div>

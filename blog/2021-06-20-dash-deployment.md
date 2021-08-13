@@ -7,7 +7,20 @@ author_url: mailto:theo.alvesdacosta@ekimetrics.com
 #author_image_url: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
 header_image_url: img/blog/dash-deployment.jpg
 tags: [Industrialization]
-description: Learn the basics of application deployment from simple examples on Heroku to creating Docker containers   
+description: Learn the basics of application deployment from simple examples on Heroku to creating Docker containers  
+keywords:
+    - Data Science
+    - EkiLab
+    - Ekimetrics
+    - Eki.Lab
+    - Eki
+    - Machine Learning
+    - Artificial Intelligence
+    - Industrialization
+    - Docker
+    - Heroku
+    - Python
+    - Dash
 ---
 
 <!--truncate-->
