@@ -61,11 +61,11 @@ function BlogPostPreview(props: Props): JSX.Element {
     return (
       <header>
         <TitleHeading
-          style={{"fontFamily":"MetricRegular"}}
+          style={{"fontFamily":"InterCustom","fontSize":16}}
           className={clsx('margin-bottom--sm', styles.blogPostTitle)}>
           {isBlogPostPage ? title : <Link to={permalink}>{title}</Link>}
         </TitleHeading>
-        <p style={{"fontFamily":"MetricRegular",fontSize:16,lineHeight:1}}>{description}</p>
+        <p style={{"fontFamily":"InterCustom",fontSize:14,lineHeight:1.2}}>{description}</p>
         {/* <div className="margin-vert--md">
           <time dateTime={date} className={styles.blogPostDate}>
             {month} {day}, {year}{' '}
