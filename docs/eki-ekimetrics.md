@@ -1,5 +1,5 @@
 ---
-id: ekimetrics
+id: eki-ekimetrics
 title: About Ekimetrics
 hide_table_of_contents: false
 slug: /

@@ -1,5 +1,5 @@
 ---
-id: ekilab
+id: eki-ekilab
 title: Eki.Lab
 hide_table_of_contents: false
 ---

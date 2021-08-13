@@ -31,9 +31,35 @@
  }
 
 
+ @font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Regular.ttf") format('truetype');
+  font-weight:400;
+}
+
+@font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Medium.ttf") format('truetype');
+  font-weight:500;
+}
+
+@font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Bold.ttf") format('truetype');
+  font-weight:700;
+}
+
+@font-face {
+  font-family: "InterCustom";
+  src: url("/fonts/Inter-Black.ttf") format('truetype');
+  font-weight:900;
+}
+
+
+
 body{
-  font-family: "MetricRegular";
-  font-size:18px;
+  font-family: "InterCustom";
+  font-size:14px;
 }
 
 h1{
@@ -42,6 +68,14 @@ h1{
 
 .navbar__title{
   font-family: "Tiempos";
+}
+
+.navbar__item{
+  font-size:16px;
+}
+
+.navbar__brand{
+  font-size:16px;
 }
 
 .goldencolor{
@@ -132,16 +166,21 @@ html[data-theme="dark"]{
 }
 
 .longcard-description{
-  font-family:"Metric";
+  font-family:"InterCustom";
   margin-bottom:0px;
 }
 
 .longcard-title{
-  font-family:"Metric";
+  font-family:"InterCustom";
   font-size:24px;
   margin-bottom:0px;
 }
 
 
+.avatar__name{
+  font-size:12px !important;
+}
 
-
+.avatar__intro > time{
+  font-size:12px !important;
+}
