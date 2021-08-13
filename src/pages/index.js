@@ -8,6 +8,11 @@ import styles from './styles.module.css';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
+// Rather inelegant way of loading recent posts
+// See https://stackoverflow.com/questions/60289432/docusaurus-v2-recent-blogs-list-for-homepage
+import recentPosts from "../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json";
+
+
 const features = [
   {
     title: <a href="/blog" >Have a look at our Blog</a>,
@@ -66,12 +71,14 @@ function Feature({imageUrl, title, description}) {
 
 function HomePageBlock({title,img,description,href}){
   return (
-  <Col>
+  <Col className={styles.mainCardColumn}>
     <h1 style={{"fontSize":24}}> <Link to={href}>{title}</Link></h1>
-    <div style={{"padding":40}}>
-    <img src={useBaseUrl(img)}/>
-    </div>
-    <p>{description}</p>
+    {img && 
+      <div style={{paddingLeft:40, paddingRight:40, paddingTop:20, paddingBottom:20}}>
+        <img src={useBaseUrl(img)}/>
+      </div>
+    }
+    <p style={{ marginBottom: 0 }}>{description}</p>
   </Col>
   )
 }
@@ -104,12 +111,12 @@ function Home() {
       </header> */}
       <header 
         className={clsx('hero hero--primary', styles.heroBanner)} 
-        style={{backgroundImage:`url(${useBaseUrl('img/10-cubecube03.jpg')})`,backgroundSize:"cover",backgroundPosition: "bottom",height:"calc(100vh - 200px)",zIndex:-1}}
+        style={{backgroundImage:`url(${useBaseUrl('img/10-cubecube03.jpg')})`,backgroundSize:"cover",backgroundPosition: "bottom", minHeight:"calc(100vh - 200px)",zIndex:-1}}
       >
-        <div className="container" style={{"backgroundColor":"rgba(22, 41, 60, .6)",padding:50}}>
+        <div className={clsx("container", styles.card)}>
           <h1 className="hero__subtitle" style={{color:"white",fontSize:"40px"}}>Eki<span class="gold">.</span>Lab</h1>
-          <h1 className="hero__subtitle" style={{color:"white"}}>Welcome to Ekimetrics technology website!</h1>
-          <p className="hero__subtitle" style={{color:"white"}}>Behind the scenes of <span class="gold">the Data Science Company</span></p>
+          <h1 className="hero__subtitle" style={{color:"white"}}>Welcome to Ekimetrics' technology website!</h1>
+          <p className="hero__subtitle" style={{color:"white", marginBottom: 0}}>Behind the scenes of <span class="gold">the Data Science Company</span></p>
           {/* <div className={styles.buttons}>
             <Link
               className={clsx(
@@ -123,8 +130,8 @@ function Home() {
           </div> */}
         </div>
       </header>
-      <div className="container" style={{zIndex:10,marginBottom:50}}>
-        <div style={{backgroundColor:"#32475a",padding:20,marginTop:"-40px",textAlign:"center"}}>
+      <main style={{ marginTop:"-40px" }}>
+        <div className={clsx("container", styles.card)}>
           <Row>
             <HomePageBlock title="Blog" href="/blog" img="img/icons/Search engine _Monochromatic.svg" description="Read about our latest insights on Data Science & AI"/>
             <HomePageBlock title="Best practices" href="/docs" img="img/icons/Spotlight _Monochromatic.svg" description="Learn about our convictions and tech best practices"/>
@@ -132,9 +139,23 @@ function Home() {
             <HomePageBlock title="Open Source" href="/opensource" img="img/icons/World wide web_Monochromatic.svg" description="Browse our open source contributions to the Data Science community"/>
           </Row>
         </div>
-      </div>
-      <main>
+        <div className={clsx("container", styles.card)}>
+          <Row>
+            <HomePageBlock title="Our latest blog posts" href="" description={
+              <>
+                <ul style={{ listStyleType: 'none', padding: 0, margin: 0 }}>
+                  {recentPosts.items.slice(0, 5).map((item, index) => (
+                    <li key={index}>
+                      <a href={`${item.permalink}`}>{item.title}</a>
+                    </li>
+                  ))}
+                </ul>
+              </>
+            }/>
+          </Row>
+        </div>
       </main>
+      
 
       {/* <div class="container">
         

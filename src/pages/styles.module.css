@@ -12,11 +12,11 @@
   overflow: hidden;
 }
 
-@media screen and (max-width: 966px) {
+/* @media screen and (max-width: 966px) {
   .heroBanner {
     padding: 2rem;
   }
-}
+} */
 
 .buttons {
   display: flex;
@@ -34,4 +34,30 @@
 .featureImage {
   height: 200px;
   width: 200px;
+}
+
+.card {
+  margin-bottom: 40px;
+  padding: 40px;
+  text-align: center;
+}
+
+header > .card {
+  background-color: rgba(22, 41, 60, .6);
+}
+
+main > .card {
+  z-index: 10;
+  background-color: #32475a;
+}
+
+.mainCardColumn {
+  padding-left: 20px;
+   padding-right: 20px;
+}
+
+@media screen and (max-width: 966px) {
+  .mainCardColumn:not(:last-child) {
+    margin-bottom: 40px;
+  }
 }
