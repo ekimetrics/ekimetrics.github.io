@@ -4,21 +4,28 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Sun, 20 Jun 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 15 Sep 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Solving the Traveling Salesman Problem with Reinforcement Learning]]></title>
+            <link>https://ekimetrics.github.io/blog/2021/09/15/tsp</link>
+            <guid>Solving the Traveling Salesman Problem with Reinforcement Learning</guid>
+            <pubDate>Wed, 15 Sep 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[A practical use of Reinforcement Learning and the Q-Learning algorithm to solve the Traveling Salesman Problem]]></description>
+        </item>
         <item>
             <title><![CDATA[Deploying a Python Dash application for beginners]]></title>
             <link>https://ekimetrics.github.io/blog/dash-deployment</link>
             <guid>dash-deployment</guid>
-            <pubDate>Sun, 20 Jun 2021 00:00:00 GMT</pubDate>
+            <pubDate>Thu, 02 Sep 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Learn the basics of application deployment from simple examples on Heroku to creating Docker containers]]></description>
         </item>
         <item>
             <title><![CDATA[Welcome to the new Ekimetrics Tech website!]]></title>
             <link>https://ekimetrics.github.io/blog/welcome</link>
             <guid>welcome</guid>
-            <pubDate>Sat, 19 Jun 2021 00:00:00 GMT</pubDate>
+            <pubDate>Wed, 01 Sep 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[EkiLab website, Ekimetrics technology blog and website!]]></description>
         </item>
     </channel>
