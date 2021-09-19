@@ -1,7 +1,8 @@
 ---
-id: eki-ekilab
+id: ekilab
 title: Eki.Lab
 hide_table_of_contents: false
+slug: /
 ---
 
 The Eki.Lab is our Research & Innovation pole at Ekimetrics. Learn more about our research topics and priorities.<br/>

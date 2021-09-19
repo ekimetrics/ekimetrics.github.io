@@ -2,7 +2,7 @@ const path = require('path');
 
 module.exports = {
   title: 'Eki.Lab',
-  tagline: 'Eki.Lab',
+  tagline: 'EkiLab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company',
   url: 'https://ekimetrics.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -10,6 +10,9 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'ekimetrics', // Usually your GitHub org/user name.
   projectName: 'ekimetrics.github.io', // Usually your repo name.
+  plugins:[
+    '@docusaurus/plugin-google-analytics',
+  ],
   themeConfig: {
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
@@ -18,6 +21,11 @@ module.exports = {
     colorMode:{
       defaultMode:"dark",
       disableSwitch:true,
+    },
+    googleAnalytics: {
+      trackingID: 'G-ZDSL6QMBKE',
+      // Optional fields.
+      anonymizeIP: true, // Should IPs be anonymized?
     },
     navbar: {
       title: 'Eki.Lab',
