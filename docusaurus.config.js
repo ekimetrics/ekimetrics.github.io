@@ -10,9 +10,6 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'ekimetrics', // Usually your GitHub org/user name.
   projectName: 'ekimetrics.github.io', // Usually your repo name.
-  plugins:[
-    '@docusaurus/plugin-google-analytics',
-  ],
   themeConfig: {
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
