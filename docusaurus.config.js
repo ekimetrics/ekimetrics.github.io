@@ -20,7 +20,7 @@ module.exports = {
       disableSwitch:true,
     },
     googleAnalytics: {
-      trackingID: 'UA-124520099',
+      trackingID: 'UA-124520099-9',
       // Optional fields.
       anonymizeIP: true, // Should IPs be anonymized?
     },
