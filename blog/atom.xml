@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ekimetrics.github.io/blog</id>
     <title>Eki.Lab Blog</title>
-    <updated>2021-10-01T00:00:00.000Z</updated>
+    <updated>2021-09-15T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ekimetrics.github.io/blog"/>
     <subtitle>Eki.Lab Blog</subtitle>
@@ -10,22 +10,22 @@
     <entry>
         <title type="html"><![CDATA[Solving the Traveling Salesman Problem with Reinforcement Learning]]></title>
         <id>Solving the Traveling Salesman Problem with Reinforcement Learning</id>
-        <link href="https://ekimetrics.github.io/blog/2021/10/01/tsp"/>
-        <updated>2021-10-01T00:00:00.000Z</updated>
+        <link href="https://ekimetrics.github.io/blog/2021/09/15/tsp"/>
+        <updated>2021-09-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A practical use of Reinforcement Learning and the Q-Learning algorithm to solve the Traveling Salesman Problem]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Deploying a Python Dash application for beginners]]></title>
         <id>dash-deployment</id>
         <link href="https://ekimetrics.github.io/blog/dash-deployment"/>
-        <updated>2021-09-16T00:00:00.000Z</updated>
+        <updated>2021-09-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Learn the basics of application deployment from simple examples on Heroku to creating Docker containers]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome to the new Ekimetrics Tech website!]]></title>
         <id>welcome</id>
         <link href="https://ekimetrics.github.io/blog/welcome"/>
-        <updated>2021-09-15T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Welcome to EkiLab website - the Ekimetrics technology & innovation blog and website!]]></summary>
+        <updated>2021-09-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[EkiLab website, Ekimetrics technology blog and website!]]></summary>
     </entry>
 </feed>
