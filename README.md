@@ -29,6 +29,13 @@ You can learn more in our [official website](https://ekimetrics.com)
 You are more than welcome to open up a pull request to make your own changes and addition to this website. <br>
 The website is built using Docusaurus 2 (with a React.js backbone)
 
+## Content
+- Blog
+- Trainings
+- Hackathons
+- Best practices & convictions
+- Open source contributions
+
 ### Installation
 
 ```console
