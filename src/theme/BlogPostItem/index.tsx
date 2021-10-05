@@ -87,9 +87,7 @@ function BlogPostItem(props: Props): JSX.Element {
             {author && (
               <>
                 <h4 className="avatar__name">
-                  <a href={authorURL} target="_blank" rel="noreferrer noopener">
-                    {author}
-                  </a>
+                  Written by <a href={authorURL} target="_blank" rel="noreferrer noopener">{author}</a>
                 </h4>
                 <small className="avatar__subtitle">{authorTitle}</small>
               </>

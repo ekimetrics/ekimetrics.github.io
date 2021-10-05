@@ -28,7 +28,8 @@ module.exports = {
       title: 'Eki.Lab',
       items: [
         {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'docs/', label: 'Best practices & convictions', position: 'left'},
+        {to: 'trainings/', label: 'Trainings', position: 'left'},
+        {to: 'docs/', label: 'Best practices', position: 'left'},
         {
           to: 'hacks/',
           label: 'Hackathons',

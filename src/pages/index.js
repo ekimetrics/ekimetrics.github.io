@@ -13,45 +13,45 @@ import Col from 'react-bootstrap/Col'
 import recentPosts from "../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json";
 
 
-const features = [
-  {
-    title: <a href="/blog" >Have a look at our Blog</a>,
-    imageUrl: 'img/news.svg',
-    description: (
-      <>
-        Discover our articles and publications to stay informed of the latest AI trends 
-      </>
-    ),
-  },
+// const features = [
+//   {
+//     title: <a href="/blog" >Have a look at our Blog</a>,
+//     imageUrl: 'img/news.svg',
+//     description: (
+//       <>
+//         Discover our articles and publications to stay informed of the latest AI trends 
+//       </>
+//     ),
+//   },
   
-  {
-    title: <a href="/homehack" >Try our online datascience challenges</a>,
-    imageUrl: 'img/LogoHack.svg',
-    description: (
-      <>
-        Take the Eki hackathons to test your Datascience capacity and improve your skills
-      </>
-    ),
-  },
-  {
-    title: <a href="/opensource" >Join our open source community</a>,
-    imageUrl: 'img/LogoOpenSource.svg',
-    description: (
-      <>
-        Discover our open source libraries and contribute to their development.
-      </>
-    ),
-  },
-  {
-    title: <a href="/conviction" >Discover our Tech Conviction</a>,
-    imageUrl: 'img/techconviction.svg',
-    description: (
-      <>
-        Discover our open source libraries and contribute to their development.
-      </>
-    ),
-  },
-];
+//   {
+//     title: <a href="/homehack" >Try our online datascience challenges</a>,
+//     imageUrl: 'img/LogoHack.svg',
+//     description: (
+//       <>
+//         Take the Eki hackathons to test your Datascience capacity and improve your skills
+//       </>
+//     ),
+//   },
+//   {
+//     title: <a href="/opensource" >Join our open source community</a>,
+//     imageUrl: 'img/LogoOpenSource.svg',
+//     description: (
+//       <>
+//         Discover our open source libraries and contribute to their development.
+//       </>
+//     ),
+//   },
+//   {
+//     title: <a href="/conviction" >Discover our Tech Conviction</a>,
+//     imageUrl: 'img/techconviction.svg',
+//     description: (
+//       <>
+//         Discover our open source libraries and contribute to their development.
+//       </>
+//     ),
+//   },
+// ];
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -106,10 +106,11 @@ function Home() {
       <main style={{ marginTop:"-40px" }}>
         <div className={clsx("container", styles.card)}>
           <Row>
-            <HomePageBlock title="Blog" href="/blog" img="img/icons/Search engine _Monochromatic.svg" description="Read about our latest insights on Data Science & AI"/>
+            <HomePageBlock title="Blog" href="/blog" img="img/icons/Search engine _Monochromatic.svg" description="Browse our latest articles and experiments on Data Science & AI"/>
+            <HomePageBlock title="Trainings" href="/trainings" img="img/icons/Email campaign_Monochromatic.svg" description="Find out about our trainings in open-access on various issues"/>
             <HomePageBlock title="Best practices" href="/docs" img="img/icons/Spotlight _Monochromatic.svg" description="Learn about our convictions and tech best practices"/>
             <HomePageBlock title="Hackathons" href="/hacks" img="img/icons/Competition_Monochromatic.svg" description="Test your data science skills with our hackathons & challenges"/>
-            <HomePageBlock title="Open Source" href="/opensource" img="img/icons/World wide web_Monochromatic.svg" description="Browse our open source contributions to the Data Science community"/>
+            <HomePageBlock title="Open Source" href="/opensource" img="img/icons/World wide web_Monochromatic.svg" description="Discover our open source contributions to the Data Science community"/>
           </Row>
         </div>
         <div className={clsx("container", styles.card)}>

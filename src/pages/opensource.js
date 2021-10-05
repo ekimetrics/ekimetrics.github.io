@@ -10,7 +10,7 @@ function Home() {
   return (
     <Layout
       title="Open-source contributions"
-      description="Browse our open source contributions to the Data Science community"
+      description="Discover our open source contributions to the Data Science community"
       keywords={["EkiLab","Ekimetrics","Eki.Lab","Data Science","Machine Learning","Artificial Intelligence","Open Source"]}
     >
          

@@ -153,6 +153,8 @@ html[data-theme="dark"]{
 
 .badge.badge--primary{
   margin-right:5px;
+  color:black;
+  font-family:"InterCustom";
 }
 
 .badge{
@@ -171,6 +173,18 @@ html[data-theme="dark"]{
   margin-bottom: 40px;
   padding-bottom:0px !important;
   min-height:200px;
+
+}
+
+.shortcard-container{
+  margin-bottom: 30px;
+}
+
+.shortcard{
+  background-color: #32475a;
+  padding-bottom:0px !important;
+  margin-right:10px;
+  height:100%;
 }
 
 .longcard-image{
@@ -195,12 +209,21 @@ html[data-theme="dark"]{
 .longcard-description{
   font-family:"InterCustom";
   margin-bottom:0px;
+  vertical-align: middle;
 }
 
 .longcard-title{
   font-family:"InterCustom";
   font-size:24px;
   margin-bottom:0px;
+  vertical-align: middle;
+}
+
+.shortcard-title{
+  font-family:"InterCustom";
+  font-size:20px;
+  margin-bottom:0px;
+  vertical-align: middle;
 }
 
 

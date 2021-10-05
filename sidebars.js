@@ -1,6 +1,6 @@
 module.exports = {
   someSidebar: {
-    Ekimetrics: [
+    "About Ekimetrics": [
       'ekilab',
       'ekimetrics',
       'stack',

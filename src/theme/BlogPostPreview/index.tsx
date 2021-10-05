@@ -85,11 +85,11 @@ function BlogPostPreview(props: Props): JSX.Element {
           <div className="avatar__intro">
             {author && (
               <>
-                <h4 className="avatar__name">
+                {/* <h4 className="avatar__name">
                   <a href={authorURL} target="_blank" rel="noreferrer noopener">
                     {author}
                   </a>
-                </h4>
+                </h4> */}
                 <time dateTime={date} className={styles.blogPostDate}>
                   {month} {day}, {year}{' '}
                   {readingTime && <> · {Math.ceil(readingTime)} min read</>}
