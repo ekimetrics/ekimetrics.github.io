@@ -11,6 +11,7 @@ module.exports = {
   organizationName: 'ekimetrics', // Usually your GitHub org/user name.
   projectName: 'ekimetrics.github.io', // Usually your repo name.
   themeConfig: {
+    image:"img/header-min-2160x1000.jpg",
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
       additionalLanguages: ['python'],
