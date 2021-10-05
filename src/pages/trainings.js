@@ -4,13 +4,6 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import LongCard from "../components/LongCard.js";
 import ShortCard from "../components/ShortCard.js";
 
-          {/* <ShortCard category="Presentation" date="2021-09" title="Foundation models & Prompt Engineering" description="Democratize epidemiological modeling and forecast in Python with classical models (SIR, SEIDR, SEIHDR) or custom models (COVID19), with bayesian calibration and many visualization tools" href="https://github.com/ekimetrics/pyepidemics" tags={["AI Research","NLP"]} />
-          <ShortCard category="Coding session" date="2021-09" title="Practical introduction to mathematical optimization" description="Ethical AI toolkit for Data Scientists to study, understand and mitigate bias in your datasets and algorithms in development and production - Developed in collaboration with Danone, Sorbonne University within Data Scientist club Datacraft" href="https://github.com/datacraft-paris/ethical-ai-toolkit" src="img/opensource/ethicalai.png"/>
-          <ShortCard category="Presentation" date="2021-09" title="MLOps: Machine Learning in production" description="Ethical AI toolkit for Data Scientists to study, understand and mitigate bias in your datasets and algorithms in development and production - Developed in collaboration with Danone, Sorbonne University within Data Scientist club Datacraft" href="https://github.com/datacraft-paris/ethical-ai-toolkit" src="img/opensource/ethicalai.png"/>
-          <ShortCard category="Presentation" date="2021-06" title="UX design guidelines for AI products" description="Ethical AI toolkit for Data Scientists to study, understand and mitigate bias in your datasets and algorithms in development and production - Developed in collaboration with Danone, Sorbonne University within Data Scientist club Datacraft" href="https://github.com/datacraft-paris/ethical-ai-toolkit" src="img/opensource/ethicalai.png"/>
-          <ShortCard category="Presentation" date="2021-05" title="How to create a chess AI" description="Ethical AI toolkit for Data Scientists to study, understand and mitigate bias in your datasets and algorithms in development and production - Developed in collaboration with Danone, Sorbonne University within Data Scientist club Datacraft" href="https://github.com/datacraft-paris/ethical-ai-toolkit" src="img/opensource/ethicalai.png"/>
-          <ShortCard category="Presentation" date="2021-01" title="Cellular Automata & Artificial Life" description="Ethical AI toolkit for Data Scientists to study, understand and mitigate bias in your datasets and algorithms in development and production - Developed in collaboration with Danone, Sorbonne University within Data Scientist club Datacraft" href="https://github.com/datacraft-paris/ethical-ai-toolkit" src="img/opensource/ethicalai.png"/> */}
-
 let TRAININGS = [
   {
     "date":"2021-09","category":"Presentation","title":"Foundation models & Prompt Engineering","tags":["AI Research","NLP"],
@@ -64,9 +57,9 @@ function Home() {
             <div class="col col--12">
             <h1>Trainings</h1>
             <p>
-            We offer trainings for Eki.DataPeople on various issues. Find out in this page about the <span className="gold">trainings and tutorials we can provide in open-access</span>.<br/>
+            We offer trainings internally for Eki.DataPeople on various issues. Find out in this page about the <span className="gold">trainings and tutorials we could provide access</span>.<br/>
             Our trainings can be <span className="gold">presentations</span> or <span className="gold">interactive coding sessions</span><br/>
-            📢 If there is no direct link yet, please send us an <a href="mailto:inno@ekimetrics.com">email</a> to get access 
+            📢 If there is no direct link yet, please send us an <a href="mailto:inno@ekimetrics.com">email</a> to request access 
             </p>
             </div>
         </div>
