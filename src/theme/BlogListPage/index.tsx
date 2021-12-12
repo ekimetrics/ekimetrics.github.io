@@ -35,7 +35,7 @@ function BlogListPage(props: Props): JSX.Element {
           <main className="col col--12">
             <div className="row">
             {items.map(({content: BlogPostContent}) => (
-              <div className="col col--4">
+              <div className="col col--4 row-preview">
               <BlogPostPreview
                 key={BlogPostContent.metadata.permalink}
                 frontMatter={BlogPostContent.frontMatter}
