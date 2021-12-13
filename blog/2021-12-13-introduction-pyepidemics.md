@@ -6,7 +6,7 @@ author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: img/blog/intro-pyepidemics.jpg
 tags: [Open-Source,Epidemiology,Bayesian]
-draft: true
+draft: false
 description: We created Pyepidemics, an open-source library to simulate epidemics (SIR, SEIHDR, COVID19). We detail in this article what you can build with the library.   
 keywords:
     - Data Science
