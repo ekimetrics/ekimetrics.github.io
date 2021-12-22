@@ -15,13 +15,6 @@
         <summary type="html"><![CDATA[We created Pyepidemics, an open-source library to simulate epidemics (SIR, SEIHDR, COVID19). We detail in this article what you can build with the library.]]></summary>
     </entry>
     <entry>
-        <title type="html"><![CDATA[Customer Journey Clustering - How to use sequential modeling techniques to handle customer journey data]]></title>
-        <id>Customer Journey Clustering - How to use sequential modeling techniques to handle customer journey data</id>
-        <link href="https://ekimetrics.github.io/blog/2021/12/09/cjc"/>
-        <updated>2021-12-09T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Enriching understanding of customer journeys through clustering]]></summary>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Solving the Traveling Salesman Problem with Reinforcement Learning]]></title>
         <id>Solving the Traveling Salesman Problem with Reinforcement Learning</id>
         <link href="https://ekimetrics.github.io/blog/2021/11/03/tsp"/>
