@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ekimetrics.github.io/blog</id>
     <title>Eki.Lab Blog</title>
-    <updated>2021-12-13T00:00:00.000Z</updated>
+    <updated>2021-12-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ekimetrics.github.io/blog"/>
     <subtitle>Eki.Lab Blog</subtitle>
     <icon>https://ekimetrics.github.io/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Customer Journey Clustering - How to use sequential modeling techniques to handle customer journey data]]></title>
+        <id>Customer Journey Clustering - How to use sequential modeling techniques to handle customer journey data</id>
+        <link href="https://ekimetrics.github.io/blog/2021/12/22/cjc"/>
+        <updated>2021-12-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Enrich your understanding of customer journeys through clustering using  image embedding, autoencoders and unsupervised learning.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Introduction to Pyepidemics - epidemiological modeling in Python]]></title>
         <id>introduction-pyepidemics</id>

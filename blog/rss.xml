@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Mon, 13 Dec 2021 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 22 Dec 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Customer Journey Clustering - How to use sequential modeling techniques to handle customer journey data]]></title>
+            <link>https://ekimetrics.github.io/blog/2021/12/22/cjc</link>
+            <guid>Customer Journey Clustering - How to use sequential modeling techniques to handle customer journey data</guid>
+            <pubDate>Wed, 22 Dec 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enrich your understanding of customer journeys through clustering using  image embedding, autoencoders and unsupervised learning.]]></description>
+        </item>
         <item>
             <title><![CDATA[Introduction to Pyepidemics - epidemiological modeling in Python]]></title>
             <link>https://ekimetrics.github.io/blog/introduction-pyepidemics</link>
