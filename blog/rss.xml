@@ -4,15 +4,15 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Tue, 04 Jan 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 06 Jan 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
-            <title><![CDATA[Hackathon Stories 1 - Ensuring access to affordable and clean energy]]></title>
-            <link>https://ekimetrics.github.io/blog/2022/01/04/</link>
-            <guid>Hackathon Stories 1 - Ensuring access to affordable and clean energy</guid>
-            <pubDate>Tue, 04 Jan 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Read this article to see why and how Ekimetrics organize hackathons and learn important tips for organizing your own hackathons.]]></description>
+            <title><![CDATA[Hackathon Stories - Ensuring access to affordable and clean energy]]></title>
+            <link>https://ekimetrics.github.io/blog/2022/01/06/hackathon</link>
+            <guid>Hackathon Stories - Ensuring access to affordable and clean energy</guid>
+            <pubDate>Thu, 06 Jan 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Read this article to see how and why Ekimetrics organize hackathons to foster creativity, innovation and team work in our Data teams. Also learn important tips for organizing your own hackathons.]]></description>
         </item>
         <item>
             <title><![CDATA[Customer Journey Clustering - How to use sequential modeling techniques to handle customer journey data]]></title>
