@@ -4,9 +4,9 @@ author: Pierre Biousse
 author_title:
 author_url: mailto:pierre.biousse@ekimetrics.com
 header_image_url: "img/blog/Solar_2.jpg"
-tags: [Hackathons, Teamwork, Sustainable AI]
-draft: true
-description: Read this article to see why and how Ekimetrics organize hackathons and learn important tips for organizing your own hackathons.
+tags: [Hackathon, Teamwork, Sustainable AI]
+draft: false
+description: Read this article to see how and why Ekimetrics organize hackathons to foster creativity, innovation and team work in our Data teams. Also learn important tips for organizing your own hackathons.
 
 keywords:
     - Data Science
@@ -47,10 +47,11 @@ After a long period of COVID19 marked by an almost generalized working from home
 We love hackathons at Ekimetrics as they enable: 
 
 - To federate teams;
-
+- To make people that don't usually work together collaborate to drive innovation;
 - To get some practical experience at tackling new problems far from our usual business topics.
 
-That is why we organize two big hackathons every year and bi-monthly coding challenge sessions, some of which you can find in open source on our hackathons homepage. 
+
+That is why we organize two big hackathons every year and bi-monthly coding challenge sessions, some of which you can find in open source on our [hackathons homepage](https://ekimetrics.github.io/hacks/). 
 For this event, we were lucky enough to be able to carry it out in our office while respecting all sanitary recommendations.
 
 
