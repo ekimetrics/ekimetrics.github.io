@@ -29,16 +29,16 @@ keywords:
 Applying traditional Machine Learning methods to real-word business problems can be time-consuming, resource-intensive and expensive. With Automated Machine Learning (Auto ML) however, it can take days at most for business professionals & Data Scientists alike to develop and compare dozens of models, find insights and solve business problems quickly. But what is AutoML, how does it work and what are the most popular AutoML solutions out there? In this article, we will introduce the field of Automated Machine Learning by exploring some popular AutoML frameworks and trying to answer those questions around how to make the right choice for your use case.
 
 
-# What is AutoML and why it is interesting?
+## What is AutoML and why it is interesting?
 
-## Definition
+### Definition
 
 
 Sebastian Raschka, a well regarded American statistics professor, states: ‘’Computer programming is about automation, and Machine Learning is all about automating automation’’. If that’s true then we can say that Automated Machine Learning is the automation of automating automation..! AutoML is a new optimization technique which aims at automating some of the core - but highly iterative - parts of the traditional modelling process in ML, in particular feature selection and model selection (including hyperparameter tuning and stacking). Let’s take the example of a Decision Tree Algorithm. This algorithm has many hyperparameters (leaf, depth, split etc.) and browsing through all those hyperparameters can take days. An AutoML algorithm can intelligently explore all the possible parameters in order to find the best possible ML algorithm solving a given task. Some advanced AutoML algorithms can even choose between different features, create new ones and try different data cleansing scenarios!
 
 
 
-## How AutoML can help us?
+### How AutoML can help us?
 
 ![](img/automl/Steps_DS_automl_2.png)
 
@@ -49,7 +49,7 @@ There are many steps in a Machine Learning project, with Model Training typicall
 In a sense, AutoML is seen as a way to increase productivity, to allow the Data Scientist to focus more on defining the problem and the analyses rather than the models finetuning, to help avoiding errors, and on top of that, to democratize Machine Learning so that everyone can leverage its power. Its integration within ML Engineering environment allows to streamline pipeline and integrate specific training jobs, that allows to parametrize a model search completely from a simple configuration file.
 
 
-## Overview of the main AutoML frameworks in the market
+### Overview of the main AutoML frameworks in the market
 
 For this article, we have selected 7 well known AutoML frameworks, but many more exist in the market. Below is an overview of some of the types of Data Science problems these AutoML solutions can address. Among them two are open source: AutoKeras & H2o and the others are not: with DataRobot, Dataiku, Azure, GCP, and AWS SageMaker. (2 other open-source solutions AutoKeras and AutoGluon were studied, but these frameworks are not available on Windows.)
 
@@ -58,9 +58,9 @@ For this article, we have selected 7 well known AutoML frameworks, but many more
 Many of the AutoML solutions address different types of Data Science problems such as Sentiment Analysis or Computer Vision, however what is going to interest us for the rest of is article are the Classification and Regression ML problems.
 
 
-# Exploring the capabilities of several AutoML solutions
+## Exploring the capabilities of several AutoML solutions
 
-## Our methodology (Classification/Regression, datasets Kaggle)
+### Our methodology (Classification/Regression, datasets Kaggle)
 
 The purpose here is to bring some knowledge in the field of **Automated Machine Learning** by **exploring some popular AutoML frameworks**. In order to establish a performance benchmark, we decided to test those frameworks on **common ML topics** like **Regression** and **Classification**. The idea is also to share our personal experience (and difficulties encountered) with those tools so that everyone can have an overview of each one these AutoML solutions.
 
@@ -69,9 +69,9 @@ These packages were benchmarked on two classical datasets available on Kaggle. W
 ![](img/automl/methodology_automl.png)
 
 
-## Our results
+### Our results
 
-### Classification Problem - Titanic Challenge
+#### Classification Problem - Titanic Challenge
 
 ![](img/automl/titanic_challenge_details_2.png)
 
@@ -82,7 +82,7 @@ The Titanic Challenge is one of the most famous on Kaggle with more than 30,000 
 Each point represents a challenger with the performance of all tested frameworks noted, with ranking & accuracy plotted on the x and y axis. We found that Azure has the best accuracy followed by H2O and that the accuracy for all frameworks ranges within 73% - 80%.
 
 
-### Regression Problem - House Prices Challenge
+#### Regression Problem - House Prices Challenge
 
 ![](img/automl/house_price_challenge_details.png)
 
@@ -94,9 +94,9 @@ We can see that all frameworks did better than the baseline RMSE. Each of the te
 
 
 
-# Conclusion
+## Conclusion
 
-## Which AutoML solutions to choose?
+### Which AutoML solutions to choose?
 
 In conclusion, which AutoML to choose? When making our decision, the framework performance is important, but not all frameworks were in fact easy to use. Conversely, we spent a lot of time on some frameworks, because some of them were not as intuitive as expected.
 
@@ -119,7 +119,7 @@ We found that:
 - H2O works as a notebook so if you are familiar working on a Jupyter notebook for example, it can definitely be a good option and not too painful to use. H2O seems to be a very good choice in terms of performance and ease of use. Moreover, this framework has the advantage of being completely open source.
 
 
-## Final thoughts, our key takeaways
+### Final thoughts, our key takeaways
 
 This article tries to compare 7 majors AutoML frameworks. To do so, we introduced a methodology that considers the performance of each solution, but also their ease of use. What appears clearl is that AutoML can definitely be a good starting point to an ML project. In fact, for both the Classification and Regression problem, all the frameworks performed almost as well, even better sometimes than the baseline, just by using the AutoML functionality.
 
