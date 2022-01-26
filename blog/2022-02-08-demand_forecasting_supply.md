@@ -1,12 +1,12 @@
 ---
 title: Demand Forecasting - Improving Supply Chain operations in uncertain times
-author: Quentin Tremouille
+author: Alexis Cruveiller
 author_title:
-author_url: mailto:quentin.tremouille@ekimetrics.com
-header_image_url: "img/blog/Nyhavn_2.jpg"
-tags: [AutoML, Benchmark, Automatic Machine Learning]
+author_url: mailto:alexis.cruveiller@ekimetrics.com
+header_image_url: "img/blog/supply_warehouse.png"
+tags: [Demand Forecasting, Supply Chain, LightGBM, Streamlit]
 draft: true
-description: "How do Automatic Machine Learning solutions work? What are the most popular AutoML solutions out there, and what do you need to know about them to make the right choice for your use case? Find answers to these questions and many others in this article."
+description: "Learn in this article how we industrialized a solution for warehouse demand forecasting to help Operations managers better allocated resources for more than 20.000 referenced products"
 keywords:
     - Data Science
     - EkiLab
@@ -15,11 +15,10 @@ keywords:
     - Eki
     - Machine Learning
     - Artificial Intelligence
-    - AutoML
-    - Automatic Machine Learning
-    - Cloud
-    - Titanic
-    - House Prices
+    - Supply Chain
+    - Streamlit
+    - Demand Forecasting
+    - LightGBM
     - Data Science for business
 ---
 
@@ -30,7 +29,6 @@ Demand forecasting has become a trendy topic since the COVID pandemic. It challe
 
 In 2021, we had the opportunity to work with a French pioneer in manufacturing on such a subject. We had to industrialize a solution for warehouse demand forecasting for more than 20.000 referenced products to improve overall Supply Chain performance. At the time, the existing solution was deprecated and not handling correctly erratic sales. Therefore, we had to create a new, more robust algorithm to help Operational Managers better allocate resources. It enabled a 60% accuracy improvement and integrated into Operational Managers processes.
 
-![Warehouse Image 1](img/article_supply/img0.png)
 
 ## An important asset for Supply Chain transformation
 
