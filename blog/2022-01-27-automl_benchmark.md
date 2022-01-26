@@ -5,7 +5,7 @@ author_title:
 author_url: mailto:quentin.tremouille@ekimetrics.com
 header_image_url: "img/blog/Nyhavn_2.jpg"
 tags: [AutoML, Benchmark, Automatic Machine Learning]
-draft: true
+draft: false
 description: "How do Automatic Machine Learning solutions work? What are the most popular AutoML solutions out there, and what do you need to know about them to make the right choice for your use case? Find answers to these questions and many others in this article."
 keywords:
     - Data Science
@@ -40,7 +40,7 @@ Sebastian Raschka, a well regarded American statistics professor, states: ‘’
 
 ## How AutoML can help us?
 
-![](img/automl/Steps_DS_automl.png)
+![](img/automl/Steps_DS_automl_2.png width="200")
 
 There are many steps in a Machine Learning project, with Model Training typically being one of the most time consuming. A standard project will focus on a Business Problem and will pass through Data Collection, Cleaning and Processing before the training phase. Model Training can then be cumbersome as we have to select an appropriate model family and to fine tune many times differents hyperparameters before building the analysis and deploying the model. This process can take weeks or months, but it seems that several steps can be automated using optimization algorithms and that is the goal of auto ML.
 
@@ -73,7 +73,7 @@ These packages were benchmarked on two classical datasets available on Kaggle. W
 
 ### Classification Problem - Titanic Challenge
 
-![](img/automl/titanic_challenge_details.png)
+![](img/automl/titanic_challenge_details_2.png)
 
 The Titanic Challenge is one of the most famous on Kaggle with more than 30,000 challengers. The objective is to have a model which will predict if a Titanic passenger survives or not on a small data set with 9 features and around 900 rows in the training set. The metric used for this challenge is the accuracy and the leaderboard we have downloaded from Kaggle is provided below.
 
@@ -129,6 +129,7 @@ However, it is important to remember that automatically generated pipelines are 
 ## References
 
 To read more about AutoML:
+
 [2019 | AutoML: A Survey of the State-of-the-Art | Xin He, et al.](https://arxiv.org/pdf/1908.00709.pdf) 
 
 [2019 | Survey on Automated Machine Learning | Marc Zoeller, Marco F. Huber](https://arxiv.org/pdf/1904.12054.pdf) 
