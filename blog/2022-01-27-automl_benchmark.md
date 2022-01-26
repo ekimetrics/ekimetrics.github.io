@@ -40,7 +40,7 @@ Sebastian Raschka, a well regarded American statistics professor, states: ‘’
 
 ## How AutoML can help us?
 
-![](img/automl/Steps_DS_automl_2.png width="200")
+![](img/automl/Steps_DS_automl_2.png)
 
 There are many steps in a Machine Learning project, with Model Training typically being one of the most time consuming. A standard project will focus on a Business Problem and will pass through Data Collection, Cleaning and Processing before the training phase. Model Training can then be cumbersome as we have to select an appropriate model family and to fine tune many times differents hyperparameters before building the analysis and deploying the model. This process can take weeks or months, but it seems that several steps can be automated using optimization algorithms and that is the goal of auto ML.
 
