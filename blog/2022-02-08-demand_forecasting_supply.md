@@ -57,7 +57,7 @@ Because of the high number of products and their associated nomenclature, we use
 
 The ML pipeline we have built for this project is similar to many existing ones. Therefore, we will focus on how the business problem framed our solution. Still, this project was an opportunity for us to use [Kedro](https://kedro.readthedocs.io/en/stable/index.html), which enabled Data Science teams to set up their ML data pipelines. Kedro had the advantage of visualizing your pipeline and structuring our code to ensure maintainability and reproducibility.
 
-![Kedro Pipeline](img/article_supply/kedro.png)
+![Kedro Pipeline](img/article_supply/kedro_2.png)
 
 
 #### Modelling target
@@ -102,7 +102,7 @@ We implemented the Weighted Root Mean Squared Scaled Error, using product averag
 
 ex: Product B weekly preparation time is 400 min vs 200 min for Product A. Thus, higher accuracy on Product B is needed to reflect the operational needs.
 
-![Prep Time](img/article_supply/table.png)
+![Prep Time](img/article_supply/table_2.png)
 
 ### Evaluate business outcome
 

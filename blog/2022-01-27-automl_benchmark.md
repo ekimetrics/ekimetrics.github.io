@@ -53,7 +53,7 @@ In a sense, AutoML is seen as a way to increase productivity, to allow the Data 
 
 For this article, we have selected 7 well known AutoML frameworks, but many more exist in the market. Below is an overview of some of the types of Data Science problems these AutoML solutions can address. Among them two are open source: AutoKeras & H2o and the others are not: with DataRobot, Dataiku, Azure, GCP, and AWS SageMaker. (2 other open-source solutions AutoKeras and AutoGluon were studied, but these frameworks are not available on Windows.)
 
-![](img/automl/automl_platforms.png)
+![](img/automl/automl_platforms_3.png)
 
 Many of the AutoML solutions address different types of Data Science problems such as Sentiment Analysis or Computer Vision, however what is going to interest us for the rest of is article are the Classification and Regression ML problems.
 
@@ -66,29 +66,29 @@ The purpose here is to bring some knowledge in the field of **Automated Machine 
 
 These packages were benchmarked on two classical datasets available on Kaggle. We chose the **Titanic Challenge** ([Titanic - Machine Learning from Disaster | Kaggle](https://www.kaggle.com/c/titanic/overview)) for the Classification problem and the **House Prices Challenge** ([House Prices - Advanced Regression Techniques | Kaggle](https://www.kaggle.com/c/house-prices-advanced-regression-techniques/rules)) for the Regression problem. For each framework, we submitted predictions on the test set on Kaggle so that we can compare the results to the general leaderboard. What is interesting with this approach is that we were able to compare performance not only between each AutoML solution but also with individual performance.
 
-![](img/automl/methodology_automl.png)
+![](img/automl/methodology_automl_3.png)
 
 
 ### Our results
 
 #### Classification Problem - Titanic Challenge
 
-![](img/automl/titanic_challenge_details_2.png)
+![](img/automl/titanic_challenge_details_3.png)
 
 The Titanic Challenge is one of the most famous on Kaggle with more than 30,000 challengers. The objective is to have a model which will predict if a Titanic passenger survives or not on a small data set with 9 features and around 900 rows in the training set. The metric used for this challenge is the accuracy and the leaderboard we have downloaded from Kaggle is provided below.
 
-![](img/automl/benchmark_titanic_challenge.png)
+![](img/automl/benchmark_titanic_challenge_3.png)
 
 Each point represents a challenger with the performance of all tested frameworks noted, with ranking & accuracy plotted on the x and y axis. We found that Azure has the best accuracy followed by H2O and that the accuracy for all frameworks ranges within 73% - 80%.
 
 
 #### Regression Problem - House Prices Challenge
 
-![](img/automl/house_price_challenge_details.png)
+![](img/automl/house_price_challenge_details_3.png)
 
 For the House Prices Challenge, the goal is to predict the final price of residential homes in the United States. This time the metric is the root mean squared error, which is a metric that tells us the average distance between the predicted values from the model and the actual values in the dataset. We have around 8000 challengers (less challengers than the Titanic Challenge) and the dataset here is bigger with more than 250 features and around 1400 rows in the training set.
 
-![](img/automl/benchmark_houseprice_challenge.png)
+![](img/automl/benchmark_houseprice_challenge_3.png)
 
 We can see that all frameworks did better than the baseline RMSE. Each of the tested models fall between 0.24 - 0.12 in terms of the RSME and H2O again performs the best among other tested frameworks.
 
@@ -106,7 +106,7 @@ User friendliness must also therefore be a major criterion to consider when you 
 
 - On the y-axis: we took the average ranking on the both Kaggle challenge (the closer to 0, the better)
 
-![](img/automl/final_benchmark.png)
+![](img/automl/final_benchmark_3.png)
 
 The metric 'ease of use' is somewhat subjective as it refers to our own personal experience. However, we would add that one of the goals of AutoML is to make Machine Learning accessible to everyone, so for someone with very little knowledge, it is interesting to see how accessible the differents tools are.
 
