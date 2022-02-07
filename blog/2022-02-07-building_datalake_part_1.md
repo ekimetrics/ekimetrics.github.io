@@ -99,7 +99,7 @@ Based on this architecture, it all seems too simple: find a high value use case 
 
 We’ve gathered some best practices and design principles that work well to counteract the possibility of your datalake becoming messy or unused. We like to think of each of these best practices as serving a goal that is threefold: building a datalake that is __usable, useful, and used__ - what we refer to as our three “U”s. The first “U” is targeted towards the data swamp trap, the latter two towards the empty shell trap.
 
-## Usable through clear storage and pipelines architecture
+### Usable through clear storage and pipelines architecture
 
 The first step for building a usable datalake is to __make your storage and pipelines easy to comprehend__ for users as well as automated processes. Technical and functional separation for pipelines and storage is your first step in making your datalake understandable.
 
@@ -119,7 +119,7 @@ The first step for building a usable datalake is to __make your storage and pipe
   - Inside your transformation pipelines, we’ve found that using break points is highly useful. Writing a dataset’s state after it’s been cleaned, pre-transformed, etc… up until its final refined state will make debugging and understanding your pipelines much easier. Using names like *0_deduplicated*, *1_cleaned*, *2_calculated* to show breakpoints in your transformations allow for a better understanding of the data lineage of each use case, also helping exploration in the sandbox.
 
 
-## Usable through data validation
+### Usable through data validation
 
 Now that your storage and pipelines architecture is understandable, your second goal is to __make your data usable__ so that the datalake doesn’t immediately become a swamp with faulty and unchecked data.
 
@@ -157,7 +157,7 @@ By managing functional and technical rejections, your collection pipelines can b
  <br/>
 
 
-## Useful through a business driven design
+### Useful through a business driven design
 What we mean by “useful” - the second of our three “U”s, is that your datalake has to __serve a business use, while not limiting itself__ to the first identified use cases. This in turn means several things.
 
 The first thing being the importance of starting from a business use case to then identify which data must be collected and transformed. Working from the business needs is always the winning strategy, especially for data science and datalake projects where it is easy to get lost in all the possibilities. Collecting data into your datalake is not an effortless task, especially following the aforementioned tips that help validate the data’s usability, functionally and technically. Which is why the first step is to make sure that the data you collect is indeed useful to your target use case. Our article [“Customer Data Platform: Thinking Backwards is the Way to Go”](https://ekimetrics.com/article-insights/customer-data-platform/) summarizes this business driven approach well.
