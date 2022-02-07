@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[39],{110:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"data-validation","name":"data validation","count":1,"permalink":"/blog/tags/data-validation"}')}}]);

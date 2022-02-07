@@ -9,16 +9,16 @@
 <link rel="preconnect" href="https://www.google-analytics.com">
 <script>window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga("create","UA-124520099-9","auto"),ga("set","anonymizeIp",!0),ga("send","pageview")</script>
 <script async src="https://www.google-analytics.com/analytics.js"></script><title data-react-helmet="true">Deploying a Python Dash application for beginners | Eki.Lab</title><meta data-react-helmet="true" property="og:title" content="Deploying a Python Dash application for beginners | Eki.Lab"><meta data-react-helmet="true" name="description" content="Learn the basics of application deployment from simple examples on Heroku to creating Docker containers"><meta data-react-helmet="true" property="og:description" content="Learn the basics of application deployment from simple examples on Heroku to creating Docker containers"><meta data-react-helmet="true" property="og:image" content="http://ekimetrics.github.io/img/10-cubecube03.jpg"><meta data-react-helmet="true" name="twitter:image" content="http://ekimetrics.github.io/img/10-cubecube03.jpg"><meta data-react-helmet="true" name="twitter:image:alt" content="Image for Deploying a Python Dash application for beginners | Eki.Lab"><meta data-react-helmet="true" name="twitter:card" content="summary_large_image"><meta data-react-helmet="true" name="docusaurus_locale" content="en"><meta data-react-helmet="true" name="docusaurus_tag" content="default"><meta data-react-helmet="true" name="keywords" content="Data Science,EkiLab,Ekimetrics,Eki.Lab,Eki,Machine Learning,Artificial Intelligence,Industrialization,Docker,Heroku,Python,Dash"><link data-react-helmet="true" rel="shortcut icon" href="/img/favicon.png"><link rel="stylesheet" href="/styles.d87948f7.css">
-<link rel="preload" href="/styles.88d68393.js" as="script">
-<link rel="preload" href="/runtime~main.94c9d093.js" as="script">
-<link rel="preload" href="/main.0e2881f2.js" as="script">
-<link rel="preload" href="/1.7731be1d.js" as="script">
-<link rel="preload" href="/2.decce15f.js" as="script">
-<link rel="preload" href="/67.263ddabf.js" as="script">
-<link rel="preload" href="/ccc49370.98b3e130.js" as="script">
-<link rel="preload" href="/ece8ad2d.0651ebe9.js" as="script">
-<link rel="preload" href="/c4f5d8e4.1ff25bbb.js" as="script">
-<link rel="preload" href="/9c223aaf.4fe04d2e.js" as="script">
+<link rel="preload" href="/styles.e7c99318.js" as="script">
+<link rel="preload" href="/runtime~main.022654b3.js" as="script">
+<link rel="preload" href="/main.fa0345b8.js" as="script">
+<link rel="preload" href="/1.eb5acca5.js" as="script">
+<link rel="preload" href="/2.21c7f3b5.js" as="script">
+<link rel="preload" href="/63.86be4439.js" as="script">
+<link rel="preload" href="/ccc49370.dadd134e.js" as="script">
+<link rel="preload" href="/ece8ad2d.bb6dc5f0.js" as="script">
+<link rel="preload" href="/c4f5d8e4.58ec080f.js" as="script">
+<link rel="preload" href="/9c223aaf.6357cb68.js" as="script">
 </head>
 <body>
 <script>!function(){function t(t){document.documentElement.setAttribute("data-theme",t)}var e=function(){var t=null;try{t=localStorage.getItem("theme")}catch(t){}return t}();t(null!==e?e:"dark")}()</script><div id="__docusaurus">
@@ -47,15 +47,15 @@ Dash/Plotly offers a paid service to super easily deploy and manager your applic
 I just google searched &quot;Dockerfile Dash&quot; and found a suitable example as a template <a href="https://github.com/jucyai/docker-dash/blob/master/Dockerfile" target="_blank" rel="noopener noreferrer">https://github.com/jucyai/docker-dash/blob/master/Dockerfile</a><br>
 How does it work? You will setup a virtually empty server with nothing but python 3.9 and the application, i.e a Container. </p><div class="mdxCodeBlock_1zKU"><div class="codeBlockContent_actS"><div tabindex="0" class="prism-code language-docker codeBlock_tuNs thin-scrollbar"><div class="codeBlockLines_3uvA" style="color:#F8F8F2;background-color:#282A36"><div class="token-line" style="color:#F8F8F2"><span class="token plain">FROM python:3.9</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain" style="display:inline-block">
 </span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">ENV DASH_DEBUG_MODE True</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">COPY ./app /app</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">WORKDIR /app</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">RUN set -ex &amp;&amp; \</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">    pip install -r requirements.txt</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">EXPOSE 8050</span></div><div class="token-line" style="color:#F8F8F2"><span class="token plain">CMD [&quot;python&quot;, &quot;app.py&quot;]</span></div></div></div><button type="button" aria-label="Copy code to clipboard" class="copyButton_2GIj">Copy</button></div></div><p>Using this Dockerfile you could be able to deploy anywhere from GCP to Azure or even Heroku. </p><h2><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="going-further"></a>Going further<a class="hash-link" href="#going-further" title="Direct link to heading">#</a></h2><p>To better deploy, it&#x27;s always interesting to learn more about what you are manipulating. Here, you have to know that Dash is a wrapper for other technologies put together, and in particular:</p><ul><li>Flask as backend and server</li><li>React as frontend</li><li>Plotly (the python library) for most graphs</li></ul><p>If you want to be a Deployment ninja 🐱‍👤, you may find useful to learn more about Flask and webservers in general. And eventually learn about React. </p><h3><a aria-hidden="true" tabindex="-1" class="anchor enhancedAnchor_prK2" id="adding-databases"></a>Adding databases<a class="hash-link" href="#adding-databases" title="Direct link to heading">#</a></h3><p>What is recommended is to avoid storing your database in the same server. You should approach the problem with a &quot;microservice&quot; mindset, meaning that you should put your database on another server. </p><ul><li>Indeed, it means you have to do another deployment, maybe using Docker again to expose your database correctly</li><li>But, it also decouple your app in production with the database, allowing you for more modularity (requesting the database in other platforms) </li></ul></section><footer class="row margin-vert--lg"><div class="col"><strong>Tags:</strong><a class="margin-horiz--sm" href="/blog/tags/industrialization">Industrialization</a></div></footer></article><div class="margin-vert--xl"><nav class="pagination-nav" aria-label="Blog post page navigation"><div class="pagination-nav__item"><a class="pagination-nav__link" href="/blog/2021/11/03/tsp"><div class="pagination-nav__sublabel">Newer Post</div><div class="pagination-nav__label">« Solving the Traveling Salesman Problem with Reinforcement Learning</div></a></div><div class="pagination-nav__item pagination-nav__item--next"><a class="pagination-nav__link" href="/blog/welcome"><div class="pagination-nav__sublabel">Older Post</div><div class="pagination-nav__label">Welcome to the new Ekimetrics Tech website! »</div></a></div></nav></div></main><div class="col col--2"><div class="tableOfContents_2xL- thin-scrollbar"><ul class="table-of-contents table-of-contents__left-border"><li><a href="#creating-a-dash-application" class="table-of-contents__link">Creating a Dash application</a></li><li><a href="#deploying-your-dash-application" class="table-of-contents__link">Deploying your Dash application</a><ul><li><a href="#deploying-on-heroku-from-github" class="table-of-contents__link">Deploying on Heroku from GitHub</a></li><li><a href="#deploying-with-docker" class="table-of-contents__link">Deploying with Docker</a></li></ul></li><li><a href="#going-further" class="table-of-contents__link">Going further</a><ul><li><a href="#adding-databases" class="table-of-contents__link">Adding databases</a></li></ul></li></ul></div></div></div></div></div><footer class="footer footer--dark"><div class="container"><div class="row footer__links"><div class="col footer__col"><h4 class="footer__title">About us</h4><ul class="footer__items"><li class="footer__item"><a href="https://ekimetrics.com/who-we-are/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Who we are ?</a></li><li class="footer__item"><a href="https://ekimetrics.com/our-team/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Our team</a></li><li class="footer__item"><a href="https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&amp;id=6355d0a6f9" target="_blank" rel="noopener noreferrer" class="footer__link-item">Subscribe to our newsletter</a></li></ul></div><div class="col footer__col"><h4 class="footer__title">Find us</h4><ul class="footer__items"><li class="footer__item"><a href="https://github.com/ekimetrics" target="_blank" rel="noopener noreferrer" class="footer__link-item">Github</a></li><li class="footer__item"><a href="https://ekimetrics.com/careers/" target="_blank" rel="noopener noreferrer" class="footer__link-item">Careers</a></li><li class="footer__item"><a href="https://www.welcometothejungle.com/fr/companies/ekimetrics" target="_blank" rel="noopener noreferrer" class="footer__link-item">Eki on Welcome to the jungle</a></li></ul></div></div><div class="footer__bottom text--center"></div></div></footer></div>
-<script src="/styles.88d68393.js"></script>
-<script src="/runtime~main.94c9d093.js"></script>
-<script src="/main.0e2881f2.js"></script>
-<script src="/1.7731be1d.js"></script>
-<script src="/2.decce15f.js"></script>
-<script src="/67.263ddabf.js"></script>
-<script src="/ccc49370.98b3e130.js"></script>
-<script src="/ece8ad2d.0651ebe9.js"></script>
-<script src="/c4f5d8e4.1ff25bbb.js"></script>
-<script src="/9c223aaf.4fe04d2e.js"></script>
+<script src="/styles.e7c99318.js"></script>
+<script src="/runtime~main.022654b3.js"></script>
+<script src="/main.fa0345b8.js"></script>
+<script src="/1.eb5acca5.js"></script>
+<script src="/2.21c7f3b5.js"></script>
+<script src="/63.86be4439.js"></script>
+<script src="/ccc49370.dadd134e.js"></script>
+<script src="/ece8ad2d.bb6dc5f0.js"></script>
+<script src="/c4f5d8e4.58ec080f.js"></script>
+<script src="/9c223aaf.6357cb68.js"></script>
 </body>
 </html>
