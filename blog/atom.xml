@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ekimetrics.github.io/blog</id>
     <title>Eki.Lab Blog</title>
-    <updated>2022-01-27T00:00:00.000Z</updated>
+    <updated>2022-02-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ekimetrics.github.io/blog"/>
     <subtitle>Eki.Lab Blog</subtitle>
     <icon>https://ekimetrics.github.io/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Building a datalake - Part 1 - Usable, Useful, Used, or how to avoid dataswamp and empty shell traps]]></title>
+        <id>Building a datalake - Part 1 - Usable, Useful, Used, or how to avoid dataswamp and empty shell traps</id>
+        <link href="https://ekimetrics.github.io/blog/2022/02/07/building_datalake_part_1"/>
+        <updated>2022-02-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[In this article, learn how to create your first datalake following best practices in order to make it robust, evolutive and central to your company's information architecture, as well as take take advantage of the opportunities it presents.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Which AutoML platform to choose to start your Data Science project?]]></title>
         <id>Which AutoML platform to choose to start your Data Science project?</id>
