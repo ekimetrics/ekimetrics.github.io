@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ekimetrics.github.io/blog</id>
     <title>Eki.Lab Blog</title>
-    <updated>2022-02-07T00:00:00.000Z</updated>
+    <updated>2022-02-09T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ekimetrics.github.io/blog"/>
     <subtitle>Eki.Lab Blog</subtitle>
     <icon>https://ekimetrics.github.io/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Ekimetrics implements Data Mesh. Here is why, and why you should join us]]></title>
+        <id>Ekimetrics implements Data Mesh. Here is why, and why you should join us</id>
+        <link href="https://ekimetrics.github.io/blog/2022/02/09/ekimetrics_implements_data_mesh"/>
+        <updated>2022-02-09T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[This article describes one of the inspirational patterns that drive our projects’ data architectures, the Data Mesh.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Building a datalake - Part 1 - Usable, Useful, Used, or how to avoid dataswamp and empty shell traps]]></title>
         <id>Building a datalake - Part 1 - Usable, Useful, Used, or how to avoid dataswamp and empty shell traps</id>

@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Mon, 07 Feb 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Feb 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Ekimetrics implements Data Mesh. Here is why, and why you should join us]]></title>
+            <link>https://ekimetrics.github.io/blog/2022/02/09/ekimetrics_implements_data_mesh</link>
+            <guid>Ekimetrics implements Data Mesh. Here is why, and why you should join us</guid>
+            <pubDate>Wed, 09 Feb 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article describes one of the inspirational patterns that drive our projects’ data architectures, the Data Mesh.]]></description>
+        </item>
         <item>
             <title><![CDATA[Building a datalake - Part 1 - Usable, Useful, Used, or how to avoid dataswamp and empty shell traps]]></title>
             <link>https://ekimetrics.github.io/blog/2022/02/07/building_datalake_part_1</link>
