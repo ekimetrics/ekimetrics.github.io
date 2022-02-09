@@ -58,7 +58,7 @@ Chasing the dream of a datalake that meets all current and future analytics need
 
 By trying to collect all current – and future – data sources from the start, there is a risk that your datalake will become a swamp. When that’s the case, due to unorganized, unvalidated or simply hard to exploit data, it can be incredibly challenging to make your datalake useable.
 
-Your first goal should be to analyze which high impact use cases will be used by your organization’s stakeholders and target data for these specific use cases. Starting with the business needs instead of chasing a technical achievement, you can be sure that your datalake will be used and useful, instead of an empty shell: a good foundation but unable to attract your organization’s stakeholders. Read more about how we can avoid missing out on business impact in this whitepaper.
+Your first goal should be to analyze which high impact use cases will be used by your organization’s stakeholders and target data for these specific use cases. Starting with the business needs instead of chasing a technical achievement, you can be sure that your datalake will be used and useful, instead of an empty shell: a good foundation but unable to attract your organization’s stakeholders. Read more about how we can avoid missing out on business impact in [this whitepaper](https://ekimetrics.com/white-paper/data-science-industrialization-business-impact/).
 
 
 
