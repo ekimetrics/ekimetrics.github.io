@@ -4,16 +4,9 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Fri, 11 Feb 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 09 Feb 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <item>
-            <title><![CDATA[Demand Forecasting - Improving Supply Chain operations in uncertain times]]></title>
-            <link>https://ekimetrics.github.io/blog/2022/02/11/demand_forecasting_supply</link>
-            <guid>Demand Forecasting - Improving Supply Chain operations in uncertain times</guid>
-            <pubDate>Fri, 11 Feb 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Learn in this article how we industrialized a solution for warehouse demand forecasting to help Operations managers better allocated resources for more than 20.000 referenced products]]></description>
-        </item>
         <item>
             <title><![CDATA[Ekimetrics implements Data Mesh. Here is why, and why you should join us]]></title>
             <link>https://ekimetrics.github.io/blog/2022/02/09/ekimetrics_implements_data_mesh</link>
