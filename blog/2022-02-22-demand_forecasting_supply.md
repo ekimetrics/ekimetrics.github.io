@@ -5,8 +5,8 @@ author_title:
 author_url: mailto:alexis.cruveiller@ekimetrics.com
 header_image_url: "img/blog/supply_warehouse.png"
 tags: [Demand Forecasting, Supply Chain, LightGBM, Streamlit]
-draft: true
-description: "Learn in this article how we industrialized a solution for warehouse demand forecasting to help Operations managers better allocated resources for more than 20.000 referenced products"
+draft: false
+description: "Learn in this article how we industrialized a solution for warehouse demand forecasting to help Operations managers better allocate resources for more than 20.000 referenced products"
 keywords:
     - Data Science
     - EkiLab
@@ -51,7 +51,7 @@ Most importantly, Demand Forecasting has not become a hot topic because of the p
 
 Framing the problem is key to ensuring Data Scientists go in the right direction. When discussing with Supply Chain managers, we understood they wanted to reduce their costs. Thus, improving resource allocation was the best lever to achieve their need. Clearly stating the business need allowed us to understand the problem and impacted the solution implementation.
 
-![Business Problem](img/article_supply/img1.png)
+![Business Problem](img/article_supply/img1_v2.png)
 
 ### Build and assess model
 
@@ -70,7 +70,7 @@ What requires the most operational effort? Our client uses single order picking 
 
 NB: depending on how your supply chain operates, the modelling output would differ.
 
-![Kedro Pipeline](img/article_supply/img2.png)
+
 
 
 #### Modelling granularity
@@ -107,7 +107,7 @@ Modelling errors assess algorithms performance and help choose the model we will
 We implemented the Weighted Root Mean Squared Scaled Error, using product average revenues in the last 6 months and product average preparation time.
 
 
-![Prep Time](img/article_supply/table_2.png)
+![Prep Time](img/article_supply/table_2_v2.png)
 <div align="center"> Product B weekly preparation time is 400 min vs 200 min for Product A. Thus, higher accuracy on Product B is needed to reflect the operational needs.
  </div>
  <br/>
@@ -129,7 +129,7 @@ A core part of our solution was to implement an easy-to-use application for oper
 
 Finally, we created a feedback loop to enable the team to maintain, improve and sustain the solution. This concept is well explained in *Prediction Machines: The Simple Economics of Artificial Intelligence*, a book about what AI means from an economist perspective. They introduce a great concept they have named the Anatomy of a Task.
 
-![Anatomy of a Task](img/article_supply/img5.png)
+![Anatomy of a Task](img/article_supply/img5_v2.png)
 
 
 Predictions mainly impact people’s judgement and decisions taken for action. It implies that algorithms are rather helpful for decision-makers than make the actual choice. In our situation, the predictions enable operational managers to take action on the number of pickers needed in the coming weeks. Improving modelling should help these managers be more accurate in their decision process. Giving Data Science teams feedback on how modelling affected outcomes is the added value.
