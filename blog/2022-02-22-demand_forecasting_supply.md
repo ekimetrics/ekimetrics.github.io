@@ -129,7 +129,7 @@ A core part of our solution was to implement an easy-to-use application for oper
 
 Finally, we created a feedback loop to enable the team to maintain, improve and sustain the solution. This concept is well explained in *Prediction Machines: The Simple Economics of Artificial Intelligence*, a book about what AI means from an economist perspective. They introduce a great concept they have named the Anatomy of a Task.
 
-![Anatomy of a Task](img/article_supply/img5_v2.png)
+![Anatomy of a Task](img/article_supply/img5_v3.png)
 
 
 Predictions mainly impact people’s judgement and decisions taken for action. It implies that algorithms are rather helpful for decision-makers than make the actual choice. In our situation, the predictions enable operational managers to take action on the number of pickers needed in the coming weeks. Improving modelling should help these managers be more accurate in their decision process. Giving Data Science teams feedback on how modelling affected outcomes is the added value.
