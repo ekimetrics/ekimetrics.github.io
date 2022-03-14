@@ -58,7 +58,7 @@ This is one of the hottest news being recently released in the field of Machine 
 
 [Accelerating fusion science through learned plasma control | DeepMind](https://deepmind.com/blog/article/Accelerating-fusion-science-through-learned-plasma-control)
 
-## Data Engineering 
+## Data Engineering & Architecture
 
 ### AirFlow starts being cut in pieces, what’s left?  
 
