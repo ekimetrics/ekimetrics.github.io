@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Tue, 22 Feb 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 16 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Power BI - Improve your developing process by using multiple environments]]></title>
+            <link>https://ekimetrics.github.io/blog/2022/03/16/powerbi_multiple_environments</link>
+            <guid>Power BI - Improve your developing process by using multiple environments</guid>
+            <pubDate>Wed, 16 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[ Learn in this article why and how to use different environments when developing products in Power BI. ]]></description>
+        </item>
         <item>
             <title><![CDATA[Demand Forecasting - Improving Supply Chain operations in uncertain times]]></title>
             <link>https://ekimetrics.github.io/blog/2022/02/22/demand_forecasting_supply</link>
