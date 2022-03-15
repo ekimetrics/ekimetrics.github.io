@@ -8,8 +8,8 @@
     <subtitle>Eki.Lab Blog</subtitle>
     <icon>https://ekimetrics.github.io/img/favicon.png</icon>
     <entry>
-        <title type="html"><![CDATA[Power BI - Improve your developing process by using multiple environments]]></title>
-        <id>Power BI - Improve your developing process by using multiple environments</id>
+        <title type="html"><![CDATA[Power BI - Improve your development process by using multiple environments]]></title>
+        <id>Power BI - Improve your development process by using multiple environments</id>
         <link href="https://ekimetrics.github.io/blog/2022/03/16/powerbi_multiple_environments"/>
         <updated>2022-03-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ Learn in this article why and how to use different environments when developing products in Power BI. ]]></summary>
