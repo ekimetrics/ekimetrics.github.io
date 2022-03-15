@@ -1,5 +1,5 @@
 ---
-title: Power BI - Improve your developing process by using multiple environments
+title: Power BI - Improve your development process by using multiple environments
 author: Samuel Cordano
 author_title:
 author_url: mailto:samuel.cordano@ekimetrics.com
@@ -38,7 +38,7 @@ Each environment has its own unique purpose. There are different standards of en
 ![](img/power_bi_environments/1_pbi.png)
 
 
-Furthermore, each of the environments should have its own database because in the same way that product evolve through development, databases will also evolve: tables may be modified, added or deleted. Thus, the the actual development process actually looks like this:
+Furthermore, each of the environments should have its own database because in the same way that product evolve through development, databases will also evolve: tables may be modified, added or deleted. Thus, the actual development process actually looks like this:
 
 
 ![](img/power_bi_environments/2_pbi.png)
@@ -102,7 +102,7 @@ You should create parameters for every variable that needs to change as you chan
 
 - Two schema parameters
 
-- One parameter called “env” (with simply the options ‘dev’, ‘ppd’ and ‘prod')
+- One parameter called “env” (with simply the options ‘dev’, ‘ppd’ and ‘prd')
 
 
 ![](img/power_bi_environments/7_pbi.png)
