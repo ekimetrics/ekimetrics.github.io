@@ -26,7 +26,7 @@ keywords:
 
 When building a piece of software, you don’t want your users to see every messy part of your application creation process. In order to make sure you control what people see and when they have access to it, development teams use environments to create “stages” of the app which they consider good for releasing.
 
-Each environment has its own unique purpose. There are different standards of environments which are used in the industry, although almost every process starts at the ‘development’ stage and ends with ‘production’. Here is a typical set of environments used: 
+Each environment has its own unique purpose. There are different naming standards across the industry, although almost every process starts with a 'development' stage and ends with a 'production' stage. Here is a typical set of environments:
 
 - __Development environment__ : where data scientist/data engineers/software engineers actually develop the product. The end user doesn’t have access to this environment which allows developers to try new features freely. 
 
@@ -38,7 +38,7 @@ Each environment has its own unique purpose. There are different standards of en
 ![](img/power_bi_environments/1_pbi.png)
 
 
-Furthermore, each of the environments should have its own database because in the same way that product evolve through development, databases will also evolve: tables may be modified, added or deleted. Thus, the actual development process actually looks like this:
+Furthermore, each environment should have its own database because in the same way that product evolve through development, databases also evolve: tables may be modified, added or deleted. Thus, the actual development process actually looks like this:
 
 
 ![](img/power_bi_environments/2_pbi.png)
@@ -68,7 +68,7 @@ A typical report would have several tables in the pane Fields:
 
 ![](img/power_bi_environments/3_pbi.png)
 
-As a little foreshadowing and making sure we are on the same page, open the Power Query editor (by clicking _Home_ (Top Ribbon) → _Transform Data_ → _Transform Data_; then _Advanced Editor_) for one of your tables, and notice that all your data sourcing information is hard-coded.
+As a little foreshadowing and making sure we are on the same page, open the Power Query editor (by clicking _Home_ (Top Ribbon) → _Transform Data_ → _Transform Data_; then _Advanced Editor_) for one of your tables, and notice that all your data sourcing information are hard-coded.
 
 ![](img/power_bi_environments/4_pbi.png)
 
