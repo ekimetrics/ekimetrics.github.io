@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Wed, 16 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 30 Mar 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Newsletter for March 2022]]></title>
+            <link>https://ekimetrics.github.io/blog/2022/03/30/newsletter_March-2022</link>
+            <guid>Newsletter for March 2022</guid>
+            <pubDate>Wed, 30 Mar 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Ekimetrics is pleased to release its third Newsletter for the year 2022! A new feature has now been added which is a special section detailing some news that we would like to share but are not specifically linked to one of our main categories. As usual, do not hesitate to check the links added and of course using it live during your projects!]]></description>
+        </item>
         <item>
             <title><![CDATA[Power BI - Improve your development process by using multiple environments]]></title>
             <link>https://ekimetrics.github.io/blog/2022/03/16/powerbi_multiple_environments</link>

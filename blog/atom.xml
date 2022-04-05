@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ekimetrics.github.io/blog</id>
     <title>Eki.Lab Blog</title>
-    <updated>2022-03-16T00:00:00.000Z</updated>
+    <updated>2022-03-30T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ekimetrics.github.io/blog"/>
     <subtitle>Eki.Lab Blog</subtitle>
     <icon>https://ekimetrics.github.io/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Newsletter for March 2022]]></title>
+        <id>Newsletter for March 2022</id>
+        <link href="https://ekimetrics.github.io/blog/2022/03/30/newsletter_March-2022"/>
+        <updated>2022-03-30T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Ekimetrics is pleased to release its third Newsletter for the year 2022! A new feature has now been added which is a special section detailing some news that we would like to share but are not specifically linked to one of our main categories. As usual, do not hesitate to check the links added and of course using it live during your projects!]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Power BI - Improve your development process by using multiple environments]]></title>
         <id>Power BI - Improve your development process by using multiple environments</id>
