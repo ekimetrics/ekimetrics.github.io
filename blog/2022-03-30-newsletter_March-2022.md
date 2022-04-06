@@ -56,7 +56,7 @@ While ML algorithms provide powerful insights, they need to become “alive”. 
 
 ![](img/newsletter_march_2022/Image4.png)
 
-Transformers were introduced in 2017 and created many derivatives (Longformers, Reformers…) while taking the lead in many applications’ fields (NLP, CV…). The Perceiver is like an Optimus Prime for Transformers (or a Megatron based on which side you are). While being technical, the key takeaway of this paper is the level of generality that we get for every domain: Perceivers perform well on texts, sounds, images on a wide variety of tasks with the same underlying mechanism. Even though the widespread of Transformers makes it dominant in the field of ML, Perceivers should be added to your competences portfolio as they might be the future for many tasks. 
+Transformers were introduced in 2017 and created many derivatives (Longformers, Reformers…) while taking the lead in many applications’ fields (NLP, CV…). The Perceiver is like an Optimus Prime for Transformers (or a Megatron based on which side you are). While being technical, the key takeaway of this paper is the level of generality that we get for every domain: Perceivers perform well on texts, sounds, images on a wide variety of tasks with the same underlying mechanism. In addition, it is able to scale well on high dimensional data as it bypasses the quadratic comuting time required by a Transformer. Even though the widespread of Transformers makes it dominant in the field of ML, Perceivers should be added to your competences portfolio as they might be the future for many tasks.
 
 [Perceiver IO: A general architecture for structure inputs & outputs](https://arxiv.org/pdf/2107.14795.pdf)
 
