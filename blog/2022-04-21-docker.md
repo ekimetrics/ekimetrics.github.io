@@ -33,7 +33,7 @@ Over the past year, [Streamlit](https://streamlit.io/) has become one of our fav
 ### Running the app
 Let's keep it simple and follow these steps to get the code and use venv to create a virtual environment with the following steps:
 
-``` zsh
+``` zsh 
 > git clone git@github.com:streamlit/demo-uber-nyc-pickups.git
 > cd demo-uber-nyc-pickups
 > py -3.8 -m venv .venv
@@ -97,11 +97,16 @@ Nobody ain't got time for that.
 
 ### Efficient Build Instructions
 
-So let's build our image using a small, ready-to-Python image like ```python:3.8-slim-buster```. We first need to install all our app requirements. So we add our ```requirements.txt``` file and install just like we would do locally.
+So let's build our image using a small, ready-to-python image like ```python:3.8-slim```. We first need to install all our app requirements. So we add our ```requirements.txt``` file and install just like we would do locally :
 
-``` python
+
+``` Dockerfile
+FROM python:3.8-slim
+
+# We place ourself in a dedicated folder
+WORKDIR /app
 # Installing requirements
-ADD ./requirements.txt /requirements.txt
+ADD ./requirements.txt /app/requirements.txt
 RUN pip3 install -r requirements.txt --no-cache-dir
 ```
 
@@ -118,9 +123,11 @@ Here are the commands that generate a layer and which you want to be able to cac
   
 [Source](https://docs.docker.com/develop/develop-images/dockerfile_best-practices/)
 
-Then, we add the different required files with the *ADD* or *COPY* instructions.
-
-To access the app, we need to open port 8051 on the container. Otherwise, even if the app is running, it will not be accessible from outside the container by a browser. The instruction is:
+Then, we add the different required files with the *ADD* or *COPY* instructions. In our example, we need the python main code, the data and one image.
+``` Dockerfile
+ADD streamlit_app.py  uber-raw-data-sep14.csv.gz  uber_demo.png /app/
+```
+To access the app, we need to open port 8051 on the container. Otherwise, even if the app is running, it will not be accessible from outside the container by a browser. Instruction is :
 
 ``` Dockerfile
 EXPOSE 8051
@@ -134,30 +141,18 @@ CMD ["streamlit", "run" ,"/index.py"]
 
 The final Dockerfile should look like this:
 ``` Dockerfile title="Dockerfile"
-from python:3.8-slim-buster
+FROM python:3.8-slim
 
-# Setting Working directory different from root
-WORKDIR / 
+WORKDIR /app
 
-# Installing requirements
-ADD ./requirements.txt /requirements.txt
-RUN pip3 install -r requirements.txt --no-cache-dir 
-
-# Opening a port to make the app 
-# accessible from outside the container
 EXPOSE 8501
 
-# Add the config.toml file
-ADD .streamlit/ /.streamlit
-ADD /css/ /css/
-ADD /utils/ /utils/
-ADD /models/ /models/
-ADD /images/ /images/ 
+ADD requirements.txt /app/requirements.txt
+RUN pip install -r requirements.txt
 
-ADD /index.py  /index.py 
+ADD streamlit_app.py  uber-raw-data-sep14.csv.gz  uber_demo.png /app/
 
-# Launching the app at the start of the container
-CMD ["streamlit", "run" ,"/index.py"]
+CMD ["streamlit","run","streamlit_app.py"]
 ```
 #### Run your Streamlit container
 To build your image, just run the command:
@@ -183,19 +178,19 @@ Docker-compose is a powerful tool to orchestrate multiple containers. But in our
 ```yml title="docker-compose.yml"
 version: "3.9"
 services:
-  ekilab-demo-container:
-    env_file:
-    - variables.env
+  ekilab-demo-container: 
     build: .
     ports:
       - "8501:8501"
     volumes:
-      - ./:/app
+      - ./:/app 
 ```
 Now, you only need to remember one single command: ```docker compose up```. It will build your image, run it with the correct parameters and link it to the correct volume.
 ## Ship it to the Cloud !
+If you don't have an Azure account, you can create one for [free](https://azure.microsoft.com/en-us/free/) and get 200$ of credits for trying out the platform. 
 
 ### Log into Azure
+
 Log into your account using the Azure CLI with the ```az login``` command.
 Then, we will need a container registry. At Ekimetrics, we usually build our infrastructure using an Infrastructure-As-Code tool such as [Terraform](https://terraform.io). But for the sake of simplicity, let's use simple CLI commands to create our resources.
 
@@ -288,7 +283,13 @@ pipelines:
 **Congratulations !** You should now be able to automate the deployment of your app to the cloud and focus only on updating its content without worrying about how to publish your updates. Now, you might need to have a scalable app to ensure it can handle high loads of visits. You could require tools like [Kubernetes](https://kubernetes.io), [Docker Swarm](https://docs.docker.com/engine/swarm/).
 
 ### Alternatives
-We presented one of the workflows we are using at Ekimetrics, but it's not the only one! We also work with GCP, AWS, Alibaba, sometimes on-premise infrastructure that will prevent us from using Docker or Azure for example.
+We presented one of the workflow we are using at Ekimetrics, but it's not the only one ! We also work with GCP, AWS, Alibaba, sometimes on-premise infrastructure that will prevent us from using Docker or Azure for example.
+
+##### Web App framework
+Soe alternavites to streamlit that are also offering low-code, minimalist, _straight-to-the-data_ python framework that you can package in a container.
+* [Dash Plotly](https://plotly.com/dash/)
+* [Gradio.app](https://gradio.app/)
+
 ##### Containers
 Docker is not the only containerization tool. Here are some alternatives we invite you to check out if Docker doesn't suit you.
 * [podman](https://podman.io/)
