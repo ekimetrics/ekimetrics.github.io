@@ -3,6 +3,7 @@ const path = require('path');
 module.exports = {
   title: 'Eki.Lab',
   tagline: 'EkiLab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company',
+  plugins: [require.resolve('docusaurus-lunr-search')],
   url: 'https://ekimetrics.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
