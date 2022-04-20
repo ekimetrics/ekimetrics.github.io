@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Wed, 30 Mar 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 21 Apr 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Deploying your Data Science app to the Cloud]]></title>
+            <link>https://ekimetrics.github.io/blog/2022/04/21/docker--proof-read</link>
+            <guid>Deploying your Data Science app to the Cloud</guid>
+            <pubDate>Thu, 21 Apr 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Let's explore how we, at Ekimetrics, automate the deployment of our data apps on the cloud. This article will gather elements from our internal & external workshops presented at Datacraft and also the video presenting some docker best practices for industrialization. ]]></description>
+        </item>
         <item>
             <title><![CDATA[Newsletter for March 2022]]></title>
             <link>https://ekimetrics.github.io/blog/2022/03/30/newsletter_March-2022</link>
