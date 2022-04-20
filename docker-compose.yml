@@ -1,0 +1,14 @@
+version: "3.8"
+services:
+  
+   ekilab:
+    build: 
+      context: .
+    container_name: "ekilab"
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./:/home/node/app
+    env_file:
+       - .env
+          
