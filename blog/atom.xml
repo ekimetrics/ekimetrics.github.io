@@ -10,7 +10,7 @@
     <entry>
         <title type="html"><![CDATA[Deploying your Data Science app to the Cloud]]></title>
         <id>Deploying your Data Science app to the Cloud</id>
-        <link href="https://ekimetrics.github.io/blog/2022/04/21/docker--proof-read"/>
+        <link href="https://ekimetrics.github.io/blog/2022/04/21/docker"/>
         <updated>2022-04-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Let's explore how we, at Ekimetrics, automate the deployment of our data apps on the cloud. This article will gather elements from our internal & external workshops presented at Datacraft and also the video presenting some docker best practices for industrialization. ]]></summary>
     </entry>

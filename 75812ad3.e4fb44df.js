@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[45],{114:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"epidemiology","name":"epidemiology","count":1,"permalink":"/blog/tags/epidemiology"}')}}]);
