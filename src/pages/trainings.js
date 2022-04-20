@@ -6,6 +6,21 @@ import ShortCard from "../components/ShortCard.js";
 
 let TRAININGS = [
   {
+    "date":"2022-03","category":"Coding session","title":"How to scrap the world","tags":["Scraping", "BeautifulSoup", "Selenium"],
+    "description":"Scraping is the fact of extracting information from a website, through a web crawler, for analysis or reuse. Learn in this coding session how to scrap vast amounts of various data using dedicated open-source tools!",
+  },
+
+  {
+    "date":"2022-01","category":"Presentation", "title":"Explainable AI (XAI)","tags":["Explainability", "Interpretability", "Ethical AI"],
+    "description":"Discover the critical field of interpretability for Machine Learning and how we work on state-of-the-art approaches to allow interpretability of models at Ekimetrics",
+  },
+
+  {
+    "date":"2021-11","category":"Presentation","title":"Detecting unknown time series events - A maritime traffic surveillance case-study","tags":["Time Series", "Maritime Traffic Surveillance", "Generative Models"],
+    "description":"Discover an approach based on generative models for unknown event detection in time series, applied to maritime traffic surveillance using Automatic Identification System data",
+  },
+
+  {
     "date":"2021-09","category":"Presentation","title":"Foundation models & Prompt Engineering","tags":["AI Research","NLP"],
     "description":"GPT-3, CLIP, Codex, BERT - Foundation models are becoming the norm in many applications, from NLP to Computer Vision. What are the risks and opportunities of those models? Is it really the future of AI. Discover it yourself with your own Turing Test.",
   },
