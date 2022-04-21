@@ -36,16 +36,27 @@ The website is built using Docusaurus 2 (with a React.js backbone)
 - Best practices & convictions
 - Open source contributions
 
-### Installation
+## How to Contribute
 
-```console
-npm install
+Either clone or fork the repository.
+
+### With Docker
+Start by building and running the container with the command :
+
+``` bash
+docker compose up --build -d
 ```
+After a couple minutes, your container should be up and running and you can access the preview of your article locally at [https://localhost:8080](https://localhost:8080).
+Hot reloading is enabled so you can see your updates without having to rebuild the container.
 
-### Local Development
 
-```console
+### Without Docker
+If you don't have docker installed, you can still get a preview locally by running 
+
+``` bash
+npm install
+
 npm start
 ```
 
-This command starts a local development server and open up a browser window. Most changes are reflected live without having to restart the server.
+This command starts a local development server and open up a browser window at [https://localhost:8080](https://localhost:8080). As with docker compose, most changes are reflected live without having to restart the server.
