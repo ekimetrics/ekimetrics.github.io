@@ -9,6 +9,8 @@ services:
       - "8080:8080"
     volumes:
       - ./:/home/node/app
-    env_file:
-       - .env
+      - nodemodules:/src/node_modules
+    
           
+volumes:
+    nodemodules: {}
