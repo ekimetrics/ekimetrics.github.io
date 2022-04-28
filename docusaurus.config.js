@@ -29,6 +29,7 @@ module.exports = {
       title: 'Eki.Lab',
       items: [
         {to: 'blog', label: 'Blog', position: 'left'},
+        //{to: 'tech_newsletter', label: 'Tech Newsletter', position: 'left'},
         {to: 'trainings/', label: 'Trainings', position: 'left'},
         {to: 'docs/', label: 'Best practices', position: 'left'},
         {
@@ -42,13 +43,13 @@ module.exports = {
           position: 'left',
         },
         {to: 'https://ekimetrics.com/fr/', label: 'Ekimetrics website', position: 'right'},
-        {to: 'https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9', label: 'Newsletter', position: 'right'},
+        //{to: 'https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9', label: 'Newsletter', position: 'right'},
 
-        {
-          href: 'https://github.com/ekimetrics',
-          label: 'Github',
-          position: 'right',
-        },
+      //  {
+      //    href: 'https://github.com/ekimetrics',
+      //    label: 'Github',
+      //    position: 'right',
+      //  },
         {href: 'mailto:inno@ekimetrics.com', label: 'Contact us!', position: 'right'},
       ],
     },
@@ -118,6 +119,12 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog/',
+        },
+        blog_test: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog_test/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
