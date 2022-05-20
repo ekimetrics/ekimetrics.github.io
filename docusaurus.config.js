@@ -1,6 +1,6 @@
 const path = require('path');
-const remarkMath = require('remark-math');
-const remarkKatex = require('rehype-katex');
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 module.exports = {
   title: 'Eki.Lab',
@@ -114,8 +114,8 @@ module.exports = {
           sidebarPath: require.resolve('./sidebars.js'),
           path: 'docs',
           showLastUpdateTime: true,
-          remarkPlugins: [remarkMath],
-          rehypePlugins: [[remarkKatex, {strict: false}]],
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
           // Please change this to your repo.
           editUrl:
             'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/',
