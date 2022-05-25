@@ -48,9 +48,10 @@ In this article, we will shed a light on one of those tools: __sales prediction.
 
 When a publisher sells a magazine issue, they need to estimate the total sales for accounting, financial and management purposes. For example, in accounting, the total sales are needed to calculate the estimated revenue and profit, which may later inform decision-makers to adjust the production and distribution of the next issues. Traditionally, the predictions are based on the domain expertise of the people in charge. However, with data becoming more and more available, we can leverage recent advances in machine learning to improve our predictions.
 
+
 Fig. 1 shows the cumulative sales of a magazine (the data have been anonymized for confidential purposes). The objective is to use the observed data, including the sales curves of all historical issues and the beginning part of the current issue’s curve, to predict the final sales.  
 
-![screenshot-app](img/bayesian_inference/sales_curves_2.png)
+![screenshot-app](img/bayesian_inference/sales_curves_3.png)
 
 <div align="center"> Fig. 1: Example of magazine sales curves
 
