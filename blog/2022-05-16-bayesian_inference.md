@@ -5,7 +5,7 @@ author_title: Senior Machine Learning Consultant
 author_url: mailto:inno]ekimetrics.com
 header_image_url: "./img/blog/press_printing.jpg"
 tags: [Bayesian Inference, Digital Transformation, Sales Prediction, AthenIA]
-draft: true
+draft: false
 description: "This article describes how Ekimetrics helped major press publishers using Bayesian inference for sales prediction."
 keywords:
     - Data Science
@@ -29,17 +29,6 @@ keywords:
 <!--truncate-->
 
 
-$f(x)=3$
-
-$$f(x)=3$$
-
-$$
-\mathbf{i}^2 = \mathbf{j}^2 = \mathbf{k}^2 = \mathbf{i}\mathbf{j}\mathbf{k} = -1
-\\
-q = x\,\mathbf{i} + y\,\mathbf{j} + z\,\mathbf{k} + w
-\\
-\underline{q} = \begin{bmatrix}x & y & z & w\end{bmatrix}^T
-$$
 
 
 
@@ -63,6 +52,13 @@ Fig. 1 shows the cumulative sales of a magazine (the data have been anonymized f
 
 ![screenshot-app](img/bayesian_inference/sales_curves_2.png)
 
+<div align="center"> Fig. 1: Example of magazine sales curves
+
+
+ </div>
+<br/>
+
+
 As we can see from the figure, there is a high variability in the sales curves. Averaging the sales of historical issues does not provide a good prediction of the current issue. Naively applying a curve fitting model does not seem like a feasible option either. Furthermore, we do not have that much data to train a data-hungry model such as deep neural network. 
 
 ## Context and domain expertise are crucial!
@@ -79,24 +75,49 @@ For the second question, there is a mathematical framework that allows us to inc
  
 ![screenshot-app](img/bayesian_inference/bayesian_inference.png)
 
+<div align="center"> Fig. 2: Bayesian inference
+
+
+ </div>
+<br/>
+
 With the insights provided by domain experts and extracted from the historical data, we can estimate an expectation of the sales of the current issue, prior to its sale period. However, even though the experts have a deep understanding of the product as well as the market, and the historical data may show some characteristics of the sales curves, there is always a grey zone of uncertainty and error. The market evolves; customers change their buying habits; some internal factors were poorly estimated; some external factors were not considered; some unexpected events happen during the sale period, etc. All those factors make the prediction which is purely based on historical experiences less reliable. 
 
 After the sale of the current issue has taken place, we can cumulate the recorded sales to get the beginning part of its sales curve. The more time passes, the more observations are built up. Those observations provide the latest information of the reality and indicate how the real sales actually evolve. However, the observations themselves contain noise. For example, a point of sale may forget to record a sale or record it a few days late, preventing us from using purely the observations to make a precise prediction.
 
-Since we do not have enough subjective data, we can leverage Bayesian inference to fold in the prior knowledge that we have already had (thanks to the inputs of the experts and the historical sales) to draw stronger and sharper predictions. Mathematically, we model the sales by a random variable X that follows a distribution p(X|θ) parameterised by a set of parameters θ: X ~ p(X|θ). The prediction problem is reduced to finding the “correct” θ. Given the observations Xobs (the sales records at the beginning of the sale period of the current issue in our case), frequentist approaches such as the Maximum Likelihood Estimation (MLE) method find an optimal θ that best fits Xobs: θMLE = argmaxθ(p(Xobs|θ)), then plug it in to make the sales prediction: XpredMLE = argmaxX(p(X|θMLE)). However, Xobs usually contain noise,  results in a bad estimation of θ. With Bayesian inference, we can integrate our prior knowledge to get better predictions. Specifically, from the sales of historical issues and the inputs of the experts, we have an idea of how θ should be, modelled as the prior distribution p(θ). Incorporating it with the information provided by the observations Xobs, we get the posterior distribution p(θ|Xobs), which is proportional to the prior p(θ) and the likelihood p(Xobs|θ) (see Fig. 2): 
+Since we do not have enough subjective data, we can leverage Bayesian inference to fold in the prior knowledge that we have already had (thanks to the inputs of the experts and the historical sales) to draw stronger and sharper predictions. Mathematically, we model the sales by a random variable X that follows a distribution p(X|θ) parameterised by a set of parameters θ: X ~ p(X|θ). The prediction problem is reduced to finding the “correct” θ. Given the observations X<sub>obs</sub> (the sales records at the beginning of the sale period of the current issue in our case), frequentist approaches such as the Maximum Likelihood Estimation (MLE) method find an optimal θ that best fits Xobs: θ<sub>MLE</sub> = argmax<sub>θ</sub>(p(X<sub>obs</sub>|θ)), then plug it in to make the sales prediction: X<sup>pred</sup><sub>MLE</sub> = argmax<sub>X</sub>(p(X|θ<sub>MLE</sub>)). However, X<sub>obs</sub> usually contain noise,  results in a bad estimation of θ. With Bayesian inference, we can integrate our prior knowledge to get better predictions. Specifically, from the sales of historical issues and the inputs of the experts, we have an idea of how θ should be, modelled as the prior distribution p(θ). Incorporating it with the information provided by the observations Xobs, we get the posterior distribution p(θ|X<sub>obs</sub>), which is proportional to the prior p(θ) and the likelihood p(X<sub>obs</sub>|θ) (see Fig. 2): 
 
-p(θ|Xobs) ∝ p(Xobs|θ)*p(θ)
+<div align="center"> p(θ|X<sub>obs</sub>) ∝ p(X<sub>obs</sub>|θ)*p(θ)
+
+
+
+ </div>
+<br/>
+
 
 In Bayesian inference, rather than predicting a single value of the sales, we predict its distribution, called the posterior predictive distribution:
 
-p(XpredBayesian|Xobs) = ∫p(XpredBayesian|θ)*p(θ|Xobs)dθ
+<div align="center">p(X<sup>pred</sup><sub>Bayesian</sub>|X<sub>obs</sub>) = ∫p(X<sup>pred</sup><sub>Bayesian</sub>|θ)*p(θ|X<sub>obs</sub>)dθ
+
+
+
+ </div>
+<br/>
+
+
 
 By doing so, we take into account the uncertainty in the prior, as well as the fact that the observations are noisy. 
 
- A pipeline—implemented in Spark and PyMC3—of the whole process, is depicted in Fig. 3. At the beginning, based on an analysis of the the characteristics of the issues and the market, the historical sales and the inputs of the experts, we estimate the prior p(θ). During the sale period, this estimation will be regularly revised, updated and adjusted in light of the observations Xobs to get the posterior  p(θ|Xobs), which is used to calculate the posterior predictive p(XpredBayesian|Xobs).   The posterior predictive is then formatted and sent to the decision-makers. 
+ A pipeline—implemented in Spark and PyMC3—of the whole process, is depicted in Fig. 3. At the beginning, based on an analysis of the the characteristics of the issues and the market, the historical sales and the inputs of the experts, we estimate the prior p(θ). During the sale period, this estimation will be regularly revised, updated and adjusted in light of the observations X<sub>obs</sub> to get the posterior  p(θ|X<sub>obs</sub>), which is used to calculate the posterior predictive p(X<sup>θpred</sup><sub>Bayesian</sub>|X<sub>obs</sub>).   The posterior predictive is then formatted and sent to the decision-makers. 
 
 
 ![screenshot-app](img/bayesian_inference/prediction_pipeline_3.png)
+
+<div align="center"> Fig. 3: Bayesian sales prediction pipeline
+
+
+ </div>
+<br/>
 
 ## Results
 
@@ -107,13 +128,18 @@ We can observe that the prediction of the frequentist model is too optimistic be
 
 
 ![screenshot-app](img/bayesian_inference/sales_predictions_2.png)
+<div align="center"> Fig. 4: Example of the sales predictions of a magazine at day 30
+
+
+ </div>
+<br/>
+
 
 ## Conclusion
 
 We have walked through an example of how to make better predictions of magazine sales. Data and data science have revolutionized many domains. However, to make the most out of digital assets, a hand-in-hand collaboration between data scientists and business experts is much needed. 
 
-Since 2018, Ekimetrics has been accompanying press publishers in their digital transformation journey. Our fully-industrialized AI-powered solution AthenIA has been providing supply optimization, sales prediction and reporting services that are precise and customized for each client. With the experience of managing more than 90 magazines and 20k active points of sale in France, we are proud to be a reliable partner of press publishers toward sustainable and profitable press. 
+Since 2018, Ekimetrics has been accompanying press publishers in their digital transformation journey. Our fully-industrialized AI-powered solution [AthenIA](https://www.uniqueheritage.fr/fr/emmanuel-mounier-president-unique-heritage-media-et-soline-aubry-senior-manager-ekimetrics-au-salon-big-data-ai/) has been providing supply optimization, sales prediction and reporting services that are precise and customized for each client. With the experience of managing more than 90 magazines and 20k active points of sale in France, we are proud to be a reliable partner of press publishers toward sustainable and profitable press. 
 
- #digitaltransformation #datascience #bayesianinference
 
 
