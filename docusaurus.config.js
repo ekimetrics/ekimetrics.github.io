@@ -44,15 +44,15 @@ module.exports = {
           label: 'Open Source',
           position: 'left',
         },
-        { to: 'https://ekimetrics.com/fr/', label: 'Ekimetrics website', position: 'right' },
-        //  {to: 'https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9', label: 'Newsletter', position: 'right'},
+      //  {to: 'https://ekimetrics.com/fr/', label: 'Ekimetrics website', position: 'right'},
+      //  {to: 'https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9', label: 'Newsletter', position: 'right'},
 
-        //  {
-        //    href: 'https://github.com/ekimetrics',
-        //    label: 'Github',
-        //    position: 'right',
-        //  },
-        { href: 'mailto:inno@ekimetrics.com', label: 'Contact us!', position: 'right' },
+        {
+          href: 'https://github.com/ekimetrics',
+          label: 'Github',
+          position: 'right',
+        },
+        {href: 'mailto:inno@ekimetrics.com', label: 'Contact us!', position: 'right'},
       ],
     },
     footer: {
