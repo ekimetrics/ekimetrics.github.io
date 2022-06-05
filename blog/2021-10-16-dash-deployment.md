@@ -3,7 +3,7 @@ slug: dash-deployment
 title: Deploying a Python Dash application for beginners
 author: Théo Alves Da Costa
 author_title:
-author_url: mailto:theo.alvesdacosta@ekimetrics.com
+author_url: mailto:inno@ekimetrics.com
 #author_image_url: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
 header_image_url: img/blog/dash-deployment.jpg
 tags: [Industrialization]

@@ -2,7 +2,7 @@
 title: Newsletter for April 2022
 author: Samuel Chaineau
 author_title:
-author_url: mailto:samuel.chaineau@ekimetrics.com
+author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/couv.jpg"
 tags: [Machine Learning, Javascript bundler, Data Engineering]
 draft: false
