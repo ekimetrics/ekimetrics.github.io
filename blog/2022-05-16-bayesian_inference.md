@@ -111,7 +111,13 @@ By doing so, we take into account the uncertainty in the prior, as well as the f
 
  A pipeline—implemented in Spark and PyMC3—of the whole process, is depicted in Fig. 3. At the beginning, based on an analysis of the the characteristics of the issues and the market, the historical sales and the inputs of the experts, we estimate the prior p(θ). During the sale period, this estimation will be regularly revised, updated and adjusted in light of the observations X<sub>obs</sub> to get the posterior  p(θ|X<sub>obs</sub>), which is used to calculate the posterior predictive p(X<sup>θpred</sup><sub>Bayesian</sub>|X<sub>obs</sub>).   The posterior predictive is then formatted and sent to the decision-makers. 
 
+![screenshot-app](img/bayesian_inference/pred_pip.png)
 
+<div align="center"> Fig. 3: Bayesian sales prediction pipeline
+
+
+ </div>
+<br/>
 
 
 ## Results
@@ -121,7 +127,12 @@ Fig. 4 shows an example of the prediction at day 30 of the sale period. We compa
 We can observe that the prediction of the frequentist model is too optimistic because of the (false) positive signals during the first half of the sale period. By contrast, the 95% HDI (highest density interval) of the Bayesian prediction well covers the true sales. This is thanks to the prior insights that the Bayesian model has been given.  
 
 
+![screenshot-app](img/bayesian_inference/sales_pred.png)
+<div align="center"> Fig. 4: Example of the sales predictions of a magazine at day 30
 
+
+ </div>
+<br/>
 
 
 ## Conclusion
