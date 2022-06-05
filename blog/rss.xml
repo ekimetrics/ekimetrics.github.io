@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Mon, 02 May 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 16 May 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Bayesian inference for better predictions of magazine sales]]></title>
+            <link>https://ekimetrics.github.io/blog/2022/05/16/bayesian_inference</link>
+            <guid>Bayesian inference for better predictions of magazine sales</guid>
+            <pubDate>Mon, 16 May 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article describes how Ekimetrics helped major press publishers using Bayesian inference for sales prediction.]]></description>
+        </item>
         <item>
             <title><![CDATA[Newsletter for April 2022]]></title>
             <link>https://ekimetrics.github.io/blog/2022/05/02/newsletter_April-2022</link>
