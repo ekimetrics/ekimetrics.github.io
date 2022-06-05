@@ -33,3 +33,13 @@ keywords:
 
 
 Whether it’s a tabloid that we quickly grabbed on the way to work, or a magazine with a free toy that we carefully selected for our kids on the way home, print newspapers have always been an integral ingredient in many people’s lives. That feeling of getting to read something fresh off the press. That powdery smell of paper. That daily reading routine to get you awake every morning. All this, however, seems to bring a sense of nostalgia to most people now. 
+
+
+
+![screenshot-app](img/bayesian_inference/prediction_pipeline_3.png)
+
+<div align="center"> Fig. 3: Bayesian sales prediction pipeline
+
+
+ </div>
+<br/>
