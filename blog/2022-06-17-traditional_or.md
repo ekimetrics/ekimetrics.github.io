@@ -141,7 +141,7 @@ In the notebook associated to this article, the package Python-MIP was used. __P
 
 On the other side, __Gurobi__ is a very popular commercial solution for mathematical optimization and its documentation is extremely rich, with quick introductions about [Mathematical Programming](https://www.gurobi.com/resource/modeling-basics/), [Linear Programming](https://www.gurobi.com/resource/mip-basics/) and [Mixed-Integer Programming](https://www.gurobi.com/resource/mip-basics/). Importantly, it has a [large number of modeling examples from all industry fields](https://www.gurobi.com/resource/modeling-examples-using-the-gurobi-python-api-in-jupyter-notebook/) directly available on Google Colab allowing to better grasp notions of Mathematical Modelling and to improve modeling skills to tackle all kind of optimization problems with Python. This resource can be of use even if one doesn't plan to use this commercial software but rather a free package such as OR-Tools.
 
-### Conclusion
+## Conclusion
 
 In this article was introduced the multi-knapsack problem, an NP-complete problem, very difficult to solve when taking many items and bags. 
 
