@@ -5,7 +5,7 @@ author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/jamesbond_jetpack.jpg"
 tags: [Operational Research, Optimization, Knapsack problem, Solvers]
-draft: true
+draft: false
 description: "This article is part of a serie of articles which will introduce several optimization techniques, from traditional (yet advanced) Mathematical Optimization solvers and associated packages to Deep Reinforcement Learning algorithms, while tackling a very famous Operations Research problem: the multi-knapsack problem. Here, the focus is on traditional optimization techniques."
 keywords:
     - Data Science
@@ -29,10 +29,9 @@ keywords:
 
 
 
+In this first article we introduce a systematic way to approach and solve optimization problems. To showcase this methodology, we present the multi-knapsack problem itself, formulated as a Mixed Integer problem, and we demonstrate how to obtain an optimal solution, using the Python-MIP package.
 
-
-
-In this first article is introduced a systematic way to approach and solve optimization problems. Then, the multi-knapsack problem itself is introduced. Then we apply the rules defined before on how to solve optimization problems and obtain the optimal solution to the multi-knapsack problem, formulated as a Mixed Integer problem and using Python-MIP package. Let's now introduce simple steps one can follow to approach optimization problems with optimization solvers.
+ Let's now introduce simple steps one can follow to approach optimization problems with optimization solvers.
 
 All the code associated to this article is provided in the Eki.Lab code repository [here](https://github.com/ekimetrics/ekimetrics.github.io/tree/main/notebooks).
 
