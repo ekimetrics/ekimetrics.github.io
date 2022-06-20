@@ -34,6 +34,7 @@ keywords:
 
 In this first article is introduced a systematic way to approach and solve optimization problems. Then, the multi-knapsack problem itself is introduced. Then we apply the rules defined before on how to solve optimization problems and obtain the optimal solution to the multi-knapsack problem, formulated as a Mixed Integer problem and using Python-MIP package. Let's now introduce simple steps one can follow to approach optimization problems with optimization solvers.
 
+All the code associated to this article is provided in the Eki.Lab code repository [here](https://github.com/ekimetrics/ekimetrics.github.io/tree/main/notebooks).
 
 ## Main steps while creating an optimization model to solve a business problem
 
@@ -79,6 +80,10 @@ The objective here is, given a set of _n_ items and a set of _m_ knapsacks, to _
 
 
 The multi-knapsack is an extension of the classical knapsack problem where instead of considering only one knapsack, we consider as many as we want. This allows to easily extend the complexity of this problem.
+
+This problem is a very interesting one for several reasons. The main two to mention here are the following: 
+- The knapsack problems appear in real-world decision-making processes in a wide variety of fields, such as finding the least wasteful way to cut raw materials or also selection of investments and portfolios
+- Its complexity can increase dramatically by increasing both the number of knapsacks and items, making it unsolvable by traditional optimization techniques. It was thus interesting to tackle having as objective to compare the potential of reinforcement learning algorithms with traditional optimization techniques
 
 While the problem is relatively easy to define mathematically, it belongs to the class of NP-hard problems. Without going into the details of what defines NP-hard problems, we can easily see that the complexity of the knapsack problems explodes when the number of knapsacks and items increases. Indeed, we have m<sup>n</sup> available combinations we would need to test should we want to apply a brute-force approach for solving this problem. Just with 10 knapsacks and 80 items, there are 10<sup>80</sup> combinations, which is the estimation of the number of atoms in the universe! And 10 knapsacks and 80 items is still quite limited... Let's now try to create the conceptual mathematical model by defining the problem with equations.
 
@@ -150,3 +155,21 @@ The approach to solve the multi-knapsack problem relied on Python-MIP, a free op
 In the next part of this serie on the multi-knapsack problem, well studied in the field of Operations Research and at the heart of many real optimization problems, we'll highlight how Deep Reinforcement Learning can be used in order to solve combinatorial optimization problems such as this one. Stay tuned!
 
 
+## Additional resources
+
+### Resources from Gurobi Website (commercial solver)
+- [Dozens of business problems from all industries framed as MILP problems and solved in a jupyter notebook](https://www.gurobi.com/resource/modeling-examples-using-the-gurobi-python-api-in-jupyter-notebook/ ) (runnable on Google Colab)
+- [Basics on LP](https://www.gurobi.com/resource/linear-programming-basics/) (Linear Programming) and more details and applications for LP [here](https://www.gurobi.com/resource/mathematical-programming-tutorial-linear-programming/)
+- [MIP basics](https://www.gurobi.com/resource/mip-basics/) (Mixed Integer Programming) and more details and applications for MIP [here](https://www.gurobi.com/resource/tutorial-mixed-integer-linear-programming/)...
+
+### Resources from Google OR-Tools website (open source)
+- Very short introduction to Mathematical Modelling and Programming with OR-tools available [here](https://developers.google.com/optimization/introduction/python)
+- See [here](https://developers.google.com/optimization/introduction/overview) the different sections for examples of LP, IP (Integer Programming), Constraint Optimization and many fundamental problems in Operations Research solved with OR Tools (Assignment, Routing, Bin Packing, Network Flows, Scheduling)
+
+
+### Resources from Python-MIP (open-source)
+- Many classical Operations Research problems solved with python-mip available [here](https://python-mip.readthedocs.io/en/latest/examples.html)
+
+### Interesting books
+- Focus on how to model a many different realistic problems for Mathematical Optimization: _Model Building in Mathematical Programming, by H. Paul Williams_
+- Overall introduction to Operations Research (modelling, Linear Programming and Integer Programming algorithms…): _Introduction to Operations Research, by Frederick S. Hillier_...
