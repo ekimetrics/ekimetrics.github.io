@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Fri, 17 Jun 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 18 Jun 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Deep RL and Optimization applied to Operations Research problem - 2/3 Reinforcement Learning approach]]></title>
+            <link>https://ekimetrics.github.io/blog/2022/06/18/deep_rl</link>
+            <guid>Deep RL and Optimization applied to Operations Research problem - 2/3 Reinforcement Learning approach</guid>
+            <pubDate>Sat, 18 Jun 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[This article is part of a series of articles which will introduce several optimization techniques, from traditional (yet advanced) Mathematical Optimization solvers and associated packages to Deep Reinforcement Learning algorithms, while tackling a very famous Operations Research problem: the multi-knapsack problem. Here, the focus is on an approach based on two famous reinforcement learning algorithms: Q-Learning and Policy Gradient.]]></description>
+        </item>
         <item>
             <title><![CDATA[Deep RL and Optimization applied to Operations Research problem - 1/3 Traditional Optimization techniques]]></title>
             <link>https://ekimetrics.github.io/blog/2022/06/17/traditional_or</link>

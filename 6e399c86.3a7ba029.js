@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[48],{118:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"knapsack-problem","name":"knapsack problem","count":2,"permalink":"/blog/tags/knapsack-problem"}')}}]);
