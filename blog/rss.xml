@@ -8,6 +8,13 @@
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
+            <title><![CDATA[Exploring neural ordinary differential equations for time series forecasting applications]]></title>
+            <link>https://ekimetrics.github.io/blog/2022/07/05/neural_ode</link>
+            <guid>Exploring neural ordinary differential equations for time series forecasting applications</guid>
+            <pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[Enhance your knowledge on Deep Learning techniques by understanding what neural ODEs are and how we could benefit from them.]]></description>
+        </item>
+        <item>
             <title><![CDATA[Newsletter for June 2022]]></title>
             <link>https://ekimetrics.github.io/blog/2022/07/05/newsletter_June-2022</link>
             <guid>Newsletter for June 2022</guid>

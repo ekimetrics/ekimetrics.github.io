@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[78],{147:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"digital-transformation","name":"digital transformation","count":2,"permalink":"/blog/tags/digital-transformation"}')}}]);
