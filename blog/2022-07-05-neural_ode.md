@@ -5,7 +5,7 @@ author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/neural_ode_cover.png"
 tags: [Bayesian Inference, Digital Transformation, Sales Prediction, AthenIA]
-draft: true
+draft: false
 description: "Enhance your knowledge on Deep Learning techniques by understanding what neural ODEs are and how we could benefit from them."
 keywords:
     - Data Science
