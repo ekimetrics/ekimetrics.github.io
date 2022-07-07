@@ -4,14 +4,14 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Tue, 05 Jul 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 11 Jul 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <item>
             <title><![CDATA[Exploring neural ordinary differential equations for time series forecasting applications]]></title>
-            <link>https://ekimetrics.github.io/blog/2022/07/05/neural_ode</link>
+            <link>https://ekimetrics.github.io/blog/2022/07/11/neural_ode</link>
             <guid>Exploring neural ordinary differential equations for time series forecasting applications</guid>
-            <pubDate>Tue, 05 Jul 2022 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 11 Jul 2022 00:00:00 GMT</pubDate>
             <description><![CDATA[Enhance your knowledge on Deep Learning techniques by understanding what neural ODEs are and how we could benefit from them.]]></description>
         </item>
         <item>
