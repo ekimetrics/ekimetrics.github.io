@@ -98,3 +98,7 @@ I strongly invite you to read (at least) his resume which is by far the best one
 [Survival Strategies for the Robot Rebellion (pjreddie.com)](https://pjreddie.com/)
 
 [You Only Look Once: Unified, Real-Time Object Detection](https://arxiv.org/pdf/1506.02640.pdf)
+
+## Credits
+- Cover Photo by <a href="https://unsplash.com/@cristofer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cristofer Maximilian</a> on <a href="https://unsplash.com/@cristofer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+  
