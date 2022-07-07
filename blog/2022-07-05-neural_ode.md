@@ -4,7 +4,7 @@ author: Miguel Omenaca Muro
 author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/neural_ode_cover.png"
-tags: [Bayesian Inference, Digital Transformation, Sales Prediction, AthenIA]
+tags: [Time Series Forecasting, Sales Prediction, Neural Ordinary Differential Equations, Deep Learning, Newspaper Industry]
 draft: false
 description: "Enhance your knowledge on Deep Learning techniques by understanding what neural ODEs are and how we could benefit from them."
 keywords:
@@ -16,10 +16,11 @@ keywords:
     - Machine Learning
     - Artificial Intelligence
     - Data Science for business
-    - Bayesian Inference
+    - Time Series Forecasting
     - Sales Prediction
-    - AthenIA
-    - Digital Transformation
+    - Neural Ordinary Differential Equations
+    - Deep Learning
+    - Newspaper Industry
 ---
 
 <!-- import useBaseUrl from "@docusaurus/useBaseUrl";
@@ -40,7 +41,7 @@ This article will focus on our journey with __neural ordinary differential equat
 
 ## Selling magazines
 
-Before entering into the subject, if you have not read our article on how we use Bayesian inference to increase our predictions of magazines sales have a look at it [here](https://ekimetrics.atlassian.net/wiki/spaces/TL/pages/3320512521/Bayesian+inference+for+better+predictions+of+magazine+sales). It is an interesting application of a Bayesian framework to enhance sales prediction for a publisher. Our exploration of neural ODEs focuses on the same use case.
+Before entering into the subject, if you have not read our article on how we use Bayesian inference to increase our predictions of magazines sales have a look at it [here](https://ekimetrics.github.io/blog/2022/06/14/bayesian_inference/). It is an interesting application of a Bayesian framework to enhance sales prediction for a publisher. Our exploration of neural ODEs focuses on the same use case.
 
 In the world of newspapers and magazines, it is crucial to be able to estimate the final volume of sales for accounting and management purposes. Indeed, publishers adjust their production and distribution of issues based on these forecasts. Conventionally, the projections rely strongly on the domain expertise of the people in charge. But nowadays, with all recent advances in the field of data science and improvements with regards to data availability, publishers can leverage modern forecasting techniques to enhance their predictions.  
 
@@ -49,7 +50,7 @@ The figure below, Fig. 1, represents the cumulative sales of a magazine composed
 
 
 
-![screenshot-app](img/neural_ode/image_1.png)
+![screenshot-app](img/neural_ode/image_1_bis.png)
 
 <div align="center"> Fig. 1: Example of magazine sales curves
 
