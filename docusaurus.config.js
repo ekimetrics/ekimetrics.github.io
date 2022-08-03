@@ -1,6 +1,5 @@
 const path = require('path');
-const math = require('remark-math');
-const katex = require('rehype-katex');
+
 
 module.exports = {
   title: 'Eki.Lab',
@@ -14,14 +13,14 @@ module.exports = {
   organizationName: 'ekimetrics', // Usually your GitHub org/user name.
   projectName: 'ekimetrics.github.io', // Usually your repo name.
   themeConfig: {
-    image: "http://ekimetrics.github.io/img/10-cubecube03.jpg",
+    image:"http://ekimetrics.github.io/img/10-cubecube03.jpg",
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
       additionalLanguages: ['python'],
     },
-    colorMode: {
-      defaultMode: "dark",
-      disableSwitch: true,
+    colorMode:{
+      defaultMode:"dark",
+      disableSwitch:true,
     },
     googleAnalytics: {
       trackingID: 'UA-124520099-9',
@@ -31,9 +30,10 @@ module.exports = {
     navbar: {
       title: 'Eki.Lab',
       items: [
-        { to: 'blog', label: 'Blog', position: 'left' },
-        { to: 'trainings/', label: 'Trainings', position: 'left' },
-        { to: 'docs/', label: 'Best practices', position: 'left' },
+        {to: 'blog', label: 'Blog', position: 'left'},
+        //{to: 'tech_newsletter', label: 'Tech Newsletter', position: 'left'},
+        {to: 'trainings/', label: 'Trainings', position: 'left'},
+        {to: 'docs/', label: 'Best practices', position: 'left'},
         {
           to: 'hacks/',
           label: 'Hackathons',
@@ -44,14 +44,15 @@ module.exports = {
           label: 'Open Source',
           position: 'left',
         },
-      //  {to: 'https://ekimetrics.com/fr/', label: 'Ekimetrics website', position: 'right'},
+        {to: 'https://ekimetrics.com/fr/', label: 'Ekimetrics website', position: 'right'},
+         
       //  {to: 'https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9', label: 'Newsletter', position: 'right'},
 
-        {
-          href: 'https://github.com/ekimetrics',
-          label: 'Github',
-          position: 'right',
-        },
+      //  {
+      //    href: 'https://github.com/ekimetrics',
+      //    label: 'Github',
+      //    position: 'right',
+      //  },
         {href: 'mailto:inno@ekimetrics.com', label: 'Contact us!', position: 'right'},
       ],
     },
@@ -101,9 +102,9 @@ module.exports = {
             },
           ],
         },
-
+        
       ],
-
+      
     },
   },
   presets: [
@@ -112,10 +113,6 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          path: 'docs',
-          showLastUpdateTime: true,
-          remarkPlugins: [math],
-          rehypePlugins: [katex],
           // Please change this to your repo.
           editUrl:
             'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/',
@@ -126,19 +123,16 @@ module.exports = {
           editUrl:
             'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog/',
         },
+        blog_test: {
+          showReadingTime: true,
+          // Please change this to your repo.
+          editUrl:
+            'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog_test/',
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
       },
     ],
-  ],
-  stylesheets: [
-    {
-      href: 'https://cdn.jsdelivr.net/npm/katex@0.13.24/dist/katex.min.css',
-      type: 'text/css',
-      integrity:
-        'sha384-odtC+0UGzzFL/6PNoE8rX/SPcQDXBJ+uRepguP4QkPCm2LBxH3FA3y+fKSiJ+AmM',
-      crossorigin: 'anonymous',
-    },
   ],
 };

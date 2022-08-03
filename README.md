@@ -60,3 +60,10 @@ npm start
 ```
 
 This command starts a local development server and open up a browser window at [https://localhost:8080](https://localhost:8080). As with docker compose, most changes are reflected live without having to restart the server.
+
+Once you are happy with your changes you can :
+``` bash
+git add <path_to_update_file>
+git commit -m "Description of your changes"
+```
+commit, push and create a [Pull Request](https://github.com/ekimetrics/ekimetrics.github.io/compare) to submit them.
