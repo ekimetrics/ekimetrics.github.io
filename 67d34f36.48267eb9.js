@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[49],{119:function(t){t.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"distributed-computing","name":"distributed computing","count":1,"permalink":"/blog/tags/distributed-computing"}')}}]);
