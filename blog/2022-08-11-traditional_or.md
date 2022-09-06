@@ -1,5 +1,5 @@
 ---
-title: Deep RL and Optimization applied to Operations Research problem - 1/3 Traditional Optimization techniques
+title: Deep RL and Optimization applied to Operations Research problem - 1/2 Traditional Optimization techniques
 author: Nathan Rouff
 author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com

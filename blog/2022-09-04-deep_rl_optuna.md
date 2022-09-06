@@ -294,6 +294,33 @@ This library provides a consistently growing number of algorithms ready-to-use i
 
 Extensive control on the architecture of the algorithms and the hyperparameters used is allowed by the library.
 
+Stable Baselines 3 is extremely useful as it allows you to write code to train a given algorithm in a few lines of code, algorithm that you can then replace by another state-of-the-art algorithm provided by the library just by importing it in a line of code.
+
+For instance, the following lines are sufficient to train advanced Deep RL algorithms to solve our optimization problem.
+
+```
+from stable_baselines3 import PPO, DQN
+from stable_baselines3.common.monitor import Monitor 
+
+%run "../../rl/environments/env_knapsack_NaR v4"
+
+n_knapsacks=5
+n_items=55
+
+env_name = "Knapsack"
+algo_name = "PPO"
+
+# Create log dir
+log_dir = "/tmp/gym/{}/".format(env_name+'_'+algo_name)
+os.makedirs(log_dir, exist_ok=True)
+
+env = KnapsacksEnv(n_knapsacks=n_knapsacks, n_items=n_items, saved_data=True)
+env = Monitor(env, log_dir)
+
+model = DQN(policy="MlpPolicy", env=env, verbose=1) # Creating the PPO agent
+model.learn(total_timesteps=150000) # Training the PPO agent (similar to sklearn .fit() function)
+```
+
 ## Optuna for hyperparameter tuning
 
 The choice of hyperparameters and architecture are crucial in the field of Deep Reinforcement Learning in order to obtain power results. Optuna is a powerful and easy-to-use library allowing to evaluate the performance of models with different combinations of hyperparameters, chosen in an efficient manner by the library. Optuna provides a very extensive libraries with many examples on how to use it on most libraries such as Sklearn, Tensoflow, Keras, PyTorch, Stable Baselines. Many examples of Optuna uses, not restrained to reinforcement learning, are provided [here](https://github.com/optuna/optuna-examples/)... A simple use of the library is highlighted below.
@@ -307,6 +334,8 @@ Optuna proposes several advanced features for hyperparameter optimization. In ad
 Below is provided code to highlight the use
 
 ## Results
+
+In this section, we show the results we obtained by doing a quick tuning of the PPO, A2C and DQN algorithms. For each
 
 ![screenshot-app](img/RL_images/tuning_results.png)
 
