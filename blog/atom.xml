@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ekimetrics.github.io/blog</id>
     <title>Eki.Lab Blog</title>
-    <updated>2022-08-18T00:00:00.000Z</updated>
+    <updated>2022-09-06T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ekimetrics.github.io/blog"/>
     <subtitle>Eki.Lab Blog</subtitle>
@@ -10,15 +10,15 @@
     <entry>
         <title type="html"><![CDATA[Deep RL and Optimization applied to Operations Research problem - 2/2 Reinforcement Learning approach]]></title>
         <id>Deep RL and Optimization applied to Operations Research problem - 2/2 Reinforcement Learning approach</id>
-        <link href="https://ekimetrics.github.io/blog/2022/08/18/deep_rl"/>
-        <updated>2022-08-18T00:00:00.000Z</updated>
+        <link href="https://ekimetrics.github.io/blog/2022/09/06/deep_rl"/>
+        <updated>2022-09-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This article is part of a series of articles which will introduce several optimization techniques, from traditional (yet advanced) Mathematical Optimization solvers and associated packages to Deep Reinforcement Learning algorithms, while tackling a very famous Operations Research problem: the multi-knapsack problem. Here, the focus is on an approach based on two famous reinforcement learning algorithms: Q-Learning and Policy Gradient.]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Deep RL and Optimization applied to Operations Research problem - 1/2 Traditional Optimization techniques]]></title>
         <id>Deep RL and Optimization applied to Operations Research problem - 1/2 Traditional Optimization techniques</id>
-        <link href="https://ekimetrics.github.io/blog/2022/08/11/traditional_or"/>
-        <updated>2022-08-11T00:00:00.000Z</updated>
+        <link href="https://ekimetrics.github.io/blog/2022/08/27/traditional_or"/>
+        <updated>2022-08-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This article is part of a series of articles which will introduce several optimization techniques, from traditional (yet advanced) Mathematical Optimization solvers and associated packages to Deep Reinforcement Learning algorithms, while tackling a very famous Operations Research problem: the multi-knapsack problem. Here, the focus is on traditional optimization techniques.]]></summary>
     </entry>
     <entry>
