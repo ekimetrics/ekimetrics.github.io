@@ -94,7 +94,39 @@ Now that we managed to translate the problem into a set of equations, let's tran
 
 ### Translating the mathematical model into a computer program with Python-MIP
 
-Let's first import the package used to have access to the MIP solver, here using the python package Python-MIP:
+Before solving the problem, we have to generate an instance for it (have data defining the problem). To do so, you can use the following code that will generate an instance of this problem with 40 items to store in 5 bags.
+
+```
+import pandas as pd
+import numpy as np
+import pickle
+
+def data_generator_knapsack(number_bags, number_items, minimum_weight_item, maximum_weight_item, minimum_value_item, maximum_value_item, max_weight_bag):
+    data = {}
+    weights = np.random.randint(minimum_weight_item, maximum_weight_item, size = number_items)
+    values = np.random.randint(minimum_value_item, maximum_value_item, size = number_items)
+    data['weights'] = weights
+    data['values'] = values
+    data['items'] = list(range(len(weights)))
+    data['num_items'] = len(weights)
+    data['bins'] = list(range(number_bags))
+    data['bin_capacities'] = np.random.randint(0, max_weight_bag, size = number_bags) + np.int(np.mean(data['weights']))
+    return(data)
+
+number_bags = 5
+number_items = 40
+minimum_weight_item = 0
+maximum_weight_item = 75
+minimum_value_item = 0
+maximum_value_item = 75
+max_weight_bag = 150
+
+data = data_generator_knapsack(number_bags, number_items, minimum_weight_item, maximum_weight_item, minimum_value_item, maximum_value_item, max_weight_bag)
+```
+
+
+
+Let's now import the package used to have access to the MIP solver, here using the python package Python-MIP:
 
 ```
 from mip import Model, xsum, maximize, BINARY
@@ -130,7 +162,7 @@ Remark how close it is from the original equations! These solvers are very power
 
 ### Solving the mathematical model with Python-MIP
 
-Using the function defined in the previous section, we can access to important information regarding the problem, such as the final objective value and the values of x<sub>ij</sub> telling us what were the best combinations of items inside knapsacks.
+Using the **mip_solve_knapsack** function defined in the previous section, we can access to important information regarding the problem, such as the final objective value and the values of x<sub>ij</sub> telling us what were the best combinations of items inside knapsacks.
 
 
 ### Some Mathematical Optimization packages
