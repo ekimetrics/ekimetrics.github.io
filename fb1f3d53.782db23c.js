@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[123],{190:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"nlp","name":"nlp","count":1,"permalink":"/blog/tags/nlp"}')}}]);

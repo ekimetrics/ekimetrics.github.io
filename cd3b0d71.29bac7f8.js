@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[104],{173:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"bayesian","name":"bayesian","count":1,"permalink":"/blog/tags/bayesian"}')}}]);

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[25],{95:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"deep-mind","name":"deepmind","count":1,"permalink":"/blog/tags/deep-mind"}')}}]);
