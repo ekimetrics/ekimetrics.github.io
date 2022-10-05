@@ -122,6 +122,7 @@ module.exports = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog/',
+          postsPerPage: 9,
         },
         blog_test: {
           showReadingTime: true,
