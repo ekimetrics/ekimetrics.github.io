@@ -4,23 +4,9 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Sat, 26 Nov 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 20 Sep 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
-        <item>
-            <title><![CDATA[Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (2/2)]]></title>
-            <link>https://ekimetrics.github.io/blog/2022/11/26/Interpretability_sentiment_analysis_II</link>
-            <guid>Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (2/2)</guid>
-            <pubDate>Sat, 26 Nov 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Two illustrations of how attention coefficients can be a source of interpretability]]></description>
-        </item>
-        <item>
-            <title><![CDATA[Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (1/2)]]></title>
-            <link>https://ekimetrics.github.io/blog/2022/11/18/Interpretability_sentiment_analysis_I</link>
-            <guid>Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (1/2)</guid>
-            <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
-            <description><![CDATA[Two illustrations of how attention coefficients can be a source of interpretability]]></description>
-        </item>
         <item>
             <title><![CDATA[Newsletter for September 2022]]></title>
             <link>https://ekimetrics.github.io/blog/2022/09/20/newsletter_Sept-2022</link>
