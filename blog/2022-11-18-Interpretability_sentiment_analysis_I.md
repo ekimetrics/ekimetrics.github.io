@@ -5,7 +5,7 @@ author_title: Senior Data Science Consultant, PhD student
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/couv.jpg"
 tags: [NLP, Transformers, BERT, interpretability, explainability, XAI, attention]
-draft: false
+draft: true
 description: "Two illustrations of how attention coefficients can be a source of interpretability"
 
 keywords:

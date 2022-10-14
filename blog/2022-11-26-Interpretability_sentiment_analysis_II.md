@@ -5,7 +5,7 @@ author_title: Senior Data Science Consultant, PhD student
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/couv.jpg"
 tags: [NLP, Transformers, BERT, interpretability, explainability, XAI, attention]
-draft: false
+draft: true
 description: "Two illustrations of how attention coefficients can be a source of interpretability"
 
 keywords:
@@ -63,6 +63,8 @@ We apply the methodology on a corpus of 1000 reviews. The clustering method used
 
  ![screenshot-app](img/Interpretability_sentiment_analysis/Part_II/Image_3.jpg)
 
+
+
 We then generate the counterfactual example of the review tested earlier by changing 2 words: 
 
 
@@ -86,12 +88,11 @@ One way to assess the quality of the generated counterfactual examples is to eva
  ![screenshot-app](img/Interpretability_sentiment_analysis/Part_II/Image_4.jpg)
 
 
-
 Where :
-- X11 represents the share of reviews whose initial associated sentiment and the sentiment of the counterfactual example are positive; sentiment has remained the same 
-- X12 represents the share of reviews whose sentiment changed from positive to negative; sentiment did change 
-- X21 represents the share of reviews whose sentiment changed from negative to positive; sentiment changed well
-- X22 represents the share of reviews whose initial associated sentiment and the sentiment of the counterfactual example are negative; sentiment has remained the same
+- X<sub>11</sub> represents the share of reviews whose initial associated sentiment and the sentiment of the counterfactual example are positive; sentiment has remained the same 
+- X<sub>12</sub> represents the share of reviews whose sentiment changed from positive to negative; sentiment did change 
+- X<sub>21</sub> represents the share of reviews whose sentiment changed from negative to positive; sentiment changed well
+- X<sub>22</sub> represents the share of reviews whose initial associated sentiment and the sentiment of the counterfactual example are negative; sentiment has remained the same
 
 We compute the "counterfactual confusion matrix" on the same text corpus that enabled us to perform clustering, picking 5 tokens for each review. The result is given below:
 
