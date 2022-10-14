@@ -10,14 +10,14 @@
     <entry>
         <title type="html"><![CDATA[Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (2/2)]]></title>
         <id>Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (2/2)</id>
-        <link href="https://ekimetrics.github.io/blog/2022/11/26/Interpretability_sentiment_analysis_part_II"/>
+        <link href="https://ekimetrics.github.io/blog/2022/11/26/Interpretability_sentiment_analysis_II"/>
         <updated>2022-11-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Two illustrations of how attention coefficients can be a source of interpretability]]></summary>
     </entry>
     <entry>
         <title type="html"><![CDATA[Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (1/2)]]></title>
         <id>Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (1/2)</id>
-        <link href="https://ekimetrics.github.io/blog/2022/11/18/Interpretability_sentiment_analysis_part_I"/>
+        <link href="https://ekimetrics.github.io/blog/2022/11/18/Interpretability_sentiment_analysis_I"/>
         <updated>2022-11-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Two illustrations of how attention coefficients can be a source of interpretability]]></summary>
     </entry>
