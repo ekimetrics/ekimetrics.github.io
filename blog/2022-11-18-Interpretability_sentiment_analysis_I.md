@@ -3,7 +3,7 @@ title: "Interpreting its sentiment analysis algorithm: BERT and its attention co
 author: Milan Bhan
 author_title: Senior Data Science Consultant, PhD student
 author_url: mailto:inno@ekimetrics.com
-header_image_url: "./img/blog/couv.jpg"
+header_image_url: "./img/blog/interpretability_articles.jpg"
 tags: [NLP, Transformers, BERT, interpretability, explainability, XAI, attention]
 draft: false
 description: "Two illustrations of how attention coefficients can be a source of interpretability"
@@ -37,7 +37,6 @@ keywords:
 We propose to illustrate how far BERT-type models can be considered as interpretable by design. We show that the attention coefficients specific to BERT architecture constitute a particularly rich piece of information that can be used to perform interpretability. There are mainly two ways to do interpretability: attribution and generation of counterfactual examples. Here we propose to evaluate how attention coefficients can form the basis of an attribution method. We will show in a second article how they can also be used to set up counterfactuals. 
 </div>
 
- ![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_1.jpg)
 
 ## The BERT architecture
 
@@ -57,10 +56,15 @@ An artificial neural network is a computer system inspired by the functioning of
 
 Attention mechanisms are particularly effective for natural language processing tasks. This is mainly due to the fact that they allow to properly model a word through mathematical representations. In particular, attention layers make it possible to assign a contextual representation of the word on a case-by-case basis. This makes it a much more efficient tool than Word2vec since the latter only models an average context, but does not adapt to the given situation. Attention mechanisms are at the heart of Transformers-type models as shown in the diagram below. The BERT model corresponds to a stack of the left part of the generic architecture of a Transformer [1].
 
+ ![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_2.jpg)
+<div align="center"> Figure 1 - Transformers architecture</div>
+
 </div>
 
 
- ![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_2.jpg)
+
+
+
 
  ## Fine tuning of BERT for sentiment analysis
 
@@ -70,6 +74,7 @@ To illustrate how attention coefficients can be a source of interpretability in 
 
 
  ![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_3.jpg)
+ <div align="center"> Figure 2 - IMDB sample</div>
 
  To do so, we import all the libraries needed.  In particular, the tokenizer DistilBertTokenizer and the pre-trained hugging face model TFDistilBertForSequenceClassification are used.
 
@@ -141,8 +146,8 @@ We finally have the average attention coefficients associated with the words of 
 The review being long, we represent the text in color. The more red the color, the higher the associated attention coefficient. The result is shown below:
 
  ![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_4.jpg)
-
-
+ <div align="center"> Figure 3 - Attention-Based token importance</div>
+ <p>&nbsp;</p>
 We see that the word groups "favorite movie", "it just never gets old", "performance brings tears", or "it is believable and startling" stand out. This explains well why the algorithm evaluated the review as positive and what was the semantic field at the root of this prediction.. 
 
 
