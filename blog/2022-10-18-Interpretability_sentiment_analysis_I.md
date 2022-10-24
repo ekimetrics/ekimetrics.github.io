@@ -76,6 +76,7 @@ To illustrate how attention coefficients can be a source of interpretability in 
  ![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_3.jpg)
  <div align="center"> Figure 2 - IMDB sample</div>
 
+<p>&nbsp;</p>
  To do so, we import all the libraries needed.  In particular, the tokenizer DistilBertTokenizer and the pre-trained hugging face model TFDistilBertForSequenceClassification are used.
 
  ```
@@ -85,10 +86,11 @@ sentence_encoder = TFDistilBertForSequenceClassification.from_pretrained('distil
 
 
 The parameter "output_attention" must be equal to "True". It will allow us to retrieve the attention coefficients of the model. We add a dense layer with a softmax activation to fine tune the model to do sentiment analysis. In order to train the model, we use the following hyperparameters:
-initial_lr = 1e-5
-n_epochs = 15
-batch_size = 64
-random_seed = 42
+
+- initial_lr  = 1e-5
+- n_epochs    = 15
+- batch_size  = 64
+- random_seed = 42
 
 Finally, we make evolve the learning and stop the learning process if the val_loss does not decrease after a certain number of iterations. 
 
@@ -104,11 +106,10 @@ history = model.fit(X_train, y_train, batch_size=bs, epochs=n_epochs, validation
                     verbose=1,callbacks=[early_stop, reduce_lr])
 ```
 
-We obtain a val_accurcay of 85%, which is sufficient for our further analysis. Note that a BERT or a RoBERTa would certainly have had a better val_loss, as they are more heavy and complex.
+We obtain a val_accurcay of 85%, which is sufficient for our further analysis. Note that a BERT or a RoBERTa would have certainly had a better val_loss, as they are more heavy and complex.
 
 ## Recovery of attention coefficients
-Recovery of attention coefficients
-We are now able to analyze the attention coefficients related to movie reviews. In order to retrieve it, We need to predict the sentiment associated to a review..
+We are now able to analyze the attention coefficients related to movie reviews. In order to retrieve it, We need to predict the sentiment associated to a review.
 Then, we select the layer(s) of attention to analyze. We focus here on the last layer of attention.
 
 ```
@@ -124,9 +125,10 @@ encoded_att = model.layers[2](tokenized,attention_mask =attention_mask)
 last_attention=encoded_att.attentions[-1]
 ```
 
-We finally recovered the 12 attention matrices from the last layer of the DistilBert.  
-Interpreting through attention attribution
-A first way to take advantage of the attention coefficients is to directly look at their amount in order to evaluate if the right words stand out. We choose to calculate the average attention on all attention layers and heads. A more in-depth work of selection of the most relevant layer would allow to refine the interpretability method. Here, we limit ourselves to the most basic case.
+We finally recovered the 12 attention matrices from the last layer of the DistilBert.
+
+## Interpreting through attention attribution
+A first way to take advantage of the attention coefficients is to directly look at their value in order to evaluate if the right words stand out. We choose to calculate the average attention on all attention layers and heads. A more in-depth work of selection of the most relevant layer would allow to refine the interpretability method. Here, we limit ourselves to the most basic case.
 
 ```
 a,b = [], []
@@ -140,16 +142,19 @@ for head in range(0,12) :
 attention_all_head=pd.DataFrame({"Token":a,"Attention coefficient":b})
 ```
 
-In order to have the average attention, we groupby the attention score on all the layers and heads.
+In order to have the average attention, we group by the attention score on all the layers and heads.
 We finally have the average attention coefficients associated with the words of the film review. As an example, the attention coefficients associated with the following positive review is calculated:
-“Probably my all time favorite movie a story of selflessness sacrifice and dedication to a noble cause but its not preachy or boring . it just never gets old despite my having seen it some 15 or more times in the last 25 years . paul lukas performance brings tears to my eyes and bette davis in one of her very few truly sympathetic roles is a delight . the kids are as grandma says more like dressedup midgets than children but that only makes them more fun to watch . and the mothers slow awakening to whats happening in the world and under her own roof is believable and startling . if i had a dozen thumbs they’d all be up for this movie".
+
+“_Probably my all time favorite movie a story of selflessness sacrifice and dedication to a noble cause but its not preachy or boring . it just never gets old despite my having seen it some 15 or more times in the last 25 years . paul lukas performance brings tears to my eyes and bette davis in one of her very few truly sympathetic roles is a delight . the kids are as grandma says more like dressedup midgets than children but that only makes them more fun to watch . and the mothers slow awakening to whats happening in the world and under her own roof is believable and startling . if i had a dozen thumbs they’d all be up for this movie_".
+
 The review being long, we represent the text in color. The more red the color, the higher the associated attention coefficient. The result is shown below:
 
  ![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_4.jpg)
  <div align="center"> Figure 3 - Attention-Based token importance</div>
  <p>&nbsp;</p>
-We see that the word groups "favorite movie", "it just never gets old", "performance brings tears", or "it is believable and startling" stand out. This explains well why the algorithm evaluated the review as positive and what was the semantic field at the root of this prediction.. 
+We see that the word groups "favorite movie", "it just never gets old", "performance brings tears", or "it is believable and startling" stand out. This explains well why the algorithm evaluated the review as positive and what was the semantic field at the root of this prediction.
 
+<p>&nbsp;</p>
 
 ## Next step
 We will show in a future article how attention coefficients are useful for generating counterfactual examples to explain the model prediction.

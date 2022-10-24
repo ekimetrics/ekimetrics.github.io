@@ -47,7 +47,9 @@ Previously, the BERT [1] and DistilBERT [2] models have been mobilized to tackle
  ![screenshot-app](img/Interpretability_sentiment_analysis/Part_II/Image_2.jpg)
 <div align="center"> Figure 1 - Attention-Based token importance</div>
 
- We saw that the word groups "favorite movie", "it just never gets old", "performance brings tears", or "it is believable and startling" standed out. This explained well why the algorithm evaluated the review as positive and what was the semantic field at the root of this prediction. This work was done using the Hugging Face transformers library [3].
+<p>&nbsp;</p>
+
+ We saw that the word groups "_favorite movie_", "_it just never gets old_", "_performance brings tears_", or "_it is believable and startling_" stood out. This explained well why the algorithm evaluated the review as positive and what was the semantic field at the root of this prediction. This work was done using the Hugging Face transformers library [3].
 
 ## Interpreting through counterfactual generation
 
@@ -75,7 +77,9 @@ favorite ➡ worst
 </div>
 
 This gives us the following counterfactual example:
-“Probably my all time worst movie a story of selflessness sacrifice and dedication to a noble cause but its not preachy or boring . it just never gets old despite my having seen it some 15 or more times in the last 25 years . paul lukas performance brings tears to my eyes and bette davis in one of her very few truly sympathetic roles is a torment. the kids are as grandma says more like dressedup midgets than children but that only makes them more fun to watch . and the mothers slow awakening to whats happening in the world and under her own roof is believable and startling . if i had a dozen thumbs they’d all be up for this movie".
+
+“_Probably my all time worst movie a story of selflessness sacrifice and dedication to a noble cause but its not preachy or boring . it just never gets old despite my having seen it some 15 or more times in the last 25 years . paul lukas performance brings tears to my eyes and bette davis in one of her very few truly sympathetic roles is a torment. the kids are as grandma says more like dressedup midgets than children but that only makes them more fun to watch . and the mothers slow awakening to whats happening in the world and under her own roof is believable and startling . if i had a dozen thumbs they’d all be up for this movie_".
+
 As the text is quite long, 2 tokens are not enough to change the feeling associated with the review. The probability score nevertheless drops significantly by 0.3pts.
 One way to assess the quality of the generated counterfactual examples is to evaluate the proportion of reviews in a corpus whose associated sentiment has changed. The result can be represented as a "counterfactual confusion matrix" as follows:
 
