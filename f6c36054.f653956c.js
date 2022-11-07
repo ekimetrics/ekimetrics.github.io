@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[140],{207:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"optical-character-recognition","name":"optical character recognition","count":1,"permalink":"/blog/tags/optical-character-recognition"}')}}]);

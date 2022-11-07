@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Wed, 26 Oct 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 10 Nov 2022 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part I: Detectron2 Pre-Trained Object Detection Models]]></title>
+            <link>https://ekimetrics.github.io/blog/2022/11/10/creative_execution_and_marketing_effectiveness_part_I</link>
+            <guid>Exploring the links between creative execution and marketing effectiveness - Part I: Detectron2 Pre-Trained Object Detection Models</guid>
+            <pubDate>Thu, 10 Nov 2022 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this Part I we explore the methodology for using pre-trained Detectron2 models to detect brand-specific object in creative images.]]></description>
+        </item>
         <item>
             <title><![CDATA[Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (2/2)]]></title>
             <link>https://ekimetrics.github.io/blog/2022/10/26/Interpretability_sentiment_analysis_II</link>

@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[53],{123:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"data-mesh","name":"data mesh","count":3,"permalink":"/blog/tags/data-mesh"}')}}]);
