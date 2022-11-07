@@ -25,11 +25,6 @@ keywords:
 
 
 
-<Head>
-<meta property="og:image" content="./img/blog/Eki_meta_part_I.png" />
-</Head>
-
-
 
 <div align="justify"> 
 
