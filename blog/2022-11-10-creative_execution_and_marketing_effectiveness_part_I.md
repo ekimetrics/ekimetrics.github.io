@@ -23,6 +23,14 @@ keywords:
     - Deep Reinforcement Learning
 ---
 
+
+
+<Head>
+<meta property="og:image" content="./img/blog/Eki_meta_part_I.png" />
+</Head>
+
+
+
 <div align="justify"> 
 
 This article is **Part I** of a set of five technical articles that accompany a [whitepaper](https://ekimetrics.com/news-and-events/exploring-the-links-between-creative-execution-and-marketing-effectiveness-exclusivepreview) written in collaboration between Meta and Ekimetrics. Object Detection (OD) and Optical Character Recognition (OCR) were used to detect specific features in creative images, such as faces, smiles, text, brand logos, etc. Then, in combination with impressions data, marketing mix models were used to investigate what objects, or combinations of objects in creative images in marketing campaigns, drive higher ROIs.
