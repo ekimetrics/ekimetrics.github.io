@@ -143,7 +143,7 @@ Exhaustive Grid Search was used to determine the combination of Max Iterations a
 <br/>
 
 
- ![screenshot-app](img/Eki_Meta/Part2/4.png)
+ ![screenshot-app](img/Eki_Meta/Part2/4_2.png)
 
 <div align="center"> Figure 2 : Example Confusion Matrices for Best Performing Model with 80% Confidence Threshold
  </div>
