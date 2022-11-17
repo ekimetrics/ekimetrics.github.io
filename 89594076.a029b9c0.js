@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[82],{151:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"object-detection","name":"object detection","count":1,"permalink":"/blog/tags/object-detection"}')}}]);

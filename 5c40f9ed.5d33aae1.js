@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[48],{118:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"demand-forecasting","name":"demand forecasting","count":1,"permalink":"/blog/tags/demand-forecasting"}')}}]);

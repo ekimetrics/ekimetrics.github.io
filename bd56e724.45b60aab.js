@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[109],{178:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"newspaper-industry","name":"newspaper industry","count":1,"permalink":"/blog/tags/newspaper-industry"}')}}]);

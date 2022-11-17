@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[120],{188:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"industrialization","name":"industrialization","count":1,"permalink":"/blog/tags/industrialization"}')}}]);
