@@ -10,10 +10,10 @@ module.exports = {
     [
       '@docusaurus/plugin-content-docs',
       {
-        id: 'ressources',
-        path: 'ressources',
-        routeBasePath: 'ressources',
-        sidebarPath: require.resolve('./sidebars_ressources.js'),
+        id: 'resources',
+        path: 'resources',
+        routeBasePath: 'resources',
+        sidebarPath: require.resolve('./sidebars_resources.js'),
         // ... other options
       },
     ],
@@ -48,7 +48,7 @@ module.exports = {
         //{to: 'tech_newsletter', label: 'Tech Newsletter', position: 'left'},
         // {to: 'trainings/', label: 'Trainings', position: 'left'},
         {to: 'docs/', label: 'About us', position: 'left'},
-        {to: 'ressources/', label: 'Ressources', position: 'left'},
+        {to: 'resources/', label: 'Resources', position: 'left'},
         // {
         //   to: 'hacks/',
         //   label: 'Hackathons',
