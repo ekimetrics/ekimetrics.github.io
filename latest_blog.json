@@ -1,0 +1,56 @@
+{
+  "title": "Recent posts",
+  "items": [
+    {
+      "title": "Exploring the links between creative execution and marketing effectiveness - Part I: Detectron2 Pre-Trained Object Detection Models",
+      "permalink": "blog/2022/11/10/creative_execution_and_marketing_effectiveness_part_I",
+      "img_path": "./img/blog/Eki_meta_part_I.png",
+      "description": "In this Part I we explore the methodology for using pre-trained Detectron2 models to detect brand-specific object in creative images."
+    },
+
+
+    {
+      "title": "Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (2/2)",
+      "permalink": "blog/2022/10/26/Interpretability_sentiment_analysis_II",
+      "img_path": "./img/blog/interpretability_articles_2.jpg",
+      "description": "Two illustrations of how attention coefficients can be a source of interpretability"
+    },
+
+
+
+
+
+
+    {
+      "title": "Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (1/2)",
+      "permalink": "blog/2022/10/18/Interpretability_sentiment_analysis_I",
+      "img_path": "./img/blog/interpretability_articles.jpg",
+      "description": "Two illustrations of how attention coefficients can be a source of interpretability"
+    },
+    {
+      "title": "Newsletter for September 2022",
+      "permalink": "/blog/2022/09/20/newsletter_Sept-2022",
+      "img_path": "./img/blog/header.png",
+      "description": "Hi everyone, We are now in September and we release our 6th Newsletter! Ranging from podcasts to tutorials, this Newsletter is made for practicioners!"
+
+    },
+    {
+      "title": "Deep RL and Optimization applied to Operations Research problem - 2/2 Reinforcement Learning approach",
+      "permalink": "/blog/2022/09/06/deep_rl",
+      "img_path":  "./img/blog/slovenia_bled_lake.jpg",
+      "description": "This article is part of a series of articles which will introduce several optimization techniques, from traditional (yet advanced) Mathematical Optimization solvers and associated packages to Deep Reinforcement Learning algorithms, while tackling a very famous Operations Research problem: the multi-knapsack problem. Here, the focus is on traditional optimization techniques."
+
+    },
+
+    {
+      "title": "Deep RL and Optimization applied to Operations Research problem - 1/2 Traditional Optimization techniques",
+      "permalink": "/blog/2022/08/27/traditional_or",
+      "img_path": "./img/blog/plitvice_lakes.jpg",
+      "description": "This article is part of a series of articles which will introduce several optimization techniques, from traditional (yet advanced) Mathematical Optimization solvers and associated packages to Deep Reinforcement Learning algorithms, while tackling a very famous Operations Research problem: the multi-knapsack problem. Here, the focus is on traditional optimization techniques."
+
+    }
+
+
+    
+  ]
+}

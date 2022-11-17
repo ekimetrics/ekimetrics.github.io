@@ -1,22 +1,20 @@
-/* stylelint-disable docusaurus/copyright-header */
-
 /**
  * CSS files with the .module.css suffix will be treated as CSS modules
  * and scoped locally.
  */
 
-.heroBanner {
+ .heroBanner {
   padding: 4rem 0;
   text-align: center;
   position: relative;
   overflow: hidden;
 }
 
-/* @media screen and (max-width: 966px) {
+@media screen and (max-width: 996px) {
   .heroBanner {
     padding: 2rem;
   }
-} */
+}
 
 .buttons {
   display: flex;
@@ -24,22 +22,51 @@
   justify-content: center;
 }
 
-.features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+
+.mainCardColumn {
+  padding-left: 20px;
+   padding-right: 20px;
+}
+/* 
+.mainCardColumn {
+  padding-left: 20px;
+   padding-right: 20px;
+} */
+
+@media screen and (max-width: 966px) {
+  .mainCardColumn:not(:last-child) {
+    margin-bottom: 40px;
+  }
 }
 
-.featureImage {
-  height: 200px;
-  width: 200px;
+
+
+.acard {
+  /* margin-bottom: 0px; */
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  text-align: center;
+  /* background-color: #380320; */
+}
+
+header > .acard {
+  background-color: rgba(250, 1, 97, 0.7);
+}
+
+main > .acard {
+  z-index: 10;
+  background-color: #380320;
+}
+
+.mr {
+  margin-right: 20px;
 }
 
 .card {
   margin-bottom: 40px;
   padding: 40px;
   text-align: center;
+  border-radius: 10px;
 }
 
 header > .card {
@@ -51,13 +78,60 @@ main > .card {
   background-color: #32475a;
 }
 
-.mainCardColumn {
-  padding-left: 20px;
-   padding-right: 20px;
+.background_dark_blue {
+  background-color: rgba(22, 41, 60, .7);
 }
 
-@media screen and (max-width: 966px) {
-  .mainCardColumn:not(:last-child) {
-    margin-bottom: 40px;
-  }
+
+.bcard {
+  /* margin-bottom: 0px; */
+  /* padding-top: 20px;
+  padding-bottom: 20px; */
+  text-align: center;
+  background-color: rgba(22, 41, 60, .7);
+  border-radius: 10px;
 }
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  grid-auto-rows: minmax(100px, auto);
+}
+
+
+.gridcard {
+  padding: 40px;
+  margin-bottom: 40px;
+  text-align: center;
+  border-radius: 10px;
+  background-color:  #32475a;
+}
+
+header > .gridcard {
+  background-color:  #32475a;
+}
+
+main > .gridcard {
+  z-index: 10;
+  background-color:  #32475a;
+}
+
+
+.gridsubcard {
+  text-align: center;
+  border-radius: 10px;
+  background-color:  rgba(22, 41, 60, .7);
+}
+
+header > .gridsubcard {
+  background-color:  rgba(22, 41, 60, .7);
+}
+
+main > .gridsubcard {
+  z-index: 10;
+  background-color:  rgba(22, 41, 60, .7);
+}
+
+
+

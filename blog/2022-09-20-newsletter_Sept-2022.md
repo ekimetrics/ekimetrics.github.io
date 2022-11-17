@@ -6,7 +6,7 @@ author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/header.png"
 tags: [Data Science, Data Engineering, Data Mesh, NPM, Hopular]
 draft: False
-description: "Hi everyone, We are now in September and we release our 6th Newsletter! Ranging from podcasts to tutorials, this Newsletter is made for practicioners!"
+description: "Hi everyone, we are now in September and we release our 6th Newsletter! Ranging from podcasts to tutorials, this Newsletter is made for practicioners!"
 keywords:
     - Data Science
     - EkiLab

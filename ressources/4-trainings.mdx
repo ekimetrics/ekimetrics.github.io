@@ -1,0 +1,86 @@
+---
+id: trainings
+title: Trainings
+hide_table_of_contents: true
+---
+
+
+import clsx from 'clsx';
+import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import LongCard from "../src/components/LongCard.js"
+import ShortCard from "../src/components/ShortCard.js";
+
+
+export const TRAININGS = [
+  {
+    "date":"2022-03","category":"Coding session","title":"How to scrap the world","tags":["Scraping", "BeautifulSoup", "Selenium"],
+    "description":"Scraping is the fact of extracting information from a website, through a web crawler, for analysis or reuse. Learn in this coding session how to scrap vast amounts of various data using dedicated open-source tools!",
+  },
+  {
+    "date":"2022-01","category":"Presentation", "title":"Explainable AI (XAI)","tags":["Explainability", "Interpretability", "Ethical AI"],
+    "description":"Discover the critical field of interpretability for Machine Learning and how we work on state-of-the-art approaches to allow interpretability of models at Ekimetrics",
+  },
+  {
+    "date":"2021-11","category":"Presentation","title":"Detecting unknown time series events - A maritime traffic surveillance case-study","tags":["Time Series", "Maritime Traffic Surveillance", "Generative Models"],
+    "description":"Discover an approach based on generative models for unknown event detection in time series, applied to maritime traffic surveillance using Automatic Identification System data",
+  },
+  {
+    "date":"2021-09","category":"Presentation","title":"Foundation models & Prompt Engineering","tags":["AI Research","NLP"],
+    "description":"GPT-3, CLIP, Codex, BERT - Foundation models are becoming the norm in many applications, from NLP to Computer Vision. What are the risks and opportunities of those models? Is it really the future of AI. Discover it yourself with your own Turing Test.",
+  },
+  {
+    "date":"2021-09","category":"Coding session","title":"Practical introduction to mathematical optimization ","tags":["Operational Research","Optimization"],
+    "description":"Turn business problems into conceptual mathematical models, find out optimal decisions using state-of-the-art solvers and apply these skills on real-world optimization problems.",
+  },
+  {
+    "date":"2021-09","category":"Presentation","title":"MLOps: Machine Learning in production","tags":["Industrialization","MLOps"],
+    "description":"Machine Learning in production is a really complex discipline. Learn about the best practices and technology requirements to avoid failing in prod (input data drift, model registry, gouvernance, DevOps for ML, etc...)",
+  },
+  {
+    "date":"2021-06","category":"Presentation","title":"UX design guidelines for AI products","tags":["UX Design"],
+    "description":"When developing products with predictive AI features, there are specific UX/UI guidelines to ensure user trust, robustness and a valuable feedback loop.",
+  },
+  {
+    "date":"2021-04","category":"Presentation","title":"How to create a chess AI","tags":["Game AI","Reinforcement Learning"],
+    "description":"Chess has historically been one of the most important games in the development of Artificial Intelligence. Learn how to create your own chess AI using tree search algorithms, heuristics and Machine Learning.",
+  },
+  {
+    "date":"2021-01","category":"Presentation","title":"Cellular Automata & Artificial Life","tags":["AI Research"],
+    "description":"Cellular Automata are a programming discrete model popularized by Conway and Wolfram. Discover how it can be used to model the development of Life and what concrete applications we could expect from such technology.",
+  },
+  {
+    "date":"2020-08","category":"Coding session","title":"Object Oriented Programming for Data Scientists","tags":["Python"],
+    "description":"Learn how Oriented Object Programming (classes) can be used in Python to accelerate your development process when you are a Data Scientist.",
+  },
+  {
+    "date":"2019-05","category":"Presentation","title":"Machine Learning at Netflix","tags":["AI Research"],
+    "description":"Decrypt and demystify how Netflix is using Machine Learning to power every bit of the platform, improving user experience and building a competitive advantage in the market.",
+  },
+]
+
+
+
+
+
+<div class="row">
+    <div class="col col--12">
+    <p>
+    We offer trainings internally for Eki.DataPeople on various issues. Find out in this page about the <span className="gold">trainings and tutorials we could provide access</span>.<br/>
+    Our trainings can be <span className="gold">presentations</span> or <span className="gold">interactive coding sessions.</span><br/>
+    
+    </p>
+    📢 If there is no direct link yet, please send us an <a href="mailto:inno@ekimetrics.com">email</a> to request access 
+    </div>
+</div>
+
+<section>
+<div class="row">
+    {TRAININGS.map(el=> (
+    <ShortCard category={el["category"]} date={el["date"]} title={el["title"]} tags={el["tags"]} description={el["description"]} href={el["href"]}/>
+    ))}
+
+</div>
+</section>

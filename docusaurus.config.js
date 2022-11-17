@@ -4,7 +4,20 @@ const path = require('path');
 module.exports = {
   title: 'Eki.Lab',
   tagline: 'EkiLab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company',
-  plugins: [require.resolve('docusaurus-lunr-search')],
+  plugins: [
+    require.resolve('docusaurus-lunr-search'),
+
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'ressources',
+        path: 'ressources',
+        routeBasePath: 'ressources',
+        sidebarPath: require.resolve('./sidebars_ressources.js'),
+        // ... other options
+      },
+    ],
+],
   url: 'https://ekimetrics.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -31,19 +44,21 @@ module.exports = {
       title: 'Eki.Lab',
       items: [
         {to: 'blog', label: 'Blog', position: 'left'},
+        
         //{to: 'tech_newsletter', label: 'Tech Newsletter', position: 'left'},
-        {to: 'trainings/', label: 'Trainings', position: 'left'},
-        {to: 'docs/', label: 'Best practices', position: 'left'},
-        {
-          to: 'hacks/',
-          label: 'Hackathons',
-          position: 'left',
-        },
-        {
-          to: 'opensource/',
-          label: 'Open Source',
-          position: 'left',
-        },
+        // {to: 'trainings/', label: 'Trainings', position: 'left'},
+        {to: 'docs/', label: 'About us', position: 'left'},
+        {to: 'ressources/', label: 'Ressources', position: 'left'},
+        // {
+        //   to: 'hacks/',
+        //   label: 'Hackathons',
+        //   position: 'left',
+        // },
+        // {
+        //   to: 'opensource/',
+        //   label: 'Open Source',
+        //   position: 'left',
+        // },
         {to: 'https://ekimetrics.com/fr/', label: 'Ekimetrics website', position: 'right'},
          
       //  {to: 'https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9', label: 'Newsletter', position: 'right'},

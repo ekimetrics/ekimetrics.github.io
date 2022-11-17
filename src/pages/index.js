@@ -7,51 +7,79 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
+import recentPosts from "../../latest_blog.json";
 
 // Rather inelegant way of loading recent posts
 // See https://stackoverflow.com/questions/60289432/docusaurus-v2-recent-blogs-list-for-homepage
-import recentPosts from "../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json";
+// import recentPosts from "../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json";
 
 
-// const features = [
-//   {
-//     title: <a href="/blog" >Have a look at our Blog</a>,
-//     imageUrl: 'img/news.svg',
-//     description: (
-//       <>
-//         Discover our articles and publications to stay informed of the latest AI trends 
-//       </>
-//     ),
-//   },
-  
-//   {
-//     title: <a href="/homehack" >Try our online datascience challenges</a>,
-//     imageUrl: 'img/LogoHack.svg',
-//     description: (
-//       <>
-//         Take the Eki hackathons to test your Datascience capacity and improve your skills
-//       </>
-//     ),
-//   },
-//   {
-//     title: <a href="/opensource" >Join our open source community</a>,
-//     imageUrl: 'img/LogoOpenSource.svg',
-//     description: (
-//       <>
-//         Discover our open source libraries and contribute to their development.
-//       </>
-//     ),
-//   },
-//   {
-//     title: <a href="/conviction" >Discover our Tech Conviction</a>,
-//     imageUrl: 'img/techconviction.svg',
-//     description: (
-//       <>
-//         Discover our open source libraries and contribute to their development.
-//       </>
-//     ),
-//   },
-// ];
+
+
+function TechRadar () {
+  return (
+    <div className={clsx("container", styles.card)}>
+      <h1 style={{"fontSize":24}}> <span className="gold">Our Tech Radar </span></h1> 
+      <Link to={"https://ekimetrics.github.io/tech-radar/"}>{"View in fullscreen"}</Link> 
+
+      <div id="wrap">
+
+              
+        <iframe id="inlineFrameExample"
+            title="Inline Frame Example"
+            width="100%"
+            height="500"
+            src="https://ekimetrics.github.io/tech-radar/">
+        </iframe>
+      </div>
+    </div>
+  )
+}
+
+
+
+function LatestBlogPosts(){
+  return(
+
+<div className={clsx("container", styles.gridcard)}>
+  <h1 style={{"fontSize":24}}> <span className="gold">Our Latest blog posts</span></h1>
+
+      <div className={clsx("wrapper", styles.grid)}>
+
+        {recentPosts.items.slice(0,4).map((item) => (
+          <div className= {`${styles.gridsubcard} `} >
+            <div className="card__image" >
+              <img
+                // src={headerImageURL}
+                src={item.img_path}
+                alt="Image alt text"
+                title={item.title}
+                style= {{borderTopLeftRadius: "10px",WebkitBorderTopRightRadius: "10px"}}
+              />
+            </div>
+
+          <div className="card__body">
+
+            <article>
+            <h2
+                style={{"fontFamily":"InterCustom","fontSize":16}}
+                className={clsx('margin-bottom--sm', styles.blogPostTitle)}>
+                {<Link to={item.permalink}>{item.title}</Link>}
+              </h2>
+            <p style={{"fontFamily":"InterCustom",fontSize:12,lineHeight:1.2}}>{item.description}</p>
+
+            </article>
+            </div>
+          </div>
+
+                            
+        ))}
+
+      </div>
+</div>
+  )}
+
+
 
 function Feature({imageUrl, title, description}) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -113,7 +141,9 @@ function Home() {
             <HomePageBlock title="Open Source" href="/opensource" img="img/icons/World wide web_Monochromatic.svg" description="Discover our open source contributions to the Data Science community"/>
           </Row>
         </div>
-        <div className={clsx("container", styles.card)}>
+
+        
+        {/* <div className={clsx("container", styles.card)}>
           <Row>
             <HomePageBlock title="Our latest blog posts" href="" description={
               <>
@@ -127,118 +157,11 @@ function Home() {
               </>
             }/>
           </Row>
-        </div>
+        </div> */}
+        <TechRadar></TechRadar>
+        <LatestBlogPosts></LatestBlogPosts>
       </main>
       
-
-      {/* <div className="container">
-        
-        
-      
-        <h2 className = {clsx(styles.heroBanner)}>Read our latest articles about AI</h2>
-      
-          <div className="row">
-            <div className="col col--3 col--offset-3">
-            <div className="card-demo">
-  <div className="card">
-    <div className="card__image">
-      <img
-        src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
-        alt="Image alt text"
-        title="Logo Title Text 1"
-      />
-    </div>
-    <div className="card__body">
-      <h4>Quaco Lighthouse</h4>
-      <small>
-        The Quaco Head Lighthouse is a well maintained lighthouse close to St.
-        Martins. It is a short, beautiful walk to the lighthouse along the
-        seashore.
-      </small>
-    </div>
-    <div className="card__footer">
-      <button className="button button--primary button--block">Visit</button>
-    </div>
-  </div>
-</div>
-            </div>
-            <div className="col col--3 col--offset-1">
-            <div className="card-demo">
-  <div className="card">
-    <div className="card__image">
-      <img
-        src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
-        alt="Image alt text"
-        title="Logo Title Text 1"
-      />
-    </div>
-    <div className="card__body">
-      <h4>Quaco Lighthouse</h4>
-      <small>
-        The Quaco Head Lighthouse is a well maintained lighthouse close to St.
-        Martins. It is a short, beautiful walk to the lighthouse along the
-        seashore.
-      </small>
-    </div>
-    <div className="card__footer">
-      <button className="button button--primary button--block">Visit</button>
-    </div>
-  </div>
-</div>
-            </div>
-          </div>
-          
-        </div>
-
-        {features && features.length > 0 && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
-        
-
-        
-      </main>
-
-      <div className="hero shadow--lw">
-        <div className="container">
-        <h2 className="hero__title">Read <span className="goldencolor">our latest article</span>  about AI <a className="button button--link" href="#url">
-          Link
-        </a></h2>
-        <div className="card">
-          <h1>coucou</h1>
-        </div>
-        </div>
-      </div>
-
-      <div className="hero hero--blue">
-        <div className="container">
-        <h2 className="hero__title">Read <span className="goldencolor">our latest article</span>  about AI <a className="button button--link" href="#url">
-          Link
-        </a></h2>
-        <div className="card">
-          <h1>coucou</h1>
-        </div>
-        </div>
-      </div>
-
-      <div className="hero shadow--lw">
-        <div className="container">
-        <h2 className="hero__title">Read <span className="goldencolor">our latest article</span>  about AI <a className="button button--link" href="#url">
-          Link
-        </a></h2>
-        <div className="card">
-          <h1>coucou</h1>
-        </div>
-        </div>
-      </div> */}
-
     </Layout>
     
   );
