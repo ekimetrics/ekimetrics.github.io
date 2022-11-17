@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[56],{125:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"data-science","name":"data science","count":1,"permalink":"/blog/tags/data-science"}')}}]);

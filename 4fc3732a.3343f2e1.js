@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[47],{116:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"marketing-mix-modelling","name":"marketing mix modelling","count":1,"permalink":"/blog/tags/marketing-mix-modelling"}')}}]);
