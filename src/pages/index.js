@@ -20,9 +20,9 @@ function TechRadar () {
   return (
     <div className={clsx("container", styles.card)}>
       <h1 style={{"fontSize":24}}> <span className="gold">Our Tech Radar </span></h1> 
-      <Link to={"https://ekimetrics.github.io/tech-radar/"}>{"View in fullscreen"}</Link> 
 
-      <div id="wrap">
+      
+
 
               
         <iframe id="inlineFrameExample"
@@ -31,7 +31,17 @@ function TechRadar () {
             height="500"
             src="https://ekimetrics.github.io/tech-radar/">
         </iframe>
-      </div>
+
+        <div
+        style={{
+          display: 'flex',
+          alignItems: 'right',
+          justifyContent: 'right',
+        }}
+      >
+          <Link to={"https://ekimetrics.github.io/tech-radar/"}>{"View in fullscreen"} </Link> 
+        </div>
+
     </div>
   )
 }
@@ -66,7 +76,7 @@ function LatestBlogPosts(){
                 className={clsx('margin-bottom--sm', styles.blogPostTitle)}>
                 {<Link to={item.permalink}>{item.title}</Link>}
               </h2>
-            <p style={{"fontFamily":"InterCustom",fontSize:12,lineHeight:1.2}}>{item.description}</p>
+            <p style={{"fontFamily":"InterCustom",fontSize:12,lineHeight:1.2,"textAlign": "left"}}>{item.description}</p>
 
             </article>
             </div>
