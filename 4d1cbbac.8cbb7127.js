@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[43],{111:function(s){s.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"sales-prediction","name":"sales prediction","count":2,"permalink":"/blog/tags/sales-prediction"}')}}]);
