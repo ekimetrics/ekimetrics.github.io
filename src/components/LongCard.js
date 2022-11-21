@@ -6,10 +6,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 const LongCard = ({title,src,description,href,category,date}) => {
     return (
         <div class="row">
-            <div class="col col--12 longcard">
-                <div class="row">
+            <div class="col col--12 longcard" style={{borderRadius: 10}}>
+                <div class="row" >
                     <div class="col col--4 longcard-image">
-                        <img src={useBaseUrl(src)}/>
+                        <img src={useBaseUrl(src)} style={{borderTopLeftRadius: 10, borderBottomLeftRadius:10}}/>
                     </div>
                     <div class="col col--8 longcard-body">
                         <p class="longcard-description" style={{fontSize:14}}><span className="gold">{category}</span>{date && ` - ${date}`}</p>

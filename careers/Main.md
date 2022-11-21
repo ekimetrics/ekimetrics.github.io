@@ -1,6 +1,6 @@
 ---
 id: introduction
-title: Introduction
+title: Careers
 hide_table_of_contents: false
 slug: /
 ---

@@ -64,6 +64,7 @@ module.exports = {
         {to: 'docs/', label: 'About us', position: 'left'},
         {to: 'resources/', label: 'Resources', position: 'left'},
         {to: 'https://ekimetrics.com/fr/carrieres/', label: 'Careers', position: 'left'},
+        // {to: 'careers/', label: 'Careers', position: 'left'},
 
         // {
         //   to: 'hacks/',
@@ -145,22 +146,22 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/',
+          // editUrl:
+          //   'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog/',
+          // editUrl:
+          //   'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog/',
           postsPerPage: 9,
         },
-        blog_test: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog_test/',
-        },
+        // blog_test: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   editUrl:
+        //     'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog_test/',
+        // },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },

@@ -104,7 +104,7 @@ function BlogPostPreview(props: Props): JSX.Element {
   };
 
   return (
-    <div className="card">
+    <div className="card" style={{borderRadius: 10}}>
       <div className="card__image">
         <img
           src={headerImageURL}
