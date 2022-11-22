@@ -99,7 +99,6 @@ main > .card {
   grid-auto-rows: minmax(100px, auto);
 }
 
-
 .gridcard {
   padding: 40px;
   margin-bottom: 40px;
@@ -133,5 +132,48 @@ main > .gridsubcard {
   background-color:  rgba(22, 41, 60, .7);
 }
 
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px;
+}
 
 
+.wrapper > * {
+  flex: 1;
+  min-width: 200px;
+}
+
+iframe > * {
+  zoom: 0.7;
+}
+
+
+
+.wrap
+{
+    width: 320px;
+    height: 192px;
+    padding: 0;
+    overflow: hidden;
+}
+
+.frame
+{
+    width: 1280px;
+    height: 786px;
+    border: 0;
+
+    -ms-transform: scale(0.25);
+    -moz-transform: scale(0.25);
+    -o-transform: scale(0.25);
+    -webkit-transform: scale(0.25);
+    transform: scale(0.25);
+
+    -ms-transform-origin: 0 0;
+    -moz-transform-origin: 0 0;
+    -o-transform-origin: 0 0;
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}

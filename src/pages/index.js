@@ -27,7 +27,7 @@ function TechRadar () {
         <iframe id="inlineFrameExample"
             title="Inline Frame Example"
             width="100%"
-            height="500"
+            height="600"
             src="https://ekimetrics.github.io/tech-radar/">
         </iframe>
 
@@ -47,13 +47,14 @@ function TechRadar () {
 
 
 
+
 function LatestBlogPosts(){
   return(
 
 <div className={clsx("container", styles.gridcard)}>
   <h1 style={{"fontSize":24}}> <span className="gold">Our Latest blog posts</span></h1>
 
-      <div className={clsx("wrapper", styles.grid)}>
+      <div className={clsx(styles.wrapper)}>
 
         {recentPosts.items.slice(0,4).map((item) => (
           <div className= {`${styles.gridsubcard} `} >
