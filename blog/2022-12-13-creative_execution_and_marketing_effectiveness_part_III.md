@@ -5,7 +5,7 @@ author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/Eki_Meta_part_III.png"
 tags: [Object Detection, Optical Character Recognition, Marketing Mix Modelling, Deep Learning, Tesseract]
-draft: true
+draft: false
 description: "In this Part III we explore the methodology for using Tesseract to detect text in creative images."
 
 keywords:
