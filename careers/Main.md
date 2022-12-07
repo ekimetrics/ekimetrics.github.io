@@ -7,7 +7,7 @@ slug: /
 
 At Ekimetrics, we aim to provide an optimal environment of growth for our Eki.Peeps, with career paths tailored to their background and aspirations. Senior Consultants can choose between two main paths to pursue their career at Ekimetrics :
 
-## Eki.Consultant Pathway
+## Consultant Pathway
 After acquiring the common core of business & technical skills set, consultants can choose to focus on Business Verticals such as Retail, Mobility, Industry, Tech & Media etc, and become a **Manager**. 
 
 ## Expertise Pathway

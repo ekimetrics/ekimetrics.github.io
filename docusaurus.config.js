@@ -1,5 +1,6 @@
 const path = require('path');
-
+const math = require('remark-math');
+const katex = require('rehype-katex');
 
 module.exports = {
   title: 'Eki.Lab',
@@ -145,6 +146,8 @@ module.exports = {
       {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
           // Please change this to your repo.
           // editUrl:
           //   'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/',
@@ -155,6 +158,8 @@ module.exports = {
           // editUrl:
           //   'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog/',
           postsPerPage: 9,
+          remarkPlugins: [math],
+          rehypePlugins: [katex],
         },
         // blog_test: {
         //   showReadingTime: true,
