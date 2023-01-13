@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Tue, 13 Dec 2022 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 15 Jan 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part IV: MMM for Creative Marketing Effectiveness]]></title>
+            <link>https://ekimetrics.github.io/blog/2023/01/15/creative_execution_and_marketing_effectiveness_part_IV</link>
+            <guid>Exploring the links between creative execution and marketing effectiveness - Part IV: MMM for Creative Marketing Effectiveness</guid>
+            <pubDate>Sun, 15 Jan 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[In this Part IV we explore the MMM methodology applied.]]></description>
+        </item>
         <item>
             <title><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part III: Tesseract Pre-Trained Optical Character Recognition Models]]></title>
             <link>https://ekimetrics.github.io/blog/2022/12/13/creative_execution_and_marketing_effectiveness_part_III</link>
