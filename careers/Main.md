@@ -14,6 +14,9 @@ After acquiring the common core of business & technical skills set, consultants 
 After acquiring the common core of business & technical skills set, consultants can choose to specialize in a technical domain such as Machine Learning, Data Engineering, Solution Architecture, Data Infrastructure etc, becoming therefore a **Domain Specialist**.
 
 
+
+![screenshot-app](img/pathaways.png)
+
 ## Apply
 
 If you're interested, feel free to check our job offerings through our [official website!](https://ekimetrics.com/careers/).

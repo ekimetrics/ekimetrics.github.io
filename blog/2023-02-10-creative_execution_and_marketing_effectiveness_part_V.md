@@ -74,3 +74,4 @@ Having strong base models is also key for success in this project. Since the tar
 Depending on the number of feature groups, KPIs and sub-brands included in the study, it may be infeasible to run the sub-models on a one-by-one basis. For context, this project had 156 sub-models (13 base models x 12 feature groups). For that reason, it is recommended to create a methodology that allows for the programmatic creation of sub-models. 
 
 </div>
+

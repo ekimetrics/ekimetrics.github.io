@@ -5,7 +5,7 @@ author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/Eki_Meta_part_IV.png"
 tags: [Object Detection, Optical Character Recognition, Marketing Mix Modelling, Deep Learning, Tesseract]
-draft: true
+draft: false
 description: "In this Part IV we explore the MMM methodology applied."
 
 keywords:
