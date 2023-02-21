@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Sun, 15 Jan 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 21 Feb 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part V: Key Paths to Success and Common Pitfalls to Avoid]]></title>
+            <link>https://ekimetrics.github.io/blog/2023/02/21/creative_execution_and_marketing_effectiveness_part_V</link>
+            <guid>Exploring the links between creative execution and marketing effectiveness - Part V: Key Paths to Success and Common Pitfalls to Avoid</guid>
+            <pubDate>Tue, 21 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[ In this last part, we outline the key learnings from this project, including key paths to success and common pitfalls to avoid.]]></description>
+        </item>
         <item>
             <title><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part IV: MMM for Creative Marketing Effectiveness]]></title>
             <link>https://ekimetrics.github.io/blog/2023/01/15/creative_execution_and_marketing_effectiveness_part_IV</link>

@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ekimetrics.github.io/blog</id>
     <title>Eki.Lab Blog</title>
-    <updated>2023-01-15T00:00:00.000Z</updated>
+    <updated>2023-02-21T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ekimetrics.github.io/blog"/>
     <subtitle>Eki.Lab Blog</subtitle>
     <icon>https://ekimetrics.github.io/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part V: Key Paths to Success and Common Pitfalls to Avoid]]></title>
+        <id>Exploring the links between creative execution and marketing effectiveness - Part V: Key Paths to Success and Common Pitfalls to Avoid</id>
+        <link href="https://ekimetrics.github.io/blog/2023/02/21/creative_execution_and_marketing_effectiveness_part_V"/>
+        <updated>2023-02-21T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[ In this last part, we outline the key learnings from this project, including key paths to success and common pitfalls to avoid.]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part IV: MMM for Creative Marketing Effectiveness]]></title>
         <id>Exploring the links between creative execution and marketing effectiveness - Part IV: MMM for Creative Marketing Effectiveness</id>
