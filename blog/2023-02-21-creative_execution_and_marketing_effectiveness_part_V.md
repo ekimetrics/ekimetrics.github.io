@@ -5,7 +5,7 @@ author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/Eki_Meta_part_V.png"
 tags: [Object Detection, Optical Character Recognition, Marketing Mix Modelling, Deep Learning, Tesseract]
-draft: true
+draft: false
 description: " In this last part, we outline the key learnings from this project, including key paths to success and common pitfalls to avoid."
 
 keywords:
