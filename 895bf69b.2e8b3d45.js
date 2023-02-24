@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[86],{155:function(o){o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"power-bi","name":"power bi","count":1,"permalink":"/blog/tags/power-bi"}')}}]);

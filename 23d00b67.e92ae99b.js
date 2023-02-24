@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{88:function(n){n.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"data-engineering","name":"data engineering","count":5,"permalink":"/blog/tags/data-engineering"}')}}]);

@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Tue, 21 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 28 Feb 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Building a datalake - Part 2 - Smart storage & computing strategies for better usability and usefulness]]></title>
+            <link>https://ekimetrics.github.io/blog/2023/02/28/building_datalake_part_2</link>
+            <guid>Building a datalake - Part 2 - Smart storage &amp; computing strategies for better usability and usefulness</guid>
+            <pubDate>Tue, 28 Feb 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[For this second part of datalake building, we’ll go deeper into the journey of data, more specifically expand on storage and compute strategies.]]></description>
+        </item>
         <item>
             <title><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part V: Key Paths to Success and Common Pitfalls to Avoid]]></title>
             <link>https://ekimetrics.github.io/blog/2023/02/21/creative_execution_and_marketing_effectiveness_part_V</link>

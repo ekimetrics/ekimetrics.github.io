@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[107],{175:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"time-series-modelling","name":"time series modelling","count":1,"permalink":"/blog/tags/time-series-modelling"}')}}]);
