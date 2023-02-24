@@ -5,7 +5,7 @@ author_title: Data Engineering & Architecture Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/image_overview_article_datalake_1.jpg"
 tags: [Datalake, Data Engineering, Architecture, Data Governance, Data Mesh]
-draft: true
+draft: False
 description: "For this second part of datalake building, we’ll go deeper into the journey of data, more specifically expand on storage and compute strategies."
 keywords:
     - Data Science
