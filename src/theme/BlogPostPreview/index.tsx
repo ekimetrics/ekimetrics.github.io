@@ -49,7 +49,7 @@ function BlogPostPreview(props: Props): JSX.Element {
   const authorTitle = frontMatter.author_title || frontMatter.authorTitle;
   const authorImageURL =
     frontMatter.author_image_url || frontMatter.authorImageURL;
-  const imageUrl = useBaseUrl(image, {absolute: true});
+  const imageUrl = useBaseUrl(headerImageURL, {absolute: true});
 
   const renderPostHeader = () => {
     const TitleHeading = isBlogPostPage ? 'h1' : 'h2';
@@ -118,9 +118,9 @@ function BlogPostPreview(props: Props): JSX.Element {
         {keywords && keywords.length && (
           <meta name="keywords" content={keywords.join(',')} />
         )}
-        {image && <meta property="og:image" content={imageUrl} />}
-        {image && <meta name="twitter:image" content={imageUrl} />}
-        {image && (
+        {imageUrl && <meta property="og:image" content={imageUrl} />}
+        {imageUrl && <meta name="twitter:image" content={imageUrl} />}
+        {imageUrl && (
           <meta name="twitter:image:alt" content={`Image for ${title}`} />
         )}
       </Head>
