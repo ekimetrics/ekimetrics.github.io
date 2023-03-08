@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[47],{116:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"real-time","name":"real-time","count":1,"permalink":"/blog/tags/real-time"}')}}]);

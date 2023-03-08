@@ -2,11 +2,18 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ekimetrics.github.io/blog</id>
     <title>Eki.Lab Blog</title>
-    <updated>2023-02-28T00:00:00.000Z</updated>
+    <updated>2023-03-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://ekimetrics.github.io/blog"/>
     <subtitle>Eki.Lab Blog</subtitle>
     <icon>https://ekimetrics.github.io/img/favicon.png</icon>
+    <entry>
+        <title type="html"><![CDATA[Does your company level with your car in terms of Analytics?]]></title>
+        <id>Does your company level with your car in terms of Analytics?</id>
+        <link href="https://ekimetrics.github.io/blog/2023/03/07/level_car_analytics"/>
+        <updated>2023-03-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[See what ABS and ESP do in a car and what it corresponds to in a company. This article advocates real-time analytics for ML insights. ]]></summary>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Building a datalake - Part 2 - Smart storage & computing strategies for better usability and usefulness]]></title>
         <id>Building a datalake - Part 2 - Smart storage &amp; computing strategies for better usability and usefulness</id>

@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[20],{89:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"data-processing","name":"data processing","count":1,"permalink":"/blog/tags/data-processing"}')}}]);

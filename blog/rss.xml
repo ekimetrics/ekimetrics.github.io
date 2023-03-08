@@ -4,9 +4,16 @@
         <title>Eki.Lab Blog</title>
         <link>https://ekimetrics.github.io/blog</link>
         <description>Eki.Lab Blog</description>
-        <lastBuildDate>Tue, 28 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 07 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Does your company level with your car in terms of Analytics?]]></title>
+            <link>https://ekimetrics.github.io/blog/2023/03/07/level_car_analytics</link>
+            <guid>Does your company level with your car in terms of Analytics?</guid>
+            <pubDate>Tue, 07 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[See what ABS and ESP do in a car and what it corresponds to in a company. This article advocates real-time analytics for ML insights. ]]></description>
+        </item>
         <item>
             <title><![CDATA[Building a datalake - Part 2 - Smart storage & computing strategies for better usability and usefulness]]></title>
             <link>https://ekimetrics.github.io/blog/2023/02/28/building_datalake_part_2</link>

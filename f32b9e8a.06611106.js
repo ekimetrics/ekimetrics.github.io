@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[149],{216:function(a){a.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"data-governance","name":"data governance","count":2,"permalink":"/blog/tags/data-governance"}')}}]);
