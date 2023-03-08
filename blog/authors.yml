@@ -1,0 +1,36 @@
+ali.ghazouani:
+  name: Ali Ghazouani
+  title: Junior Data Scientist Consultant
+  image_url: https://github.com/eki-ghazouani.png
+  url: mailto:inno@ekimetrics.com
+
+nathan.rouff:
+  name: Nathan Rouff
+  title : Data Scientist Consultant
+  image_url: /img/authors/nathan_rouff.png
+  url: mailto:inno@ekimetrics.com
+
+milan.bhan:
+  name: Milan Bhan
+  title : Senior Data Scientist Consultant
+  image_url: /img/authors/nathan_rouff.png
+  url: mailto:inno@ekimetrics.com
+
+
+pierre.biousse:
+  name: Pierre Biousse
+  title : Data Science Manager
+  # image_url: /img/authors/nathan_rouff.png
+  url: mailto:inno@ekimetrics.com
+
+theo.dacosta:
+  name: Théo Alves Da costa
+  title : Sustainability Senior Manager
+  image_url: /img/authors/theo_dacosta.png
+  url: mailto:inno@ekimetrics.com
+
+arnaud.lievin:
+  name: Arnaud LIEVIN
+  title : Data Engineering & Architecture Practice Leader
+  # image_url: /img/authors/nathan_rouff.png
+  url: mailto:inno@ekimetrics.com

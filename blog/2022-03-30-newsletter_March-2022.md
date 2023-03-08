@@ -1,7 +1,7 @@
 ---
 title: Newsletter for March 2022
 author: Samuel Chaineau
-author_title:
+# author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/forest_1.jpg"
 tags: [ML Monitoring, Javascript, Time Series Modelling]

@@ -1,7 +1,7 @@
 ---
 title: Exploring neural ordinary differential equations for time series forecasting applications
 author: Miguel Omenaca Muro
-author_title: Data Scientist Consultant
+# author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/neural_ode_cover.png"
 tags: [Time Series Forecasting, Sales Prediction, Neural Ordinary Differential Equations, Deep Learning, Newspaper Industry]

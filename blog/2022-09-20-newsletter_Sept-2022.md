@@ -1,6 +1,6 @@
 ---
 title: Newsletter for September 2022
-author: Ali Ghazouani
+# author: Ali Ghazouani
 author_title: Data Science Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/header.png"

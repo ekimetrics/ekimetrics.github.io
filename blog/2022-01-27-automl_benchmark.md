@@ -1,7 +1,7 @@
 ---
 title: Which AutoML platform to choose to start your Data Science project?
 author: Quentin Tremouille
-author_title:
+
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/Nyhavn_2.jpg"
 tags: [AutoML, Benchmark, Automatic Machine Learning]

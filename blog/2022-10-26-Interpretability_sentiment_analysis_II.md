@@ -1,7 +1,7 @@
 ---
 title: "Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (2/2)"
 author: Milan Bhan
-author_title: Senior Data Science Consultant, PhD student
+# author_title: Senior Data Science Consultant, PhD student
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/interpretability_articles_2.jpg"
 tags: [NLP, Transformers, BERT, interpretability, explainability, XAI, attention]

@@ -1,7 +1,7 @@
 ---
 title: Power BI - Improve your development process by using multiple environments
 author: Samuel Cordano
-author_title:
+# author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/windmills.jpg"
 tags: [Power BI, Environments]

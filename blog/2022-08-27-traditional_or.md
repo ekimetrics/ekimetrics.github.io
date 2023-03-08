@@ -1,7 +1,7 @@
 ---
 title: Deep RL and Optimization applied to Operations Research problem - 1/2 Traditional Optimization techniques
 author: Nathan Rouff
-author_title: Data Scientist Consultant
+# author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/plitvice_lakes.jpg"
 tags: [Operational Research, Optimization, Knapsack problem, Solvers]

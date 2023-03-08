@@ -1,7 +1,7 @@
 ---
 title: Bayesian inference for better predictions of magazine sales
 author: Duong Nguyen
-author_title: Senior Machine Learning Consultant
+# author_title: Senior Machine Learning Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/press_printing.jpg"
 tags: [Bayesian Inference, Digital Transformation, Sales Prediction, AthenIA]

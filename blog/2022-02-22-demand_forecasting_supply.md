@@ -1,7 +1,7 @@
 ---
 title: Demand Forecasting - Improving Supply Chain operations in uncertain times
 author: Alexis Cruveiller
-author_title:
+# author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/supply_warehouse.png"
 tags: [Demand Forecasting, Supply Chain, LightGBM, Streamlit]

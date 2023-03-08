@@ -1,7 +1,7 @@
 ---
 title: Deep RL and Optimization applied to Operations Research problem - 3/3 Fast experimentation with Deep Reinforcement Learning with Stable Baselines and Optuna
 author: Nathan Rouff
-author_title: Data Scientist Consultant
+# author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/dubrovnik.jpg"
 tags: [Operational Research, Optimization, Knapsack problem, Deep Reinforcement Learning, Hyperparameter Tuning]

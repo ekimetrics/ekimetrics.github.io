@@ -1,7 +1,7 @@
 ---
 title: "Exploring the links between creative execution and marketing effectiveness - Part IV: MMM for Creative Marketing Effectiveness"
 author: Marina Bermejo Sarmiento, Monica Brondholt Sorensen, Karin Sasaki
-author_title: Data Scientist Consultant
+# author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/Eki_Meta_part_IV.png"
 tags: [Object Detection, Optical Character Recognition, Marketing Mix Modelling, Deep Learning, Tesseract]

@@ -50,11 +50,7 @@ module.exports = {
       defaultMode:"dark",
       disableSwitch:true,
     },
-    googleAnalytics: {
-      trackingID: 'UA-124520099-9',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
+
     navbar: {
       title: 'Eki.Lab',
       items: [
@@ -160,6 +156,11 @@ module.exports = {
           postsPerPage: 9,
           remarkPlugins: [math],
           rehypePlugins: [katex],
+        },
+        googleAnalytics: {
+          trackingID: 'UA-124520099-9',
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
         },
         // blog_test: {
         //   showReadingTime: true,

@@ -1,8 +1,11 @@
 ---
 title: Hackathon Stories - Ensuring access to affordable and clean energy
+
 author: Pierre Biousse
-author_title:
+author_title: Data Science Manager
 author_url: mailto:inno@ekimetrics.com
+author_image_url: /img/authors/pierre_biousse.png
+
 header_image_url: "img/blog/Solar_2.jpg"
 tags: [Hackathon, Teamwork, Sustainable AI]
 draft: false

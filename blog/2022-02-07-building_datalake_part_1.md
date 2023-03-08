@@ -1,7 +1,7 @@
 ---
 title: Building a datalake - Part 1 - Usable, Useful, Used, or how to avoid dataswamp and empty shell traps
 author: Emilien BOUCAUD
-author_title:
+# author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/image_overview_article_datalake_1.jpg"
 tags: [Datalake, Data Engineering, Architecture, Data Governance, Data Mesh]

@@ -1,9 +1,15 @@
 ---
 slug: introduction-pyepidemics
 title: Introduction to Pyepidemics - epidemiological modeling in Python
-author: Theo Alves Da Costa
-author_title:
+
+author: Théo Alves Da Costa
+author_title: Sustainability Senior Manager
 author_url: mailto:inno@ekimetrics.com
+author_image_url: /img/authors/theo_dacosta.png
+
+# authors: [theo.dacosta]
+
+
 header_image_url: img/blog/intro-pyepidemics.jpg
 tags: [Open-Source,Epidemiology,Bayesian]
 draft: false
