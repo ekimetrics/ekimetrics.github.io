@@ -9,332 +9,212 @@
     <icon>https://ekimetrics.github.io/img/favicon.png</icon>
     <entry>
         <title type="html"><![CDATA[Does your company level with your car in terms of Analytics?]]></title>
-        <id>https://ekimetrics.github.io/blog/2023/03/07/level_car_analytics</id>
+        <id>Does your company level with your car in terms of Analytics?</id>
         <link href="https://ekimetrics.github.io/blog/2023/03/07/level_car_analytics"/>
         <updated>2023-03-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[See what ABS and ESP do in a car and what it corresponds to in a company. This article advocates real-time analytics for ML insights. ]]></summary>
-        <author>
-            <name>Arnaud LIEVIN</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Building a datalake - Part 2 - Smart storage & computing strategies for better usability and usefulness]]></title>
-        <id>https://ekimetrics.github.io/blog/2023/02/28/building_datalake_part_2</id>
+        <id>Building a datalake - Part 2 - Smart storage &amp; computing strategies for better usability and usefulness</id>
         <link href="https://ekimetrics.github.io/blog/2023/02/28/building_datalake_part_2"/>
         <updated>2023-02-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[For this second part of datalake building, we’ll go deeper into the journey of data, more specifically expand on storage and compute strategies.]]></summary>
-        <author>
-            <name>Emilien BOUCAUD</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part V: Key Paths to Success and Common Pitfalls to Avoid]]></title>
-        <id>https://ekimetrics.github.io/blog/2023/02/21/creative_execution_and_marketing_effectiveness_part_V</id>
+        <id>Exploring the links between creative execution and marketing effectiveness - Part V: Key Paths to Success and Common Pitfalls to Avoid</id>
         <link href="https://ekimetrics.github.io/blog/2023/02/21/creative_execution_and_marketing_effectiveness_part_V"/>
         <updated>2023-02-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ In this last part, we outline the key learnings from this project, including key paths to success and common pitfalls to avoid.]]></summary>
-        <author>
-            <name>Marina Bermejo Sarmiento, Monica Brondholt Sorensen, Karin Sasaki</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part IV: MMM for Creative Marketing Effectiveness]]></title>
-        <id>https://ekimetrics.github.io/blog/2023/01/15/creative_execution_and_marketing_effectiveness_part_IV</id>
+        <id>Exploring the links between creative execution and marketing effectiveness - Part IV: MMM for Creative Marketing Effectiveness</id>
         <link href="https://ekimetrics.github.io/blog/2023/01/15/creative_execution_and_marketing_effectiveness_part_IV"/>
         <updated>2023-01-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In this Part IV we explore the MMM methodology applied.]]></summary>
-        <author>
-            <name>Marina Bermejo Sarmiento, Monica Brondholt Sorensen, Karin Sasaki</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part III: Tesseract Pre-Trained Optical Character Recognition Models]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/12/13/creative_execution_and_marketing_effectiveness_part_III</id>
+        <id>Exploring the links between creative execution and marketing effectiveness - Part III: Tesseract Pre-Trained Optical Character Recognition Models</id>
         <link href="https://ekimetrics.github.io/blog/2022/12/13/creative_execution_and_marketing_effectiveness_part_III"/>
         <updated>2022-12-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In this Part III we explore the methodology for using Tesseract to detect text in creative images.]]></summary>
-        <author>
-            <name>Marina Bermejo Sarmiento, Monica Brondholt Sorensen, Karin Sasaki</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part II Custom trained Detectron2 for OD]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/11/30/creative_execution_and_marketing_effectiveness_part_II</id>
+        <id>Exploring the links between creative execution and marketing effectiveness - Part II Custom trained Detectron2 for OD</id>
         <link href="https://ekimetrics.github.io/blog/2022/11/30/creative_execution_and_marketing_effectiveness_part_II"/>
         <updated>2022-11-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In this Part II we explore the methodology for training Detectron2 models to detect brand-specific object in creative images.]]></summary>
-        <author>
-            <name>Marina Bermejo Sarmiento, Monica Brondholt Sorensen, Karin Sasaki</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Exploring the links between creative execution and marketing effectiveness - Part I: Detectron2 Pre-Trained Object Detection Models]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/11/10/creative_execution_and_marketing_effectiveness_part_I</id>
+        <id>Exploring the links between creative execution and marketing effectiveness - Part I: Detectron2 Pre-Trained Object Detection Models</id>
         <link href="https://ekimetrics.github.io/blog/2022/11/10/creative_execution_and_marketing_effectiveness_part_I"/>
         <updated>2022-11-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In this Part I we explore the methodology for using pre-trained Detectron2 models to detect brand-specific object in creative images.]]></summary>
-        <author>
-            <name>Marina Bermejo Sarmiento, Monica Brondholt Sorensen, Karin Sasaki</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (2/2)]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/10/26/Interpretability_sentiment_analysis_II</id>
+        <id>Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (2/2)</id>
         <link href="https://ekimetrics.github.io/blog/2022/10/26/Interpretability_sentiment_analysis_II"/>
         <updated>2022-10-26T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Two illustrations of how attention coefficients can be a source of interpretability.]]></summary>
-        <author>
-            <name>Milan Bhan</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (1/2)]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/10/18/Interpretability_sentiment_analysis_I</id>
+        <id>Interpreting its sentiment analysis algorithm: BERT and its attention coefficients (1/2)</id>
         <link href="https://ekimetrics.github.io/blog/2022/10/18/Interpretability_sentiment_analysis_I"/>
         <updated>2022-10-18T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Two illustrations of how attention coefficients can be a source of interpretability]]></summary>
-        <author>
-            <name>Milan Bhan</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Newsletter for September 2022]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/09/20/newsletter_Sept-2022</id>
+        <id>Newsletter for September 2022</id>
         <link href="https://ekimetrics.github.io/blog/2022/09/20/newsletter_Sept-2022"/>
         <updated>2022-09-20T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Hi everyone, we are now in September and we release our 6th Newsletter! Ranging from podcasts to tutorials, this Newsletter is made for practicioners!]]></summary>
-        <author>
-            <name/>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Deep RL and Optimization applied to Operations Research problem - 2/2 Reinforcement Learning approach]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/09/06/deep_rl</id>
+        <id>Deep RL and Optimization applied to Operations Research problem - 2/2 Reinforcement Learning approach</id>
         <link href="https://ekimetrics.github.io/blog/2022/09/06/deep_rl"/>
         <updated>2022-09-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This article is part of a series of articles which will introduce several optimization techniques, from traditional (yet advanced) Mathematical Optimization solvers and associated packages to Deep Reinforcement Learning algorithms, while tackling a very famous Operations Research problem: the multi-knapsack problem. Here, the focus is on an approach based on two famous reinforcement learning algorithms: Q-Learning and Policy Gradient.]]></summary>
-        <author>
-            <name>Nathan Rouff</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Deep RL and Optimization applied to Operations Research problem - 1/2 Traditional Optimization techniques]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/08/27/traditional_or</id>
+        <id>Deep RL and Optimization applied to Operations Research problem - 1/2 Traditional Optimization techniques</id>
         <link href="https://ekimetrics.github.io/blog/2022/08/27/traditional_or"/>
         <updated>2022-08-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This article is part of a series of articles which will introduce several optimization techniques, from traditional (yet advanced) Mathematical Optimization solvers and associated packages to Deep Reinforcement Learning algorithms, while tackling a very famous Operations Research problem: the multi-knapsack problem. Here, the focus is on traditional optimization techniques.]]></summary>
-        <author>
-            <name>Nathan Rouff</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Exploring neural ordinary differential equations for time series forecasting applications]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/07/11/neural_ode</id>
+        <id>Exploring neural ordinary differential equations for time series forecasting applications</id>
         <link href="https://ekimetrics.github.io/blog/2022/07/11/neural_ode"/>
         <updated>2022-07-11T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Enhance your knowledge on Deep Learning techniques by understanding what neural ODEs are and how we could benefit from them.]]></summary>
-        <author>
-            <name>Miguel Omenaca Muro</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Newsletter for June 2022]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/07/05/newsletter_June-2022</id>
+        <id>Newsletter for June 2022</id>
         <link href="https://ekimetrics.github.io/blog/2022/07/05/newsletter_June-2022"/>
         <updated>2022-07-05T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We are now at the start of July and we release our 5th Newsletter! Ranging from podcasts to tutorials, this Newsletter is made for practicioners!]]></summary>
-        <author>
-            <name>Samuel Chaineau</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Bayesian inference for better predictions of magazine sales]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/06/14/bayesian_inference</id>
+        <id>Bayesian inference for better predictions of magazine sales</id>
         <link href="https://ekimetrics.github.io/blog/2022/06/14/bayesian_inference"/>
         <updated>2022-06-14T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This article describes how Ekimetrics helped major press publishers using Bayesian inference for sales prediction.]]></summary>
-        <author>
-            <name>Duong Nguyen</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Newsletter for April 2022]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/05/02/newsletter_April-2022</id>
+        <id>Newsletter for April 2022</id>
         <link href="https://ekimetrics.github.io/blog/2022/05/02/newsletter_April-2022"/>
         <updated>2022-05-02T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We are now at the start of May and we release our 4th Newsletter! Ranging from podcasts to tutorials, this Newsletter is made for practicioners!]]></summary>
-        <author>
-            <name>Samuel Chaineau</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Deploying your Data Science app to the Cloud]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/04/21/docker</id>
+        <id>Deploying your Data Science app to the Cloud</id>
         <link href="https://ekimetrics.github.io/blog/2022/04/21/docker"/>
         <updated>2022-04-21T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Let's explore how we, at Ekimetrics, automate the deployment of our data apps on the cloud. This article will gather elements from our internal & external workshops presented at Datacraft and also the video presenting some docker best practices for industrialization. ]]></summary>
-        <author>
-            <name>Axel Richier</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Newsletter for March 2022]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/03/30/newsletter_March-2022</id>
+        <id>Newsletter for March 2022</id>
         <link href="https://ekimetrics.github.io/blog/2022/03/30/newsletter_March-2022"/>
         <updated>2022-03-30T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Ekimetrics is pleased to release its third Newsletter for the year 2022! A new feature has now been added which is a special section detailing some news that we would like to share but are not specifically linked to one of our main categories. As usual, do not hesitate to check the links added and of course using it live during your projects!]]></summary>
-        <author>
-            <name>Samuel Chaineau</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Power BI - Improve your development process by using multiple environments]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/03/16/powerbi_multiple_environments</id>
+        <id>Power BI - Improve your development process by using multiple environments</id>
         <link href="https://ekimetrics.github.io/blog/2022/03/16/powerbi_multiple_environments"/>
         <updated>2022-03-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[ Learn in this article why and how to use different environments when developing products in Power BI. ]]></summary>
-        <author>
-            <name>Samuel Cordano</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Newsletter for February 2022]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/02/28/newsletter_Feb-2022</id>
+        <id>Newsletter for February 2022</id>
         <link href="https://ekimetrics.github.io/blog/2022/02/28/newsletter_Feb-2022"/>
         <updated>2022-02-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Ekimetrics is pleased to release its second Newsletter of 2022! This cheat sheet will brief you quickly about the latest news in the fields of Data Science, Machine Learning, Data Engineering and Application Development. Warning this one is particularly ruled by DeepMind so be prepared!]]></summary>
-        <author>
-            <name>Samuel Chaineau</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Demand Forecasting - Improving Supply Chain operations in uncertain times]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/02/22/demand_forecasting_supply</id>
+        <id>Demand Forecasting - Improving Supply Chain operations in uncertain times</id>
         <link href="https://ekimetrics.github.io/blog/2022/02/22/demand_forecasting_supply"/>
         <updated>2022-02-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Learn in this article how we industrialized a solution for warehouse demand forecasting to help Operations managers better allocate resources for more than 20.000 referenced products]]></summary>
-        <author>
-            <name>Alexis Cruveiller</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Ekimetrics implements Data Mesh. Here is why, and why you should join us]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/02/09/ekimetrics_implements_data_mesh</id>
+        <id>Ekimetrics implements Data Mesh. Here is why, and why you should join us</id>
         <link href="https://ekimetrics.github.io/blog/2022/02/09/ekimetrics_implements_data_mesh"/>
         <updated>2022-02-09T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[This article describes one of the inspirational patterns that drive our projects’ data architectures, the Data Mesh.]]></summary>
-        <author>
-            <name>Arnaud Lievin</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Building a datalake - Part 1 - Usable, Useful, Used, or how to avoid dataswamp and empty shell traps]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/02/07/building_datalake_part_1</id>
+        <id>Building a datalake - Part 1 - Usable, Useful, Used, or how to avoid dataswamp and empty shell traps</id>
         <link href="https://ekimetrics.github.io/blog/2022/02/07/building_datalake_part_1"/>
         <updated>2022-02-07T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[In this article, learn how to create your first datalake following best practices in order to make it robust, evolutive and central to your company's information architecture, as well as take advantage of the opportunities it presents.]]></summary>
-        <author>
-            <name>Emilien BOUCAUD</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Which AutoML platform to choose to start your Data Science project?]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/01/27/automl_benchmark</id>
+        <id>Which AutoML platform to choose to start your Data Science project?</id>
         <link href="https://ekimetrics.github.io/blog/2022/01/27/automl_benchmark"/>
         <updated>2022-01-27T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[How do Automatic Machine Learning solutions work? What are the most popular AutoML solutions out there, and what do you need to know about them to make the right choice for your use case? Find answers to these questions and many others in this article.]]></summary>
-        <author>
-            <name>Quentin Tremouille</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Hackathon Stories - Ensuring access to affordable and clean energy]]></title>
-        <id>https://ekimetrics.github.io/blog/2022/01/06/hackathon</id>
+        <id>Hackathon Stories - Ensuring access to affordable and clean energy</id>
         <link href="https://ekimetrics.github.io/blog/2022/01/06/hackathon"/>
         <updated>2022-01-06T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Read this article to see how and why Ekimetrics organize hackathons to foster creativity, innovation and team work in our Data teams. Also learn important tips for organizing your own hackathons.]]></summary>
-        <author>
-            <name>Pierre Biousse</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Customer Journey Clustering - How to use sequential modeling techniques to handle customer journey data]]></title>
-        <id>https://ekimetrics.github.io/blog/2021/12/22/cjc</id>
+        <id>Customer Journey Clustering - How to use sequential modeling techniques to handle customer journey data</id>
         <link href="https://ekimetrics.github.io/blog/2021/12/22/cjc"/>
         <updated>2021-12-22T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Enrich your understanding of customer journeys through clustering using  image embedding, autoencoders and unsupervised learning.]]></summary>
-        <author>
-            <name>Sabri Belli</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Introduction to Pyepidemics - epidemiological modeling in Python]]></title>
-        <id>https://ekimetrics.github.io/blog/introduction-pyepidemics</id>
+        <id>introduction-pyepidemics</id>
         <link href="https://ekimetrics.github.io/blog/introduction-pyepidemics"/>
         <updated>2021-12-13T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[We created Pyepidemics, an open-source library to simulate epidemics (SIR, SEIHDR, COVID19). We detail in this article what you can build with the library.]]></summary>
-        <author>
-            <name>Théo Alves Da Costa</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Solving the Traveling Salesman Problem with Reinforcement Learning]]></title>
-        <id>https://ekimetrics.github.io/blog/2021/11/03/tsp</id>
+        <id>Solving the Traveling Salesman Problem with Reinforcement Learning</id>
         <link href="https://ekimetrics.github.io/blog/2021/11/03/tsp"/>
         <updated>2021-11-03T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[A practical use of Reinforcement Learning and the Q-Learning algorithm to solve the Traveling Salesman Problem]]></summary>
-        <author>
-            <name>Théo Alves Da Costa</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Deploying a Python Dash application for beginners]]></title>
-        <id>https://ekimetrics.github.io/blog/dash-deployment</id>
+        <id>dash-deployment</id>
         <link href="https://ekimetrics.github.io/blog/dash-deployment"/>
         <updated>2021-10-16T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Learn the basics of application deployment from simple examples on Heroku to creating Docker containers]]></summary>
-        <author>
-            <name>Théo Alves Da Costa</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
     <entry>
         <title type="html"><![CDATA[Welcome to the new Ekimetrics Tech website!]]></title>
-        <id>https://ekimetrics.github.io/blog/welcome</id>
+        <id>welcome</id>
         <link href="https://ekimetrics.github.io/blog/welcome"/>
         <updated>2021-10-15T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Welcome to EkiLab website - the Ekimetrics technology & innovation blog and website!]]></summary>
-        <author>
-            <name>Pierre Biousse</name>
-            <uri>mailto:inno@ekimetrics.com</uri>
-        </author>
     </entry>
 </feed>
