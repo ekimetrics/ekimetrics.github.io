@@ -11,7 +11,7 @@ author_image_url: /img/authors/theo_dacosta.png
 
 
 header_image_url: img/blog/intro-pyepidemics.jpg
-tags: [Open-Source,Epidemiology,Bayesian]
+# tags: [Open-Source,Epidemiology,Bayesian]
 draft: false
 description: We created Pyepidemics, an open-source library to simulate epidemics (SIR, SEIHDR, COVID19). We detail in this article what you can build with the library.   
 keywords:

@@ -4,7 +4,7 @@ author: Samuel Chaineau
 # author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/couv.jpg"
-tags: [Machine Learning, Javascript bundler, Data Engineering]
+# tags: [Machine Learning, Javascript bundler, Data Engineering]
 draft: false
 description: "We are now at the start of May and we release our 4th Newsletter! Ranging from podcasts to tutorials, this Newsletter is made for practicioners!"
 keywords:

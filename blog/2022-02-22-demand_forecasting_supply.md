@@ -4,7 +4,7 @@ author: Alexis Cruveiller
 # author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/supply_warehouse.png"
-tags: [Demand Forecasting, Supply Chain, LightGBM, Streamlit]
+# tags: [Demand Forecasting, Supply Chain, LightGBM, Streamlit]
 draft: false
 description: "Learn in this article how we industrialized a solution for warehouse demand forecasting to help Operations managers better allocate resources for more than 20.000 referenced products"
 keywords:

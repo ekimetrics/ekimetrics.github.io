@@ -4,7 +4,7 @@ author: Samuel Chaineau
 # author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/green_grass_and_sun.jpg"
-tags: [DeepMind, AirFlow, Apache Arrow, FlightSQL, Low code]
+# tags: [DeepMind, AirFlow, Apache Arrow, FlightSQL, Low code]
 draft: false
 description: "Ekimetrics is pleased to release its second Newsletter of 2022! This cheat sheet will brief you quickly about the latest news in the fields of Data Science, Machine Learning, Data Engineering and Application Development. Warning this one is particularly ruled by DeepMind so be prepared!"
 keywords:

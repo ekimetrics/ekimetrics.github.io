@@ -4,7 +4,7 @@ author: Miguel Omenaca Muro
 # author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/neural_ode_cover.png"
-tags: [Time Series Forecasting, Sales Prediction, Neural Ordinary Differential Equations, Deep Learning, Newspaper Industry]
+# tags: [Time Series Forecasting, Sales Prediction, Neural Ordinary Differential Equations, Deep Learning, Newspaper Industry]
 draft: false
 description: "Enhance your knowledge on Deep Learning techniques by understanding what neural ODEs are and how we could benefit from them."
 keywords:
