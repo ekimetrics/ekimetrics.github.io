@@ -7,7 +7,7 @@ author_url: mailto:inno@ekimetrics.com
 author_image_url: /img/authors/pierre_biousse.png
 
 header_image_url: "img/blog/Solar_2.jpg"
-# tags: [Hackathon, Teamwork, Sustainable AI]
+tags: [Hackathon, Teamwork, Sustainable AI]
 draft: false
 description: "Read this article to see how and why Ekimetrics organize hackathons to foster creativity, innovation and team work in our Data teams. Also learn important tips for organizing your own hackathons."
 keywords:

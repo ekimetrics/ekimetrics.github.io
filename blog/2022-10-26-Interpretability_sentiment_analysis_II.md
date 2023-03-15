@@ -4,7 +4,7 @@ author: Milan Bhan
 # author_title: Senior Data Science Consultant, PhD student
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/interpretability_articles_2.jpg"
-# tags: [NLP, Transformers, BERT, interpretability, explainability, XAI, attention]
+tags: [NLP, Transformers, BERT, interpretability, explainability, XAI, attention]
 draft: false
 description: "Two illustrations of how attention coefficients can be a source of interpretability."
 

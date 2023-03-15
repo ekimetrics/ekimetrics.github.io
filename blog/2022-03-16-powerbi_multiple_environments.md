@@ -4,7 +4,7 @@ author: Samuel Cordano
 # author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/windmills.jpg"
-# tags: [Power BI, Environments]
+tags: [Power BI, Environments]
 draft: false
 description: "
 Learn in this article why and how to use different environments when developing products in Power BI.

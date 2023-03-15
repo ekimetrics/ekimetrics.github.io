@@ -4,7 +4,7 @@ author: Arnaud Lievin
 # author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/mesh_building_kennedy.jpg"
-# tags: [Data Mesh, Architecture]
+tags: [Data Mesh, Architecture]
 draft: false
 description: "This article describes one of the inspirational patterns that drive our projects’ data architectures, the Data Mesh."
 keywords:

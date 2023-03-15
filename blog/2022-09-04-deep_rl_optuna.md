@@ -4,7 +4,7 @@ author: Nathan Rouff
 # author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/dubrovnik.jpg"
-# tags: [Operational Research, Optimization, Knapsack problem, Deep Reinforcement Learning, Hyperparameter Tuning]
+tags: [Operational Research, Optimization, Knapsack problem, Deep Reinforcement Learning, Hyperparameter Tuning]
 draft: true
 description: "This article is part of a series of articles which will introduce several optimization techniques, from traditional (yet advanced) Mathematical Optimization solvers and associated packages to Deep Reinforcement Learning algorithms, while tackling a very famous Operations Research problem: the multi-knapsack problem. Here, 3 famous packages are used together to ensure fast experimentation with Deep Reinforcement Learning: Open AI Gym, Stable Baselines and Optuna."
 keywords:

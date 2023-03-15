@@ -9,7 +9,7 @@ author_image_url: /img/authors/theo_dacosta.png
 
 
 header_image_url: img/blog/dash-deployment.jpg
-# tags: [Industrialization]
+tags: [Industrialization]
 description: Learn the basics of application deployment from simple examples on Heroku to creating Docker containers  
 keywords:
     - Data Science

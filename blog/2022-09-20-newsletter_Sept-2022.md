@@ -4,7 +4,7 @@ title: Newsletter for September 2022
 author_title: Data Science Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/header.png"
-# tags: [Data Science, Data Engineering, Data Mesh, NPM, Hopular]
+tags: [Data Science, Data Engineering, Data Mesh, NPM, Hopular]
 draft: False
 description: "Hi everyone, we are now in September and we release our 6th Newsletter! Ranging from podcasts to tutorials, this Newsletter is made for practicioners!"
 keywords:

@@ -4,7 +4,7 @@ author: Samuel Chaineau
 # author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/beach_2.jpg"
-# tags: [Distributed Computing, NLP, Liquid Neural Network, Data Engineering]
+tags: [Distributed Computing, NLP, Liquid Neural Network, Data Engineering]
 draft: false
 description: "We are now at the start of July and we release our 5th Newsletter! Ranging from podcasts to tutorials, this Newsletter is made for practicioners!"
 keywords:

@@ -4,7 +4,7 @@ author: Duong Nguyen
 # author_title: Senior Machine Learning Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/press_printing.jpg"
-# tags: [Bayesian Inference, Digital Transformation, Sales Prediction, AthenIA]
+tags: [Bayesian Inference, Digital Transformation, Sales Prediction, AthenIA]
 draft: false
 description: "This article describes how Ekimetrics helped major press publishers using Bayesian inference for sales prediction."
 keywords:

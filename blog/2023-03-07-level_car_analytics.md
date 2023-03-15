@@ -13,7 +13,7 @@ author: Arnaud LIEVIN
 author_title: Data Engineering & Architecture Practice Leader
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/level_car_analytics.jpg"
-# tags: [Thought Leadership, Data Processing, Real-Time, Analytics]
+tags: [Thought Leadership, Data Processing, Real-Time, Analytics]
 draft: false
 description: "See what ABS and ESP do in a car and what it corresponds to in a company. This article advocates real-time analytics for ML insights. "
 keywords:
