@@ -40,7 +40,6 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'ekimetrics', // Usually your GitHub org/user name.
   projectName: 'ekimetrics.github.io', // Usually your repo name.
-  DEPLOYMENT_BRANCH: "master",
   themeConfig: {
     image:"http://ekimetrics.github.io/img/10-cubecube03.jpg",
     prism: {
