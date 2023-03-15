@@ -47,11 +47,11 @@ function BlogPostItem(props: Props): JSX.Element {
   const authorTitle = frontMatter.author_title || frontMatter.authorTitle;
   const authorImageURL =
     frontMatter.author_image_url || frontMatter.authorImageURL;
-
+  const imageUrl = useBaseUrl(image, {absolute: true});
 
   let headerImageURL = frontMatter.header_image_url;
   headerImageURL = useBaseUrl(headerImageURL);
-  const imageUrl = useBaseUrl(headerImageURL);
+
 
   const renderPostHeader = () => {
     const TitleHeading = isBlogPostPage ? 'h1' : 'h2';
@@ -107,9 +107,9 @@ function BlogPostItem(props: Props): JSX.Element {
         {keywords && keywords.length && (
           <meta name="keywords" content={keywords.join(',')} />
         )}
-        {imageUrl && <meta property="og:image" content={imageUrl} />}
-        {imageUrl && <meta name="twitter:image" content={imageUrl} />}
-        {imageUrl && (
+        {image && <meta property="og:image" content={imageUrl} />}
+        {image && <meta name="twitter:image" content={imageUrl} />}
+        {image && (
           <meta name="twitter:image:alt" content={`Image for ${title}`} />
         )}
       </Head>
