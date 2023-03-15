@@ -1,7 +1,7 @@
 ---
 title: "Exploring the links between creative execution and marketing effectiveness - Part I: Detectron2 Pre-Trained Object Detection Models"
 author: Marina Bermejo Sarmiento, Monica Brondholt Sorensen, Karin Sasaki
-# author_title: Data Scientist Consultants
+author_title: Data Scientist Consultants
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/Eki_meta_part_I.png"
 tags: [Object Detection, Optical Character Recognition, Detectron2, Marketing Mix Modelling, Deep Learning]

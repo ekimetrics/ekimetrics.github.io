@@ -1,7 +1,7 @@
 ---
 title: "Exploring the links between creative execution and marketing effectiveness - Part V: Key Paths to Success and Common Pitfalls to Avoid"
 author: Marina Bermejo Sarmiento, Monica Brondholt Sorensen, Karin Sasaki
-# author_title: Data Scientist Consultant
+author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/Eki_Meta_part_V.png"
 tags: [Object Detection, Optical Character Recognition, Marketing Mix Modelling, Deep Learning, Tesseract]

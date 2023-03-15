@@ -1,7 +1,7 @@
 ---
 title: Newsletter for February 2022
 author: Samuel Chaineau
-# author_title:
+author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/green_grass_and_sun.jpg"
 tags: [DeepMind, AirFlow, Apache Arrow, FlightSQL, Low code]

@@ -1,7 +1,7 @@
 ---
 title: Ekimetrics implements Data Mesh. Here is why, and why you should join us
 author: Arnaud Lievin
-# author_title:
+author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/mesh_building_kennedy.jpg"
 tags: [Data Mesh, Architecture]

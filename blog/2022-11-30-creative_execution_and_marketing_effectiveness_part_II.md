@@ -1,7 +1,7 @@
 ---
 title: "Exploring the links between creative execution and marketing effectiveness - Part II Custom trained Detectron2 for OD"
 author: Marina Bermejo Sarmiento, Monica Brondholt Sorensen, Karin Sasaki
-# author_title: Data Scientist Consultant
+author_title: Data Scientist Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/Eki_Meta_part_II.png"
 tags: [Object Detection, Optical Character Recognition,Marketing Mix Modelling, Deep Learning, Tesseract]

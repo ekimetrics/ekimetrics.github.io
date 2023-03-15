@@ -1,7 +1,7 @@
 ---
 title: Newsletter for June 2022
 author: Samuel Chaineau
-# author_title:
+author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/beach_2.jpg"
 tags: [Distributed Computing, NLP, Liquid Neural Network, Data Engineering]
