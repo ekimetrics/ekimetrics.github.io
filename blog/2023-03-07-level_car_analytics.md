@@ -2,16 +2,16 @@
 title: Does your company level with your car in terms of Analytics?
 # authors : [arnaud.lievin]
 
-# author: Joel Marcey
-# author_title: Co-creator of Docusaurus 1
-# author_url: https://github.com/JoelMarcey
-# author_image_url: https://github.com/JoelMarcey.png
+author: Joel Marcey
+author_title: Co-creator of Docusaurus 1
+author_url: https://github.com/JoelMarcey
+author_image_url: https://github.com/JoelMarcey.png
 
 
 
-author: Arnaud LIEVIN
-author_title: Data Engineering & Architecture Practice Leader
-author_url: mailto:inno@ekimetrics.com
+# author: Arnaud LIEVIN
+# author_title: Data Engineering & Architecture Practice Leader
+# author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/level_car_analytics.jpg"
 tags: [Thought Leadership, Data Processing, Real-Time, Analytics]
 draft: false
