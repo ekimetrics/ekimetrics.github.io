@@ -153,6 +153,7 @@ module.exports = {
           // editUrl:
           //   'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog/',
           postsPerPage: 9,
+          blogSidebarCount: 0,
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
