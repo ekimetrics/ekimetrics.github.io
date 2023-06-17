@@ -51,14 +51,61 @@ module.exports = {
       disableSwitch:true,
     },
     navbar: {
+      hideOnScroll : true,
       title: 'Eki.Lab',
+
       items: [
+
         {to: 'blog', label: 'Blog', position: 'left'},
+
+        {
+          type: 'dropdown',
+          label: 'About us',
+          position: 'left',
+          items:[
+            {
+              label: "Ekilab",
+              href:'/about'
+            },
+
+            {
+              label: "Ekimetrics",
+              href:'/about/ekimetrics'
+            },
+
+            {
+              label: "Technology stack",
+              href:'/about/stack'
+            },
+            
+          ],
+        },
+
+        {
+          type: 'dropdown',
+          label: 'Resources',
+          position: 'left',
+          items:[
+            {
+              label: "Hackathons",
+              href:'/resources/'
+            },
+
+            {
+              label: "Trainings",
+              href:'/resources/trainings'
+            },
+            
+          ],
+        },
+
+
+
         
         //{to: 'tech_newsletter', label: 'Tech Newsletter', position: 'left'},
         // {to: 'trainings/', label: 'Trainings', position: 'left'},
-        {to: 'docs/', label: 'About us', position: 'left'},
-        {to: 'resources/', label: 'Resources', position: 'left'},
+        // {to: 'docs/', label: 'About us', position: 'left'},
+        // {to: 'resources/', label: 'Resources', position: 'left'},
         {to: 'https://ekimetrics.com/fr/carrieres/', label: 'Careers', position: 'left'},
         // {to: 'careers/', label: 'Careers', position: 'left'},
 
@@ -140,6 +187,9 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          id : 'about',
+          path: 'about',
+          routeBasePath : 'about',
           sidebarPath: require.resolve('./sidebars.js'),
           remarkPlugins: [math],
           rehypePlugins: [katex],
