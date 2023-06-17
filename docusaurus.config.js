@@ -7,6 +7,8 @@ module.exports = {
   tagline: 'EkiLab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company',
   plugins: [
     require.resolve('docusaurus-lunr-search'),
+    require.resolve("docusaurus-plugin-image-zoom"),
+
 
     [
       '@docusaurus/plugin-content-docs',
@@ -40,7 +42,26 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'ekimetrics', // Usually your GitHub org/user name.
   projectName: 'ekimetrics.github.io', // Usually your repo name.
+
+
+
   themeConfig: {
+
+
+
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        background: {
+          light: 'rgba(22,41,60,1)',
+          dark: 'rgba(22,41,60,1)'
+        }
+      }
+    },
+
+
+    
     image:"http://ekimetrics.github.io/img/10-cubecube03.jpg",
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
