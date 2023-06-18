@@ -34,7 +34,6 @@ keywords:
 <!--truncate-->
 
 
-
 ## Introduction
 <div align="justify"> 
 
@@ -56,10 +55,16 @@ Because this article is about real-time analytics, it starts with the definition
 
 Below are the steps in this article, as they will be presented and explained: 
 
-![screenshot-app](img/level_car_analytics/Global_Table_1.png)
+<div align="center">
+
+  ![screenshot-app ](img/level_car_analytics/Global_Table_1.png )
+  
+</div>
 
 <br/>
 </div>
+
+
 
 
 ## Definitions
