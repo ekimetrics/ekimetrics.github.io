@@ -6,9 +6,18 @@ module.exports = {
   title: 'Eki.Lab',
   tagline: 'EkiLab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company',
   plugins: [
+
     require.resolve('docusaurus-lunr-search'),
     require.resolve("docusaurus-plugin-image-zoom"),
 
+
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: ['UA-124520099-9','G-MQNYE0E8GE'],
+        anonymizeIP: true,
+      },
+    ],
 
     [
       '@docusaurus/plugin-content-docs',
