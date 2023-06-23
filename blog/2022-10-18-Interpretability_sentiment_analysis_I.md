@@ -30,6 +30,10 @@ keywords:
 <!--truncate-->
 
 
+<div align = "center">
+
+  ![screenshot-app ](img/Interpretability_sentiment_analysis/part_I/interpretability_articles.jpg)
+</div>
 
 ## Summary
 <div align="justify"> 
@@ -56,8 +60,13 @@ An artificial neural network is a computer system inspired by the functioning of
 
 Attention mechanisms are particularly effective for natural language processing tasks. This is mainly due to the fact that they allow to properly model a word through mathematical representations. In particular, attention layers make it possible to assign a contextual representation of the word on a case-by-case basis. This makes it a much more efficient tool than Word2vec since the latter only models an average context, but does not adapt to the given situation. Attention mechanisms are at the heart of Transformers-type models as shown in the diagram below. The BERT model corresponds to a stack of the left part of the generic architecture of a Transformer [1].
 
- ![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_2.jpg)
-<div align="center"> Figure 1 - Transformers architecture</div>
+<div align="center"> 
+
+![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_2.jpg)
+
+Figure 1 - Transformers architecture
+
+</div>
 
 </div>
 
@@ -73,8 +82,15 @@ Attention mechanisms are particularly effective for natural language processing 
 To illustrate how attention coefficients can be a source of interpretability in natural language processing, we propose to fine tune a DistilBERT for sentiment analysis. A DistilBERT is a distilled version of BERT. It is smaller, faster, cheaper, lighter and recovers 97% of BERT’s performance on GLUE [2]. A perfect compromise, in fact. Most transformers are available pre-trained on the Hugging Face transformers library [3]. The objective is to perform supervised classification on the IMDB database to assess the sentiment associated with a movie review. An illustration of the dataset is shown below:
 
 
- ![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_3.jpg)
- <div align="center"> Figure 2 - IMDB sample</div>
+<div align="center"> 
+
+![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_3.jpg)
+
+ Figure 2 - IMDB sample
+
+</div>
+
+
 
 <p>&nbsp;</p>
  To do so, we import all the libraries needed.  In particular, the tokenizer DistilBertTokenizer and the pre-trained hugging face model TFDistilBertForSequenceClassification are used.
@@ -149,8 +165,15 @@ We finally have the average attention coefficients associated with the words of 
 
 The review being long, we represent the text in color. The more red the color, the higher the associated attention coefficient. The result is shown below:
 
+
+<div align="center"> 
+
  ![screenshot-app](img/Interpretability_sentiment_analysis/part_I/Image_4.jpg)
- <div align="center"> Figure 3 - Attention-Based token importance</div>
+
+Figure 3 - Attention-Based token importance
+</div>
+
+
  <p>&nbsp;</p>
 We see that the word groups "favorite movie", "it just never gets old", "performance brings tears", or "it is believable and startling" stand out. This explains well why the algorithm evaluated the review as positive and what was the semantic field at the root of this prediction.
 

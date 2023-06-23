@@ -29,6 +29,13 @@ keywords:
  -->
 <!--truncate-->
 
+<div align = "center">
+
+  ![screenshot-app ](img/neural_ode/neural_ode_cover.png)
+</div>
+
+
+<div align ="justify">
 
 For decades, time series forecasting has been a popular topic among the scientific community related to data science and artificial intelligence (AI). The reason behind this is that time series, data measured over time, are omnipresent in our day-to-day life and are used in a wide range of industries. For instance, in the retail industry, forecasting is a crucial task to optimize processes and increase efficiency. Many examples can be found in the literature mainly focusing on demand forecasting [1] and sales forecasting [2].
 
@@ -67,9 +74,13 @@ To understand neural ODEs, we need to introduce some basic concepts on neural ne
 What we must keep in mind here is that these networks have a limited number of layers and thus, of evaluation points. Could we achieve an infinite number of evaluation points for time continuous applications? The instinctive answer is no since we cannot have an infinite number of layers. However, we are going to review some interesting properties of residual networks (ResNet) that will help us answer this question.
 
 
+
+
+<div align="center"> 
+
 ![screenshot-app](img/neural_ode/image_2.png)
 
-<div align="center"> Fig. 2: ResNet schema [4]
+Fig. 2: ResNet schema [4]
 
 
  </div>
@@ -110,9 +121,12 @@ Now, if we go back to our initial question regarding the possibility of having a
 
 
 
+
+<div align="center"> 
+
 ![screenshot-app](img/neural_ode/image_3.png)
 
-<div align="center"> Fig. 3: Comparison between a ResNet and an ODE network vector fields transformations [5]
+Fig. 3: Comparison between a ResNet and an ODE network vector fields transformations [5]
 
 
  </div>
@@ -145,9 +159,12 @@ Initially, we have used a standard neural ODE network to deal with our time seri
 In this figure, we can observe that the model is able to fit the curve successfully after some iterations. The idea then is to fit the sales curves from all historical issues and the beginning part of the current issue’s curve to predict the final sales by extrapolation. Although we have obtained promising results, they are not good enough. The main reason being that neural ODEs are well suited for deterministic systems and in our case, we deal with a non-deterministic one.
 
 
+
+<div align="center"> 
+
 ![screenshot-app](img/neural_ode/curve_fitting.gif)
 
-<div align="center"> Fig. 4: Curve fitting of the sales curve of an issue
+Fig. 4: Curve fitting of the sales curve of an issue
 
 
  </div>
@@ -204,3 +221,6 @@ At Ekimetrics, we accompany a large portfolio of clients across a wide range of 
 - Neural ODEs Github repository: [GitHub - msurtsukov/neural-ode: Jupyter notebook with Pytorch implementation of Neural Ordinary Differential Equations](https://github.com/msurtsukov/neural-ode)
 
 - SDEs Github repository: [GitHub - google-research/torchsde: Differentiable SDE solvers with GPU support and efficient sensitivity analysis.](https://github.com/google-research/torchsde)
+
+
+</div>

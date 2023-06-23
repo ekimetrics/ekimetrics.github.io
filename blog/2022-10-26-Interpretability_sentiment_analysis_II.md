@@ -29,7 +29,10 @@ keywords:
  -->
 <!--truncate-->
 
+<div align = "center">
 
+  ![screenshot-app ](img/Interpretability_sentiment_analysis/Part_II/interpretability_articles_2.jpg)
+</div>
 
 ## Summary
 <div align="justify"> 
@@ -44,8 +47,13 @@ We propose to illustrate how far BERT-type models can be considered as interpret
 
 Previously, the BERT [1] and DistilBERT [2] models have been mobilized to tackle the well-known problem of sentiment analysis. In particular, we have shown that the BERT and DistilBERT models contain within their architecture attention coefficients that can be at the heart of an attribution interpretability method. Starting from an initial text, a visualization of the weight assignment method was proposed. The more red the color, the higher the associated attention coefficient. 
 
+
+<div align="center"> 
+
  ![screenshot-app](img/Interpretability_sentiment_analysis/Part_II/Image_2.jpg)
-<div align="center"> Figure 1 - Attention-Based token importance</div>
+
+Figure 1 - Attention-Based token importance
+</div>
 
 <p>&nbsp;</p>
 
@@ -61,8 +69,15 @@ Another way to do interpretability is to generate counterfactual examples. Accor
 This approach allows us to validate the interpretative strength of the tokens put forward by the attention coefficients, while illustrating what a close review would have been with an opposite sentiment. 
 We apply the methodology on a corpus of 1000 reviews. The clustering method used is the hierarchical ascending classification (HAC) and gives 3 clusters. The obtained clusters and the counterfactual generation procedure can be represented in 2 dimensions as follows:
 
+<div align="center"> 
+
  ![screenshot-app](img/Interpretability_sentiment_analysis/Part_II/Image_3.jpg)
-<div align="center"> Figure 2 - Token clusters & replacements</div>
+
+Figure 2 - Token clusters & replacements
+</div>
+
+
+
 
 
 
@@ -86,10 +101,14 @@ One way to assess the quality of the generated counterfactual examples is to eva
 
 One way to assess the quality of the generated counterfactual examples is to evaluate the proportion of reviews in a corpus whose associated sentiment has changed. The result can be represented as a "counterfactual confusion matrix" as follows:
 
-
+<div align="center"> 
 
  ![screenshot-app](img/Interpretability_sentiment_analysis/Part_II/Image_4.jpg)
-<div align="center"> Table 1 - Counterfactual confusion matrix example</div>
+
+Table 1 - Counterfactual confusion matrix example
+</div>
+
+
 
 Where :
 - X<sub>11</sub> represents the share of reviews whose initial associated sentiment and the sentiment of the counterfactual example are positive; sentiment has remained the same 
@@ -99,8 +118,15 @@ Where :
 
 We compute the "counterfactual confusion matrix" on the same text corpus that enabled us to perform clustering, picking 5 tokens for each review. The result is given below:
 
+<div align="center"> 
+
  ![screenshot-app](img/Interpretability_sentiment_analysis/Part_II/Image_5.jpg)
-<div align="center"> Table 2 - Actual counterfactual confusion matrix</div>
+
+Table 2 - Actual counterfactual confusion matrix
+</div>
+
+
+
  <p>&nbsp;</p>
 Thus, we see that changing the 5 tokens with the highest average attention produces a change in sentiment perception in 44% of cases. In particular, the rate of sentiment change for reviews initially perceived as positive is 31% while the rate of sentiment change for reviews initially perceived as negative is 53%. The change from negative to positive seems to be better achieved with our method.
 

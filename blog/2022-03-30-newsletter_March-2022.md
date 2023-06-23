@@ -21,7 +21,13 @@ keywords:
 
 <!--truncate-->
 
+<div align = "center">
 
+  ![screenshot-app ](img/newsletter_march_2022/forest_1.jpg)
+</div>
+
+
+<div align ="justify">
 
 ## Data Science 
 
@@ -35,7 +41,10 @@ The Harvard Business Review published an article where it discusses the use of A
 
 ### Guide through time series modeling
 
+<div align = "center">
+
 ![](img/newsletter_march_2022/Image2.png)
+</div>
 
 Modeling time series variables is a core competence for any Data Scientist. This exhaustive though pedagogic guide helps you better understand some basic principles behind time-series models making it a must-read for juniors willing to strengthen their knowledge or experts who would like to update their knowledge of this field. The article is made by Neptune, a ML library, so it showcases codes with it. It sill gives a good overview and you can reimplement it in your notebook easily with other libraries if you feel uncomfortable with Neptune.
 
@@ -62,8 +71,10 @@ Transformers were introduced in 2017 and created many derivatives (Longformers, 
 ## Data Engineering & Architecture
 
 ### ML Monitoring: The Promotheus fails, why? (what’s up Ridley?)
+<div align = "center">
 
 ![](img/newsletter_march_2022/Image5.png)
+</div>
 
 This article presents the task of ML monitoring while highlighting key liabilities from Prometheus, an open-source software monitoring tool. The author implements a simple example and details where Prometheus fails particularly (query latency, sliding windows…). This post is one among four dealing with ML monitoring and it is worth the reading if you want to deepen the problem!
 
@@ -84,10 +95,13 @@ The 2021 report on the state of JavaScript is now published. From the latest tre
 
 ### TV elasticity: a huge US surveys highlights overinvesting tendencies
 
+<div align = "center">
+
 ![](img/newsletter_march_2022/Image7.jpg)
+</div>
 
 From now on, we will have a special section where some hot topics that we like, but cannot be categorized in previous sections, will be put. To start it, we will discuss one of the expertise areas of Ekimetrics: Quantitative Marketing. This article from July 2021 estimates the ROI of TV advertising for 288 consumer goods across a large section of products and sectors in the US. The key takeaway is that TV is an over-invested media with saturated returns. The results from this paper do not align with the existent literature promoting a higher return on investment for TV advertising. The writers precise that traditional media market suffers from agencies issues as many professionals prefer maintaining their statement on the TV effectiveness rather than experimenting new marketing combinations. 
 
 [TV Advertising Effectiveness and Profitability: Generalizable Results From 288 Brands - Shapiro - 2021 - Econometrica - Wiley Online Library](https://onlinelibrary.wiley.com/doi/pdf/10.3982/ECTA17674?casa_token=qFjMlFmqYRgAAAAA:DdA-UGKAxUAm6t8bXRhFcEYO8_M7G7QFEDKh5KQvhx-OBAYJXg90xqgoLiPYaj_TitLTfw9FkjaPjg)
 
-
+</div>

@@ -28,7 +28,13 @@ keywords:
  -->
 <!--truncate-->
 
+<div align = "center">
 
+  ![screenshot-app ](img/bayesian_inference/press_printing.jpg)
+</div>
+
+
+<div align ="justify">
 
 
 
@@ -143,3 +149,4 @@ Since 2018, Ekimetrics has been accompanying press publishers in their digital t
 
 
 
+</div>

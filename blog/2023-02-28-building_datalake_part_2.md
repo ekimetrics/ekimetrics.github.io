@@ -33,6 +33,10 @@ keywords:
  -->
 <!--truncate-->
 
+<div align = "center">
+
+  ![screenshot-app ](img/datalake_part_2/overview_datalake_part_2_v2.png)
+</div>
 
 ## Article Scope
 <div align="justify"> 

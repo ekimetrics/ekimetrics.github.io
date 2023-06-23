@@ -7,6 +7,7 @@ authors: [theo.alves]
 # author_url: mailto:inno@ekimetrics.com
 #author_image_url: https://avatars0.githubusercontent.com/u/1315101?s=400&v=4
 header_image_url: img/blog/dash-deployment.jpg
+
 tags: [Industrialization]
 description: Learn the basics of application deployment from simple examples on Heroku to creating Docker containers  
 keywords:
@@ -23,8 +24,14 @@ keywords:
     - Python
     - Dash
 ---
+<div align="center">
+
+  ![screenshot-app ](img/dash-deployment/dash-deployment.jpg)
+  
+</div>
 
 <!--truncate-->
+
 
 ## Creating a Dash application
 Before deployment, the first step if of course to create your own application. <br/>

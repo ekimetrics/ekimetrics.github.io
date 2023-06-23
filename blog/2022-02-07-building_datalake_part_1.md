@@ -30,6 +30,14 @@ keywords:
 <!--truncate-->
 
 
+<div align = "center">
+
+  ![screenshot-app ](img/datalake_part_1/image_overview_article_datalake_1.jpg)
+</div>
+
+
+<div align ="justify">
+
 ## Article Scope
 
 Scalable and distributed, datalakes have become the new go-to for centralizing storage and insights. The main challenge is not to create one, but rather to do it right and avoid falling into the so-called __data swamp and empty shell traps__. In this article, we’ll go through how you can create your first datalake following best practices in order to make it robust, evolutive and central to your company’s information architecture, as well as take advantage of the opportunities it presents.
@@ -216,3 +224,6 @@ Once the foundation architecture is laid out and more use cases and sources are 
 Starting with the identification of a first high impact use case, you’ve been able to build a robust and evolutive datalake. Following the design principles we’ve reviewed, data and use case pipelines in your datalake are usable and useful. You are now able to show a proof of value for your datalake and grow it into a central data platform for your company.
 
 The final U we could dive deeper into is “Used” : your goal is now to maintain, grow and manage the datalake as a unified data platform, centralizing data and solutions for your business. An efficient and relevant datalake project comes with technical design challenges, some of which we’ve talked about here, but also organizational challenges. By finding solutions for technical challenges, your datalake has shown its value and it is now essential to ensure its growth. As you coordinate with business divisions, you’ll be able to draw a roadmap for the datalake and improve processes at an organizational level, using “data mesh”-like functional architectures that allow for the best flexibility in use cases, growing your platform’s relevance and enhancing data capabilities for your business.
+
+
+</div>

@@ -33,6 +33,11 @@ keywords:
  -->
 <!--truncate-->
 
+<div align = "center">
+
+  ![screenshot-app ](img/level_car_analytics/level_car_analytics.jpg)
+</div>
+
 
 ## Introduction
 <div align="justify"> 

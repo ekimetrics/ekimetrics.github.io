@@ -23,6 +23,13 @@ keywords:
 
 <!--truncate-->
 
+<div align = "center">
+
+  ![screenshot-app ](img/article_supply/supply_warehouse.png)
+</div>
+
+
+<div align ="justify">
 
 
 Demand forecasting has become a trendy topic since the COVID pandemic. It has challenged companies' Supply Chain operations and highlighted that most companies could improve their supply chain management. Therefore, generating demand for enhanced forecasting capabilities.
@@ -147,7 +154,7 @@ Thanks to this project, we learnt that:
 - Demand forecasting is not about predicting the future, but about how data helps improve communication between teams.
 
 
-
+</div>
 
 
 

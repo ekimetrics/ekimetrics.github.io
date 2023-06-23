@@ -28,6 +28,14 @@ keywords:
 
 <!--truncate-->
 
+<div align = "center">
+
+  ![screenshot-app ](img/newsletter_feb_2022/green_grass_and_sun.jpg)
+</div>
+
+
+<div align ="justify">
+
 
 
 ## Data Science 
@@ -88,3 +96,6 @@ Here under is a quick catchup about the best practices for devs for the upcoming
 ## Conclusion
 
 A promising start of 2022 that set the standards high for the year! If one article has a particular interest for you, we invite you to discuss it with your colleagues or reach out to the Innovation Community!
+
+
+</div>

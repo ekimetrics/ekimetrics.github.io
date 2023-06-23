@@ -25,6 +25,14 @@ keywords:
 <!--truncate-->
 
 
+<div align = "center">
+
+  ![screenshot-app ](img/data_mesh/mesh_building_kennedy.jpg)
+</div>
+
+
+<div align ="justify">
+
 ## Introduction
 
 Ekimetrics’ approach to data management starts from prioritized data use-cases, vision for architecture and vision for organization. Although the vision for architecture is tailored to the culture of every customer, it is inspired by the practices we see as inspiring. This article describes one of these inspirational patterns that drive our projects’ data architectures, the Data Mesh.
@@ -105,3 +113,6 @@ Such solutions can now be built with GCP, Synapse and Databricks.
 ## Conclusion
 
 If you are interested in building Data Mesh with us, please visit our [website (careers page)](https://ekimetrics.com/careers/) or our [page on Welcome to the Jungle](https://www.welcometothejungle.com/fr/companies/ekimetrics).
+
+
+</div>

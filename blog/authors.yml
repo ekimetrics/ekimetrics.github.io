@@ -19,13 +19,13 @@ milan.bhan:
 pierre.biousse:
   name: Pierre Biousse
   title : Data Science Manager
-  image_url: /img/authors/pierre_biousse.png
+  # image_url: /img/authors/pierre_biousse.png
   url: mailto:inno@ekimetrics.com
 
 
 theo.alves:
   name: Théo Alves Da Costa
   title : Head of AI For Sustainability
-  image_url: /img/authors/theo_alves.png
+  # image_url: /img/authors/theo_alves.png
   url: mailto:inno@ekimetrics.com
   

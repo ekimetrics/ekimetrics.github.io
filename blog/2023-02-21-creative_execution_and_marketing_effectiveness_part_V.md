@@ -29,6 +29,13 @@ keywords:
  -->
 <!--truncate-->
 
+
+<div align = "center">
+
+  ![screenshot-app ](img/Eki_Meta/Eki_Meta_part_V.png)
+</div>
+
+
 <div align="justify"> 
 
 This article is the last part of a set of five technical articles that accompany a [whitepaper](https://ekimetrics.com/news-and-events/exploring-the-links-between-creative-execution-and-marketing-effectiveness-exclusivepreview) written in collaboration between Meta and Ekimetrics. Object Detection (OD) and Optical Character Recognition (OCR) were used to detect specific features in creative images, such as faces, smiles, text, brand logos, etc. Then, in combination with impressions data, marketing mix models were used to investigate what objects, or combinations of objects in creative images in marketing campaigns, drive higher ROIs.

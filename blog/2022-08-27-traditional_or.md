@@ -28,6 +28,14 @@ keywords:
 <!--truncate-->
 
 
+<div align = "center">
+
+  ![screenshot-app ](img/RL_images/plitvice_lakes.jpg)
+</div>
+
+
+<div align ="justify">
+
 In this first article is introduced a systematic way to approach and solve optimization problems. Then, the multi-knapsack problem itself is introduced. Then we apply the rules defined before on how to solve optimization problems and obtain the optimal solution to the multi-knapsack problem, formulated as a Mixed Integer problem and using Python-MIP package. Let's now introduce simple steps one can follow to approach optimization problems with optimization solvers.
 
 
@@ -35,9 +43,12 @@ In this first article is introduced a systematic way to approach and solve optim
 
 Once a business problem that could benefit from optimization has been identified, we can define a systematic approach based on 3 steps for solving all kind of optimization problems with optimization solvers. These 3 steps are highlighted in the figure below.
 
+
+<div align="center"> 
+
 ![screenshot-app](img/RL_images/3_steps_math_modelling_4.png)
 
-<div align="center"> Figure 1 : The 3 main steps for solving a business problem through optimization
+Figure 1 : The 3 main steps for solving a business problem through optimization
 
 
  </div>
@@ -66,9 +77,12 @@ The objective here is, given a set of _n_ items and a set of _m_ knapsacks, to _
 
 Below,  w<sub>i</sub> represents the weight of item i,  p<sub>i</sub> the value of item i while  c<sub>j</sub> represents the capacity of knapsack j.
 
+
+<div align="center"> 
+
 ![screenshot-app](img/RL_images/Knapsack_problem_5.png)
 
-<div align="center"> Figure 2: Description of the multi-knapsack problem
+Figure 2: Description of the multi-knapsack problem
 
 
  </div>
@@ -85,9 +99,13 @@ While the problem is relatively easy to define mathematically, it belongs to the
 
 A quick translation of the multi-knapsack problem with equation can be written as the following: 
 
+
+<div align = "center">
+
 ![screenshot-app](img/RL_images/equations_1.svg)
 ![screenshot-app](img/RL_images/equations_3.svg)
 
+</div>
 
 
 Now that we managed to translate the problem into a set of equations, let's translate this mathematical model so that it is understood by a computer program. Below, we will make use of the Python package [Python-MIP](https://www.python-mip.com/) which is open-source and provides tools for modeling and solving Mixed-Integer Linear Programming Problems (MIP), relying on fast open source solvers.
@@ -180,3 +198,4 @@ The approach to solve the multi-knapsack problem relied on Python-MIP, a free op
 In the next part of this series on the multi-knapsack problem, well studied in the field of Operations Research and at the heart of many real optimization problems, we'll highlight how Deep Reinforcement Learning can be used in order to solve combinatorial optimization problems such as this one. Stay tuned!
 
 
+</div>

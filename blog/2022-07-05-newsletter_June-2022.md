@@ -21,7 +21,13 @@ keywords:
 
 <!--truncate-->
 
+<div align = "center">
 
+  ![screenshot-app ](img/newsletter_june_2022/beach_2.jpg)
+</div>
+
+
+<div align ="justify">
 
 ## Data Science 
 
@@ -39,7 +45,10 @@ As python users and data lovers, we are using pandas in our daily life. However,
 
 ### In-hand NLP search tool backed by Transformers and Q&A: Haystack
 
+<div align = "center">
+
 ![](img/newsletter_june_2022/Image_2.png)
+</div>
 
 Deepset, a German NLP start-up, released a bit more than a year ago a powerful and simple tool: Haystack. Haystack is a comprehensive framework enabling its users to use state-of-the-art Question Answering model to browse large textual datasets. Haystack is a local and little search engine. It is meant to be used by a broad range of users (from beginners to expert). You can tailor some part of the interface and even modify back-end specificities such as the backbone model used (Bert, Roberta, Luke…). 
 
@@ -47,7 +56,10 @@ Deepset, a German NLP start-up, released a bit more than a year ago a powerful a
 
 ### Liquid Neural Network: Next generation model for sequential data 
 
+<div align = "center">
+
 ![](img/newsletter_june_2022/Image_3.png)
+</div>
 
 Recurrent Neural Network (RNN) demonstrated a strong performance when used for sequential data. RNN are made of complex recurrent units enabling the network to keep track of past information while new inputs are fed in. In 2018, Neural Ordinary Differential Equations appeared and were seen as a major change in how we are modelling data. Instead of modeling the true generative function of Y, we are looking to model its derivative. This article was seen as a major change in how we can shift from a discrete model state to a continuous one. 
 Liquid Time Constant Networks (LTC) were introduced in 2020 with a strong emphasis on the concept of hidden state in the model. In previous models, hidden state at time t is optimized according to the output at time t (maximizing the accuracy). In LTCs, hidden state is used both to predict the output, but also the next hidden state t+1. It means that at each time-step, you update your memory, according to what you saw, see and expect to see in the future. This application is particularly powerful when you need to generate data at a given horizon. If you want a quick deep dive in LTC you can follow the first link. The second one is the original paper that might be hard to read the in first instance.
@@ -61,7 +73,10 @@ Liquid Time Constant Networks (LTC) were introduced in 2020 with a strong emphas
 
 ### MongoDB vs ElasticSearch vs Redshift 
 
+<div align = "center">
+
 ![](img/newsletter_june_2022/Image_4.png)
+</div>
 
 Different tools exist when required to structure and organize a data architecture. This blog post presents three contenders to be THE tool to use. The author compares three technologies widely used: MongoDB, ElasticSearch and Amazon Redshift. This comparison will look at how they index, shard and aggregate data. While MongoDB has the biggest popularity and ElasticSearch gains some hype, Amazon Redshift is a tool to be considered.
 
@@ -72,7 +87,10 @@ Different tools exist when required to structure and organize a data architectur
 
 ### Using properly Map in Javascript
 
+<div align = "center">
+
 ![](img/newsletter_june_2022/Image_5.png)
+</div>
 
 A “map” object is a new addition coming into Javascript since ES6. While the “object” is widely used for recording values, they should be avoided when you have a variable number entries (that can evolve along time). In this case, using a “map” object is appropriate and results in a significant memory saving and computational performance improvement. 
 
@@ -82,7 +100,10 @@ A “map” object is a new addition coming into Javascript since ES6. While the
 
 ### Jon Redmon, the poney lovers and Computer Vision boss !
 
+<div align = "center">
+
 ![](img/newsletter_june_2022/Image_6.png)
+</div>
 
 For anyone who worked on Computer Vision during studies or even in professional environments, Object Detection always raises as a major challenge. The task consists in detecting in a picture multiple instances and drawing a bounding box around it. Back in 2015, the state-of-the-art architecture is a Region-based Convolutional Neural Network or RCNN (followed by different improvement called Fast-RCNN, Faster-RCNN…). To make it brief and simple, RCNN takes Regions Of Interest (ROIs), which are little rectangle cropped from the image, fed to a Neural Network. Eventually ROIs are pooled together to produce the true bounding boxes we want. The biggest limit of R-CNN is the ROIs generation part which can take a lot of time before getting a prediction (therefore improvements of R-CNN always have a speed related word).
 
@@ -101,3 +122,4 @@ I strongly invite you to read (at least) his resume which is by far the best one
 ## Credits
 - Cover Photo by <a href="https://unsplash.com/@cristofer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Cristofer Maximilian</a> on <a href="https://unsplash.com/@cristofer?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+</div>
