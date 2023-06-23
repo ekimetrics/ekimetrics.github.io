@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[709],{9812:a=>{a.exports=JSON.parse('{"label":"LightGBM","permalink":"/blog/tags/light-gbm","allTagsPath":"/blog/tags","count":1}')}}]);

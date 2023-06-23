@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[4444],{57787:e=>{e.exports=JSON.parse('{"label":"Real-Time","permalink":"/blog/tags/real-time","allTagsPath":"/blog/tags","count":1}')}}]);

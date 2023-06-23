@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[389],{7174:e=>{e.exports=JSON.parse('{"label":"Newspaper Industry","permalink":"/blog/tags/newspaper-industry","allTagsPath":"/blog/tags","count":1}')}}]);
