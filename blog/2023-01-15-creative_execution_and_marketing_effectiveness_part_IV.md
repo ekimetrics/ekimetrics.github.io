@@ -29,6 +29,11 @@ keywords:
  -->
 <!--truncate-->
 
+<div align = "center">
+
+  ![screenshot-app ](img/Eki_Meta/Eki_Meta_part_IV.png)
+</div>
+
 
 
 
@@ -55,9 +60,12 @@ An optimizsed two-staged modelling approach was applied to existing MMM models d
  <p>&nbsp;</p>
 
 
+
+<div align="center"> 
+
  ![screenshot-app](img/Eki_Meta/Part4/1.png)
 
-<div align="center"> Modelling Workflow
+Modelling Workflow
  </div>
 <br/>
 
@@ -68,8 +76,11 @@ The MMM models used in this analysis are multilinear regressions accounting for 
 
  <p>&nbsp;</p>
 
+<div align="center"> 
+
  ![screenshot-app](img/Eki_Meta/Part4/2.png)
-<div align="center"> Table 1: Specifications of MMM models selected Detail of Models selected
+
+Table 1: Specifications of MMM models selected Detail of Models selected
  </div>
 <br/>
 
@@ -127,14 +138,26 @@ The last step of the analysis centred around calculating ROIs and deriving ROI u
 
 1.	Calculate the ROI of each feature (and partnering feature/s) using the contribution and the spend associated with that feature. Because the features were modelled by creative type (static, carousel, and video), the results were weighted by the percent of impressions each type represented over the total of the feature.
  
+<div align="center"> 
 
 ![screenshot-app](img/Eki_Meta/Part4/3.png)
+
+</div>
+
 <p>&nbsp;</p>
 
 2.	Calculate the ROI of the partnering variable (e.g., No Product) 
 3.	Calculate the Uplift:
 
+
+
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part4/4.png)
+
+
+</div>
 
 <p>&nbsp;</p>
 

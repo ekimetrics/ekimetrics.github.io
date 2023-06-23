@@ -1,9 +1,7 @@
 ---
 slug: introduction-pyepidemics
 title: Introduction to Pyepidemics - epidemiological modeling in Python
-author: Theo Alves Da Costa
-author_title:
-author_url: mailto:inno@ekimetrics.com
+authors: [theo.alves]
 header_image_url: img/blog/intro-pyepidemics.jpg
 tags: [Open-Source,Epidemiology,Bayesian]
 draft: false
@@ -22,6 +20,15 @@ keywords:
 ---
 
 <!--truncate-->
+
+<div align="center">
+
+  ![screenshot-app ](img/introduction-pyepidemics/intro-pyepidemics.jpg)
+
+</div>
+
+<div align = "justify">
+
 
 ## Pyepidemics
 
@@ -60,12 +67,18 @@ An epidemic is modeled with the different possible states for the population, fo
 For example the simplest compartmental model is the SIR model (for the 3 states Susceptible - Infected - Removed). 
 It is possible to write the following compartments with their transition:
 
+<div align = "center">
+
 ![](img/introduction-pyepidemics/sir.png)
 
+</div>
 The transition parameters being given by : 
+
+<div align = "center">
 
 ![](img/introduction-pyepidemics/sir2.png)
 
+</div>
 
 ### Building a SIR model with pyepidemics
 This section is detailed in this [tutorial](https://ekimetrics.github.io/pyepidemics/tutorials/quickstart/) which is also available directly on [Colab](https://colab.research.google.com/github/ekimetrics/pyepidemics/blob/master/docs/tutorials/quickstart.ipynb). 
@@ -94,8 +107,11 @@ states.show(plotly = False)
 
 What is commonly called an epidemic "wave" is observed. 
 
+<div align = "center">
+
 ![](img/introduction-pyepidemics/sir3.png)
 
+</div>
 
 #### Reimplementing the SIR model
 Let's now go into the internal workings of this abstraction to reimplement its operation in a few lines of code. Concretely we build a graph between the different states by detailing the transitions. Pyepidemics then translates this graph into a system of differential equations in order to solve it. 
@@ -213,3 +229,6 @@ These few references helped us greatly during the development of the library
 - [Infectious Disease Modelling: Beyond the Basic SIR Model](https://towardsdatascience.com/infectious-disease-modelling-beyond-the-basic-sir-model-216369c584c4)
 - [Expected impact of lockdown in Île-de-France and possible exit strategies](https://www.medrxiv.org/content/10.1101/2020.05.08.20095521v1) - by INSERM
 - [Estimating the burden of SARS-CoV-2 in France](https://hal-pasteur.archives-ouvertes.fr/pasteur-02548181/document) - by Institut Pasteur
+
+
+</div>

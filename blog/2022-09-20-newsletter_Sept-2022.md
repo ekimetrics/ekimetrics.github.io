@@ -1,8 +1,6 @@
 ---
 title: Newsletter for September 2022
-author: Ali Ghazouani
-author_title: Data Science Consultant
-author_url: mailto:inno@ekimetrics.com
+authors: [ali.ghazouani]
 header_image_url: "./img/blog/header.png"
 tags: [Data Science, Data Engineering, Data Mesh, NPM, Hopular]
 draft: False
@@ -23,7 +21,13 @@ keywords:
 <!--truncate-->
 
 
+<div align = "center">
 
+  ![screenshot-app ](img/newsletter_september_2022/header.png)
+</div>
+
+
+<div align ="justify">
 
 
 ## Data Science 
@@ -147,7 +151,7 @@ In this context, the OpenRAIL approach suggests a new type of licensing that emb
 
 [OpenRAIL: Towards open and responsible AI licensing frameworks | Carlos Munoz Ferrandis | huggingface.co](https://huggingface.co/blog/open_rail)
 
-
+</div>
 
 ## Credits
 - Photos from <a href="https://unsplash.com">Unsplash</a>

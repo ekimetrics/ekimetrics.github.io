@@ -6,7 +6,18 @@ module.exports = {
   title: 'Eki.Lab',
   tagline: 'EkiLab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company',
   plugins: [
+
     require.resolve('docusaurus-lunr-search'),
+    require.resolve("docusaurus-plugin-image-zoom"),
+
+
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: ['UA-124520099-9','G-MQNYE0E8GE'],
+        anonymizeIP: true,
+      },
+    ],
 
     [
       '@docusaurus/plugin-content-docs',
@@ -40,7 +51,26 @@ module.exports = {
   favicon: 'img/favicon.png',
   organizationName: 'ekimetrics', // Usually your GitHub org/user name.
   projectName: 'ekimetrics.github.io', // Usually your repo name.
+  deploymentBranch: "master",
+
+
   themeConfig: {
+
+
+
+    zoom: {
+      selector: '.markdown :not(em) > img',
+      config: {
+        // options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+        background: {
+          light: 'rgba(22,41,60,1)',
+          dark: 'rgba(22,41,60,1)'
+        }
+      }
+    },
+
+
+    
     image:"http://ekimetrics.github.io/img/10-cubecube03.jpg",
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
@@ -50,20 +80,62 @@ module.exports = {
       defaultMode:"dark",
       disableSwitch:true,
     },
-    googleAnalytics: {
-      trackingID: 'UA-124520099-9',
-      // Optional fields.
-      anonymizeIP: true, // Should IPs be anonymized?
-    },
     navbar: {
+      hideOnScroll : true,
       title: 'Eki.Lab',
+
       items: [
+
         {to: 'blog', label: 'Blog', position: 'left'},
+
+        {
+          type: 'dropdown',
+          label: 'About us',
+          position: 'left',
+          items:[
+            {
+              label: "Ekilab",
+              href:'/about'
+            },
+
+            {
+              label: "Ekimetrics",
+              href:'/about/ekimetrics'
+            },
+
+            {
+              label: "Technology stack",
+              href:'/about/stack'
+            },
+            
+          ],
+        },
+
+        {
+          type: 'dropdown',
+          label: 'Resources',
+          position: 'left',
+          items:[
+            {
+              label: "Hackathons",
+              href:'/resources/'
+            },
+
+            {
+              label: "Trainings",
+              href:'/resources/trainings'
+            },
+            
+          ],
+        },
+
+
+
         
         //{to: 'tech_newsletter', label: 'Tech Newsletter', position: 'left'},
         // {to: 'trainings/', label: 'Trainings', position: 'left'},
-        {to: 'docs/', label: 'About us', position: 'left'},
-        {to: 'resources/', label: 'Resources', position: 'left'},
+        // {to: 'docs/', label: 'About us', position: 'left'},
+        // {to: 'resources/', label: 'Resources', position: 'left'},
         {to: 'https://ekimetrics.com/fr/carrieres/', label: 'Careers', position: 'left'},
         // {to: 'careers/', label: 'Careers', position: 'left'},
 
@@ -145,6 +217,9 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          id : 'about',
+          path: 'about',
+          routeBasePath : 'about',
           sidebarPath: require.resolve('./sidebars.js'),
           remarkPlugins: [math],
           rehypePlugins: [katex],
@@ -158,6 +233,7 @@ module.exports = {
           // editUrl:
           //   'https://github.com/ekimetrics/ekimetrics.github.io/edit/master/website/blog/',
           postsPerPage: 9,
+          blogSidebarCount: 0,
           remarkPlugins: [math],
           rehypePlugins: [katex],
         },
@@ -170,6 +246,12 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        googleAnalytics: {
+          trackingID: 'UA-124520099-9',
+          // Optional fields.
+          anonymizeIP: true, // Should IPs be anonymized?
+        },
+    
       },
     ],
   ],

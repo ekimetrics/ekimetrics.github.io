@@ -147,7 +147,7 @@ function Home() {
         <div className={clsx("container", styles.card)}>
           <Row>
             <HomePageBlock title="Blog" href="/blog" img="img/icons/Search engine _Monochromatic.svg" description="Browse our latest articles and experiments on Data Science & AI"/>
-            <HomePageBlock title="About Us" href="/docs" img="img/icons/Spotlight _Monochromatic.svg" description="Learn about our convictions and tech best practices"/>
+            <HomePageBlock title="About Us" href="/about" img="img/icons/Spotlight _Monochromatic.svg" description="Learn about our convictions and tech best practices"/>
             <HomePageBlock title="Resources" href="/resources" img="img/icons/Email campaign_Monochromatic.svg" description="Find out about our internal trainings & Hackathons "/>
             {/* <HomePageBlock title="Hackathons" href="/hacks" img="img/icons/Competition_Monochromatic.svg" description="Test your data science skills with our hackathons & challenges"/>
             <HomePageBlock title="Open Source" href="/opensource" img="img/icons/World wide web_Monochromatic.svg" description="Discover our open source contributions to the Data Science community"/> */}

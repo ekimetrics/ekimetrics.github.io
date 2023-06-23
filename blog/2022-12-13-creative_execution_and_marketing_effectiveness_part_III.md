@@ -29,7 +29,10 @@ keywords:
  -->
 <!--truncate-->
 
+<div align = "center">
 
+  ![screenshot-app ](img/Eki_Meta/Eki_Meta_part_III.png)
+</div>
 
 <div align="justify"> 
 
@@ -44,9 +47,12 @@ Tesseract is an open-source optical character recognition (OCR) Engine that allo
 In this work, Tesseract was used to detect text in all images, in a process outlined in Figure 1. Performance of this detection tool was done using Confusion Matrices, to gain insight not only into the Accuracy, but also other metrics such as the True Positive and True Negative Rates.  
  </div>
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part3/10.PNG)
 
-<div align="center"> Figure 1 - Three stage process by which the basic performance (accuracy) of Tesseract on the original images was improved by up to 28% points.
+Figure 1 - Three stage process by which the basic performance (accuracy) of Tesseract on the original images was improved by up to 28% points.
 
  </div>
 <br/>
@@ -67,9 +73,12 @@ Building on those learnings, we implemented a pipeline, outlined in Figure 2, th
  </div>
 
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part3/11.PNG)
 
-<div align="center"> Figure 2 - Pipeline for pre-processing images before Optical Character Recognition Models, and correcting detected text.
+Figure 2 - Pipeline for pre-processing images before Optical Character Recognition Models, and correcting detected text.
 
  </div>
 <br/>
@@ -81,9 +90,12 @@ For Step 1, pre-processing methods included the following, as well as combinatio
  </div>
 
 
+
+<div align="center"> 
+
  ![screenshot-app](img/Eki_Meta/Part3/12.PNG)
 
-<div align="center"> Figure 3 - Effect of various image processing methods on the original. Images for illustrative purposes. Original images sourced from <a href="https://unsplash.com/s/photos/coca-cola" target="_top">unsplash.com</a>
+Figure 3 - Effect of various image processing methods on the original. Images for illustrative purposes. Original images sourced from <a href="https://unsplash.com/s/photos/coca-cola" target="_top">unsplash.com</a>
 
 
  </div>

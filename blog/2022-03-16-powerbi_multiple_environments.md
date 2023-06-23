@@ -1,7 +1,6 @@
 ---
 title: Power BI - Improve your development process by using multiple environments
 author: Samuel Cordano
-author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/windmills.jpg"
 tags: [Power BI, Environments]
@@ -22,6 +21,14 @@ keywords:
     - Data Science for business
 ---
 
+<div align = "center">
+
+  ![screenshot-app ](img/power_bi_environments/windmills.jpg)
+</div>
+
+
+
+
 <!--truncate-->
 
 When building a piece of software, you don’t want your users to see every messy part of your application creation process. In order to make sure you control what people see and when they have access to it, development teams use environments to create “stages” of the app which they consider good for releasing.
@@ -34,14 +41,17 @@ Each environment has its own unique purpose. There are different naming standard
 
 - __Production environment__ : where the product will be deployed after testing and made accessible to the end client. Every features should work when the product reaches this stage.
 
+<div align = "center">
 
 ![](img/power_bi_environments/1_pbi.png)
-
+</div>
 
 Furthermore, each environment should have its own database because in the same way that products evolve through development, databases also evolve: tables may be modified, added or deleted. Thus, the actual development process actually looks like this:
 
+<div align = "center">
 
 ![](img/power_bi_environments/2_pbi.png)
+</div>
 
 Now that you know __why__ you should use different environments when developing products, this article explains __how__ to do that in Power BI! 
 
@@ -65,8 +75,10 @@ As explained in the disclaimer, you should already have a report connected to da
 
 A typical report would have several tables in the pane Fields: 
 
+<div align = "center">
 
 ![](img/power_bi_environments/3_pbi.png)
+</div>
 
 As a little foreshadowing and making sure we are on the same page, open the Power Query editor (by clicking _Home_ (Top Ribbon) → _Transform Data_ → _Transform Data_; then _Advanced Editor_) for one of your tables, and notice that all your data sourcing informations are hard-coded.
 
@@ -91,8 +103,10 @@ This hard-coded information is problematic as when we publish the report from on
 
 In the Power Query Editor, click the _Manage Parameters_ (top ribbon under the Home tab) → _New Parameter_. (Or you can click _Manage Parameters_ and select the _New_ button on the top to create a parameter). You can fill in this form and select OK to create a new parameter.
 
-![](img/power_bi_environments/6_pbi.png)
+<div align = "center">
 
+![](img/power_bi_environments/6_pbi.png)
+</div>
 
 You should create parameters for every variable that needs to change as you change workspaces. In my case, I needed to create 5 parameters:
 
@@ -142,7 +156,10 @@ Check out this [video](https://www.youtube.com/watch?v=E0L1uXfefms) if you haven
 
 ### Step 1- Creating a Deployment Pipeline from your Workspace
 
+<div align = "center">
+
 ![](img/power_bi_environments/10_pbi.png)
+</div>
 
 ### Step 2- Deploy your report from the Power BI Development Workspace to the Power BI Test Workspace
 
@@ -158,11 +175,14 @@ Check out this [video](https://www.youtube.com/watch?v=E0L1uXfefms) if you haven
 
 - Select a parameter from the list of parameters; the current value is shown. Edit the value to the value you want to take effect after each deployment.
 
+<div align = "center">
+
 ![](img/power_bi_environments/12_pbi.png)
 
 ![](img/power_bi_environments/13_pbi.png)
 
 ![](img/power_bi_environments/14_pbi.png)
+</div>
 
 :::note  
 Notice on the bottom of the last screenshot the following mention: “_Rules will be applied when you deploy to this stage_”.
@@ -177,3 +197,5 @@ So this is how to use different environments in Power BI in a nutshell. We went 
 Definitely a lot of moving pieces here, but understanding theses concepts will make your workflow easier and less error-prone in the long-run ! 
 
 I hope this information can help you on your Power BI journey!
+
+

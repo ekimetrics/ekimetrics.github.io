@@ -24,6 +24,10 @@ keywords:
 ---
 
 
+<div align = "center">
+
+  ![screenshot-app ](img/Eki_Meta/Eki_meta_part_I.png)
+</div>
 
 
 <div align="justify"> 
@@ -58,9 +62,12 @@ In order to train custom train models (Part II of these series), as well as to e
  <p>&nbsp;</p>
 
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/1.jpg)
 
-<div align="center"> Figure 1 - Microsoft Azure Machine Learning Studio Image labeling Tool. Source: Microsoft.
+Figure 1 - Microsoft Azure Machine Learning Studio Image labeling Tool. Source: Microsoft.
 
 
  </div>
@@ -81,9 +88,12 @@ The train, validation and unlabeled data sets were created by taking random samp
  </div>
 <p>&nbsp;</p>
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/2_v3.png)
 
-<div align="center"> Figure 2 - The distribution of labeled objects in the Train (outer) and Validation (inner) data sets.
+Figure 2 - The distribution of labeled objects in the Train (outer) and Validation (inner) data sets.
 
 
  </div>
@@ -98,9 +108,12 @@ The object detection process relied on a combination of pre-trained and custom-t
 
 <p>&nbsp;</p>
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/3.png)
 
-<div align="center"> Figure 3 - Object Detection using different pre-trained and custom-trained models.
+Figure 3 - Object Detection using different pre-trained and custom-trained models.
 
 
  </div>
@@ -115,9 +128,12 @@ Pre-trained Detectron2 models are trained on the Microsoft COCO (Common Objects 
 
 <p>&nbsp;</p>
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/4.png)
 
-<div align="center"> Figure 4 - COCO Objects Detected in Pre-Trained Models, Present in Creatives of Brands Studied
+Figure 4 - COCO Objects Detected in Pre-Trained Models, Present in Creatives of Brands Studied
 
 
  </div>
@@ -138,9 +154,12 @@ Overall, Model 3 has the highest average Accuracy while Model 2 has the highest 
 
 <p>&nbsp;</p>
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/5.png)
 
-<div align="center"> Figure 5 - Definition Box 1
+Figure 5 - Definition Box 1
 
 
  </div>
@@ -154,9 +173,12 @@ More in detail, for each object type:
 - Cars: Model 3 has the highest average confidence and accuracy in detecting cars.
 - Hotel Interiors and Food: Model 2 and Model 3 have a similar performance in detecting food and interior, both higher than Model 1.
 
+
+<div align="center">
+
 ![screenshot-app](img/Eki_Meta/Part1/6.png)
 
-<div align="center"> Figure 6 - Comparison in performance on the validation data set of three pre-trained Detectron2 models.
+ Figure 6 - Comparison in performance on the validation data set of three pre-trained Detectron2 models.
 
  </div>
 <br/>
@@ -170,16 +192,22 @@ Figures 7 and 8 show the performance of Model 3 on the specific Objects of inter
 
 
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/7.PNG)
 
-<div align="center"> Figure 7 - Accuracy of Faster R-CNN X 101 32x8d FPN 3x on Specific Object Types.
+Figure 7 - Accuracy of Faster R-CNN X 101 32x8d FPN 3x on Specific Object Types.
 
  </div>
 <br/>
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/8.PNG)
 
-<div align="center"> Figure 8 - Average Confidence of Faster R-CNN X 101 32x8d FPN 3x on Specific Object Types.
+Figure 8 - Average Confidence of Faster R-CNN X 101 32x8d FPN 3x on Specific Object Types.
 
  </div>
 <br/>
@@ -192,9 +220,12 @@ The total detection time for all brands ranged 210 hours.
 
 <p>&nbsp;</p>
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/9.PNG)
 
-<div align="center"> Figure 9 - Performance of Faster R-CNN X 101 32x8d FPN 3x on Still vs Frame images.
+Figure 9 - Performance of Faster R-CNN X 101 32x8d FPN 3x on Still vs Frame images.
 
  </div>
 <br/>
@@ -447,9 +478,12 @@ In order to limit the region in images for text detection to outside of Logo and
 
 
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/14.PNG)
 
-<div align="center"> Figure 10 - Manipulation of bounding boxes to accommodate each technology. The first transformation (from left to right) was necessary to train Custom-Trained models. The second transformation was necessary to limit the region in images for text detection to anything outside of logo or product objects.
+Figure 10 - Manipulation of bounding boxes to accommodate each technology. The first transformation (from left to right) was necessary to train Custom-Trained models. The second transformation was necessary to limit the region in images for text detection to anything outside of logo or product objects.
 
  </div>
 <br/>
@@ -459,9 +493,12 @@ In order to limit the region in images for text detection to outside of Logo and
 To detect Faces and Smiles, we began by exploring open libraries that have pre-trained models for this purpose. Figure 11 shows some of the libraries available, as well as those we tested.
 
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/15.PNG)
 
-<div align="center"> Figure 11 - Open libraries with pre-trained models that detect faces and smiles, and those we tested.
+Figure 11 - Open libraries with pre-trained models that detect faces and smiles, and those we tested.
 
  </div>
 <br/>
@@ -473,9 +510,12 @@ We tested three different open libraries that are optimised for face detection. 
 
 <p>&nbsp;</p>
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/16.PNG)
 
-<div align="center"> Figure 12 - Smiles being detected inside faces only was a necessary methodology we implemented, to improve the accuracy of open libraries that detect faces and smiles.
+Figure 12 - Smiles being detected inside faces only was a necessary methodology we implemented, to improve the accuracy of open libraries that detect faces and smiles.
 
  </div>
 <br/>
@@ -487,9 +527,12 @@ Furthermore, as there were no ready-made functions in the libraries to assess th
 
 <p>&nbsp;</p>
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part1/17.PNG)
 
-<div align="center"> Figure 13 - Methodology for assessing whether a predicted label for Face or Smile is accurate. Blue boxes indicate the bounding box of manually labeled objects. Yellow boxes indicate those for predicted objects. The grey area indicates the Region of Intersection (ROI). If the grey areas are between 60% and 130% of the size of the manually labeled object’s bounding box, the predicted label was considered to be accurate.
+Figure 13 - Methodology for assessing whether a predicted label for Face or Smile is accurate. Blue boxes indicate the bounding box of manually labeled objects. Yellow boxes indicate those for predicted objects. The grey area indicates the Region of Intersection (ROI). If the grey areas are between 60% and 130% of the size of the manually labeled object’s bounding box, the predicted label was considered to be accurate.
 
  </div>
 <br/>

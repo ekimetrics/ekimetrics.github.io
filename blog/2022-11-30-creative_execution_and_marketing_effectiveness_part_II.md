@@ -29,7 +29,10 @@ keywords:
  -->
 <!--truncate-->
 
+<div align = "center">
 
+  ![screenshot-app ](img/Eki_Meta/Eki_Meta_part_II.png)
+</div>
 
 <div align="justify"> 
 
@@ -79,9 +82,12 @@ While Detectron2 allows for the customization of many configurations, including 
  <p>&nbsp;</p>
 
 
+
+<div align="center"> 
+
  ![screenshot-app](img/Eki_Meta/Part2/1.png)
 
-<div align="center"> Table 1: Parameters Tested in Custom Models
+Table 1: Parameters Tested in Custom Models
  </div>
 <br/>
 
@@ -134,18 +140,25 @@ Exhaustive Grid Search was used to determine the combination of Max Iterations a
  </div>
 
 
+ <p>&nbsp;</p>
 
+
+
+<div align="center"> 
 
  ![screenshot-app](img/Eki_Meta/Part2/3.png)
 
-<div align="center"> Figure 1 : Example Results of Grid Search
+Figure 1 : Example Results of Grid Search
  </div>
 <br/>
 
 
+
+<div align="center"> 
+
  ![screenshot-app](img/Eki_Meta/Part2/4_2.png)
 
-<div align="center"> Figure 2 : Example Confusion Matrices for Best Performing Model with 80% Confidence Threshold
+Figure 2 : Example Confusion Matrices for Best Performing Model with 80% Confidence Threshold
  </div>
 <br/>
 
@@ -205,9 +218,12 @@ The best performing model was then used to determine the optimal threshold for e
 
  <p>&nbsp;</p>
 
+
+<div align="center"> 
+
 ![screenshot-app](img/Eki_Meta/Part2/2.png)
 
-<div align="center"> Table 2: Final Custom Models
+Table 2: Final Custom Models
  </div>
 <br/>
 

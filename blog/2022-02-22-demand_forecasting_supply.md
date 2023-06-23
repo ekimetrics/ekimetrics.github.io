@@ -1,7 +1,6 @@
 ---
 title: Demand Forecasting - Improving Supply Chain operations in uncertain times
 author: Alexis Cruveiller
-author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/supply_warehouse.png"
 tags: [Demand Forecasting, Supply Chain, LightGBM, Streamlit]
@@ -24,6 +23,13 @@ keywords:
 
 <!--truncate-->
 
+<div align = "center">
+
+  ![screenshot-app ](img/article_supply/supply_warehouse.png)
+</div>
+
+
+<div align ="justify">
 
 
 Demand forecasting has become a trendy topic since the COVID pandemic. It has challenged companies' Supply Chain operations and highlighted that most companies could improve their supply chain management. Therefore, generating demand for enhanced forecasting capabilities.
@@ -148,7 +154,7 @@ Thanks to this project, we learnt that:
 - Demand forecasting is not about predicting the future, but about how data helps improve communication between teams.
 
 
-
+</div>
 
 
 

@@ -1,7 +1,6 @@
 ---
 title: Which AutoML platform to choose to start your Data Science project?
 author: Quentin Tremouille
-author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/Nyhavn_2.jpg"
 tags: [AutoML, Benchmark, Automatic Machine Learning]
@@ -25,6 +24,13 @@ keywords:
 
 <!--truncate-->
 
+<div align = "center">
+
+  ![screenshot-app ](img/automl/Nyhavn_3.jpg)
+</div>
+
+
+<div align ="justify">
 
 Applying traditional Machine Learning methods to real-word business problems can be time-consuming, resource-intensive and expensive. With Automated Machine Learning (Auto ML) however, it can take days at most for business professionals & Data Scientists alike to develop and compare dozens of models, find insights and solve business problems quickly. But what is AutoML, how does it work and what are the most popular AutoML solutions out there? In this article, we will introduce the field of Automated Machine Learning by exploring some popular AutoML frameworks and trying to answer those questions around how to make the right choice for your use case.
 
@@ -138,5 +144,5 @@ To read more about AutoML:
 
 
 
-
+</div>
 

@@ -1,7 +1,6 @@
 ---
 title: Ekimetrics implements Data Mesh. Here is why, and why you should join us
 author: Arnaud Lievin
-author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/mesh_building_kennedy.jpg"
 tags: [Data Mesh, Architecture]
@@ -25,6 +24,14 @@ keywords:
 
 <!--truncate-->
 
+
+<div align = "center">
+
+  ![screenshot-app ](img/data_mesh/mesh_building_kennedy.jpg)
+</div>
+
+
+<div align ="justify">
 
 ## Introduction
 
@@ -106,3 +113,6 @@ Such solutions can now be built with GCP, Synapse and Databricks.
 ## Conclusion
 
 If you are interested in building Data Mesh with us, please visit our [website (careers page)](https://ekimetrics.com/careers/) or our [page on Welcome to the Jungle](https://www.welcometothejungle.com/fr/companies/ekimetrics).
+
+
+</div>

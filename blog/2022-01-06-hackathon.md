@@ -1,8 +1,6 @@
 ---
 title: Hackathon Stories - Ensuring access to affordable and clean energy
-author: Pierre Biousse
-author_title:
-author_url: mailto:inno@ekimetrics.com
+authors: [pierre.biousse]
 header_image_url: "img/blog/Solar_2.jpg"
 tags: [Hackathon, Teamwork, Sustainable AI]
 draft: false
@@ -25,6 +23,13 @@ keywords:
 <!--truncate-->
 
 
+<div align = "center">
+
+  ![screenshot-app ](img/Hackathon_Stories_1/Solar_2.jpg)
+</div>
+
+
+
 At Ekimetrics, we organize internal hackathons several times a year to continue to improve our data science skills, get people working together and develop new solutions to difficult problems.
 
 In July 2021, we organized a new hackathon on the issue of access to clean energy for African populations, inspired by a competition organized by [Zindi](https://zindi.africa/competitions) and open to everyone (you can participate at this [link](https://zindi.africa/competitions/sfc-paygo-solar-credit-repayment-competition)).
@@ -36,7 +41,11 @@ In this article, we wanted to come back on the reasons why we organize hackathon
 
 The name [Sustainable Development Goals](https://sdgs.un.org/goals) (or SDGs) is commonly used to refer to the seventeen goals established by the member states of the United Nations which are gathered in the 2030 Agenda. 
 
+<div align = "center">
+
 ![](img/Hackathon_Stories_1/sdgs.png)
+
+</div>
 
 The goal 7 - “Ensure access to reliable, sustainable and modern energy services at an affordable cost for all" - is a particularly important issue for the African continent, where 596 million people do not have access to electricity.
 Most of these people live outside of urban centers, and therefore out of reach of the continent’s electricity grid. Some existing systems also struggle to supply enough energy to the homes and businesses that are on the grid. 

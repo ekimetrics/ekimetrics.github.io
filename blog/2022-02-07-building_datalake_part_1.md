@@ -1,7 +1,6 @@
 ---
 title: Building a datalake - Part 1 - Usable, Useful, Used, or how to avoid dataswamp and empty shell traps
 author: Emilien BOUCAUD
-author_title:
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/image_overview_article_datalake_1.jpg"
 tags: [Datalake, Data Engineering, Architecture, Data Governance, Data Mesh]
@@ -30,6 +29,14 @@ keywords:
 
 <!--truncate-->
 
+
+<div align = "center">
+
+  ![screenshot-app ](img/datalake_part_1/image_overview_article_datalake_1.jpg)
+</div>
+
+
+<div align ="justify">
 
 ## Article Scope
 
@@ -217,3 +224,6 @@ Once the foundation architecture is laid out and more use cases and sources are 
 Starting with the identification of a first high impact use case, you’ve been able to build a robust and evolutive datalake. Following the design principles we’ve reviewed, data and use case pipelines in your datalake are usable and useful. You are now able to show a proof of value for your datalake and grow it into a central data platform for your company.
 
 The final U we could dive deeper into is “Used” : your goal is now to maintain, grow and manage the datalake as a unified data platform, centralizing data and solutions for your business. An efficient and relevant datalake project comes with technical design challenges, some of which we’ve talked about here, but also organizational challenges. By finding solutions for technical challenges, your datalake has shown its value and it is now essential to ensure its growth. As you coordinate with business divisions, you’ll be able to draw a roadmap for the datalake and improve processes at an organizational level, using “data mesh”-like functional architectures that allow for the best flexibility in use cases, growing your platform’s relevance and enhancing data capabilities for your business.
+
+
+</div>
