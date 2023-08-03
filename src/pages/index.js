@@ -8,6 +8,7 @@ import styles from './styles.module.css';
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import recentPosts from "../../latest_blog.json";
+import Translate from '@docusaurus/Translate';
 // Rather inelegant way of loading recent posts
 // See https://stackoverflow.com/questions/60289432/docusaurus-v2-recent-blogs-list-for-homepage
 // import recentPosts from "../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json";
@@ -109,16 +110,44 @@ function Feature({imageUrl, title, description}) {
   );
 }
 
-function HomePageBlock({title,img,description,href}){
+function HomePageBlockBlog({img,href}){
   return (
   <Col className={styles.mainCardColumn}>
-    <h1 style={{"fontSize":24}}> <Link to={href}>{title}</Link></h1>
+    <h1 style={{"fontSize":24}}> <Link to={href}><Translate>Blog</Translate></Link></h1>
     {img && 
       <div style={{paddingLeft:40, paddingRight:40, paddingTop:20, paddingBottom:20}}>
         <img src={useBaseUrl(img)}/>
       </div>
     }
-    <p style={{ marginBottom: 0 }}>{description}</p>
+    <p style={{ marginBottom: 0 }}><Translate>Browse our latest articles and experiments on Data Science & AI</Translate></p>
+  </Col>
+  )
+}
+
+function HomePageBlockAboutUs({img,href}){
+  return (
+  <Col className={styles.mainCardColumn}>
+    <h1 style={{"fontSize":24}}> <Link to={href}><Translate>About Us</Translate></Link></h1>
+    {img && 
+      <div style={{paddingLeft:40, paddingRight:40, paddingTop:20, paddingBottom:20}}>
+        <img src={useBaseUrl(img)}/>
+      </div>
+    }
+    <p style={{ marginBottom: 0 }}><Translate>Learn about our convictions and tech best practices</Translate></p>
+  </Col>
+  )
+}
+
+function HomePageBlockResources({img,href}){
+  return (
+  <Col className={styles.mainCardColumn}>
+    <h1 style={{"fontSize":24}}> <Link to={href}><Translate>Resources</Translate></Link></h1>
+    {img && 
+      <div style={{paddingLeft:40, paddingRight:40, paddingTop:20, paddingBottom:20}}>
+        <img src={useBaseUrl(img)}/>
+      </div>
+    }
+    <p style={{ marginBottom: 0 }}><Translate>Find out about our internal trainings & Hackathons</Translate></p>
   </Col>
   )
 }
@@ -138,19 +167,17 @@ function Home() {
         style={{backgroundImage:`url(${useBaseUrl('img/10-cubecube03.jpg')})`,backgroundSize:"cover",backgroundPosition: "bottom", minHeight:"calc(100vh - 200px)",zIndex:-1}}
       >
         <div className={clsx("container", styles.card)}>
-          <h1 className="hero__subtitle" style={{color:"white",fontSize:"40px"}}>Eki<span className="gold">.</span>Lab</h1>
-          <h1 className="hero__subtitle" style={{color:"white"}}>Welcome to Ekimetrics' technology & innovation website!</h1>
-          <p className="hero__subtitle" style={{color:"white", marginBottom: 0}}>Behind the scenes of <a href="https://ekimetrics.com">the Data Science Company</a></p>
+          <h1 className="hero__subtitle" style={{color:"white",fontSize:"40px"}}><Translate>Eki</Translate><span className="gold">.</span>Lab</h1>
+          <h1 className="hero__subtitle" style={{color:"white"}}><Translate>Welcome to Ekimetrics' technology & innovation website!</Translate></h1>
+          <p className="hero__subtitle" style={{color:"white", marginBottom: 0}}><Translate>Behind the scenes of the Data Science Company</Translate></p>
         </div>
       </header>
       <main style={{ marginTop:"-40px" }}>
         <div className={clsx("container", styles.card)}>
           <Row>
-            <HomePageBlock title="Blog" href="/blog" img="img/icons/Search engine _Monochromatic.svg" description="Browse our latest articles and experiments on Data Science & AI"/>
-            <HomePageBlock title="About Us" href="/about" img="img/icons/Spotlight _Monochromatic.svg" description="Learn about our convictions and tech best practices"/>
-            <HomePageBlock title="Resources" href="/resources" img="img/icons/Email campaign_Monochromatic.svg" description="Find out about our internal trainings & Hackathons "/>
-            {/* <HomePageBlock title="Hackathons" href="/hacks" img="img/icons/Competition_Monochromatic.svg" description="Test your data science skills with our hackathons & challenges"/>
-            <HomePageBlock title="Open Source" href="/opensource" img="img/icons/World wide web_Monochromatic.svg" description="Discover our open source contributions to the Data Science community"/> */}
+            <HomePageBlockBlog title="Blog" href="/blog" img="img/icons/Search engine _Monochromatic.svg" description="Browse our latest articles and experiments on Data Science & AI"/>
+            <HomePageBlockAboutUs title="About Us" href="/about" img="img/icons/Spotlight _Monochromatic.svg" description="Learn about our convictions and tech best practices"/>
+            <HomePageBlockResources title="Resources" href="/resources" img="img/icons/Email campaign_Monochromatic.svg" description="Find out about our internal trainings & Hackathons "/>
           </Row>
         </div>
 

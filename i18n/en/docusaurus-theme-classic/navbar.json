@@ -1,0 +1,50 @@
+{
+  "title": {
+    "message": "Eki.Lab",
+    "description": "The title in the navbar"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.About us": {
+    "message": "About us",
+    "description": "Navbar item with label About us"
+  },
+  "item.label.Resources": {
+    "message": "Resources",
+    "description": "Navbar item with label Resources"
+  },
+  "item.label.Careers": {
+    "message": "Careers",
+    "description": "Navbar item with label Careers"
+  },
+  "item.label.Ekimetrics website": {
+    "message": "Ekimetrics website",
+    "description": "Navbar item with label Ekimetrics website"
+  },
+  "item.label.Contact us!": {
+    "message": "Contact us!",
+    "description": "Navbar item with label Contact us!"
+  },
+  "item.label.Ekilab": {
+    "message": "Ekilab",
+    "description": "Navbar item with label Ekilab"
+  },
+  "item.label.Ekimetrics": {
+    "message": "Ekimetrics",
+    "description": "Navbar item with label Ekimetrics"
+  },
+  "item.label.Technology stack": {
+    "message": "Technology stack",
+    "description": "Navbar item with label Technology stack"
+  },
+  "item.label.Hackathons": {
+    "message": "Hackathons",
+    "description": "Navbar item with label Hackathons"
+  },
+  "item.label.Trainings": {
+    "message": "Trainings",
+    "description": "Navbar item with label Trainings"
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "link.title.About us": {
+    "message": "A propos",
+    "description": "The title of the footer links column with title=About us in the footer"
+  },
+  "link.title.Find us": {
+    "message": "Find us",
+    "description": "The title of the footer links column with title=Find us in the footer"
+  },
+  "link.title.Contact": {
+    "message": "Contact",
+    "description": "The title of the footer links column with title=Contact in the footer"
+  },
+  "link.item.label.Who we are ?": {
+    "message": "Who we are ?",
+    "description": "The label of footer link with label=Who we are ? linking to https://ekimetrics.com/who-we-are/"
+  },
+  "link.item.label.Our team": {
+    "message": "Our team",
+    "description": "The label of footer link with label=Our team linking to https://ekimetrics.com/our-team/"
+  },
+  "link.item.label.Subscribe to our newsletter": {
+    "message": "Subscribe to our newsletter",
+    "description": "The label of footer link with label=Subscribe to our newsletter linking to https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9"
+  },
+  "link.item.label.Github": {
+    "message": "Github",
+    "description": "The label of footer link with label=Github linking to https://github.com/ekimetrics"
+  },
+  "link.item.label.Careers": {
+    "message": "Careers",
+    "description": "The label of footer link with label=Careers linking to https://ekimetrics.com/careers/"
+  },
+  "link.item.label.Eki on Welcome to the jungle": {
+    "message": "Eki on Welcome to the jungle",
+    "description": "The label of footer link with label=Eki on Welcome to the jungle linking to https://www.welcometothejungle.com/fr/companies/ekimetrics"
+  },
+  "link.item.label.Get in touch with our teams": {
+    "message": "Get in touch with our teams",
+    "description": "The label of footer link with label=Get in touch with our teams linking to mailto:inno@ekimetrics.com"
+  }
+}

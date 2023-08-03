@@ -5,6 +5,29 @@ const katex = require('rehype-katex');
 module.exports = {
   title: 'Eki.Lab',
   tagline: 'EkiLab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company',
+
+  i18n: {
+    defaultLocale: 'en',
+    locales: ['en', 'fr'],
+    path: 'i18n',
+    localeConfigs: {
+      en: {
+        label: 'English',
+        direction: 'ltr',
+        htmlLang: 'en-US',
+        calendar: 'gregory',
+        path: 'en',
+      },
+      fr: {
+        label: 'Français',
+        direction: 'ltr',
+        htmlLang: 'fr-FR',
+        calendar: 'gregory',
+        path: 'fr',
+      },
+    },
+  },
+
   plugins: [
 
     require.resolve('docusaurus-lunr-search'),
@@ -159,6 +182,10 @@ module.exports = {
       //    position: 'right',
       //  },
         {href: 'mailto:inno@ekimetrics.com', label: 'Contact us!', position: 'right'},
+        {
+          type: 'localeDropdown',
+          position: 'right',
+        },
       ],
     },
     footer: {

@@ -1,0 +1,10 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.someSidebar.category.About Ekimetrics": {
+    "message": "About Ekimetrics",
+    "description": "The label for category About Ekimetrics in sidebar someSidebar"
+  }
+}
