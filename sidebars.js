@@ -4,6 +4,7 @@ module.exports = {
       'ekilab',
       'ekimetrics',
       'stack',
+      'events'
     ],
 
   },

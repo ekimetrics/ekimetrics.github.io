@@ -108,6 +108,10 @@ module.exports = {
               href:'/about/stack'
             },
             
+            {
+              label: "Our events",
+              href:'/about/events'
+            }
           ],
         },
 
