@@ -31,7 +31,7 @@ keywords:
 
 <div align = "center">
 
-  ![screenshot-app ](img/ClimateQA/ClimateQA.png)
+  ![screenshot-app ](img/ClimateQA/ClimateQA.jpg)
 </div>
 
 
