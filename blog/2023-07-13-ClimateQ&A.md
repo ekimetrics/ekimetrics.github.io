@@ -5,11 +5,9 @@ author: Natalia DE LA CALZADA
 author_title: Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/ClimateQA.jpg"
-# header_image_url: "img/blog/level_car_analytics.jpg"
 tags: [Climate, biodiversity, generative AI, genAI, IPCC, IPBES, OCR]
 draft: false
 description: "AI to make climate and biodiversity science more accessible"
-
 
 keywords:
     - Climate, biodiversity
@@ -94,6 +92,10 @@ In this context, it becomes paramount for climate scientists to multiply their c
 
 </div>
 
+<div align = "center">
+
+![screenshot-app](img/ClimateQA/Screenshot_Twitter_ClimateQA.png)
+</div>
 
 
 ### C.	The role of the IPCC and IPBES : practical limitations and consequences
