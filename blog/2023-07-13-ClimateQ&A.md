@@ -35,6 +35,8 @@ keywords:
 
 <div align="justify"> 
 
+
+
 ClimateQ&A is an AI-powered tool that has been specifically developed to help address the challenges associated with understanding and accessing climate change and biodiversity-related literature. The tool aims to democratize access to the scientific literature of climate change and biodiversity, making it easier for researchers, policymakers, and the public to understand and use this critically important information. This article aims to provide users with information regarding the tool, encompassing its contextual framework, technical operation, as well as its inherent limitations.
 
 Disclaimer : for simplicity, we use “climate” as an umbrella term to designate the phenomena of climate change & biodiversity loss. We are currently thinking about more inclusive names.
