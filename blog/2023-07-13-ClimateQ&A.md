@@ -278,10 +278,6 @@ In this calculation we do not include the carbon footprint of training ChatGPT (
 
 
 
-
-
-
-
 </div>
 
 [^1]: Lesley-Ann L. et Cole 2018
