@@ -110,7 +110,7 @@ function BlogPostPreview(props: Props): JSX.Element {
           src={headerImageURL}
           // src="https://images.unsplash.com/photo-1506624183912-c602f4a21ca7?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=crop&amp;w=800&amp;q=60"
           alt="Image alt text"
-          title="Logo Title Text 1"
+          title={title}
         />
       </div>
       <div className="card__body">
