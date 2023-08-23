@@ -4,6 +4,7 @@ author: Marina Bermejo Sarmiento, Monica Brondholt Sorensen, Karin Sasaki
 author_title: Data Scientist Consultants
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "./img/blog/Eki_meta_part_I.png"
+#image: "./img/blog/Eki_meta_part_I.png"
 tags: [Object Detection, Optical Character Recognition, Detectron2, Marketing Mix Modelling, Deep Learning]
 draft: false
 description: "In this Part I we explore the methodology for using pre-trained Detectron2 models to detect brand-specific object in creative images."

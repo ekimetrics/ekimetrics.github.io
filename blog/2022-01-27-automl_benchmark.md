@@ -3,6 +3,7 @@ title: Which AutoML platform to choose to start your Data Science project?
 author: Quentin Tremouille
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/Nyhavn_2.jpg"
+image: "img/blog/Nyhavn_2.jpg"
 tags: [AutoML, Benchmark, Automatic Machine Learning]
 draft: false
 description: "How do Automatic Machine Learning solutions work? What are the most popular AutoML solutions out there, and what do you need to know about them to make the right choice for your use case? Find answers to these questions and many others in this article."

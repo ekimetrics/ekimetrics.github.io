@@ -3,6 +3,7 @@ title: Building a datalake - Part 1 - Usable, Useful, Used, or how to avoid data
 author: Emilien BOUCAUD
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/image_overview_article_datalake_1.jpg"
+image: "img/blog/image_overview_article_datalake_1.jpg"
 tags: [Datalake, Data Engineering, Architecture, Data Governance, Data Mesh]
 draft: false
 description: "In this article, learn how to create your first datalake following best practices in order to make it robust, evolutive and central to your company's information architecture, as well as take advantage of the opportunities it presents."

@@ -3,6 +3,7 @@ title: Newsletter for March 2022
 author: Samuel Chaineau
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/forest_1.jpg"
+image: "img/blog/forest_1.jpg"
 tags: [ML Monitoring, Javascript, Time Series Modelling]
 draft: false
 description: "Ekimetrics is pleased to release its third Newsletter for the year 2022! A new feature has now been added which is a special section detailing some news that we would like to share but are not specifically linked to one of our main categories. As usual, do not hesitate to check the links added and of course using it live during your projects!"
