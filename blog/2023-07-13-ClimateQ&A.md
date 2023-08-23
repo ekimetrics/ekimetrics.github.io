@@ -5,6 +5,7 @@ author: Natalia DE LA CALZADA
 author_title: Consultant
 author_url: mailto:inno@ekimetrics.com
 header_image_url: "img/blog/ClimateQA.jpg"
+image: "img/blog/ClimateQA.jpg"
 tags: [Climate, biodiversity, generative AI, genAI, IPCC, IPBES, OCR]
 draft: false
 description: "AI to make climate and biodiversity science more accessible"
