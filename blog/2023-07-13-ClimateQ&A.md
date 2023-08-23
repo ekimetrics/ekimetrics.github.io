@@ -8,7 +8,7 @@ header_image_url: "img/blog/ClimateQA.jpg"
 image: "img/blog/ClimateQA.jpg"
 tags: [Climate, biodiversity, generative AI, genAI, IPCC, IPBES, OCR]
 draft: false
-description: "AI to make climate and biodiversity science more accessible"
+description: "AI to make climate and biodiversity science more accessible."
 
 keywords:
     - Climate, biodiversity

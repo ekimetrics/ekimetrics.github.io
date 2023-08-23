@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "ClimateQ&A",
+      "permalink": "blog/2023/07/13/ClimateQ&A",
+      "img_path": "./img/blog/ClimateQA.jpg",
+      "description": "AI to make climate and biodiversity science more accessible."
+    },
+    {
       "title": "Does your company level with your car in terms of Analytics?",
       "permalink": "blog/2023/03/07/level_car_analytics",
       "img_path": "./img/blog/level_car_analytics.jpg",
