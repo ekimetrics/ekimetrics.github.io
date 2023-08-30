@@ -30,16 +30,16 @@ module.exports = {
       },
     ],
 
-    // [
-    //   '@docusaurus/plugin-content-docs',
-    //   {
-    //     id: 'careers',
-    //     path: 'careers',
-    //     routeBasePath: 'careers',
-    //     // sidebarPath: require.resolve('./sidebars_careers.js'),
-    //     // ... other options
-    //   },
-    // ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'careers',
+        path: 'careers',
+        routeBasePath: 'careers',
+        // sidebarPath: require.resolve('./sidebars_careers.js'),
+        // ... other options
+      },
+    ],
 
 
 
@@ -136,8 +136,8 @@ module.exports = {
         // {to: 'trainings/', label: 'Trainings', position: 'left'},
         // {to: 'docs/', label: 'About us', position: 'left'},
         // {to: 'resources/', label: 'Resources', position: 'left'},
-        {to: 'https://ekimetrics.com/fr/carrieres/', label: 'Careers', position: 'left'},
-        // {to: 'careers/', label: 'Careers', position: 'left'},
+        // {to: 'https://ekimetrics.com/fr/carrieres/', label: 'Careers', position: 'left'},
+        {to: 'careers/', label: 'Careers', position: 'left'},
 
         // {
         //   to: 'hacks/',
