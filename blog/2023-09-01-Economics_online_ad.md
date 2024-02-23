@@ -8,7 +8,7 @@ header_image_url: "img/blog/economics_online_ad.jpg"
 image: "img/blog/economics_online_ad.jpg"
 tags: [Online Advertising, Economics, Econometrics, Cross-media, Contextual advertising, Academic Research]
 draft: false
-description: "Willing to learn about the online ad market, cross-media effects and contextual advertising? This article wraps up the content of a PhD thesis on the economics of online advertising, defended by Rémi Devaux, Senior Consultant at Ekimetrics.."
+description: "Willing to learn about the online ad market, cross-media effects and contextual advertising? This article wraps up the content of a PhD thesis on the economics of online advertising, defended by Rémi Devaux, Senior Consultant at Ekimetrics."
 
 keywords:
     - Online Advertising

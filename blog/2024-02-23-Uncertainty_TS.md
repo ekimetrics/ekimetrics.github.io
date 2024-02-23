@@ -8,7 +8,7 @@ header_image_url: "img/blog/Uncertainty_TS.jpg"
 image: "img/blog/Uncertainty_TS.jpg"
 tags: [Uncertainty Quantification,  Interval Forecasting, Time Series Modeling, Demand Sensing]
 draft: false
-description: "Discover uncertainty quantification for time series forecasting"
+description: "Discover uncertainty quantification for time series forecasting."
 
 keywords:
     - Uncertainty, Stochasticity
