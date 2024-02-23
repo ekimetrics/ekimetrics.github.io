@@ -1,9 +1,9 @@
 ---
 slug: Uncertainty_TS
 title: 'Uncertainty in time series forecasting'
-author: Sami ACHOUR
-author_title: Consultant
-author_url: mailto:inno@ekimetrics.com
+authors: [sami.achour, duong.nguyen]
+#author_title: Consultant
+#author_url: https://www.linkedin.com/in/sami-achour-624358184/
 header_image_url: "img/blog/Uncertainty_TS.jpg"
 image: "img/blog/Uncertainty_TS.jpg"
 tags: [Uncertainty Quantification,  Interval Forecasting, Time Series Modeling, Demand Sensing]
