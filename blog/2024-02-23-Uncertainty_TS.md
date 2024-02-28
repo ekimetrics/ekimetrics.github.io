@@ -11,7 +11,8 @@ draft: false
 description: "Discover uncertainty quantification for time series forecasting."
 
 keywords:
-    - Uncertainty, Stochasticity
+    - Uncertainty 
+    - Stochasticity
     - Volatility
     - Bootstrap
     - Asymmetric regression

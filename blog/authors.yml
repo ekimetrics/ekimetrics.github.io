@@ -32,11 +32,11 @@ theo.alves:
 sami.achour:
   name: Sami ACHOUR
   title : Consultant
-  #image_url: /img/authors/sami_achour.png
+  image_url: /img/authors/sami_achour.png
   url: https://www.linkedin.com/in/sami-achour-624358184/
   
 duong.nguyen:
   name: Duong NGUYEN
   title : Time Series Specialist
-  # image_url: /img/authors/duong_nguyen.png
+  image_url: /img/authors/duong_nguyen.jpg
   url: https://www.linkedin.com/in/duong-nguyenn/
