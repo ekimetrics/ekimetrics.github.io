@@ -36,25 +36,25 @@ keywords:
 
 <div align="justify"> 
 
-Uncertainty in time series forecasting refers to the unpredictability and variability associated with predicting future values in a sequence of data points over time. Time series forecasting involves analyzing historical data to make informed predictions about future trends, patterns, or values. However, due to various factors such as randomness, external influences, and incomplete information, forecasting models often encounter uncertainty. Managing and quantifying uncertainty in time series forecasting is crucial for decision-making processes across diverse domains such as finance, economics, weather forecasting, and supply chain management. 
+Uncertainty in time series forecasting refers to the unpredictability and variability associated with predicting future values in a sequence of data points over time. Time series forecasting involves analyzing historical data to make informed predictions about future trends, patterns, or values. However, due to various factors such as randomness, external influences, and incomplete information, forecasting models often encounter uncertainty. Managing and quantifying uncertainty in time series forecasting is crucial for decision-making processes across diverse domains such as finance, economics, weather forecasting, and supply chain management.
 
 </div>
 
 ## Why prefer uncertainty? 
 <div align="justify"> 
 
-Most issues related to time series are attempted to be addressed through accuracy methods, which are essentially point forecasting ones. When we talk about accuracy, we refer to probable events occurring, attempting to estimate the closest value to reality without truly considering all risk-related factors. This approach leans more toward a retrospective examination of past errors.
+Accuracy methods, otherwise known as point forecasting, are commonly used to address issues confronted in times series. Attempting to estimate the closest value to reality without considering all risk-related factors refers to accuracy. This approach leans more toward a retrospective examination of past errors. 
 
-Considering the stochastic nature of the universe, ideally, we aim to discuss plausible events occurring, to approach an interval within which the true values will fall, considering potential future risks and potential future errors. We're no longer referring to point forecasting but rather interval forecasting.  
+Considering the stochastic nature of the universe, we aim to approach interval within which the true values will fall, considering potential future risks and potential future errors. We're no longer referring to point forecasting but rather interval forecasting.
 
 The need to quantify uncertainty can arise in various ways, for example:
 
 
-- Uncertainty forecasting helps energy companies make decisions about buying and selling energy in real-time markets, considering fluctuations in demand and supply.
+- Uncertainty forecasting helps energy companies make decisions about buying and selling energy in real-time markets, considering fluctuations in demand and supply
 
-- Forecasting uncertainty in demand and supply can help retail businesses optimize their production, distribution processes and stock management.
+- Forecasting uncertainty in demand and supply can help retail businesses optimize their production, distribution processes and stock management 
 
-- Hospitals can use uncertainty forecasts to anticipate patient admissions, enabling better resource allocation, staffing decisions and pharmaceutical orders.
+- Hospitals can use uncertainty forecasts to anticipate patient admissions, enabling better resource allocation, staffing decisions and pharmaceutical orders
 
 
 </div>
@@ -66,24 +66,24 @@ The need to quantify uncertainty can arise in various ways, for example:
 
 <div align="justify"> 
 
-**The most important thing to keep in mind is that even a good regressor can make important errors due to the volatility that a time series can present. To prevent this problem, the use of prediction intervals is recommended.**
+**The most important thing to keep in mind is that even a good estimator can make important errors due to the volatility that a time series can present.  To prevent this problem, the use of prediction intervals is recommended.**
 
 </div>
 
 
 
 
-## Popular methods 
+## Popular methods for uncertainty quantification 
 <div align="justify"> 
 
-There are a huge number of methods capable of creating prediction intervals that quantify the uncertainty surrounding an observation. However, it is possible to group most of them into 5 main types of method.
+There are a huge number of methods capable of creating prediction intervals that quantify the uncertainty surrounding an observation. However, it is possible to group most of them into five methods. 
 
 </div>
 
 ### Bootstrap
 <div align="justify">
 
-Bootstrap is a statistical technique used to estimate the variability of a statistic. It involves generating multiple bootstrap samples through resampling with replacement from the original dataset. These samples are then analyzed using the same statistical model. The results provide a range of values that represent the uncertainty associated with your forecast or analysis, offering a more nuanced understanding of potential fluctuations in outcomes. This approach provides a flexible and data-driven method to assess the precision of statistical estimates.
+Bootstrap is a statistical technique used to estimate the variability of a statistic . It involves generating multiple bootstrap samples through resampling, with replacement, from  the original dataset. Subsequently, these samples undergo analysis employing the same statistical model.  The results provide a range of values that represent the uncertainty associated with your forecast or analysis, offering a more nuanced understanding of potential fluctuations in outcomes. This approach provides a flexible and data-driven method to assess the precision of statistical estimates.
 
 <div align = "center">
 
@@ -106,14 +106,14 @@ In machine learning, altering the loss function can reshape a model's prediction
 ![screenshot-app](img/Uncertainty_TS/AssymetricRegression.png)
   </div>
 
-Advantages of the approach include its compatibility with non-parametric methods. However, it comes with disadvantages such as the absence of mathematical guarantees, uncalibrated forecasts, and the complexity of interpretation associated with the method.
+Advantages of the approach include its compatibility with non-parametric methods . However, it comes with disadvantages such as the absence of mathematical guarantees, uncalibrated forecasts, and the complexity of interpretation associated with the method.
 
 </div>
 
 ### Probabilistic models
 <div align="justify"> 
 
-Probabilistic models are favored for their capacity to output distributions instead of single points. Numerous probabilistic models exist for time series forecasting, and among them, ARIMA models stand out as particularly popular. 
+Probabilistic models are favored for their capacity to output distributions instead of single points estimates.  Numerous probabilistic models exist for time series forecasting, and among them, ARIMA models are notably popular.
 
 The process begins with the model fitting the time series data, capturing the autoregressive (AR) and moving average (MA) components, and ensuring stationarity through differencing (integrated component). After generating point forecasts, the model assesses the residuals, which represent the differences between the observed and predicted values. ARIMA utilizes the standard deviation of the normally distributed residuals to construct prediction intervals around the point forecasts. Essentially, the wider the prediction interval, the greater the uncertainty associated with the forecast. This technical methodology not only refines the accuracy of point forecasts but also provides a statistically sound measure of the range within which future observations are likely to fall.
 
@@ -138,14 +138,14 @@ Bayesian time series forecasting employs a technically advanced approach, involv
 </div>
 
 
-Advantages of this approach include the ability to incorporate business knowledge and the capability to yield results even with weakly informative datasets. However, a notable disadvantage is that incorrect priors may lead to inaccurate results.
+Advantages of this approach include the ability to incorporate business knowledge and the possibility of extracting insights despite weakly informative datasets. However, a notable disadvantage is that incorrect priors may lead to inaccurate results.
 
 </div>
 
 ### Conformal prediction
 <div align="justify"> 
 
-Conformal prediction offers finite-sample conformal intervals applicable to any model and dataset without additional costs. It is particularly valuable for black box models, requiring no modification to their analysis or training. The methodology relies on a calibration set in addition of the training and testing usual ones, which aids in generating conformalized intervals by rectifying errors introduced by the regressor. A crucial aspect in the design of conformal prediction is adaptivity. The objective is to ensure that the procedure yields larger intervals for more challenging inputs and smaller intervals for simpler inputs, tailoring the predictive uncertainty to the inherent difficulty of each input.
+Conformal prediction offers finite-sample conformal intervals applicable to any model and dataset without additional costs. It is particularly valuable for black box models, requiring no modification to their analysis or training. In addition to the usual testing and training datasets, the methodology also relies on a calibration set, which aids in generating conformalized intervals by rectifying errors introduced by the regressor. A crucial aspect in the design of conformal prediction is adaptivity. The objective is to ensure that the procedure yields larger intervals for more challenging inputs and smaller intervals for simpler inputs, tailoring the predictive uncertainty to the inherent difficulty of each input.
 
 
 <div align = "center">
@@ -190,8 +190,8 @@ In summary, within the realm of uncertainty quantification evaluation, adaptabil
 ## Conclusion
 <div align="justify"> 
 
-In conclusion, the exploration of time series forecasting underscores the shift from traditional accuracy methods to uncertainty quantification. Various methods, such as Bootstrap, Asymmetric Regression, Probabilistic Models, Bayesian Approach, and Conformal Prediction, offer diverse approaches, each with its pros and cons. Conformal prediction, a set of recent methods still in the research and development phase, holds the potential to outperform other approaches in the field. That's why, at Eki.Lab, we're pushing ahead with many studies linked to Conformal Prediction.
+In conclusion, the exploration of time series forecasting underscores the shift from traditional accuracy methods to uncertainty quantification. Various methods, such as Bootstrap, Asymmetric Regression, Probabilistic Models, Bayesian Approach, and Conformal Prediction, offer diverse approaches, each with their respective advantages and disadvantages. Conformal prediction, a set of recent methods, still under research and development,  holds the potential to outperform other approaches in the field. That's why, at Eki.Lab, we're pushing ahead with many studies linked to Conformal Prediction.
 
-The main things we need to look at when evaluating these methods are coverage and adaptivity. We want our predictions to be able to change over time and across different parts of the dataset to ensure a good coverage rate whatever the particularities of the predicted observation. It's important to find a balance between keeping our uncertainty ranges narrow enough to be precise but also considering how much our predictions might vary. This is all the key to building a strong model that can handle the complexities of real-world data.
+The main points of evaluation  we need to look at when evaluating these methods are coverage and adaptivity. We want our predictions to be able to evolve over time and across different dimensions  of the dataset to ensure a good coverage rate whatever the particularities of the predicted observation. It's important to find a balance between keeping our uncertainty ranges narrow enough to be precise but also considering how much our predictions might vary. This is all the key to building a strong model that can handle the complexities of real-world data.
 
 </div>
