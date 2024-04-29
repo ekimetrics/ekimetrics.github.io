@@ -7,7 +7,7 @@ authors: [francois.guerillon]
 header_image_url: "img/blog/multimodal_fusion.jpg"
 image: "img/blog/multimodal_fusion.jpg"
 tags: [data science, deep learning, multimodal]
-draft: true
+draft: false
 description: "Understand why multimodal deep learning models are more accurate than assembled unimodal models."
 
 keywords:
