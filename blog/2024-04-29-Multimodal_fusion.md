@@ -72,7 +72,7 @@ Every minute or even second, our human brain reacts, evaluates, and makes decisi
 
 - To know if the noise I heard on my right reveals a danger, I must concentrate my vision sense to the same direction (maybe turn my head) and look at the source of the noise.
 - Imagine that someone shows me a document and gives oral explanations. Something sounds weird in these explanations. To know if my interlocutor is serious or joking, I must stop looking at the document, and look at his/her facial expression.
-- To select what to pay attention to in this [famous awareness test](https://www.youtube.com/watch?v=Ahg6qcgoay4), I must know and understand the written instructions (or game rule).
+- To select what to pay attention to in this [famous awareness test](https://www.youtube.com/watch?v=KB_lTKZm1Ts), I must know and understand the written instructions (or game rule).
 - As a specialist physician, to avoid missing weak signals in exam results (imagery, blood test history…) and symptoms, I must understand why the patient was sent to me, which means reading the cover letter or medical report, so as to know what to focus on.
 - In many bimodal documents, for instance scientifical articles, understanding the images (diagrams, charts) help understanding the text, and reading some texts (e.g. captions) can be necessary to understand the images or to deduce what is important to be watched in the image.
 
