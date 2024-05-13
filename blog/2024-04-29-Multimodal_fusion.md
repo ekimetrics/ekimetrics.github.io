@@ -29,7 +29,7 @@ keywords:
 <!--truncate-->
 <div align="justify"> 
 
-# Part 1: Why we use fusion weapon
+# Part 1: Why we use a fusion weapon
 
 </div>
 
