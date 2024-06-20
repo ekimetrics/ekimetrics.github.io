@@ -17,7 +17,7 @@ Ekimetrics is a leader in data science and AI-powered solutions. Since 2006, we�
 <div align ="justify">
 
 <p> </p>
-Ekimetrics is one of the world’s largest independent analytics firms. We operate from Paris, London, New York and Hong Kong with 400+ in-house Data Scientists, Data Engineers, Data Architects, DevOps Engineers, Full Stack Developers, Product Managers, UX-UI Designers, etc. Since 2006, we have led more than a thousand data science projects in over 50 countries, generating more than €1bn in profit for our customers, and helped our customers avoiding 7000 tons of CO2 in 2022.
+Ekimetrics is one of the world’s largest independent analytics firms. We operate from Paris, London, New York, Hong Kong and Shanghai with 400+ in-house Data Scientists, Data Engineers, Data Architects, DevOps Engineers, Full Stack Developers, Product Managers, UX-UI Designers, etc. Since 2006, we have led more than a thousand data science projects in over 50 countries, generating more than €1bn in profit for our customers, and helped our customers avoiding 7000 tons of CO2 in 2022.
 <p> </p>
 
 ### Redefining Performance
