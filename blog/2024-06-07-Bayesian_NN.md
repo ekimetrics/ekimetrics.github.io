@@ -1,7 +1,7 @@
 ---
 slug: Bayesian_NN
 title: 'Bayesian Neural Networks'
-authors: [leopold.mendes-charrinho]
+authors: [leopold.mendes-charrinho, nicolas.chesneau]
 #author_title: Consultant
 #author_url: https://www.linkedin.com/in/fguerillon/
 header_image_url: "img/blog/bayesian_NN.jpg"
