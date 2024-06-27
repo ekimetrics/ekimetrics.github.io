@@ -18,6 +18,10 @@
             <name>Léopold Mendes-Charrinho</name>
             <uri>https://www.linkedin.com/in/l%C3%A9opold-mendes-charrinho/</uri>
         </author>
+        <author>
+            <name>Nicolas CHESNEAU</name>
+            <uri>https://www.linkedin.com/in/nicolas-chesneau-0416b94/</uri>
+        </author>
         <category label="data science" term="data science"/>
         <category label="deep learning" term="deep learning"/>
     </entry>
