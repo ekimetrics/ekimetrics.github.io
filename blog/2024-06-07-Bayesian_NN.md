@@ -7,7 +7,7 @@ authors: [leopold.mendes-charrinho]
 header_image_url: "img/blog/bayesian_NN.jpg"
 image: "img/blog/bayesian_NN.jpg"
 tags: [data science, deep learning]
-draft: true
+draft: false
 description: "Bayesian neural networks (BNNs) is a pioneering approach that embraces uncertainty as a strength."
 
 keywords:
