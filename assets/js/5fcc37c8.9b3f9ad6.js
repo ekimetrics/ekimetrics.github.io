@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[930],{7761:a=>{a.exports=JSON.parse('{"label":"data science","permalink":"/blog/tags/data-science","allTagsPath":"/blog/tags","count":3}')}}]);
