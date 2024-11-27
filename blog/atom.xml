@@ -8,7 +8,7 @@
     <subtitle>Eki.Lab Blog</subtitle>
     <icon>https://ekimetrics.github.io/img/favicon.png</icon>
     <entry>
-        <title type="html"><![CDATA[Where LLM still fail]]></title>
+        <title type="html"><![CDATA[Where LLMs still fail]]></title>
         <id>https://ekimetrics.github.io/blog/LLM_fail</id>
         <link href="https://ekimetrics.github.io/blog/LLM_fail"/>
         <updated>2024-11-25T00:00:00.000Z</updated>
