@@ -95,6 +95,19 @@ h1{
 
 .navbar__title{
   font-family: "Tiempos";
+  color: gold;
+}
+
+.navbar__title::before {
+  content: "Eki";
+  font-family: "Tiempos";
+  color: white;
+}
+
+.navbar__title::after {
+  content: "Lab";
+  font-family: "Tiempos";
+  color: white;
 }
 
 .navbar__item{

@@ -2,6 +2,7 @@ const path = require('path');
 const math = require('remark-math');
 const katex = require('rehype-katex');
 
+
 module.exports = {
   title: 'Eki.Lab',
   tagline: 'EkiLab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company',
@@ -40,10 +41,11 @@ module.exports = {
     //     // ... other options
     //   },
     // ],
-
-
+  
 
   ],
+
+
   url: 'https://ekimetrics.github.io',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -82,7 +84,7 @@ module.exports = {
     },
     navbar: {
       hideOnScroll : true,
-      title: 'Eki.Lab',
+      title: '.',
 
       items: [
 
