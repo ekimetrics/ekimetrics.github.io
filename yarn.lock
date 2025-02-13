@@ -5664,10 +5664,10 @@ docusaurus-lunr-search@^2.1.15:
     unified "^9.0.0"
     unist-util-is "^4.0.2"
 
-docusaurus-plugin-image-zoom@^0.1.1:
-  version "0.1.1"
-  resolved "https://registry.npmjs.org/docusaurus-plugin-image-zoom/-/docusaurus-plugin-image-zoom-0.1.1.tgz"
-  integrity sha512-cJXo5TKh9OR1gE4B5iS5ovLWYYDFwatqRm00iXFPOaShZG99l5tgkDKgbQPAwSL9wg4I+wz3aMwkOtDhMIpKDQ==
+docusaurus-plugin-image-zoom@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.npmjs.org/docusaurus-plugin-image-zoom/-/docusaurus-plugin-image-zoom-0.1.4.tgz"
+  integrity sha512-Fc16FUUVKgvF0OuMapsau0GFopSAH99t+FCRtTpF8n2Wt8toi5Et3xHKPNvuCb85PTtDuNfFUp5m9eCij0dXlw==
   dependencies:
     medium-zoom "^1.0.6"
 
