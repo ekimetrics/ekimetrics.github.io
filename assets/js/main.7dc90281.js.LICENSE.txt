@@ -13,6 +13,8 @@ object-assign
   http://jedwatson.github.io/classnames
 */
 
+/*! medium-zoom 1.0.8 | MIT License | https://github.com/francoischalifour/medium-zoom */
+
 /**
  * @license React
  * use-sync-external-store-shim.production.min.js
