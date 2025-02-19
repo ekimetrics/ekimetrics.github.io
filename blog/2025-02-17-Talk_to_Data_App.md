@@ -5,40 +5,30 @@ authors: [bertrand.devericourt]
 
 
 
-header_image_url: "img/blog/LLMs_fail_header.png"
-image: "img/blog/LLMs_fail_header.png"
-tags: [Generative AI, LLM, NLP]
+header_image_url: "img/blog/Talk_to_Data_App.jpg"
+image: "img/blog/Talk_to_Data_App.jpg"
+tags: [Innovation, R&D,AI, GenAI, Text-to-SQL, NLP, Data Science]
 draft: true
-description: "‘2024 will be the year of talk-to-data’. It was with this conviction that we resolved, at the end of 2023, to tackle this challenge – mostly known under the technical name “Text-to-SQL”."
+description: "Delving into the R&D journey of creating a pioneering Text-to-SQL tool, exploring the intersection of data governance, business language challenges, and the semantic power of LLMs."
 
 keywords:
-    - Generative AI
-    - LLM
-    - NLP
-    - Innovation
-    - Data Science
+    - Text-to-SQL
+    - SQL Automation
+    - Data Governance
+    - Data Analysis
+    - AI in Business
     - Large Language Models (LLM)
-    - LLM limitations
-    - ChatGPT
-    - o1
-    - o1-preview
-    - Artificial Intelligence
-    - Misguided attention
-    - Next-token prediction
-    - Natural Language Processing
-    - Language model biases
-    - Generative AI limitations
-    - LLM errors
-    - Machine learning challenges
-    - Deep learning weaknesses
-    - GPT limitations
-    - Natural language processing issues
-    - Chain-of-thought prompting
-    - Ekimetrics AI
-    - OpenAI
-    - LLM tokenization
-    - AI numeric processing
-    - Language model reasoning
+    - SQL Query Generation
+    - AI Tools
+    - AI Development Challenges
+    - AI engineering
+    - R&D
+    - Deep Learning
+    - GenAI
+    - Natural Language Processing (NLP)
+    - GPT Models
+    - Database Management
+    
 ---
 <!-- import useBaseUrl from "@docusaurus/useBaseUrl";
 
@@ -51,14 +41,12 @@ keywords:
 
 ## 1. Talk to data: a new frontier
 
-‘2024 will be the year of talk-to-data’. It was with this conviction that we resolved, at the end of 2023, to tackle this challenge – mostly known under the technical name “Text-to-SQL”.
-The widespread use of GPT-4-turbo and the upgrading of the Open AI competition, the fall in costs, the increase in the size of the context, and the incredible speed of the market meant that this huge challenge was going to be our new horizon.
+As 2023 drew to a close, we made a strategic decision to tackle one of the most promising challenges in data science: enabling natural language interactions with databases, technically known as "Text-to-SQL." Our conviction that 2024 would be the breakthrough year for talk-to-data applications was driven by several key developments: the release of GPT-4-turbo, intensifying competition in the AI space, declining implementation costs, expanded context windows, and unprecedented market momentum.
 
 
-## 2.	Why it is useful ?
+## 2.	Business Value
 
-If it's interesting for the data scientist, the challenge had to be interesting for the business.
-We identified 3 types of useful use, which convinced our first customer:
+The business case for talk-to-data solutions extends beyond technical innovation. We identified 3 primary value propositions that resonated with our first customer:
 
 
 </div>
@@ -70,14 +58,16 @@ We identified 3 types of useful use, which convinced our first customer:
 
 <div align="justify"> 
 
-What's more, we now have more feedback from the market to back up our belief in the value of such a system - for example, Uber claims to have cut SQL query authoring by 70% – supposedly saving 140,000 hours a month thanks to such a tool (source: https://medium.com/wrenai/how-uber-is-saving-140-000-hours-each-month-using-text-to-sql-and-how-you-can-harness-the-same-fb4818ae4ea3).
+Market validation has since strengthened our conviction: for instance, Uber reports a 70% reduction in SQL query authoring time through such tools, translating to an estimated 140,000 hours saved monthly (source: https://medium.com/wrenai/how-uber-is-saving-140-000-hours-each-month-using-text-to-sql-and-how-you-can-harness-the-same-fb4818ae4ea3).
 
 
-## 3.	Why it is hard ?
+## 3.	Technical Challenges
 
-Hey, but wait! We've managed to build useful RAGs that can be used with LLMs such as GPT3.5, right? So why shouldn't that be enough to interact with a simple database, which often has the advantage of being tabular and therefore formatted? There's no need for parsing, chunking or preprocessing, is there?
 
-Well... There are at least 4 main reasons explaining why this task is difficult:
+You might wonder: since RAGs have proven effective with LLMs like GPT-3.5, why wouldn't they suffice for database interactions? After all, databases are structured in tabular formats, seemingly eliminating the need for parsing, chunking, or preprocessing.
+
+However, despite the apparent simplicity of structured databases, four significant challenges make this task particularly complex:
+
 1.	Ambiguity in Natural Language: varies from one user to another, and one question can have several answers
 2.	Complex SQL syntax: You may need nested queries, aggregations, filters and conditions
 3.	Schema & Naming Understanding: Alignment between the user question, the format of data, the naming of fields, and then the SQL... are not trivial
@@ -93,15 +83,12 @@ Well... There are at least 4 main reasons explaining why this task is difficult:
 <div align="justify"> 
 
 
-## 4. Our thoughts & plans
+## 4. Strategic Approach
 
-At the very beginning, we tried to frame the various ways to query tabular data in natural language.
+Our initial analysis identified four potential implementation strategies, evaluated against specificity and robustness:
 
-This reflection resulted in the scheme below, balancing specificity of developments versus robustness (and maintainability) of the solution.
-
-4 types of solutions were foreseen:
 1.	A pure text-to-sql LLM
-2.	A text-to-sql LLM enhanced by various controls & helpers
+2.	A text-to-sql LLM enhanced by various controls & assistance
 3.	Aggregation of data in automatically generated small tables
 4.	A very laborious pattern extraction model to try to match natural language pieces with predefined SQL pieces
 
@@ -115,7 +102,7 @@ This reflection resulted in the scheme below, balancing specificity of developme
 
 <div align="justify"> 
 
-To fill in the gaps between these two axes, the “text-to-SQL + controls” solution was chosen, and the framework “Vanna” selected to quickly build a foundation for this.
+To fill in the gaps between these two axes, we chose the “text-to-SQL + controls” solution, and used the Vanna framework as our foundation to accelerate our developments.
 
 
 </div>
@@ -127,12 +114,11 @@ To fill in the gaps between these two axes, the “text-to-SQL + controls” sol
 
 <div align="justify"> 
 
-## 5.	What we created
+## 5. Implementation Journey
 
-#An Architecture & a Baseline
+### Architecture & Initial Setup
 
-To begin with, we created an architecture fitting with the client environment & the architects’ requirements – I won't go into too much detail here, but you can find a simplified diagram below.
-
+To begin with, we created an architecture fitting with the client environment & the architects’ requirements.  While the complete technical details are beyond this document's scope, here's a simplified overview:
 
 </div>
 <div align = "center">
@@ -142,21 +128,21 @@ To begin with, we created an architecture fitting with the client environment & 
 
 <div align="justify"> 
 
-To launch our work, we reframed the business need: the customer only wanted an application that would enable him to query his database: one question, one answer, directly in the form of data.
-There was no need to generate text, but the main risk of Text-to-SQL became immediately apparent: how could a business user, unfamiliar with SQL and the tables available, know whether the tool was giving him a figure that answered his question precisely?
-To address this issue, we immediately incorporated a natural language reformulation of the SQL query - which only addresses part of the problem, however. The human feedback loop was also native, because it's thanks to the examples (question, SQL answer) that Vanna works.
-At this stage, we had:
+To launch our work, we reframed the business need: the customer only wanted an application that would enable them to query their database: one question, one answer, directly in the form of data.
+
+We quickly identified a critical challenge: how could business users without SQL expertise or familiarity with the available tables verify the accuracy and relevance of the answers?
+
+To address this issue, we immediately incorporated a natural language reformulation of the SQL query - which only addresses part of the problem, however. And to improve regularly the tool, we integrated human feedback loops through example pairs (question and SQL answer).
+
+Our initial implementation included:
 - A dockerised architecture connecting back and front via FastAPI
 - Vanna 0.0.3x
 - A GPT 3.5 turbo (to limit costs on iterations, which proved useful at first)
 - Access to 2-3 tables in an initially fixed format
 
-# Issues & Solutions
-What’s interesting with LLMs with “small” capabilities, is that the rest (code & prompts) needs to be super robust & meaningful.
+### Implementation Challenges & Solutions
 
-Our work initially consisted of testing and identifying problems, the better to reflect on them and devise solutions.
-
-Here is a non-exhaustive list of our worst problems:
+Our work initially consisted of testing and identifying problems, the better to reflect on them and devise solutions. Working with limited-capability LLMs highlighted the importance of robust code and precise prompting. Here are the key challenges we encountered:
 
 </div>
 <div align = "center">
@@ -167,8 +153,7 @@ Here is a non-exhaustive list of our worst problems:
 <div align="justify"> 
 
 
-From this experience, working iteratively, we have created new building blocks.
-Here are a few of them, associated with 3 issues that we feel are emblematic of Text-to-SQL:
+We developed several solutions to address these challenges. Below are three key challenges and the solutions we developed:
 
 ### a/ Problems linked to the database:
 
@@ -254,11 +239,11 @@ To remedy this, two minimum solutions quickly became apparent.
 1.	Any new change must be accompanied by a drift measurement (loss of reliability on questions that have already been mastered).
 2.	By adding tables, new prompt elements can be confused with older ones, which were not designed at the same time. To counter this, a table assignment mechanism upstream of the chain should enable the LLM to be directed towards a list of candidate tables.
 
-## 6.	What’s next?
-There are now many more interesting ‘talk to data’ tools, whether from Databricks, Google or elsewhere. 
+## 6.	Future Outlook
+The landscape of talk-to-data solutions continues to evolve rapidly, with major players like Databricks and Google introducing interesting offerings. The Bird SQL benchmark continues to fill up with new records, and LLMs have greatly improved their code generation, thanks in particular to the ‘test time compute’ approach.
 
-The Bird SQL benchmark continues to fill up with new records, and LLMs have greatly improved their code generation, thanks in particular to the ‘test time compute’ approach.
+But our experience shows that all these use cases will require the following fundamental elements: excellent data governance, a solid business sense on the part of the players responsible for maintaining text-to-SQL-based products, and well-parametrized tools to ensure robust responses - expertise and solutions that we've developed and proven to be consistently valuable.
 
-But our experience shows that all these use cases will always require the following fundamental elements: excellent data governance, a solid business sense on the part of the players responsible for maintaining text-to-SQL-based products, and well-parametrized tools to ensure robust responses.
+The future of text-to-SQL applications depends not just on technological advancement, but on the thoughtful integration of these fundamental elements.
 
 </div>
