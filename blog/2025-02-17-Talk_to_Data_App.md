@@ -53,7 +53,7 @@ The business case for talk-to-data solutions extends beyond technical innovation
 
 <div align = "center">
 
-  ![screenshot-app ](img/Talk_to_Data_App/Use_Cases.jpg)
+  ![screenshot-app ](img/Talk_to_Data_App/Use_Cases.png)
 </div>
 
 <div align="justify"> 
@@ -76,7 +76,7 @@ However, despite the apparent simplicity of structured databases, four significa
 </div>
 <div align = "center">
 
-  ![screenshot-app ](img/Talk_to_Data_App/Timeline_Performance.jpg)
+  ![screenshot-app ](img/Talk_to_Data_App/Timeline_Performance.png)
 </div>
 
 
@@ -96,7 +96,7 @@ Our initial analysis identified four potential implementation strategies, evalua
 </div>
 <div align = "center">
 
-  ![screenshot-app ](img/Talk_to_Data_App/Potential_Methodologies.jpg)
+  ![screenshot-app ](img/Talk_to_Data_App/Potential_Methodologies.png)
 </div>
 
 
@@ -108,7 +108,7 @@ To fill in the gaps between these two axes, we chose the “text-to-SQL + contro
 </div>
 <div align = "center">
 
-  ![screenshot-app ](img/Talk_to_Data_App/LLM_SQL.jpg)
+  ![screenshot-app ](img/Talk_to_Data_App/LLM_SQL.png)
 </div>
 
 
@@ -123,7 +123,7 @@ To begin with, we created an architecture fitting with the client environment & 
 </div>
 <div align = "center">
 
-  ![screenshot-app ](img/Talk_to_Data_App/Components.jpg)
+  ![screenshot-app ](img/Talk_to_Data_App/Components.png)
 </div>
 
 <div align="justify"> 
@@ -147,7 +147,7 @@ Our work initially consisted of testing and identifying problems, the better to 
 </div>
 <div align = "center">
 
-  ![screenshot-app ](img/Talk_to_Data_App/Steps_Q.jpg)
+  ![screenshot-app ](img/Talk_to_Data_App/Steps_Q.png)
 </div>
 
 <div align="justify"> 
@@ -177,11 +177,18 @@ There are several factors, and therefore several solutions:
   - Solution: 
     - Add default filters (e.g. most recent date)
     - Choose one of several possible tables, and specify this in the SQL query reformulation in natural language.
+    - Solutions based on a multi-turn discussion with LLM: 
+      - LLM points out the ambiguities of the formulation and asks for clarification
+      -	LLM shows what related data are available, and asks for clarification
+      - LLM suggests a reformulation, and asks for validation before generating the SQL
+
 
 - Questions that are too specific. 
   - Example: ‘What is the price of X on 1 January at 1.03pm according to website Y in region Z?’ when the information is only available on average on a monthly basis.
 
-  - Solution: in general, the LLM responds as best it can, and rephrasing allows the user to be informed of the level of detail in the response. But be careful, too much detail can lead the LLM to add aberrant filters - which again is visible in the reformulation.
+  - Solution: 
+    - In general, the LLM responds as best it can, and rephrasing allows the user to be informed of the level of detail in the response. But be careful, too much detail can lead the LLM to add aberrant filters - which again is visible in the reformulation.
+    - Solutions based on a multi-turn discussion with LLM (see above)
 
 - An implicit context
 
