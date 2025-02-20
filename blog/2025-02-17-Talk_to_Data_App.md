@@ -8,7 +8,7 @@ authors: [bertrand.devericourt]
 header_image_url: "img/blog/Talk_to_Data_App.jpg"
 image: "img/blog/Talk_to_Data_App.jpg"
 tags: [Innovation, R&D,AI, GenAI, Text-to-SQL, NLP, Data Science]
-draft: true
+draft: false
 description: "Delving into the R&D journey of creating a pioneering Text-to-SQL tool, exploring the intersection of data governance, business language challenges, and the semantic power of LLMs."
 
 keywords:
