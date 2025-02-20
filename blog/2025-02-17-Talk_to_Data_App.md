@@ -170,7 +170,7 @@ This is the major difficulty with TTD.
 
 There are several factors, and therefore several solutions:
 
-- Unclear questions.
+- **Unclear questions**
 
   - Example: what is the price of XXX -> no date, no distinction between new and used, etc.
 
@@ -183,14 +183,14 @@ There are several factors, and therefore several solutions:
       - LLM suggests a reformulation, and asks for validation before generating the SQL
 
 
-- Questions that are too specific. 
+- **Questions that are too specific** 
   - Example: ‘What is the price of X on 1 January at 1.03pm according to website Y in region Z?’ when the information is only available on average on a monthly basis.
 
   - Solution: 
     - In general, the LLM responds as best it can, and rephrasing allows the user to be informed of the level of detail in the response. But be careful, too much detail can lead the LLM to add aberrant filters - which again is visible in the reformulation.
     - Solutions based on a multi-turn discussion with LLM (see above)
 
-- An implicit context
+- **An implicit context**
 
   - Example:
 
@@ -202,7 +202,7 @@ There are several factors, and therefore several solutions:
     - Personalise the TTD with a simple prompt presenting the user's context
     - Add default filters based on country, entity, etc.
 
-- Unclear field names
+- **Unclear field names**
 
   - Example: field names such as ‘DL_MKT_TIME’. The description of the field allows the LLM to understand it, but the name of the field is very important.
   - Solutions: 
@@ -210,7 +210,7 @@ There are several factors, and therefore several solutions:
     - Create views dedicated to TTD
     - Use a business name in the TTD code, which will be replaced on the fly by its technical name when the request is made.
 
-- Jargon in user questions
+- **Jargon in user questions**
 
   - Example: business abbreviations (‘bb’ for ‘buyback’, etc.).
 
@@ -219,7 +219,7 @@ There are several factors, and therefore several solutions:
     - Specific jargon must necessarily be given to the LLM, either upstream (FT) or in the document base (which feeds the prompt).
     - Hybrid search can be used to retrieve specific business vocabulary that is not well represented in the latent vector space.
 
-- Table formats (aggregation, filter, etc.) of which the user is unaware, leading to complex or impossible queries
+- **Table formats (aggregation, filter, etc.) of which the user is unaware, leading to complex or impossible queries**
 
   - Example: ‘what is the average selling price of X’ on a table aggregated by shop (requiring a weighted average).
   - Solutions: 
@@ -234,7 +234,7 @@ There are several factors, and therefore several solutions:
       - Identify certain patterns in the query, then raise an error with a corrective message for the LLM
       - Even on-the-fly replacement of certain operations
 
-- Specific field formats
+- **Specific field formats**
   - Example: two fields for a single word, several words in one field value, etc.
   - Solution: in this case, the best solution is still to change the data. If this isn't possible and TTD doesn't work as expected, you can use ad-hoc prompts and fairly open SQL queries (e.g. ‘LIKE’ instead of ‘=’).
 
