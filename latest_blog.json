@@ -2,6 +2,48 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "How We Created Our First Talk-to-Data (Text-to-SQL) Application in Production",
+      "permalink": "blog/Talk_to_Data_App",
+      "img_path": "./img/blog/Talk_to_Data_App.jpg",
+      "description": "Delving into the R&D journey of creating a pioneering Text-to-SQL tool, exploring the intersection of data governance, business language challenges, and the semantic power of LLMs."
+    },
+    {
+      "title": "Where LLMs still fail",
+      "permalink": "blog/LLMs_fail",
+      "img_path": "./img/blog/LLMs_fail_header.png",
+      "description": "An exploration of current limitations in Large Language Models (LLM) through concrete examples, revealing their surprising struggles with seemingly simple tasks."
+    },
+    {
+      "title": "Optimizing Chatbot Performance: A Two-Phase Methodology for Enhanced Performance in HR Policy Responses",
+      "permalink": "blog/Wombat_HR",
+      "img_path": "./img/blog/Wombat_HR_header.jpg",
+      "description": "At Ekimetrics, we've tackled the challenge of ensuring the relevance and accuracy of chatbot responses by developing a cutting-edge chatbot system designed to navigate the complex landscape of HR policies."
+    },
+    {
+      "title": "Bayesian Neural Networks",
+      "permalink": "blog/bayesian_NN",
+      "img_path": "./img/blog/bayesian_NN.jpg",
+      "description": "Bayesian neural networks (BNNs) is a pioneering approach that embraces uncertainty as a strength."
+    },
+    {
+      "title": "Multimodal Deep Learning",
+      "permalink": "blog/multimodal_fusion",
+      "img_path": "./img/blog/multimodal_fusion.jpg",
+      "description": "Understand why multimodal deep learning models are more accurate than assembled unimodal models."
+    },
+    {
+      "title": "Uncertainty in time series forecasting",
+      "permalink": "blog/Uncertainty_TS",
+      "img_path": "./img/blog/Uncertainty_TS.jpg",
+      "description": "Discover uncertainty quantification for time series forecasting."
+    },
+    {
+      "title": "Maths Men: The Economics of Online Advertising",
+      "permalink": "blog/economics_online_ad",
+      "img_path": "./img/blog/economics_online_ad.jpg",
+      "description": "Willing to learn about the online ad market, cross-media effects and contextual advertising? This article wraps up the content of a PhD thesis on the economics of online advertising, defended by Rémi Devaux, Senior Consultant at Ekimetrics."
+    },
+    {
       "title": "ClimateQ&A",
       "permalink": "blog/ClimateQ&A",
       "img_path": "./img/blog/ClimateQA.jpg",
