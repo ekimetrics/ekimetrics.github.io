@@ -5,29 +5,22 @@ authors: [toni.fortora]
 
 
 
-header_image_url: "img/blog/Talk_to_Data_App.jpg"
-image: "img/blog/Talk_to_Data_App.jpg"
-tags: [Innovation, R&D,AI, GenAI, Text-to-SQL, NLP, Data Science]
-draft: true
-description: "Causal Inference."
+header_image_url: "img/blog/Causal_Inference_header.jpg"
+image: "img/blog/Causal_Inference_header.jpg"
+tags: [Causal AI, Explainable Marketing, MMM]
+draft: false
+description: "Integrating causal inference into Marketing Mix Models transforms correlation-based marketing analytics into powerful decision engines that reveal the true impact of campaigns."
 
 keywords:
-    - Text-to-SQL
-    - SQL Automation
-    - Data Governance
-    - Data Analysis
-    - AI in Business
-    - Large Language Models (LLM)
-    - SQL Query Generation
-    - AI Tools
-    - AI Development Challenges
-    - AI engineering
-    - R&D
-    - Deep Learning
-    - GenAI
-    - Natural Language Processing (NLP)
-    - GPT Models
-    - Database Management
+    - Marketing Mix Modeling
+    - Causal inference
+    - Indirect effect
+    - Attribution modeling
+    - Marketing ROI causality
+    - Channel interaction effects
+    - Confounding variables marketing
+    - DoWhy
+    - Counterfactuals
     
 ---
 <!-- import useBaseUrl from "@docusaurus/useBaseUrl";
@@ -129,7 +122,7 @@ By explicitly modeling this causal structure, we can obtain unbiased estimates o
 
 <div align = "center">
 
-  ![screenshot-app ](img/Causal_Inference/causal_graph_example.png)
+  ![screenshot-app ](img/Causal_Inference/causal_graph_example.jpg)
 </div>
 
 <div align="justify"> 
@@ -195,11 +188,17 @@ causal_estimate = model.estimate_effect(identified_estimand,
 
 This analysis also helps uncover synergies and spillover effects between variables, shedding light on how different campaigns interact with each other to drive outcomes.
 
-### Ensuring Robustness with Refutation 
+### Ensuring Robustness
 
-Validation is a critical step in ensuring the reliability of our causal model. We employ refutation tests, such as the random common cause refuter, to simulate scenarios where unobserved confounding variables may exist. This involves introducing a synthetic confounder to the dataset and re-estimating causal effects.
+Validation is a critical step in ensuring the reliability and practical utility of our causal model. Rather than simply accepting point estimates, we systematically quantify the uncertainty associated with our causal effect measurements—an approach that enhances both analytical rigor and decision-making transparency.
 
-If the causal model is well-specified and accounts for all relevant confounders, the addition of this simulated variable should not significantly alter the estimated effects. This process helps confirm the robustness of the model, ensuring that the causal relationships identified are not driven by spurious correlations or omitted variables.
+We employ several complementary techniques to measure uncertainty:
+- **Confidence Intervals**: Using bootstrapping approaches to generate confidence intervals around our Average Treatment Effect (ATE) estimates. This provides stakeholders with a clear understanding of the range within which the true causal effect likely falls.
+- **Hypothesis Testing**: Calculating p-values that indicate the statistical significance of identified effects, helping differentiate between genuine causal relationships and potential statistical noises.
+- **Sensitivity Analysis**: Systematically varying model assumptions to understand how robust our causal estimates are to different specifications and data conditions.
+  
+This focus on uncertainty measurement acknowledges the inherent limitations of causal inference in real-world settings with finite data. We recognize that causal estimates may be imperfect when data volume is limited, measurement noise is present, or when important variables might be unobserved. By transparently communicating these uncertainties, we enable more informed decision-making.
+
 
 We also reconcile the experiment's results with Business validation. This involves comparing your causal MMM results against actual experimental data to verify that your model's predictions match observed outcomes in controlled settings. This process serves as a reality check that bridges statistical models with empirical evidence.
 
@@ -208,6 +207,30 @@ We also reconcile the experiment's results with Business validation. This involv
 As marketing ecosystems become increasingly complex, the need for robust causal inference in MMM grows more critical. By acknowledging and addressing the causal nature of marketing effectiveness measurement, we can deliver more accurate and actionable insights to decision-makers.
 
 Understanding MMM as a causal inference problem rather than just a regression task is crucial for modern marketing analytics. This perspective enables more accurate measurement of marketing effectiveness and better-informed decision-making in an increasingly complex digital landscape.
+
+
+## Glossary
+ 
+**Average Treatment Effect (ATE)**  
+The mean difference in outcomes between units that received a treatment and units that did not. In marketing, this represents the average incremental impact of a marketing intervention (e.g., TV campaign) on a business outcome (e.g., sales).
+
+**Causal Discovery**  
+The process of learning causal relationships from observational data. This involves identifying which variables cause others and constructing a causal graph based on statistical patterns in the data, often combined with domain knowledge.
+ 
+**Causal Graph**  
+A visual representation of causal relationships between variables using a Directed Acyclic Graph (DAG). In marketing, causal graphs explicitly show how marketing channels influence each other and sales, as well as how external factors like seasonality affect both marketing decisions and outcomes.
+ 
+**Directed Acyclic Graph (DAG)**  
+A mathematical structure consisting of nodes (variables) and directed edges (causal relationships) with no cycles. DAGs provide a formal way to represent causal assumptions and identify proper adjustment sets for causal estimation.
+ 
+**Confounding Variables**  
+Variables that influence both the treatment (e.g., marketing spend) and outcome (e.g., sales), potentially creating spurious associations. In marketing, seasonality is a common confounder as it affects both marketing decisions and consumer behavior.
+ 
+**DoWhy**  
+An open-source Python library for causal inference that implements a four-step process: modeling, identification, estimation, and refutation. DoWhy provides tools to build causal graphs, identify proper estimation techniques, and validate causal assumptions.
+ 
+**Overlap Testing**  
+A validation technique that ensures sufficient data exists across different values of treatment variables to enable robust causal estimation. This helps avoid extrapolation beyond the support of the data.
 
 
 </div>
