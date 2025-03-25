@@ -133,9 +133,23 @@ Traditional models often treat marketing channels as independent contributors, b
 
 Causal modeling allows us to represent these dependencies mathematically:
 
-$$\text{Sales} = f(\text{TV\_Spend}, \text{Digital\_Spend}, \text{Search\_Spend}, \text{Email\_Spend}) + g(\text{TV\_Spend} \rightarrow \text{Search\_Spend})$$
+</div>
 
-Where $$g(\text{TV\_Spend} \rightarrow \text{Search\_Spend})$$ represents the indirect effect of TV advertising on sales via its influence on search behavior. This captures the reality that when TV campaigns run, they often drive consumers to search for the product or brand online, creating an indirect pathway to conversion. By modeling these pathways explicitly, we can attribute effects more accurately and understand both direct and indirect impacts of each marketing channel.
+<div align = "center">
+
+  ![screenshot-app ](img/Causal_Inference/Latex_1.png)
+</div>
+
+<div align = "left">
+where
+
+
+  ![screenshot-app ](img/Causal_Inference/Latex_2.png)
+</div>
+
+<div align="justify">  
+
+represents the indirect effect of TV advertising on sales via its influence on search behavior. This captures the reality that when TV campaigns run, they often drive consumers to search for the product or brand online, creating an indirect pathway to conversion. By modeling these pathways explicitly, we can attribute effects more accurately and understand both direct and indirect impacts of each marketing channel.
 
 ### Challenge 3: Non-Random Media Allocation
 
@@ -143,9 +157,26 @@ Marketing investments aren't randomly assigned—they're strategically allocated
 
 The potential outcomes framework from causal inference helps address this by explicitly considering counterfactuals:
 
-$$\tau = E[Y(1) - Y(0)]$$
+</div>
 
-Where $\tau$ is the Average Treatment Effect, $Y(1)$ is the outcome with treatment, and $Y(0)$ is the outcome without treatment. This framework forces us to consider what would have happened without a particular marketing intervention, providing a more accurate measure of true incremental impact.
+<div align = "left">
+
+  ![screenshot-app ](img/Causal_Inference/Latex_3.png)
+
+where
+
+  ![screenshot-app ](img/Causal_Inference/tau_alone.png)
+  is the Average Treatment Effect
+</div>
+
+
+<div align="justify">
+
+Y(1) is the outcome with treatment, and 
+
+Y(0) is the outcome without treatment. 
+
+This framework forces us to consider what would have happened without a particular marketing intervention, providing a more accurate measure of true incremental impact.
 
 ## Moving Toward Causal Solutions
 
@@ -208,6 +239,7 @@ As marketing ecosystems become increasingly complex, the need for robust causal 
 
 Understanding MMM as a causal inference problem rather than just a regression task is crucial for modern marketing analytics. This perspective enables more accurate measurement of marketing effectiveness and better-informed decision-making in an increasingly complex digital landscape.
 
+---
 
 ## Glossary
  
