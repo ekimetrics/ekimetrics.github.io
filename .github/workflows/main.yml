@@ -29,6 +29,7 @@ jobs:
 
       - name: Deploy to GitHub Pages
         env:
+          GIT_USER: "github-actions[bot]"
           GH_PAT: ${{ secrets.GH_PAT_2 }}
         run: |
           git remote set-url origin https://x-access-token:${GH_PAT}@github.com/ekimetrics/ekimetrics.github.io.git
