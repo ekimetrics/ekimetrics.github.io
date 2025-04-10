@@ -27,10 +27,12 @@ jobs:
           git config --global user.email "actions@github.com"
           git config --global user.name "github-actions"
 
-      - name: Deploy to GitHub Pages
+      - name: Deploy
         env:
-          GIT_USER: "github-actions[bot]"
-          GH_PAT: ${{ secrets.GIT_PAT_EKILAB }}
+          GIT_USER: github-actions[bot]
+          GIT_PASS: ${{ secrets.GIT_PAT_EKILAB }}
         run: |
-          git remote set-url origin https://x-access-token:${GH_PAT}@github.com/ekimetrics/ekimetrics.github.io.git
+          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions"
+          git remote set-url origin https://x-access-token:${GIT_PASS}@github.com/ekimetrics/ekimetrics.github.io.git
           npm run deploy
