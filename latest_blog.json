@@ -2,6 +2,12 @@
   "title": "Recent posts",
   "items": [
     {
+      "title": "MMM Opportunities of Using Causal Inference",
+      "permalink": "blog/Causal_Inference",
+      "img_path": "./img/blog/Causal_Inference_header.jpg",
+      "description": "Integrating causal inference into Marketing Mix Models transforms correlation-based marketing analytics into powerful decision engines that reveal the true impact of campaigns."
+    },
+    {
       "title": "How We Created Our First Talk-to-Data (Text-to-SQL) Application in Production",
       "permalink": "blog/Talk_to_Data_App",
       "img_path": "./img/blog/Talk_to_Data_App.jpg",

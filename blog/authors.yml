@@ -12,9 +12,9 @@ nathan.rouff:
 
 milan.bhan:
   name: Milan Bhan
-  title : Senior Data Scientist Consultant
-  image_url: /img/ekitruck.jpg
-  url: mailto:inno@ekimetrics.com
+  title : Domain Specialist
+  image_url: /img/authors/milan.bhan.png
+  url: https://www.linkedin.com/in/milan-bhan-43133a102/
 
 pierre.biousse:
   name: Pierre Biousse
@@ -88,3 +88,8 @@ toni.fortora:
   title: Senior Consultant
   image_url: /img/authors/toni_fortora.jpg
   url: https://www.linkedin.com/in/toni-fortora/
+
+benjamin.wong:
+  name: Benjamin Wong
+  title: Senior Consultant
+  url: https://www.linkedin.com/in/benjamin-wong-62a5b7189/
