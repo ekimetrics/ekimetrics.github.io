@@ -69,9 +69,7 @@ As mentioned, unlike traditional explainability methods that only highlight infl
 
 ### 2. Trust and Compliance
 
-Link: https://dl.acm.org/doi/10.1145/3593013.3594069
-
-As AI systems play a growing role in decision-making, regulations require that automated decisions be explainable and fair. Counterfactuals help organizations justify decisions by demonstrating the exact changes that would have led to a different outcome.
+As AI systems play a growing role in decision-making, [regulations require that automated decisions be explainable and fair](https://dl.acm.org/doi/10.1145/3593013.3594069). Counterfactuals help organizations justify decisions by demonstrating the exact changes that would have led to a different outcome.
 
 This improves:
 - **Transparency** – Users understand why they received a particular decision.
