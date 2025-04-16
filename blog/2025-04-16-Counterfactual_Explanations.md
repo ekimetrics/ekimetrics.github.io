@@ -63,11 +63,11 @@ This focus on actionability makes counterfactual explanations particularly valua
 
 Counterfactual explanations can enhance AI transparency and fairness by addressing several key challenges:
 
-### 1. Actionable Insights
+#### Actionable Insights
 
 As mentioned, unlike traditional explainability methods that only highlight influential features, counterfactuals provide clear, practical steps to achieve a desired outcome. Instead of just showing that income is important for loan approval, counterfactuals tell users exactly how much income needs to increase for approval.
 
-### 2. Trust and Compliance
+#### Trust and Compliance
 
 As AI systems play a growing role in decision-making, [regulations require that automated decisions be explainable and fair](https://dl.acm.org/doi/10.1145/3593013.3594069). Counterfactuals help organizations justify decisions by demonstrating the exact changes that would have led to a different outcome.
 
@@ -76,7 +76,7 @@ This improves:
 - **Fairness** – Decision-making processes become more accountable.
 - **Trust** – People are more likely to accept AI-driven outcomes if they can see how decisions are made.
 
-### 3. Model Debugging and Bias Detection
+#### Model Debugging and Bias Detection
 
 Counterfactuals also help developers detect biases in machine learning models.
 For example, if certain demographic groups need unrealistically high increases in income to get loan approvals, this may indicate a hidden bias in the model. By analyzing these patterns, developers can:
