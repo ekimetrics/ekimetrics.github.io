@@ -38,7 +38,7 @@ keywords:
 Counterfactual explanations are transforming how we interpret machine learning models by answering critical 'what-if' questions. Instead of simply revealing why a model made a particular decision, counterfactuals show how to change the outcome, bridging the gap between algorithmic decisions and human understanding.  
 In this article, we explore what counterfactuals explanations are, why they matter, how they can be generated, and their future role in explainable AI (XAI).
 
-# What is a Counterfactual Explanation in Machine Learning?
+## I. What is a Counterfactual Explanation in Machine Learning?
 
 Counterfactual explanations (or simply counterfactuals) describe how modifying specific input features could lead to a different model outcome. They provide minimal, actionable changes that would flip a prediction. They can be generated for both classification and regression problems. In the literature, the majority of studies have focused on classification problems, where counterfactuals suggest feature modifications to change a categorical outcome. Regression-based counterfactuals are now gaining more attention while facing specific issues related to continuous variable outcomes.
 
@@ -59,7 +59,7 @@ For example:
 This focus on actionability makes counterfactual explanations particularly valuable when users need clear next steps, rather than just a breakdown of feature contributions.
 
 
-## Why Counterfactuals Matter in Machine Learning
+## II. Why Counterfactuals Matter in Machine Learning
 
 Counterfactual explanations can enhance AI transparency and fairness by addressing several key challenges:
 
@@ -90,20 +90,16 @@ For example, if certain demographic groups need unrealistically high increases i
 By providing actionable recommendations, ensuring regulatory compliance, and improving model fairness, counterfactual explanations are essential for building trustworthy AI systems.
 
 
-## Generating Counterfactuals: DiCE and MACE
+## III. Generating Counterfactuals: DiCE and MACE
 
 Counterfactual generation is a key step in understanding and improving machine learning models. Two widely used methods for generating counterfactuals are DiCE (Diverse Counterfactual Explanations) and MACE (Model-Agnostic Counterfactual Explanations with Constraints).
 
-Links: 
-- https://arxiv.org/pdf/1905.07697
-- https://arxiv.org/pdf/2205.15540
 
+#### DiCE (Diverse Counterfactual Explanations)
 
-### 1. DiCE (Diverse Counterfactual Explanations)
+[DiCE](https://arxiv.org/pdf/1905.07697), developed by Microsoft Research, is a powerful tool for generating diverse counterfactual explanations in machine learning. Unlike traditional counterfactual methods that focus on finding a single optimal explanation, DiCE emphasizes the importance of providing multiple, diverse alternatives.
 
-DiCE, developed by Microsoft Research, is a powerful tool for generating diverse counterfactual explanations in machine learning. Unlike traditional counterfactual methods that focus on finding a single optimal explanation, DiCE emphasizes the importance of providing multiple, diverse alternatives.
-
-**Key Features of DiCE:**
+#### Key Features of DiCE:
 
 1.	Model-Agnostic Approach: DiCE can work with any black-box model, making it versatile across different machine learning architectures.
 2.	Diversity in Explanations: It generates a set of counterfactuals that are meaningfully different from each other, offering a broader perspective on possible changes.
@@ -147,11 +143,11 @@ counterfactuals.visualize_as_dataframe(show_only_changes=True)
 ```
 <br/>
 
-### 2. MACE (Model-Agnostic Counterfactual Explanations with Constraints)
+#### MACE (Model-Agnostic Counterfactual Explanations with Constraints)
 
-MACE (Model-Agnostic Counterfactual Explanations) is an advanced approach to generating counterfactual explanations in machine learning, with a primary focus on ensuring the realism and feasibility of the generated explanations.
+[MACE (Model-Agnostic Counterfactual Explanations)](https://arxiv.org/pdf/2205.15540) is an advanced approach to generating counterfactual explanations in machine learning, with a primary focus on ensuring the realism and feasibility of the generated explanations.
 
-**Key features of MACE**:
+#### Key features of MACE
 
 1.	Constraint Integration: MACE incorporates domain-specific constraints directly into the counterfactual generation process. This ensures that all suggested changes are not only mathematically valid but also practically feasible and logically consistent.
 2.	Model Agnosticism: Like other counterfactual methods, MACE can work with any type of machine learning model, making it versatile across different applications and model architectures.
@@ -202,14 +198,12 @@ explanations.ipython_plot(index=0, class_names=class_names)
 ```
 
 
-### 3. Example of MACE Application to the Give Me Some Credit Dataset
+#### Example of MACE Application to the Give Me Some Credit Dataset
 
-[GitHub - DrIanGregory/Kaggle-GiveMeSomeCredit: Kaggle DataSet - Give Me Some Credit](https://github.com/DrIanGregory/Kaggle-GiveMeSomeCredit)
-
-To demonstrate how MACE can be used in a real-world setting, we applied it to the well-known Give Me Some Credit dataset from Kaggle. This dataset was originally used in a 2011 competition to predict the likelihood of a borrower becoming seriously delinquent (90+ days late on a payment) within two years.
+To demonstrate how MACE can be used in a real-world setting, we applied it to the well-known [Give Me Some Credit dataset from Kaggle](https://github.com/DrIanGregory/Kaggle-GiveMeSomeCredit). This dataset was originally used in a 2011 competition to predict the likelihood of a borrower becoming seriously delinquent (90+ days late on a payment) within two years.
 
 
-### Dataset Overview
+#### Dataset Overview
 
 The dataset includes over 250,000 anonymized credit records, split into 150,000 training examples and 101,503 test instances. The target variable is SeriousDlqin2yrs (1 = default, 0 = no default), and each record contains 10 explanatory variables that capture an individual’s credit behavior, income, and financial obligations. Key features include:
 
@@ -220,7 +214,7 @@ The dataset includes over 250,000 anonymized credit records, split into 150,000 
 - NumberOfTimes90DaysLate: Frequency of severe delinquency
 
 
-### Model Training
+#### Model Training
 
 For this case study, we used XGBoost, a gradient boosting algorithm known for its ability to handle structured data and capture nonlinear relationships. XGBoost was trained on the preprocessed training data to predict the likelihood of loan default (SeriousDlqin2yrs).
 
@@ -238,7 +232,7 @@ After training, we applied MACE to generate counterfactual explanations for indi
 
 Two counterfactuals were generated for the individual originally predicted to default (label = 1). The original instance had a DebtRatio of 0.803 and a MonthlyIncome of 9120.0. The first counterfactual (CF 1) keeps the DebtRatio constant at 0.803 but increases the MonthlyIncome to 9422.625, resulting in a predicted label of 0 (non-default). The second counterfactual (CF 2) achieves the same label flip by simultaneously lowering the DebtRatio to 0.7993 and raising the MonthlyIncome to 9422.625. This demonstrates that modest, realistic adjustments to financial metrics can alter risk classification, highlighting specific and actionable paths to improve creditworthiness.
 
-### The Future of Counterfactuals and Explainable AI
+## IV. The Future of Counterfactuals and Explainable AI
 
 Counterfactual explanations are becoming an increasingly important tool for AI transparency and decision-making. As the field evolves, several key trends are shaping their future.
 
