@@ -230,7 +230,7 @@ After training, we applied MACE to generate counterfactual explanations for indi
 
 <div align = "center">
 
-  ![screenshot-app ](img/Counter_Factual/table.png)
+  ![screenshot-app ](img/Counter_Factual/Table.png)
 </div>
 
 <div align="justify"> 
