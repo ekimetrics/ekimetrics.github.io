@@ -8,7 +8,7 @@ authors: [benjamin.wong, milan.bhan]
 header_image_url: "img/blog/Counterfactual_header.jpg"
 image: "img/blog/Counterfactual_header.jpg"
 tags: [XAI, explainability, Machine Learning, Counterfactuals]
-draft: true
+draft: false
 description: "Discover what counterfactual explanations are and how illustrating changes that lead to different model outcomes enhances transparency, fairness, and actionable decision-making in machine learning."
 
 keywords:
