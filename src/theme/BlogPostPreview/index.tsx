@@ -33,10 +33,10 @@ function BlogPostPreview(props: Props): JSX.Element {
   return (
     <Link
       to={permalink}
-      className="card"
+      className={clsx('card', styles.cardHover)}
       style={{ borderRadius: 10, textDecoration: 'none', color: 'inherit' }}
     >
-      <div className="card__image">
+      <div className={clsx('card__image', styles.imageContainer)}>
         <img
           src={headerImageURL}
           alt={`Header image for ${title}`}
@@ -62,12 +62,19 @@ function BlogPostPreview(props: Props): JSX.Element {
             </TitleHeading>
 
             {description && (
-              <p style={{ fontFamily: 'InterCustom', fontSize: 14, lineHeight: 1.2 }}>
+              <p
+                style={{
+                  fontFamily: 'InterCustom',
+                  fontSize: 14,
+                  lineHeight: 1.2,
+                  textAlign: 'center',
+                }}
+              >
                 {description}
               </p>
             )}
 
-            <div className="margin-vert--md">
+            <div className="margin-vert--md" style={{ textAlign: 'center' }}>
               <time dateTime={date} className={styles.blogPostDate}>
                 {formattedDate}
                 {readingTime && <> · {Math.ceil(readingTime)} min read</>}
