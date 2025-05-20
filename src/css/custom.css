@@ -264,3 +264,18 @@ html[data-theme="dark"]{
 .row-preview{
   margin-bottom:30px;
 }
+
+.blog-card-hover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.blog-card-hover:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+/* Optional: Ensure tag links don't look gold */
+.badge--primary a {
+  color: black !important;
+}

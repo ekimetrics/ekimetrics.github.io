@@ -12,3 +12,24 @@
 .blogPostDate {
   font-size: 0.9rem;
 }
+
+.cardHover {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.cardHover:hover {
+  transform: scale(1.02);
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.15);
+}
+
+.imageContainer {
+  overflow: hidden;
+}
+
+.imageContainer img {
+  transition: transform 0.3s ease;
+}
+
+.cardHover:hover .imageContainer img {
+  transform: scale(1.05);
+}
