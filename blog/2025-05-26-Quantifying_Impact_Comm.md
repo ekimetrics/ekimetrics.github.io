@@ -1,6 +1,6 @@
 ---
-slug: Dual_Impact_Communication
-title: 'Part 1: The Dual Impact of Communication: A Conceptual Framework for Understanding its Environmental Impact'
+slug: Quantifying_Impact_Communication
+title: 'Part 2: From Theory to Measurement - Quantifying the Impact of Communication on Our Carbon Footprint'
 authors: [quentin.donnars, remi.devaux]
 
 
@@ -8,8 +8,8 @@ authors: [quentin.donnars, remi.devaux]
 header_image_url: "img/blog/Dual_Impact_Comm_header.png"
 image: "img/blog/Dual_Impact_Comm_header.png"
 tags: [Communication Industry,Direct Impact,Indirect Impact,Corporate Responsibility,Advertising Effect,Marketing Impact,Economic science]
-draft: false
-description: "This analysis examines how the communication sector contributes to 5% of French carbon emissions, distinguishing between direct impacts (production and distribution) and the more significant indirect effects on consumer behavior, offering a fresh perspective on communication's role in ecological transition."
+draft: true
+description: "In a context where companies are called upon to reduce their greenhouse gas emissions by 5% per year, the communication industry faces a fundamental question: how to evaluate and optimize its real contribution to the ecological transition?"
 
 keywords:
     - Communication impact
