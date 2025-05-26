@@ -57,7 +57,7 @@ The environmental impact of communication breaks down into two main effects, fun
 
 <div align = "center">
 
-  ![screenshot-app ](img/Dual_Impact_Comm/Breakdown_marketing_impact.png)
+  ![screenshot-app ](img/Dual_Impact_Comm/Breakdown_marketing_impact_table.png)
 *Figure 1 : Breakdown of marketing impact (Ekimetrics, 2023)*
 
 </div>
@@ -72,7 +72,7 @@ However, be careful, the notion of scope 4 is often used to refer to these indir
 
 <div align = "center">
 
-  ![screenshot-app ](img/Dual_Impact_Comm/Contribution.png)
+  ![screenshot-app ](img/Dual_Impact_Comm/Contribution_graph.png)
 *Figure 2 : Contribution of direct and indirect impact to a company's carbon footprint*
 
 </div>
