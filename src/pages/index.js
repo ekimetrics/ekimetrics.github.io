@@ -24,8 +24,13 @@ function TechRadar() {
 				id='inlineFrameExample'
 				title='Inline Frame Example'
 				width='100%'
-				height='600'
+				height='950'
 				src='https://ekimetrics.github.io/tech-radar/'
+				scrolling='no'
+				style={{
+					zoom: '0.75',
+					border: 'none',
+				}}
 			></iframe>
 
 			<div
