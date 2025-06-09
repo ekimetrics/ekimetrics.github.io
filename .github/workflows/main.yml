@@ -1,14 +1,12 @@
-name: CI/CD
+name: Production Deploy
 
 on:
   push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
+    branches: [main]
   workflow_dispatch:
 
 jobs:
-  publish:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -22,12 +20,15 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
+      - name: Build
+        run: npm run build
+
       - name: Configure Git
         run: |
           git config --global user.email "actions@github.com"
           git config --global user.name "github-actions"
 
-      - name: Deploy
+      - name: Deploy to Production
         env:
           GIT_USER: github-actions[bot]
           GIT_PASS: ${{ secrets.GIT_PAT_EKILAB }}
