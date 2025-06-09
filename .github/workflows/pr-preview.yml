@@ -1,0 +1,160 @@
+name: PR Preview Deploy
+
+on:
+  pull_request:
+    branches: [main]
+    types: [opened, synchronize, reopened, closed]
+
+jobs:
+  deploy-preview:
+    runs-on: ubuntu-latest
+    if: github.event.action != 'closed'
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set Up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 16
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Build for Preview
+        run: |
+          # Build with a base URL for the PR preview
+          DOCUSAURUS_BASE_URL="/pr-${{ github.event.number }}/" npm run build
+
+      - name: Deploy to Preview Branch
+        env:
+          GIT_USER: github-actions[bot]
+          GIT_PASS: ${{ secrets.GIT_PAT_EKILAB }}
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions"
+
+          # Create a unique branch for this PR
+          PREVIEW_BRANCH="preview-pr-${{ github.event.number }}"
+
+          # Clone the target repository
+          git clone https://x-access-token:${GIT_PASS}@github.com/ekimetrics/ekimetrics.github.io.git preview-repo
+          cd preview-repo
+
+          # Create or switch to preview branch
+          git checkout -B $PREVIEW_BRANCH || git checkout $PREVIEW_BRANCH
+
+          # Remove existing content and copy new build
+          rm -rf pr-${{ github.event.number }} || true
+          mkdir -p pr-${{ github.event.number }}
+          cp -r ../build/* pr-${{ github.event.number }}/
+
+          # Commit and push
+          git add .
+          git commit -m "Deploy PR #${{ github.event.number }} preview" || exit 0
+          git push origin $PREVIEW_BRANCH
+
+      - name: Comment Preview URL
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const prNumber = context.issue.number;
+            const previewUrl = `https://ekimetrics.github.io/pr-${prNumber}/`;
+
+            // Find existing comment
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+            });
+
+            const botComment = comments.data.find(comment =>
+              comment.user.type === 'Bot' && comment.body.includes('Preview deployment')
+            );
+
+            const commentBody = `🚀 **Preview deployment ready!**
+
+            Your changes have been deployed to a preview environment:
+            **[View Preview](${previewUrl})**
+
+            This preview will be updated automatically when you push new commits to this PR.`;
+
+            if (botComment) {
+              // Update existing comment
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: commentBody
+              });
+            } else {
+              // Create new comment
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: prNumber,
+                body: commentBody
+              });
+            }
+
+  cleanup-preview:
+    runs-on: ubuntu-latest
+    if: github.event.action == 'closed'
+    steps:
+      - name: Cleanup Preview Deployment
+        env:
+          GIT_PASS: ${{ secrets.GIT_PAT_EKILAB }}
+        run: |
+          git config --global user.email "actions@github.com"
+          git config --global user.name "github-actions"
+
+          # Clone the target repository
+          git clone https://x-access-token:${GIT_PASS}@github.com/ekimetrics/ekimetrics.github.io.git preview-repo
+          cd preview-repo
+
+          # Remove the preview directory
+          PREVIEW_BRANCH="preview-pr-${{ github.event.number }}"
+
+          # Check if preview branch exists and delete it
+          if git ls-remote --heads origin $PREVIEW_BRANCH | grep -q $PREVIEW_BRANCH; then
+            git push origin --delete $PREVIEW_BRANCH
+          fi
+
+          # Also remove the preview directory from master if it exists
+          git checkout master || git checkout main
+          if [ -d "pr-${{ github.event.number }}" ]; then
+            rm -rf pr-${{ github.event.number }}
+            git add .
+            git commit -m "Remove PR #${{ github.event.number }} preview" || exit 0
+            git push origin HEAD
+          fi
+
+      - name: Comment Cleanup
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const prNumber = context.issue.number;
+
+            // Find and update the existing comment
+            const comments = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: prNumber,
+            });
+
+            const botComment = comments.data.find(comment =>
+              comment.user.type === 'Bot' && comment.body.includes('Preview deployment')
+            );
+
+            if (botComment) {
+              const commentBody = `🧹 **Preview deployment cleaned up**
+
+              The preview deployment for this PR has been removed since the PR was closed.`;
+
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: commentBody
+              });
+            }
