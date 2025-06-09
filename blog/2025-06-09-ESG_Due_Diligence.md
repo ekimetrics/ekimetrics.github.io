@@ -5,10 +5,10 @@ authors: [karin.sasaki]
 
 
 
-header_image_url: "img/blog/ESG_Due_Diligence.jfif"
-image: "img/blog/ESG_Due_Diligence.jfif"
+header_image_url: "img/blog/ESG_Due_Diligence_Part_1.png"
+image: "img/blog/ESG_Due_Diligence_Part_1.png"
 tags: [ESG, Due diligence, GenAI, RAG, industrialised software, operational excellence, automation, process standardisation]
-draft: true
+draft: false
 description: "This paper introduces the Client ESG Due Diligence Tool, an automated solution that evaluates sustainability risks and opportunities of working with clients, whatever the industry they operate in."
 
 keywords:
