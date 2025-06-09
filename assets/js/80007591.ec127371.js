@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[2666],{32224:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/gen-ai","page":1,"postsPerPage":9,"totalPages":1,"totalCount":3,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

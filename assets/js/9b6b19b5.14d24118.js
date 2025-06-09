@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[2758],{81553:a=>{a.exports=JSON.parse('{"label":"industrialised software","permalink":"/blog/tags/industrialised-software","allTagsPath":"/blog/tags","count":2}')}}]);
