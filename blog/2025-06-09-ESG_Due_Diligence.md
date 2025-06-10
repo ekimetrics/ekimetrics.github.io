@@ -1,7 +1,7 @@
 ---
 slug: ESG_Due_Diligence
 title: 'Revolutionizing ESG Due Diligence: A User-Centric Overview of a GenAI-Powered Sustainability Assessment Tool'
-authors: [karin.sasaki]
+authors: [karin.sasaki, ruslana.tymchyk,tiago.fleury]
 
 
 

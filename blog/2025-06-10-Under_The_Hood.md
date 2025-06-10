@@ -1,7 +1,7 @@
 ---
 slug: Under_The_Hood
 title: 'Under the Hood: Technical Blueprint of a GenAI-Powered ESG Due Diligence Tool'
-authors: [karin.sasaki]
+authors: [karin.sasaki, ruslana.tymchyk, tiago.fleury]
 
 
 
