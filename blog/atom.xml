@@ -27,6 +27,12 @@ All responses are grounded in uploaded company documentation. Summaries of these
             <name>Karin Sasaki</name>
             <uri>https://www.linkedin.com/in/karinsasaki/</uri>
         </author>
+        <author>
+            <name>Ruslana Tymchyk</name>
+        </author>
+        <author>
+            <name>Tiago Fleury</name>
+        </author>
         <category label="ESG" term="ESG"/>
         <category label="Due diligence" term="Due diligence"/>
         <category label="GenAI" term="GenAI"/>
@@ -47,6 +53,12 @@ All responses are grounded in uploaded company documentation. Summaries of these
         <author>
             <name>Karin Sasaki</name>
             <uri>https://www.linkedin.com/in/karinsasaki/</uri>
+        </author>
+        <author>
+            <name>Ruslana Tymchyk</name>
+        </author>
+        <author>
+            <name>Tiago Fleury</name>
         </author>
         <category label="ESG" term="ESG"/>
         <category label="Due diligence" term="Due diligence"/>
