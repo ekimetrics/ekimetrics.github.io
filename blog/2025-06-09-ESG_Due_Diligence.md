@@ -161,8 +161,13 @@ From Renaud Pirel (Partner at Ekimetrics):
 - We all carry unconscious biases when assessing the "ESG compliance" of a particular industry or business. Leveraging a data-driven tool helps us make more objective decisions and stay aligned with our mission at Ekimetrics.
 
 
+### Technical Implementation
+
+In our second article we describe in detail [the implementation and techstack of this tool](https://ekimetrics.github.io/blog/Under_The_Hood)
+
+
 ## References
-[^1] Ekimetrics’ 2023 ESG report [ekimetrics-2023-esg-report]
+[^1] Ekimetrics’ 2023 ESG report [ekimetrics-2023-esg-report](https://www.ekimetrics.com/en-gb/articles/ekimetrics-2023-esg-report)
 
 
 </div>
