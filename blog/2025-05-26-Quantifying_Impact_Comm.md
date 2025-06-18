@@ -5,10 +5,10 @@ authors: [quentin.donnars, remi.devaux]
 
 
 
-header_image_url: "img/blog/Dual_Impact_Comm_header.png"
-image: "img/blog/Dual_Impact_Comm_header.png"
+header_image_url: "img/blog/Quantifying_Impact.jpg"
+image: "img/blog/Quantifying_Impact.jpg"
 tags: [Communication Industry,Direct Impact,Indirect Impact,Corporate Responsibility,Advertising Effect,Marketing Impact,Economic science]
-draft: true
+draft: false
 description: "In a context where companies are called upon to reduce their greenhouse gas emissions by 5% per year, the communication industry faces a fundamental question: how to evaluate and optimize its real contribution to the ecological transition?"
 
 keywords:
