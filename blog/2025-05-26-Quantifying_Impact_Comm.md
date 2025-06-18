@@ -4,7 +4,6 @@ title: 'Part 2: From Theory to Measurement - Quantifying the Impact of Communica
 authors: [quentin.donnars, remi.devaux]
 
 
-
 header_image_url: "img/blog/Quantifying_Impact.jpg"
 image: "img/blog/Quantifying_Impact.jpg"
 tags: [Communication Industry,Direct Impact,Indirect Impact,Corporate Responsibility,Advertising Effect,Marketing Impact,Economic science]
