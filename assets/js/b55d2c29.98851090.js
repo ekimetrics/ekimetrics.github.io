@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[4051],{73729:e=>{e.exports=JSON.parse('{"label":"Economic science","permalink":"/blog/tags/economic-science","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[3503],{92176:a=>{a.exports=JSON.parse('{"label":"Marketing Impact","permalink":"/blog/tags/marketing-impact","allTagsPath":"/blog/tags","count":1}')}}]);

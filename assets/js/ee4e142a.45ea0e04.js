@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[1369],{42827:e=>{e.exports=JSON.parse('{"label":"Corporate Responsibility","permalink":"/blog/tags/corporate-responsibility","allTagsPath":"/blog/tags","count":1}')}}]);

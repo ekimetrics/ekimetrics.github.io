@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[1407],{85994:a=>{a.exports=JSON.parse('{"label":"Indirect Impact","permalink":"/blog/tags/indirect-impact","allTagsPath":"/blog/tags","count":1}')}}]);
