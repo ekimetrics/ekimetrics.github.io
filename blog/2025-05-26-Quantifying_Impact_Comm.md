@@ -55,7 +55,7 @@ The table below synthesizes the strengths and limitations of each method:
 
 <div align = "center">
 
-  ![screenshot-app ](img/Quantifying_Impact/Comparative_table_1.png)
+  ![screenshot-app ](img/Quantifying_Impact/Comparative_Table_1.png)
 
 *Table 1: Comparative study of methods for estimating the direct impact of communication.*
 
@@ -73,7 +73,7 @@ Our analysis is based on the CSR reports of the six largest global communication
 
 <div align = "center">
 
-  ![screenshot-app ](img/Quantifying_Impact/Comparative_table_2.png)
+  ![screenshot-app ](img/Quantifying_Impact/Comparative_Table_2.png)
 
 *Table 2: Comparison of emissions from communications companies according to their level of activity*
 
