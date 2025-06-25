@@ -82,8 +82,7 @@ In another study of the thesis, I try to draw a line between offline ad spending
 <div align = "center">
 
 ![screenshot-app](img/Economics_online_ad/Picture1.png)
-  <div align="center"> Figure 1: Relationship between Clicks on Online Ads and Offline Advertising
-  </div>
+  <div align="center">Figure 1: Relationship between Clicks on Online Ads and Offline Advertising</div>
 </div>
 <br/>
 
@@ -108,8 +107,7 @@ In a second study, I investigate how controversial content on socials impact adv
 <div align = "center">
 
 ![screenshot-app](img/Economics_online_ad/Picture2.png)
-  <div align="center"> Figure 2: Effect of the boycott (week 0) on clicks recorded on Facebook Ads. Estimates are reported with 95% confidence interval.
-  </div>
+  <div align="center">Figure 2: Effect of the boycott (week 0) on clicks recorded on Facebook Ads. Estimates are reported with 95% confidence interval.</div>
 </div>
 
 </div>

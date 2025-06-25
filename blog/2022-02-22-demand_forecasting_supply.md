@@ -93,8 +93,7 @@ Working at a product level when having more than 20,000 products can be painful:
 Therefore, to optimize resource allocation, it was relevant to build a forecasting tool at a product category level, to combine similar products and avoid dealing with product’s turnover. Analyzing sparsity at different granularities also helped us define the best modelling level.
 
 ![Histogram](img/article_supply/img3.png)
-<div align="center"> Distribution of products' sparsity (e.g. percentage of zeroes in orders). It is clear that most products have more than 90% of zeroes. 
- </div>
+<div align="center">Distribution of products' sparsity (e.g. percentage of zeroes in orders). It is clear that most products have more than 90% of zeroes.</div>
  <br/>
 
 Important learnings here were:
@@ -103,8 +102,7 @@ Important learnings here were:
 2. **It is best to go for a solution where the unit (time x product x localization) of forecasting matches the unit of decision making**
 
 ![Predictions](img/article_supply/img4.png)
-<div align="center"> We see how the coronavirus outbreak impacted the activity of our client during the first containment. Predicting this period is pretentious, but how can it help us reduce uncertainty in the future?
- </div>
+<div align="center">We see how the coronavirus outbreak impacted the activity of our client during the first containment. Predicting this period is pretentious, but how can it help us reduce uncertainty in the future?</div>
  <br/>
 
 #### Modelling loss function
@@ -115,8 +113,7 @@ We implemented the Weighted Root Mean Squared Scaled Error, using product averag
 
 
 ![Prep Time](img/article_supply/table_2_v2.png)
-<div align="center"> Product B weekly preparation time is 400 min vs 200 min for Product A. Thus, higher accuracy on Product B is needed to reflect the operational needs.
- </div>
+<div align="center">Product B weekly preparation time is 400 min vs 200 min for Product A. Thus, higher accuracy on Product B is needed to reflect the operational needs.</div>
  <br/>
 
 ### Evaluate business outcome
