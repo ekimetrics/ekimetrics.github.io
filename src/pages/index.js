@@ -7,7 +7,7 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
-import blogData from '../../.docusaurus/docusaurus-plugin-content-blog/default/blog-archive-80c.json';
+import blogData from '../../.docusaurus/docusaurus-plugin-content-blog/default/p/blog-archive-f05.json';
 // Rather inelegant way of loading recent posts
 // See https://stackoverflow.com/questions/60289432/docusaurus-v2-recent-blogs-list-for-homepage
 // import recentPosts from "../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json";
@@ -49,7 +49,7 @@ function TechRadar() {
 }
 
 function LatestBlogPosts() {
-	const recentPosts = blogData.blogPosts
+	const recentPosts = blogData.archive.blogPosts
 		.filter((post) => !post.metadata.frontMatter.draft)
 		.sort((a, b) => a.metadata.title - b.metadata.title)
 		.slice(0, 4);
