@@ -152,9 +152,8 @@ ClimateQ&A is built of several technical algorithmic modules, ChatGPT being the 
 ![screenshot-app](img/ClimateQA/Picture2.svg)
 </div>
 
-<div align="center"> Figure 1: Climate Q&A global architecture. First, a structure dataset is created from a set of heterogeneous documents in an offline mode (1.Structured dataset creation). 
-Then, user questions  are enriched and sources (step 2). Finally, the answers with its sources are displayed in a web application.
-</div>
+<div align="center">Figure 1: Climate Q&A global architecture. First, a structure dataset is created from a set of heterogeneous documents in an offline mode (1.Structured dataset creation). 
+Then, user questions  are enriched and sources (step 2). Finally, the answers with its sources are displayed in a web application.</div>
 <br/>
 
 All the documents used for Climate Q&A are listed in the application page (section Sources) : https://huggingface.co/spaces/Ekimetrics/climate-question-answering 

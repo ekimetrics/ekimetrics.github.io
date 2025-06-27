@@ -55,8 +55,7 @@ The overview of data’s journey through a datalake or data platform can be brok
 
 ![screenshot-app](img/datalake_part_2/img1_data_journey.png)
 
-  <div align="center"> Data’s journey, from source to usage
-  </div>
+  <div align="center">Data’s journey, from source to usage</div>
   <br/>
 
 A data platform is highly versatile in providing technical options the five steps above. Getting your data from one step to the next means applying a strategy for how the data input is stored, how it is processed and how the output is exposed for the next step.
@@ -85,8 +84,7 @@ What could it look like, then ? Inside this central step, data transits through 
 
 ![screenshot-app](img/datalake_part_2/img2_data_storage.png)
 
-  <div align="center"> Data storage and processing - storage zones
-  </div>
+  <div align="center">Data storage and processing - storage zones</div>
   <br/>
 
 These zones can be found under various names: Landing - Bronze - Silver - Gold, or Temp - Raw - Cleaned - Conformed, etc. The intent is the same, where data becomes more and more usable and business use case oriented with each zone.
@@ -108,8 +106,7 @@ In these two cases, the ingestion strategy we recommend results in the same outc
 
 ![screenshot-app](img/datalake_part_2/img3_computing_1.png)
 
-  <div align="center"> Fig. 1: Computing & storage strategies in between Landing and Raw zones
-  </div>
+  <div align="center">Fig. 1: Computing & storage strategies in between Landing and Raw zones</div>
   <br/>
 
 :::note
@@ -139,8 +136,7 @@ Refined data can then be exposed in two ways, acting as the source for another s
 
 ![screenshot-app](img/datalake_part_2/img4_computing_2.png)
 
-  <div align="center"> Fig. 2: computing and storage strategies in between Raw, Trusted and Refined zones
-  </div>
+  <div align="center">Fig. 2: computing and storage strategies in between Raw, Trusted and Refined zones</div>
   <br/>
 
 For some use cases, you can generate “frozen in time” views of the data, only updating the current timeframe’s view. For instance, we could update the current month’s exposed insights each day, then stop updating it at the end of the month, writing a new one for the next month’s computed insights, and so on.
