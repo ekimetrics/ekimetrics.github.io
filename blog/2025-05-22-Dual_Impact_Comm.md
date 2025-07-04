@@ -141,6 +141,7 @@ To establish a rigorous conceptual framework for the indirect impact of communic
 
 This complexity reminds us that any measure of the environmental impact of communication must integrate not only the volume of consumption generated, but also the nature of the products and services promoted, as well as their alternatives in the market.
 
+In the second part of our article, we try to quantify the [Impact of Communication on Our Carbon Footprint](http://localhost:8080/blog/Quantifying_Impact_Communication)
 
 ## Conclusion
 

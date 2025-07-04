@@ -35,6 +35,9 @@ keywords:
 
 <div align="justify"> 
 
+
+In the first part of our article, we described the [Dual Impact of Communication](https://ekimetrics.github.io/blog/Dual_Impact_Communication)
+
 "Numbers tell stories that words cannot express." This maxim takes on its full meaning when addressing the environmental impact of communication. In our previous article, we established a conceptual framework distinguishing between the direct and indirect impact of communication, revealing the complexity of the mechanisms through which this sector influences our collective carbon footprint. Today, we transform this theoretical framework into a concrete measurement tool.  
 In a context where companies are called upon to reduce their greenhouse gas emissions by 5% per year, the communication industry faces a fundamental question: how to evaluate and optimize its real contribution to the ecological transition?
 
