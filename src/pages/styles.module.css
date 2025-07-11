@@ -3,177 +3,192 @@
  * and scoped locally.
  */
 
- .heroBanner {
-  padding: 4rem 0;
-  text-align: center;
-  position: relative;
-  overflow: hidden;
+.heroBanner {
+	padding: 4rem 0;
+	text-align: center;
+	position: relative;
+	overflow: hidden;
 }
 
 @media screen and (max-width: 996px) {
-  .heroBanner {
-    padding: 2rem;
-  }
+	.heroBanner {
+		padding: 2rem;
+	}
 }
 
 .buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
 
 .mainCardColumn {
-  padding-left: 20px;
-   padding-right: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
 }
-/* 
+/*
 .mainCardColumn {
   padding-left: 20px;
    padding-right: 20px;
 } */
 
 @media screen and (max-width: 966px) {
-  .mainCardColumn:not(:last-child) {
-    margin-bottom: 40px;
-  }
+	.mainCardColumn:not(:last-child) {
+		margin-bottom: 40px;
+	}
 }
 
-
-
 .acard {
-  /* margin-bottom: 0px; */
-  /* padding-top: 20px;
+	/* margin-bottom: 0px; */
+	/* padding-top: 20px;
   padding-bottom: 20px; */
-  text-align: center;
-  /* background-color: #380320; */
+	text-align: center;
+	/* background-color: #380320; */
 }
 
 header > .acard {
-  background-color: rgba(250, 1, 97, 0.7);
+	background-color: rgba(250, 1, 97, 0.7);
 }
 
 main > .acard {
-  z-index: 10;
-  background-color: #380320;
+	z-index: 10;
+	background-color: #380320;
 }
 
 .mr {
-  margin-right: 20px;
+	margin-right: 20px;
 }
 
 .card {
-  margin-bottom: 40px;
-  padding: 40px;
-  text-align: center;
-  border-radius: 10px;
+	margin-bottom: 40px;
+	padding: 40px;
+	text-align: center;
+	border-radius: 10px;
 }
 
 header > .card {
-  background-color: rgba(22, 41, 60, .7);
+	background-color: rgba(22, 41, 60, 0.7);
 }
 
 main > .card {
-  z-index: 10;
-  background-color: #32475a;
+	z-index: 10;
+	background-color: #32475a;
 }
 
 .background_dark_blue {
-  background-color: rgba(22, 41, 60, .7);
+	background-color: rgba(22, 41, 60, 0.7);
 }
 
-
 .bcard {
-  /* margin-bottom: 0px; */
-  /* padding-top: 20px;
+	/* margin-bottom: 0px; */
+	/* padding-top: 20px;
   padding-bottom: 20px; */
-  text-align: center;
-  background-color: rgba(22, 41, 60, .7);
-  border-radius: 10px;
+	text-align: center;
+	background-color: rgba(22, 41, 60, 0.7);
+	border-radius: 10px;
 }
 
 .grid {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 40px;
-  grid-auto-rows: minmax(100px, auto);
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	gap: 40px;
+	grid-auto-rows: minmax(100px, auto);
 }
 
 .gridcard {
-  padding: 40px;
-  margin-bottom: 40px;
-  text-align: center;
-  border-radius: 10px;
-  background-color:  #32475a;
+	padding: 40px;
+	margin-bottom: 40px;
+	text-align: center;
+	border-radius: 10px;
+	background-color: #32475a;
 }
 
 header > .gridcard {
-  background-color:  #32475a;
+	background-color: #32475a;
 }
 
 main > .gridcard {
-  z-index: 10;
-  background-color:  #32475a;
+	z-index: 10;
+	background-color: #32475a;
 }
 
-
 .gridsubcard {
-  text-align: center;
-  border-radius: 10px;
-  background-color:  rgba(22, 41, 60, .7);
+	text-align: center;
+	border-radius: 10px;
+	background-color: rgba(22, 41, 60, 0.7);
 }
 
 header > .gridsubcard {
-  background-color:  rgba(22, 41, 60, .7);
+	background-color: rgba(22, 41, 60, 0.7);
 }
 
 main > .gridsubcard {
-  z-index: 10;
-  background-color:  rgba(22, 41, 60, .7);
+	z-index: 10;
+	background-color: rgba(22, 41, 60, 0.7);
 }
 
 .wrapper {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 40px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	gap: 40px;
 }
 
-
 .wrapper > * {
-  flex: 1;
-  min-width: 200px;
+	flex: 1;
+	min-width: 200px;
 }
 
 iframe > * {
-  zoom: 0.7;
+	zoom: 0.7;
 }
 
-
-
-.wrap
-{
-    width: 320px;
-    height: 192px;
-    padding: 0;
-    overflow: hidden;
+.wrap {
+	width: 320px;
+	height: 192px;
+	padding: 0;
+	overflow: hidden;
 }
 
-.frame
-{
-    width: 1280px;
-    height: 786px;
-    border: 0;
+.frame {
+	width: 1280px;
+	height: 786px;
+	border: 0;
 
-    -ms-transform: scale(0.25);
-    -moz-transform: scale(0.25);
-    -o-transform: scale(0.25);
-    -webkit-transform: scale(0.25);
-    transform: scale(0.25);
+	-ms-transform: scale(0.25);
+	-moz-transform: scale(0.25);
+	-o-transform: scale(0.25);
+	-webkit-transform: scale(0.25);
+	transform: scale(0.25);
 
-    -ms-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    -o-transform-origin: 0 0;
-    -webkit-transform-origin: 0 0;
-    transform-origin: 0 0;
+	-ms-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	-o-transform-origin: 0 0;
+	-webkit-transform-origin: 0 0;
+	transform-origin: 0 0;
+}
+
+.techRadarWrapper {
+	position: relative;
+}
+
+.techRadarWrapper:hover .hoverOverlay {
+	opacity: 1 !important;
+}
+
+.hoverOverlay {
+	cursor: pointer;
+	pointer-events: none;
+}
+
+.hoverOverlay:hover {
+	pointer-events: auto;
+}
+
+.techRadarWrapper iframe {
+	pointer-events: auto;
+}
+
+.techRadarWrapper:hover iframe {
+	pointer-events: none;
 }

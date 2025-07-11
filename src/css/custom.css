@@ -7,275 +7,290 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #d7c378;
-  --ifm-color-primary-dark: #00ADD0;
-  --ifm-color-primary-darker:#00ADD0;
-  --ifm-color-primary-darkest: #00ADD0;
-  --ifm-color-primary-light: #d7c378;
-  --ifm-color-primary-lighter: #d7c378;
-  --ifm-color-primary-lightest: #d7c378;
-  --ifm-code-font-size: 95%;
-  --ifm-navbar-background-color: #16293c;
-  --ifm-background-color:#16293c;
-  --ifm-background-surface-color:var(--ifm-background-color);
+	--ifm-color-primary: #d7c378;
+	--ifm-color-primary-dark: #00add0;
+	--ifm-color-primary-darker: #00add0;
+	--ifm-color-primary-darkest: #00add0;
+	--ifm-color-primary-light: #d7c378;
+	--ifm-color-primary-lighter: #d7c378;
+	--ifm-color-primary-lightest: #d7c378;
+	--ifm-code-font-size: 95%;
+	--ifm-navbar-background-color: #16293c;
+	--ifm-background-color: #16293c;
+	--ifm-background-surface-color: var(--ifm-background-color);
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(20, 20, 40);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
-}
-
-
-@font-face {
-  font-family: "MetricRegular";
-  src: url("/fonts/Metric-Regular.otf");
- }
-
- @font-face {
-  font-family: "Tiempos";
-  src: url("/fonts/Tiempos.otf") format("opentype");
- }
-
-
- @font-face {
-  font-family: "InterCustom";
-  src: url("/fonts/Inter-Regular.ttf") format('truetype');
-  font-weight:400;
+	background-color: rgb(20, 20, 40);
+	display: block;
+	margin: 0 calc(-1 * var(--ifm-pre-padding));
+	padding: 0 var(--ifm-pre-padding);
 }
 
 @font-face {
-  font-family: "InterCustom";
-  src: url("/fonts/Inter-Medium.ttf") format('truetype');
-  font-weight:500;
+	font-family: 'MetricRegular';
+	src: url('/fonts/Metric-Regular.otf');
 }
 
 @font-face {
-  font-family: "InterCustom";
-  src: url("/fonts/Inter-Bold.ttf") format('truetype');
-  font-weight:700;
+	font-family: 'Tiempos';
+	src: url('/fonts/Tiempos.otf') format('opentype');
 }
 
 @font-face {
-  font-family: "InterCustom";
-  src: url("/fonts/Inter-Black.ttf") format('truetype');
-  font-weight:900;
+	font-family: 'InterCustom';
+	src: url('/fonts/Inter-Regular.ttf') format('truetype');
+	font-weight: 400;
 }
 
-.container-wide{
-  max-width:90% !important;
+@font-face {
+	font-family: 'InterCustom';
+	src: url('/fonts/Inter-Medium.ttf') format('truetype');
+	font-weight: 500;
 }
 
-
-.img-blog-header{
-  width:75%;
-  margin-left: auto;
-  margin-right: auto;
-  display:block;
+@font-face {
+	font-family: 'InterCustom';
+	src: url('/fonts/Inter-Bold.ttf') format('truetype');
+	font-weight: 700;
 }
 
-.blog-article-custom img{
-  max-width:75%;
-  display:block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom:1rem;
+@font-face {
+	font-family: 'InterCustom';
+	src: url('/fonts/Inter-Black.ttf') format('truetype');
+	font-weight: 900;
 }
 
-
-body{
-  font-family: "InterCustom";
-  /* font-size:14px; */
+.container-wide {
+	max-width: 90% !important;
 }
 
-h1{
-  font-family: "Tiempos";
+.img-blog-header {
+	width: 75%;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
 }
 
-.navbar__title{
-  font-family: "Tiempos";
-  color: gold;
+.blog-article-custom img {
+	max-width: 75%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 1rem;
+}
+
+body {
+	font-family: 'InterCustom';
+	/* font-size:14px; */
+}
+
+h1 {
+	font-family: 'Tiempos';
+}
+
+.navbar__title {
+	font-family: 'Tiempos';
+	color: gold;
 }
 
 .navbar__title::before {
-  content: "Eki";
-  font-family: "Tiempos";
-  color: white;
+	content: 'Eki';
+	font-family: 'Tiempos';
+	color: white;
 }
 
 .navbar__title::after {
-  content: "Lab";
-  font-family: "Tiempos";
-  color: white;
+	content: 'Lab';
+	font-family: 'Tiempos';
+	color: white;
 }
 
-.navbar__item{
-  font-size:16px;
+.navbar__item {
+	font-size: 16px;
 }
 
-.navbar__brand{
-  font-size:16px;
+.navbar__brand {
+	font-size: 16px;
 }
 
-.goldencolor{
-  color:var(--ifm-color-primary);
+.goldencolor {
+	color: var(--ifm-color-primary);
 }
 
-.gold{
-  color:var(--ifm-color-primary);
+.gold {
+	color: var(--ifm-color-primary);
 }
 
-.hero__title{
-  font-size:40px;
-  text-align: center;
+.hero__title {
+	font-size: 40px;
+	text-align: center;
 }
 
-.hero--blue{
-  background-color:#16293c
+.hero--blue {
+	background-color: #16293c;
 }
 .card {
-  /* box-shadow: 0 4px 8px 0 rgba(223, 18, 18, 0.2); */
-  /* max-width: 300px; */
-  margin: auto;
-  text-align: center;
-  font-family: arial;
-  background-color:#32475a;
-  border-radius: 0px;
-  height:100%;
+	/* box-shadow: 0 4px 8px 0 rgba(223, 18, 18, 0.2); */
+	/* max-width: 300px; */
+	margin: auto;
+	text-align: center;
+	font-family: arial;
+	background-color: #32475a;
+	border-radius: 0px;
+	height: 100%;
 }
 
-
-.card__image{
-  width:100%;
-  height:200px;
+.card__image {
+	width: 100%;
+	height: 200px;
 }
 
-.card__image > img{
-  width:100%;
-  object-fit: cover;
-  height:200px;
+.card__image > img {
+	width: 100%;
+	object-fit: cover;
+	height: 200px;
 }
 
-.hero__subtitle{
-  text-align: left;
+.hero__subtitle {
+	text-align: left;
 }
 
-html[data-theme="dark"]{
-  --ifm-background-color:#16293c;
+html[data-theme='dark'] {
+	--ifm-background-color: #16293c;
 }
 
 .docusaurus-highlight-code-line {
-  background-color: rgb(72, 77, 91);
-  display: block;
-  margin: 0 calc(-1 * var(--ifm-pre-padding));
-  padding: 0 var(--ifm-pre-padding);
+	background-color: rgb(72, 77, 91);
+	display: block;
+	margin: 0 calc(-1 * var(--ifm-pre-padding));
+	padding: 0 var(--ifm-pre-padding);
 }
 
-.prism-code{
-  font-size: 14px;
+.prism-code {
+	font-size: 14px;
 }
 
-.badge.badge--primary{
-  margin-right:5px;
-  color:black;
-  font-family:"InterCustom";
+.badge.badge--primary {
+	margin-right: 5px;
+	color: black;
+	font-family: 'InterCustom';
 }
 
-.badge{
-  font-size:70%
+.badge {
+	font-size: 70%;
 }
 
-.badge.badge--primary > a{
-  color:black;
-  font-family: 'Segoe UI';
+.badge.badge--primary > a {
+	color: black;
+	font-family: 'Segoe UI';
 }
 
-
-
-.longcard{
-  background-color: #32475a;
-  margin-bottom: 40px;
-  padding-bottom:0px !important;
-  min-height:200px;
-
+.longcard {
+	background-color: #32475a;
+	margin-bottom: 40px;
+	padding-bottom: 0px !important;
+	min-height: 200px;
 }
 
-.shortcard-container{
-  margin-bottom: 30px;
+.shortcard-container {
+	margin-bottom: 30px;
 }
 
-.shortcard{
-  background-color: #32475a;
-  padding-bottom:0px !important;
-  margin-right:10px;
-  height:100%;
+.shortcard {
+	background-color: #32475a;
+	padding-bottom: 0px !important;
+	margin-right: 10px;
+	height: 100%;
 }
 
-.longcard-image{
-  padding:0px !important;
-  width:100%;
-  height:200px;
+.longcard-image {
+	padding: 0px !important;
+	width: 100%;
+	height: 200px;
 }
 
-.longcard-image > img{
-  object-fit: cover;
-  width:100%;
-  height:100%;
+.longcard-image > img {
+	object-fit: cover;
+	width: 100%;
+	height: 100%;
 }
 
-
-.longcard-body{
-  padding:20px!important;
-  margin:auto;
-  /* min-height:200px; */
+.longcard-body {
+	padding: 20px !important;
+	margin: auto;
+	/* min-height:200px; */
 }
 
-.longcard-description{
-  font-family:"InterCustom";
-  margin-bottom:0px;
-  vertical-align: middle;
+.longcard-description {
+	font-family: 'InterCustom';
+	margin-bottom: 0px;
+	vertical-align: middle;
 }
 
-.longcard-title{
-  font-family:"InterCustom";
-  font-size:24px;
-  margin-bottom:0px;
-  vertical-align: middle;
+.longcard-title {
+	font-family: 'InterCustom';
+	font-size: 24px;
+	margin-bottom: 0px;
+	vertical-align: middle;
 }
 
-.shortcard-title{
-  font-family:"InterCustom";
-  font-size:20px;
-  margin-bottom:0px;
-  vertical-align: middle;
+.shortcard-title {
+	font-family: 'InterCustom';
+	font-size: 20px;
+	margin-bottom: 0px;
+	vertical-align: middle;
 }
 
-
-.avatar__name{
-  font-size:12px !important;
+.avatar__name {
+	font-size: 12px !important;
 }
 
-.avatar__intro > time{
-  font-size:12px !important;
+.avatar__intro > time {
+	font-size: 12px !important;
 }
 
-
-.row-preview{
-  margin-bottom:30px;
+.row-preview {
+	margin-bottom: 30px;
 }
 
 .blog-card-hover {
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+	transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
 .blog-card-hover:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-  cursor: pointer;
+	transform: translateY(-5px);
+	box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+	cursor: pointer;
 }
 
 /* Optional: Ensure tag links don't look gold */
 .badge--primary a {
-  color: black !important;
+	color: black !important;
+}
+
+/* Tech Radar hover styles for MDX */
+.tech-radar-wrapper {
+	position: relative;
+}
+
+.tech-radar-wrapper:hover .hover-overlay {
+	opacity: 1 !important;
+}
+
+.hover-overlay {
+	cursor: pointer;
+	pointer-events: none;
+}
+
+.hover-overlay:hover {
+	pointer-events: auto;
+}
+
+.tech-radar-wrapper iframe {
+	pointer-events: auto;
+}
+
+.tech-radar-wrapper:hover iframe {
+	pointer-events: none;
 }
