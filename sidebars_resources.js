@@ -2,8 +2,10 @@ module.exports = {
   someSidebar: {
 
     "Resources": [
-      "hackathons",
+      "publications",
       'trainings',
+      "hackathons",
+
     ],
 
   },

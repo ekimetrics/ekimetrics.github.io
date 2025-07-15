@@ -119,6 +119,10 @@ module.exports = {
           position: 'left',
           items:[
             {
+              label: "Publications",
+              href:'/resources/publications'
+            },
+            {
               label: "Hackathons",
               href:'/resources/'
             },
