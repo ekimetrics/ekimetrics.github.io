@@ -5,21 +5,27 @@ authors: [francois.guerillon]
 
 
 
-header_image_url: "img/blog/ESG_Due_Diligence_Part_2.jfif"
-image: "img/blog/ESG_Due_Diligence_Part_2.jfif"
-tags: [ESG, Due diligence, GenAI, RAG, industrialised software, operational excellence, automation, process standardisation]
-draft: true
-description: "This technical article is intended for data scientists and machine learning engineers having a good understanding of deep learning fundamentals and a basic knowledge of transformers and language models."
+header_image_url: "img/blog/Blind_Language_header.jpg"
+image: "img/blog/Blind_Language_header.jpg"
+tags: [GenAI, Generative AI, Deep Learning, Machine learning, Data Science, AI Models, LLM, Multimodal, Object Detection, Computer Vision]
+draft: false
+description: "Get a good technical understanding of how vision-language models are built and trained."
 
 keywords:
-    - ESG
-    - Due diligence
     - GenAI
-    - RAG
-    - Industrialised Software
-    - Operational excellence
-    - Automation
-    - Process standardisation
+    - Generative AI
+    - Deep Learning
+    - Machine learning
+    - Data Science
+    - AI Models
+    - LLM
+    - Multimodal
+    - Object Detection
+    - Computer Vision
+    - VLM
+    - Vision Language Models
+    - Transformers
+    - Attention
     
 ---
 <!-- import useBaseUrl from "@docusaurus/useBaseUrl";
