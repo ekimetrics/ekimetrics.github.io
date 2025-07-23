@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[4556],{40758:l=>{l.exports=JSON.parse('{"label":"multimodal","permalink":"/blog/tags/multimodal","allTagsPath":"/blog/tags","count":1}')}}]);
