@@ -12,7 +12,7 @@ import blogData from '../../.docusaurus/docusaurus-plugin-content-blog/default/b
 // See https://stackoverflow.com/questions/60289432/docusaurus-v2-recent-blogs-list-for-homepage
 // import recentPosts from "../../.docusaurus/docusaurus-plugin-content-blog/default/blog-post-list-prop-default.json";
 
-function TechRadar() {
+export function TechRadar() {
 	return (
 		<div className={clsx('container', styles.card)}>
 			<h1 style={{ fontSize: 24 }}>
@@ -20,29 +20,73 @@ function TechRadar() {
 				<span className='gold'>Our Tech Radar </span>
 			</h1>
 
-			<iframe
-				id='inlineFrameExample'
-				title='Inline Frame Example'
-				width='100%'
-				height='950'
-				src='https://ekimetrics.github.io/tech-radar/'
-				scrolling='no'
-				style={{
-					zoom: '0.75',
-					border: 'none',
-				}}
-			></iframe>
-
 			<div
 				style={{
-					display: 'flex',
-					alignItems: 'right',
-					justifyContent: 'right',
+					position: 'relative',
+					width: '100%',
+					height: '712.5px',
+					overflow: 'hidden',
 				}}
+				className={styles.techRadarWrapper}
 			>
-				<Link to={'https://ekimetrics.github.io/tech-radar/'}>
-					{'View in fullscreen'}{' '}
-				</Link>
+				<iframe
+					id='inlineFrameExample'
+					title='Inline Frame Example'
+					width='100%'
+					height='950'
+					src='https://ekimetrics.github.io/tech-radar/'
+					scrolling='no'
+					style={{
+						zoom: '0.75',
+						border: 'none',
+					}}
+				></iframe>
+
+				<div
+					className={styles.hoverOverlay}
+					style={{
+						position: 'absolute',
+						top: 0,
+						left: 0,
+						width: '100%',
+						height: '100%',
+						backgroundColor: 'rgba(0, 0, 0, 0.6)',
+						display: 'flex',
+						alignItems: 'center',
+						justifyContent: 'center',
+						opacity: 0,
+						transition: 'opacity 0.3s ease',
+						pointerEvents: 'none',
+						zIndex: 10,
+					}}
+				>
+					<Link
+						to={'https://ekimetrics.github.io/tech-radar/'}
+						style={{
+							backgroundColor: '#32475a',
+							color: 'white',
+							padding: '12px 24px',
+							borderRadius: '8px',
+							textDecoration: 'none',
+							fontWeight: 'bold',
+							fontSize: '16px',
+							pointerEvents: 'auto',
+							transition: 'background-color 0.3s ease',
+							boxShadow: '0 4px 8px rgba(0, 0, 0, 0.3)',
+							border: '2px solid rgba(255, 255, 255, 0.2)',
+						}}
+						onMouseEnter={(e) => {
+							e.target.style.backgroundColor = '#2a3d4a';
+							e.target.style.borderColor = 'rgba(255, 255, 255, 0.4)';
+						}}
+						onMouseLeave={(e) => {
+							e.target.style.backgroundColor = '#32475a';
+							e.target.style.borderColor = 'rgba(255, 255, 255, 0.2)';
+						}}
+					>
+						View in full screen
+					</Link>
+				</div>
 			</div>
 		</div>
 	);
