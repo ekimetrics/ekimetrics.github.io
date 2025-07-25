@@ -6,7 +6,7 @@ authors: [annabelle.blangero, jean.lelong,ana.ulianovici,jeanne.dubois]
 
 
 header_image_url: "img/blog/clair_anniversary_cropped.jpg"
-image: "img/blog/ESG_Due_Diligence_Part_2.jfif"
+image: "img/blog/clair_anniversary_cropped.jpg"
 tags: [CLAIR, Agentic AI, GenAI, Multi-Agents, Responsible AI]
 draft: false
 description: "CLAIR.bot is a free, multi-agent AI that helps everyone navigate AI with sourced, clear answers. One year on, it keeps evolving to make AI debates more transparent and accessible."
