@@ -89,6 +89,8 @@ module.exports = {
       items: [
 
         {to: 'blog', label: 'Blog', position: 'left'},
+        {href: '/publications', label: 'Publications', position: 'left'},
+
 
         {
           type: 'dropdown',
@@ -118,18 +120,24 @@ module.exports = {
           label: 'Resources',
           position: 'left',
           items:[
-            {
-              label: "Hackathons",
-              href:'/resources/'
-            },
+            // {
+            //   label: "Publications",
+            //   href:'/resources/publications'
+            // },
 
             {
               label: "Trainings",
               href:'/resources/trainings'
             },
+            {
+              label: "Hackathons",
+              href:'/resources/'
+            },
+
             
           ],
         },
+        
 
 
 
@@ -139,6 +147,7 @@ module.exports = {
         // {to: 'docs/', label: 'About us', position: 'left'},
         // {to: 'resources/', label: 'Resources', position: 'left'},
         {to: 'https://www.ekimetrics.com/fr/join-ekimetrics', label: 'Careers', position: 'left'},
+
         // {to: 'careers/', label: 'Careers', position: 'left'},
 
         // {
@@ -151,7 +160,7 @@ module.exports = {
         //   label: 'Open Source',
         //   position: 'left',
         // },
-        {to: 'https://ekimetrics.com/fr/', label: 'Ekimetrics website', position: 'right'},
+        {to: 'https://ekimetrics.com', label: 'Ekimetrics website', position: 'right'},
          
       //  {to: 'https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9', label: 'Newsletter', position: 'right'},
 

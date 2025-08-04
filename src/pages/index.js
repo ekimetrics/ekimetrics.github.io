@@ -201,8 +201,8 @@ function Home() {
 	const { siteConfig = {} } = context;
 	return (
 		<Layout
-			title={`EkiLab - the Ekimetrics technology & innovation website`}
-			description='EkiLab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company'
+			title={`EkiLab - Ekimetrics technology & innovation website`}
+			description='EkiLab - Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company'
 			keywords={[
 				'EkiLab',
 				'Ekimetrics',
@@ -229,9 +229,20 @@ function Home() {
 					>
 						Eki<span className='gold'>.</span>Lab
 					</h1>
-					<h1 className='hero__subtitle' style={{ color: 'white' }}>
+					{/* <h1 className='hero__subtitle' style={{ color: 'white' }}>
 						Welcome to Ekimetrics' technology & innovation website!
 					</h1>
+					<h1 className='hero__subtitle' style={{ color: 'white' }}>
+						Welcome to Ekimetrics' technology & innovation website!
+					</h1> */}
+					<p
+						className='hero__subtitle'
+						style={{ color: 'white', marginBottom: 0, fontSize: '36px' }}
+					>
+						Welcome to Ekimetrics' technology & innovation website!
+					</p>
+
+
 					<p
 						className='hero__subtitle'
 						style={{ color: 'white', marginBottom: 0 }}
@@ -267,135 +278,11 @@ function Home() {
 					</Row>
 				</div>
 
-				<TechRadar></TechRadar>
 				<LatestBlogPosts></LatestBlogPosts>
+				<TechRadar></TechRadar>
 			</main>
 		</Layout>
 	);
 }
 
 export default Home;
-
-//   const TRAININGS = [
-//     {
-//     "date":"2022-11","category":"Reading Group Session","title":"FLAVA","tags":["Deep Learning","Multimodal Learning", "Fusion Encoders"],
-//     "description":"Discover FLAVA : a foundational vision and language alignment model that achieves impressive performance on all three target modalities : vision, language, and vision & language."
-//   },
-//   {
-//     "date":"2022-11","category":"Presentation","title":"Question Answering","tags":["Deep Learning","AI", "Question Answering"],
-//     "description":"In this session, we go through state-of-the-art question answering algorithms and present a use case on how it was applied in AI for sustainability."
-//   },
-//   {
-//     "date":"2022-09","category":"Presentation","title":"introduction to MLOps","tags":["Deep Learning","AI", "Question Answering"],
-//     "description":"In this session, we go through state-of-the-art question answering algorithms and present a use case on how it was applied in AI for sustainability."
-//   },
-//   {
-//     "date":"2022-06","category":"Coding Session","title":"Principal components Analysis in MMM","tags":["PCA", "MMM"],
-//     "description":"In this session, we remind of the principal components analysis, its methodology and its advantages. We then share a use case where it was applied.",
-//   },
-// ]
-
-// const ShortCard = ({title,description,href,category,date,tags}) => {
-//   return (
-//       <div class="col col-md-12 col--3 shortcard-container">
-//           <div class="col col--12 shortcard">
-//               <div className={clsx("longcard-body", styles.subgridcard)}>
-//                   <p class="longcard-description" style={{fontSize:14}}><span className="gold">{category}</span>{date && ` - ${date}` }</p>
-//                   <p class="shortcard-title"><Link to={href}>{title}</Link></p>
-//                   <p class="longcard-description">{description}</p>
-//                   <p class="longcard-description" style={{fontSize:16, textAlign:"left"}}>{tags && tags.map(el => <span className="badge badge--primary" style={{fontFamily:"InterCustom"}}>{el} </span>)}</p>
-
-//               </div>
-//           </div>
-//       </div>
-//   )
-// }
-
-// const ShortCard = ({title,permalink,img_path,description}) => {
-//   return (
-//       <div class="col col-md-12 col--3 shortcard-container">
-//           <div class="col col--12 shortcard">
-//           {recentPosts.items.slice(0,4).map((item) => (
-//           <div className= {`${styles.gridsubcard} `} >
-//             <div className="card__image" >
-//               <img
-//                 // src={headerImageURL}
-//                 src={item.img_path}
-//                 alt="Image alt text"
-//                 title={item.title}
-//                 style= {{borderTopLeftRadius: "10px",WebkitBorderTopRightRadius: "10px"}}
-//               />
-//             </div>
-
-//           <div className="card__body">
-
-//             <article>
-//             <h2
-//                 style={{"fontFamily":"InterCustom","fontSize":16,"textAlign":"left"}}
-//                 className={clsx('margin-bottom--sm', styles.blogPostTitle)}>
-//                 {<Link to={item.permalink}>{item.title}</Link>}
-//               </h2>
-//             <p style={{"fontFamily":"InterCustom",fontSize:12,lineHeight:1.2,"textAlign": "left"}}>{item.description}</p>
-
-//             </article>
-//             </div>
-//           </div>
-
-//         ))}
-//           </div>
-//       </div>
-//   )
-// }
-
-// const ShortCard = ({title,permalink,img_path,description}) => {
-//   return (
-//       <div class="col col-md-12 col--3 shortcard-container">
-//           <div class="col col--12 shortcard">
-//           {/* <div className= {`${styles.gridsubcard} `} > */}
-//             <div className="card__image" >
-//               <img
-//                 // src={headerImageURL}
-//                 src={img_path}
-//                 alt="Image alt text"
-//                 title={title}
-//                 style= {{borderTopLeftRadius: "10px",WebkitBorderTopRightRadius: "10px"}}
-//               />
-//             </div>
-
-//           <div className="card__body">
-
-//             <article>
-//             <h2
-//                 style={{"fontFamily":"InterCustom","fontSize":16,"textAlign":"left"}}
-//                 className={clsx('margin-bottom--sm', styles.blogPostTitle)}>
-//                 {<Link to={permalink}>{title}</Link>}
-//               </h2>
-//             <p style={{"fontFamily":"InterCustom",fontSize:12,lineHeight:1.2,"textAlign": "left"}}>{description}</p>
-
-//             </article>
-//             </div>
-//           {/* </div> */}
-
-//           </div>
-//       </div>
-//   )
-// }
-
-//   function Test(){
-//     return(
-//       <div className={clsx("container", styles.gridcard)}>
-//         <h1 style={{"fontSize":24}}> <span className="gold">Our Latest blog posts</span></h1>
-
-//         <section>
-//           <div class="row">
-//               <ShortCard title="Exploring the links between creative execution and marketing effectiveness - Part I: Detectron2 Pre-Trained Object Detection Models" permalink="blog/2022/11/10/creative_execution_and_marketing_effectiveness_part_I" img_path= "./img/blog/Eki_meta_part_I.png" description="In this Part I we explore the methodology for using pre-trained Detectron2 models to detect brand-specific object in creative images."/>
-//               <ShortCard title="Exploring the links between creative execution and marketing effectiveness - Part I: Detectron2 Pre-Trained Object Detection Models" permalink="blog/2022/11/10/creative_execution_and_marketing_effectiveness_part_I" img_path= "./img/blog/Eki_meta_part_I.png" description="In this Part I we explore the methodology for using pre-trained Detectron2"/>
-
-//               {/* <ShortCard img_path={el["img_path"]} title={el["title"]} tags={el["tags"]} description={el["description"]} href={el["href"]}/>
-//               <ShortCard img_path={el["img_path"]} title={el["title"]} tags={el["tags"]} description={el["description"]} href={el["href"]}/>
-//               <ShortCard img_path={el["img_path"]} title={el["title"]} tags={el["tags"]} description={el["description"]} href={el["href"]}/>
-//  */}
-//           </div>
-//         </section>
-//       </div>
-//       )}
