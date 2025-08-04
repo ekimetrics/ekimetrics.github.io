@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[1331],{45720:a=>{a.exports=JSON.parse('{"label":"R&D","permalink":"/blog/tags/r-d","allTagsPath":"/blog/tags","count":1}')}}]);

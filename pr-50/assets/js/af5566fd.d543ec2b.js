@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[2649],{40845:e=>{e.exports=JSON.parse('{"label":"AI Architecture","permalink":"/blog/tags/ai-architecture","allTagsPath":"/blog/tags","count":1}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[4193],{31943:e=>{e.exports=JSON.parse('{"label":"operational excellence","permalink":"/blog/tags/operational-excellence","allTagsPath":"/blog/tags","count":2}')}}]);

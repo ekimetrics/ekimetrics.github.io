@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[7685],{74744:e=>{e.exports=JSON.parse('{"label":"System-Design","permalink":"/blog/tags/system-design","allTagsPath":"/blog/tags","count":1}')}}]);

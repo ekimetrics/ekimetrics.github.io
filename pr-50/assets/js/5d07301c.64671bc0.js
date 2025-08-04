@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[203],{22929:e=>{e.exports=JSON.parse('{"label":"Text-to-SQL","permalink":"/blog/tags/text-to-sql","allTagsPath":"/blog/tags","count":1}')}}]);

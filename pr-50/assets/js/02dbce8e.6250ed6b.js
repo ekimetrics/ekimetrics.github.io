@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[8125],{68014:e=>{e.exports=JSON.parse('{"label":"Econometrics","permalink":"/blog/tags/econometrics","allTagsPath":"/blog/tags","count":1}')}}]);

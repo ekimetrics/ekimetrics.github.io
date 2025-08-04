@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[7582],{89921:e=>{e.exports=JSON.parse('{"label":"Due diligence","permalink":"/blog/tags/due-diligence","allTagsPath":"/blog/tags","count":2}')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[3812],{16574:a=>{a.exports=JSON.parse('{"label":"ESG","permalink":"/blog/tags/esg","allTagsPath":"/blog/tags","count":2}')}}]);
