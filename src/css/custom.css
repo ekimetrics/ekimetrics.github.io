@@ -294,3 +294,16 @@ html[data-theme='dark'] {
 .tech-radar-wrapper:hover iframe {
 	pointer-events: none;
 }
+
+.longcard-description {
+  font-size: 14px;
+  text-align: justify;
+}
+
+.longcard-authors {
+  font-size: 13px;
+  color: #d7c278a4;      /* subtle color */
+  font-style: italic;
+  margin-top: -5px; /* slight overlap for tighter spacing */
+  margin-bottom: 10px;
+}

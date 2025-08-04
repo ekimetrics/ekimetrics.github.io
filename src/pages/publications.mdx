@@ -1,0 +1,160 @@
+---
+title: Publications
+hide_table_of_contents: true
+description : Explore our latest research articles
+slug : /publications
+---
+
+
+import clsx from 'clsx';
+import Layout from '@theme/Layout';
+import Link from '@docusaurus/Link';
+import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
+import useBaseUrl from '@docusaurus/useBaseUrl';
+import LongCardPub from "../components/LongCardPub.js";
+
+
+
+
+<LongCardPub
+  category="Pre-print"
+  date="Ongoing"
+  authors="Sami Achour, Yassine Bouher, Duong Nguyen, Nicolas Chesneau"
+  title="Foundation models for time series forecasting: Application in conformal prediction"
+  description="The zero-shot capabilities of foundation models (FMs) for time series forecasting offer promising potentials in conformal prediction, as most of the available data can be allocated to calibration. This study compares the performance of Time Series Foundation Models (TSFMs) with traditional methods, including statistical models and gradient boosting, within a conformal prediction setting. Our findings highlight two key advantages of TSFMs. First, when the volume of data is limited, TSFMs provide more reliable conformalized prediction intervals than classic models, thanks to their superior predictive accuracy. Second, the calibration process is more stable because more data are used for calibration. Morever, the fewer data available, the more pronounced these benefits become, as classic models require a substantial amount of data for effective training. These results underscore the potential of foundation models in improving conformal prediction reliability in time series applications, particularly in data-constrained cases. All the code to reproduce the experiments is available."
+  href="https://arxiv.org/pdf/2507.08858"
+/>
+
+<LongCardPub
+  category="Pre-print"
+  date="Ongoing"
+  authors="Panayiotis Panayiotou, Audrey Poinsot, Alessandro Leite, Nicolas Chesneau, Marc Schoenauer, Ozgur Simcek"
+  title="CausalProfiler: Generating Synthetic Benchmarks for Rigorous and Transparent Evaluation of Causal ML"
+  description="Causal machine learning (Causal ML) aims to answer 'what if' questions using machine learning algorithms, making it a promising tool for high-stakes decision-making. Yet, empirical evaluation practices in Causal ML remain limited. Existing benchmarks often rely on a handful of hand-crafted or semi-synthetic datasets, leading to brittle, non-generalizable conclusions. To bridge this gap, we introduce CausalProfiler, a synthetic benchmark generator for Causal ML methods. Based on a set of explicit design choices about the class of causal models, queries, and data considered, the CausalProfiler randomly samples sets of data, assumptions, and ground truths constituting the synthetic causal benchmarks. In this way, Causal ML methods can be rigorously and transparently evaluated under a variety of conditions. This work offers the first random generator of synthetic causal benchmarks with coverage guarantees and transparent assumptions operating on the three levels of causal reasoning: observation, intervention, and counterfactual. We demonstrate its utility by evaluating several state-of-the-art methods under diverse conditions and assumptions, both in and out of the identification regime, illustrating the types of analyses and insights the CausalProfiler enables."
+  href=""
+/>
+
+<LongCardPub
+  category="Pre-print"
+  date="Ongoing"
+  authors="Milan Bhan, Jean-Noel Vittaut, Nicolas Chesneau, Sarath Chandar, Marie-Jeanne Lesot"
+  title="Did I Faithfully Say What I Thought? Bridging the Gap Between Neural Activity and Self-Explanations in Large Language Models"
+  description="Large Language Models (LLM) have demonstrated the capability of generating free text self Natural Language Explanation (self-NLE) to justify their answers. Despite their logical appearance, self-NLE do not necessarily reflect the LLM actual decision-making process, making such explanations unfaithful. While existing methods for measuring self-NLE faithfulness mostly rely on behavioral tests or computational block identification, none of them examines the neural activity underlying the model's reasoning. This work introduces a novel flexible framework for quantitatively measuring the faithfulness of LLM-generated self-NLE by directly comparing the latter with interpretations of the model's internal hidden states. The proposed framework is versatile and provides deep insights into self-NLE faithfulness by establishing a direct connection between self-NLE and model reasoning. This approach advances the understanding of self-NLE faithfulness and provides building blocks for generating more faithful self-NLE."
+  href="https://arxiv.org/abs/2506.09277"
+/>
+
+<LongCardPub
+  category="Pre-print"
+  date="Ongoing"
+  authors="Milan Bhan, Yann Choho, Pierre Moreau, Jean-Noel Vittaut, Nicolas Chesneau, Marie-Jeanne Lesot"
+  title="Towards Achieving Concept Completeness for Textual Concept Bottleneck Models"
+  description="Textual Concept Bottleneck Models (TCBMs) are interpretable-by-design models for text classification that predict a set of salient concepts before making the final prediction. This paper proposes Complete Textual Concept Bottleneck Model (CT-CBM), a novel TCBM generator building concept labels in a fully unsupervised manner using a small language model, eliminating both the need for predefined human labeled concepts and LLM annotations. CT-CBM iteratively targets and adds important and identifiable concepts in the bottleneck layer to create a complete concept basis. CT-CBM achieves striking results against competitors in terms of concept basis completeness and concept detection accuracy, offering a promising solution to reliably enhance interpretability of NLP classifiers."
+  href="https://arxiv.org/abs/2502.11100"
+/>
+
+<LongCardPub
+  category="ECAI 2025"
+  date="July 2025"
+  authors="Jean Lelong, Adnane Errazine, Annabelle Blangero"
+  title="Agentic RAG with Knowledge Graphs for Complex Multi-Hop Reasoning in Real-World Applications"
+  description="Conventional Retrieval-Augmented Generation (RAG) systems enhance Large Language Models (LLMs) but often fall short on complex queries, delivering limited, extractive answers and struggling with multiple targeted retrievals or navigating intricate entity relationships. This is a critical gap in knowledge-intensive domains. We introduce INRAExplorer, an agentic RAG system for exploring the scientific data of INRAE (France's National Research Institute for Agriculture, Food and Environment). INRAExplorer employs an LLM-based agent with a multi-tool architecture to dynamically engage a rich knowledge base, through a comprehensive knowledge graph derived from open access INRAE publications. This design empowers INRAExplorer to conduct iterative, targeted queries, retrieve exhaustive datasets (e.g., all publications by an author), perform multi-hop reasoning, and deliver structured, comprehensive answers. INRAExplorer serves as a concrete illustration of enhancing knowledge interaction in specialized fields."
+  href="https://arxiv.org/abs/2507.16507"
+/>
+
+<LongCardPub
+  category="XAI 2025"
+  date="July 2025"
+  authors="Milan Bhan, Jean-Noel Vittaut, Nina Achache, Victor Legrand, Nicolas Chesneau, Annabelle Blangero, Juliette Murris, Marie-Jeanne Lesot"
+  title="Mitigating Text Toxicity with Counterfactual Generation"
+  description="Toxicity mitigation consists in rephrasing text in order to remove offensive or harmful meaning. Neural natural language processing (NLP) models have been widely used to target and mitigate textual toxicity. However, existing methods fail to detoxify text while preserving the initial non-toxic meaning at the same time. In this work, we propose to apply counterfactual generation methods from the eXplainable AI (XAI) field to target and mitigate textual toxicity. In particular, we perform text detoxification by applying local feature importance and counterfactual generation methods to a toxicity classifier distinguishing between toxic and non-toxic texts. We carry out text detoxification through counterfactual generation on three datasets and compare our approach to three competitors. Automatic and human evaluations show that recently developed NLP counterfactual generators can mitigate toxicity accurately while better preserving the meaning of the initial text as compared to classical detoxification methods. Finally, we take a step back from using automated detoxification tools, and discuss how to manage the polysemous nature of toxicity and the risk of malicious use of detoxification tools. This work is the first to bridge the gap between counterfactual generation and text detoxification and paves the way towards more practical application of XAI methods."
+  href="https://arxiv.org/pdf/2405.09948?"
+/>
+
+<LongCardPub
+  category="ICML 2025"
+  date="May 2025"
+  authors="Audrey Poinsot, Panayiotis Panayiotou, Alessandro Leite, Nicolas Chesneau, Ozgur Simcek, Marc Schoenauer"
+  title="Position: Causal Machine Learning Requires Rigorous Synthetic Experiments for Broader Adoption"
+  description="Causal machine learning has the potential to revolutionize decision-making by combining the predictive power of machine learning algorithms with the theory of causal inference. However, these methods remain underutilized by the broader machine learning community, in part because current empirical evaluations do not permit assessment of their reliability and robustness, undermining their practical utility. Specifically, one of the principal criticisms made by the community is the extensive use of synthetic experiments. We argue, on the contrary, that synthetic experiments are essential and necessary to precisely assess and understand the capabilities of causal machine learning methods. To substantiate our position, we critically review the current evaluation practices, spotlight their shortcomings, and propose a set of principles for conducting rigorous empirical analyses with synthetic data. Adopting the proposed principles will enable comprehensive evaluations that build trust in causal machine learning methods, driving their broader adoption and impactful real-world use."
+  href="https://openreview.net/forum?id=Nr2ulBN50q"
+/>
+
+<LongCardPub
+  category="EMNLP 2024"
+  date="November 2024"
+  authors="Milan Bhan, Jean-Noel Vittaut, Nicolas Chesneau, Marie-Jeanne Lesot"
+  title="Self-AMPLIFY: Improving Small Language Models with Self Post Hoc Explanations"
+  description="Incorporating natural language rationales in the prompt and In-Context Learning (ICL) have led to a significant improvement of Large Language Models (LLMs) performance. However, generating high-quality rationales require human-annotation or the use of auxiliary proxy models. In this work, we propose Self-AMPLIFY to automatically generate rationales from post hoc explanation methods applied to Small Language Models (SLMs) to improve their own performance. Self-AMPLIFY is a 3-step method that targets samples, generates rationales and builds a final prompt to leverage ICL. Self-AMPLIFY performance is evaluated on four SLMs and five datasets requiring strong reasoning abilities. Self-AMPLIFY achieves good results against competitors, leading to strong accuracy improvement. Self-AMPLIFY is the first method to apply post hoc explanation methods to autoregressive language models to generate rationales to improve their own performance in a fully automated manner."
+  href="https://aclanthology.org/2024.emnlp-main.615.pdf"
+/>
+
+<LongCardPub
+  category=""
+  date="August 2024"
+  authors="Duong Nguyen, Ana Ulianovici, Sami Achour, Soline Aubry, Nicolas Chesneau"
+  title="Magazine supply optimization: a case-study"
+  description="Supply optimization is a complex and challenging task in the magazine retail industry because of the fixed inventory assumption, irregular sales patterns, and varying product and point-of-sale characteristics. We introduce AthenIA, an industrialized magazine supply optimization solution that plans the supply for over 20,000 points of sale in France. We modularize the supply planning process into a four-step pipeline: demand sensing, optimization, business rules, and operating. The core of the solution is a novel group conformalized quantile regression method that integrates domain expert insights, coupled with a supply optimization technique that balances the costs of out-of-stock against the costs of over-supply. AthenIA has proven to be a valuable tool for magazine publishers, particularly in the context of evolving economic and ecological challenges."
+  href="https://arxiv.org/pdf/2408.08637?"
+/>
+
+
+
+<LongCardPub
+  category="IJCAI 2024"
+  date="August 2024"
+  authors="Audrey Poinsot, Alessandro Leite, Nicolas Chesneau, Michèle Sébag, Marc Schoenauer"
+  title="Learning Structural Causal Models through Deep Generative Models: Methods, Guarantees, and Challenges"
+  description="This paper provides a comprehensive review of Deep Structural Causal Models (DSCMs), particularly focusing on their ability to answer counterfactual queries using observational data within known causal structures. It delves into the characteristics of DSCMs by analyzing the hypotheses, guarantees, and applications inherent to the underlying deep learning components and structural causal models, fostering a finer understanding of their capabilities and limitations in addressing different counterfactual queries. Furthermore, it highlights the challenges and open questions in the field of deep structural causal modeling. It sets the stages for researchers to identify future work directions and for practitioners to get an overview in order to find out the most appropriate methods for their needs."
+  href="https://www.ijcai.org/proceedings/2024/0907.pdf"
+/>
+
+<LongCardPub
+  category="ICLR 2024"
+  date="March 2024"
+  authors="Natalia De La Calzada, Théo Alves Da Costa, Annabelle Blangero, Nicolas Chesneau"
+  title="ClimateQ&A: Bridging the gap between climate scientists and the general public"
+  description="This research paper investigates public views on climate change and biodiversity loss by analyzing questions asked to the ClimateQ&A platform. ClimateQ&A is a conversational agent that uses LLMs to respond to queries based on over 14,000 pages of scientific literature from the IPCC and IPBES reports. Launched online in March 2023, the tool has gathered over 30,000 questions, mainly from a French audience. Its chatbot interface allows for the free formulation of questions related to nature*. While its main goal is to make nature science more accessible, it also allows for the collection and analysis of questions and their themes. Unlike traditional surveys involving closed questions, this novel method offers a fresh perspective on individual interrogations about nature. Running NLP clustering algorithms on a sample of 3,425 questions, we find that a significant 25.8% inquire about how climate change and biodiversity loss will affect them personally (e.g., where they live or vacation, their consumption habits) and the specific impacts of their actions on nature (e.g., transportation or food choices). This suggests that traditional methods of surveying may not identify all existing knowledge gaps, and that relying solely on IPCC and IPBES reports may not address all individual inquiries about climate and biodiversity, potentially affecting public understanding and action on these issues. *we use 'nature' as an umbrella term for 'climate change' and 'biodiversity loss'."
+  href="https://arxiv.org/abs/2403.14709"
+/>
+
+
+<LongCardPub
+  category="ECML-PKDD 2023"
+  date="September 2023"
+  authors="Milan Bhan, Jean-Noel Vittaut, Nicolas Chesneau, Marie-Jeanne Lesot"
+  title="TIGTEC: Token Importance Guided TExt Counterfactuals"
+  description="Counterfactual examples explain a prediction by highlighting changes in an instance that flip the outcome of a classifier. This paper proposes TIGTEC, an efficient and modular method for generating sparse, plausible and diverse counterfactual explanations for textual data. TIGTEC is a text editing heuristic that targets and modifies words with high contribution using local feature importance. A new attention-based local feature importance is proposed. Counterfactual candidates are generated and assessed with a cost function integrating a semantic distance, while the solution space is efficiently explored in a beam search fashion. The conducted experiments show the relevance of TIGTEC in terms of success rate, sparsity, diversity and plausibility. This method can be used in both model-specific or model-agnostic way, which makes it very convenient for generating counterfactual explanations."
+  href="https://link.springer.com/chapter/10.1007/978-3-031-43418-1_30"
+/>
+
+<LongCardPub
+  category="XAI 2023"
+  date="July 2023"
+  authors="Milan Bhan, Jean-Noel Vittaut, Nina Achache, Victor Legrand, Nicolas Chesneau, Annabelle Blangero, Marie-Jeanne Lesot"
+  title="Evaluating self-attention interpretability through human-grounded experimental protocol"
+  description="Attention mechanisms have played a crucial role in the development of complex architectures such as Transformers in natural language processing. However, Transformers remain hard to interpret and are considered as black-boxes. In this paper we assess how attention coefficients from Transformers help in providing classifier interpretability when properly aggregated. A fast and easy-to-implement way of aggregating attention is proposed to build local feature importance. A human-grounded experiment is conducted to evaluate and compare this approach to other usual interpretability methods. The experimental protocol relies on the capacity of an interpretability method to provide explanation in line with human reasoning. Experiment design includes measuring reaction times and correct response rates by human subjects. Attention performs comparably to usual interpretability methods and significantly better than a random baseline regarding average participant reaction time and accuracy. Moreover, data analysis highlights that high probability prediction induces great explanation relevance. This work shows how self-attention can be aggregated and used to explain Transformer classifiers. The low computational cost of attention compared to other interpretability methods and its availability by design within Transformer classifiers make it particularly beneficial. Finally, the quality of its explanation depends strongly on the certainty of the classifier’s prediction related to it."
+  href="https://link.springer.com/chapter/10.1007/978-3-031-44070-0_2"
+/>
+
+<LongCardPub
+  category="ACL 2023"
+  date="July 2023"
+  authors="Milan Bhan, Jean-Noel Vittaut, Nicolas Chesneau, Marie-Jeanne Lesot"
+  title="Enhancing textual counterfactual explanation intelligibility through Counterfactual Feature Importance"
+  description="Textual counterfactual examples explain a prediction by modifying the tokens of an initial instance in order to flip the outcome of a classifier. Even under sparsity constraint, counterfactual generation can lead to numerous changes from the initial text, making the explanation hard to understand. We propose Counterfactual Feature Importance, a method to make non-sparse counterfactual explanations more intelligible. Counterfactual Feature Importance assesses token change importance between an instance to explain and its counterfactual example. We develop two ways of computing Counterfactual Feature Importance, respectively based on classifier gradient computation and counterfactual generator loss evolution during counterfactual search. Then we design a global version of Counterfactual Feature Importance, providing rich information about semantic fields globally impacting classifier predictions. Counterfactual Feature Importance enables to focus on impacting parts of counterfactual explanations, making counterfactual explanations involving numerous changes more understandable."
+  href="https://aclanthology.org/2023.trustnlp-1.19/"
+/>
+
+
+<LongCardPub
+  category="ICLR 2023"
+  date="March 2023"
+  authors="Audrey Poinsot, Alessandro Leite"
+  title="A Guide for Practical Use of ADMG Causal Data Augmentation"
+  description="Data augmentation is essential when applying Machine Learning (ML) in small-data regimes. It generates new samples following the observed data distribution while increasing their diversity and variability to help researchers and practitioners improve their models' robustness and, thus, deploy them in the real world. Nevertheless, its usage in tabular data still needs to be improved, as prior knowledge about the underlying data mechanism is seldom considered, limiting the fidelity and diversity of the generated data. Causal data augmentation strategies have been pointed out as a solution to handle these challenges by relying on conditional independence encoded in a causal graph. In this context, this paper experimentally analyzed the Acyclic Directed Mixed Graph causal augmentation method considering different settings to support researchers and practitioners in understanding under which conditions prior knowledge helps generate new data points and, consequently, enhances the robustness of their models. The results highlighted that the studied method (a) is independent of the underlying model mechanism, (b) requires a minimal number of observations that may be challenging in a small-data regime to improve an ML model's accuracy, (c) propagates outliers to the augmented set degrading the performance of the model, and (d) is sensitive to its hyperparameter's value."
+  href="https://openreview.net/pdf?id=kBcAZcKypug"
+/>
+
+
+
+
