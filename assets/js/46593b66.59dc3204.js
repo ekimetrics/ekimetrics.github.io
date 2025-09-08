@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[5926],{27701:a=>{a.exports=JSON.parse('{"label":"Semifactuals","permalink":"/blog/tags/semifactuals","allTagsPath":"/blog/tags","count":1}')}}]);
