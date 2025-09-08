@@ -8,7 +8,7 @@ authors: [benjamin.wong, milan.bhan]
 header_image_url: "img/blog/Semifactuals_header.jpg"
 image: "img/blog/Semifactuals_header.jpg"
 tags: [XAI, explainability, Machine Learning, Semifactuals]
-draft: true
+draft: false
 description: "Discover what semifactuals are, “even if” scenarios that expose AI’s strengths and limits while informing optimized decision-making."
 
 keywords:
