@@ -78,6 +78,7 @@ The image below demonstrates the decision boundary along with examples of semifa
 <div align = "center">
 
   ![screenshot-app ](img/Semi_Factual/Picture_1.png)
+  
   Source: Aryal, S., & Keane, M. T. (2023, August). Even if explanations: prior work, desiderata & benchmarks for semi-factual XAI [1]
 </div>
 
