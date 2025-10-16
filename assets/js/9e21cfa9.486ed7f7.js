@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[4649],{55049:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/foundation-models","page":1,"postsPerPage":9,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
