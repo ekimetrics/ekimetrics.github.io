@@ -5,26 +5,18 @@ authors: [sami.achour, duong.nguyen]
 
 
 
-header_image_url: "img/blog/Semifactuals_header.jpg"
-image: "img/blog/Semifactuals_header.jpg"
-tags: [XAI, explainability, Machine Learning, Semifactuals]
-draft: true
-description: "Discover the follow of the previous article"
+header_image_url: "img/blog/Foundation_Models_2_header.jpg"
+image: "img/blog/Foundation_Models_2_header.jpg"
+tags: [Time series, Foundations Models, Generative AI, Conformal Prediction,  Zero-shot forecasting]
+draft: false
+description: "Time series foundation models enhance conformal prediction through higher forecasting accuracy and more stable calibration, especially in low-data scenarios."
 
 keywords:
-    - XAI
-    - Explainability
-    - Interpretability
-    - Machine learning
-    - Data science
-    - Deep learning
-    - Innovation
-    - Transparency
-    - AI
-    - Model optimisation
-    - Fairness, 
-    - Actionability
-    - Code
+    - Time series
+    - Foundations Models
+    - Generative AI
+    - Conformal Prediction
+    - Zero-shot forecasting
     
 ---
 <!-- import useBaseUrl from "@docusaurus/useBaseUrl";
@@ -36,6 +28,9 @@ keywords:
 <div align="justify"> 
 
 ## Application of foundation models in conformal prediction
+
+
+In our [previous blog post](https://ekimetrics.github.io/blog/Foundations_Models_Time_Series_1/), we saw that foundation models offer a powerful alternative for time series forecasting, boosting accuracy and reliability across diverse applications.
 
 In this article, we investigate a novel application of foundation models (FMs) in the field of time series forecasting - specifically, their integration with Conformal Prediction (CP) for uncertainty quantification. CP, introduced in 2007, is a powerful statistical framework that generates predictive intervals with a user-defined confidence level. These intervals are designed to contain the true values a specified proportion of the time (e.g., 90%), based on model calibration using a separate dataset.
 

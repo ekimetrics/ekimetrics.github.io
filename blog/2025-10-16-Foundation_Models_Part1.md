@@ -5,26 +5,17 @@ authors: [sami.achour, duong.nguyen]
 
 
 
-header_image_url: "img/blog/Semifactuals_header.jpg"
-image: "img/blog/Semifactuals_header.jpg"
-tags: [XAI, explainability, Machine Learning, Semifactuals]
-draft: true
-description: "Discover what semifactuals are, “even if” scenarios that expose AI’s strengths and limits while informing optimized decision-making."
+header_image_url: "img/blog/Foundation_Models_1_header.jpg"
+image: "img/blog/Foundation_Models_1_header.jpg"
+tags: [Time series, Foundation models, Generative AI, Transformers]
+draft: false
+description: "Foundation models offer a powerful alternative for time series forecasting, boosting accuracy and reliability across diverse applications."
 
 keywords:
-    - XAI
-    - Explainability
-    - Interpretability
-    - Machine learning
-    - Data science
-    - Deep learning
-    - Innovation
-    - Transparency
-    - AI
-    - Model optimisation
-    - Fairness, 
-    - Actionability
-    - Code
+    - Time series
+    - Foundation models
+    - Generative AI
+    - Transformers
     
 ---
 <!-- import useBaseUrl from "@docusaurus/useBaseUrl";
@@ -126,6 +117,8 @@ In conclusion, while foundation models have not yet revolutionized the field of 
 One particularly promising application of foundation models is in the realm of conformal prediction. By incorporating foundation models, conformal prediction can achieve more precise and robust interval predictions, offering greater confidence in the results in certain setup.
 
 As research and development in this area continue to progress, foundation models are likely to play an increasingly significant role in time series forecasting. Their flexibility and innovative potential make them a valuable addition to the forecasting toolkit, able to support and improve existing methods. Although they haven't completely transformed the field, their contributions are leading to more refined and effective forecasting solutions.
+
+In the [second part of this article](https://ekimetrics.github.io/blog/Foundations_Models_Time_Series_2/), we'll see time series foundation models enhance conformal prediction through higher forecasting accuracy and more stable calibration, especially in low-data scenarios.
 
 
 </div>
