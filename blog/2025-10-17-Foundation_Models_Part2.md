@@ -183,7 +183,7 @@ Overall, model accuracy declined at higher levels of granularity, particularly i
 
 ## Discussions and future works
 
-This paper introduces time series foundation models (TSFMs) into the conformal prediction framework and evaluates their effectiveness compared to traditional statistical and gradient boosting methods.
+This [paper](https://arxiv.org/pdf/2507.08858) introduces time series foundation models (TSFMs) into the conformal prediction framework and evaluates their effectiveness compared to traditional statistical and gradient boosting methods.
 
 The results show that:
 - TSFMs, particularly TimesFM and the Chronos family, consistently outperform traditional approaches, especially in data-scarce scenarios. One key advantage is that TSFMs require data only for context rather than training, which allows more data to be allocated for calibration. This is particularly beneficial in conformal prediction, where the trade-off between training and calibration data could be critical.
