@@ -1,0 +1,65 @@
+{
+	"name": "eki.lab",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"docusaurus": "docusaurus",
+		"start": "docusaurus start --port 8080 --host 0.0.0.0 --poll 1000",
+		"build": "vite build",
+		"swizzle": "docusaurus swizzle",
+		"deploy": "docusaurus deploy",
+		"serve": "docusaurus serve --host 0.0.0.0",
+		"clear": "docusaurus clear",
+		"dev": "vite",
+		"preview": "vite preview --open",
+		"gen:people": "node scripts/generate-people.mjs"
+	},
+	"dependencies": {
+		"@backstage/plugin-tech-radar": "^0.7.3",
+		"@docusaurus/core": "3.7.0",
+		"@docusaurus/plugin-google-analytics": "3.7.0",
+		"@docusaurus/preset-classic": "3.7.0",
+		"@docusaurus/theme-search-algolia": "3.7.0",
+		"@mdx-js/react": "^3.0.0",
+		"ajv-keywords": "^5.1.0",
+		"bootstrap": "^4.6.0",
+		"clsx": "^2.0.0",
+		"docusaurus-lunr-search": "^3.6.0",
+		"docusaurus-plugin-image-zoom": "^3.0.1",
+		"prism-react-renderer": "^2.1.0",
+		"react": "^18.2.0",
+		"react-bootstrap": "^1.6.1",
+		"react-dom": "^18.2.0",
+		"react-helmet": "^6.1.0",
+		"react-inline-script": "^1.2.0",
+		"react-scripts": "^5.0.1",
+		"rehype-katex": "^7.0.0",
+		"remark-math": "^6.0.0",
+		"yarn": "^1.22.10"
+	},
+	"browserslist": {
+		"production": [
+			">0.5%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"engines": {
+		"node": ">=18.0"
+	},
+	"description": "",
+	"main": "index.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"type": "commonjs",
+	"devDependencies": {
+		"fast-glob": "^3.3.3",
+		"vite": "^5.4.20"
+	}
+}

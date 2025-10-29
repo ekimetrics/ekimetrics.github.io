@@ -1,0 +1,29 @@
+{
+	"streams": [
+		{
+			"id": "ai-ml",
+			"name": "AI & ML",
+			"description": "Models, LLMs, and experimentation."
+		},
+		{
+			"id": "data-eng",
+			"name": "Data Engineering",
+			"description": "Pipelines, platforms, and MLOps."
+		},
+		{
+			"id": "decision-science",
+			"name": "Decision Science",
+			"description": "Causal inference and optimization."
+		},
+		{
+			"id": "sustainability",
+			"name": "Sustainability & ESG",
+			"description": "Climate, ESG, and impact."
+		},
+		{
+			"id": "product-platforms",
+			"name": "Product & Platforms",
+			"description": "DX, tooling, and UX."
+		}
+	]
+}

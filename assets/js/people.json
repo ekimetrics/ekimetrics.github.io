@@ -1,0 +1,114 @@
+{
+	"people": [
+		{
+			"id": "ana_ulianovici",
+			"name": "Ana Ulianovici",
+			"avatar": "/img/authors/ana_ulianovici.jpg"
+		},
+		{
+			"id": "annabelle_blangero",
+			"name": "Annabelle Blangero",
+			"avatar": "/img/authors/annabelle_blangero.jpg"
+		},
+		{
+			"id": "basile_el_azhari",
+			"name": "Basile El Azhari",
+			"avatar": "/img/authors/basile_el_azhari.jpg"
+		},
+		{
+			"id": "bertrand_de_vericourt",
+			"name": "Bertrand De Vericourt",
+			"avatar": "/img/authors/bertrand_de_vericourt.jpeg"
+		},
+		{
+			"id": "celine.wong",
+			"name": "Celine Wong",
+			"avatar": "/img/authors/celine.wong.png"
+		},
+		{
+			"id": "duong_nguyen",
+			"name": "Duong Nguyen",
+			"avatar": "/img/authors/duong_nguyen.jpg"
+		},
+		{
+			"id": "francois_guerillon",
+			"name": "Francois Guerillon",
+			"avatar": "/img/authors/francois_guerillon.jpg"
+		},
+		{
+			"id": "jean_lelong",
+			"name": "Jean Lelong",
+			"avatar": "/img/authors/jean_lelong.jpg"
+		},
+		{
+			"id": "jeanne_dubois",
+			"name": "Jeanne Dubois",
+			"avatar": "/img/authors/jeanne_dubois.jpg"
+		},
+		{
+			"id": "karin.sasaki",
+			"name": "Karin Sasaki",
+			"avatar": "/img/authors/karin.sasaki.jfif"
+		},
+		{
+			"id": "milan.bhan",
+			"name": "Milan Bhan",
+			"avatar": "/img/authors/milan.bhan.png"
+		},
+		{
+			"id": "nathan_rouff",
+			"name": "Nathan Rouff",
+			"avatar": "/img/authors/nathan_rouff.png"
+		},
+		{
+			"id": "pierre_biousse",
+			"name": "Pierre Biousse",
+			"avatar": "/img/authors/pierre_biousse.png"
+		},
+		{
+			"id": "quentin_donnars",
+			"name": "Quentin Donnars",
+			"avatar": "/img/authors/quentin_donnars.jpg"
+		},
+		{
+			"id": "rakhat.shakimbekov",
+			"name": "Rakhat Shakimbekov",
+			"avatar": "/img/authors/rakhat.shakimbekov.jpg"
+		},
+		{
+			"id": "remi_devaux",
+			"name": "Remi Devaux",
+			"avatar": "/img/authors/remi_devaux.jpg"
+		},
+		{
+			"id": "ruslana.tymchyk",
+			"name": "Ruslana Tymchyk",
+			"avatar": "/img/authors/ruslana.tymchyk.jpg"
+		},
+		{
+			"id": "sami_achour",
+			"name": "Sami Achour",
+			"avatar": "/img/authors/sami_achour.png"
+		},
+		{
+			"id": "theo_alves",
+			"name": "Theo Alves",
+			"avatar": "/img/authors/theo_alves.jpg"
+		},
+		{
+			"id": "tiago.fleury",
+			"name": "Tiago Fleury",
+			"avatar": "/img/authors/tiago.fleury.jpg"
+		},
+		{
+			"id": "toni_fortora",
+			"name": "Toni Fortora",
+			"avatar": "/img/authors/toni_fortora.jpg"
+		},
+		{
+			"id": "vinod_krishnan",
+			"name": "Vinod Krishnan",
+			"avatar": "/img/authors/vinod_krishnan.png"
+		}
+	]
+}
