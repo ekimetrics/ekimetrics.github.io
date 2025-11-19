@@ -41,7 +41,7 @@ module.exports = {
     //     // ... other options
     //   },
     // ],
-  
+
 
   ],
 
@@ -72,7 +72,7 @@ module.exports = {
     },
 
 
-    
+
     image:"http://ekimetrics.github.io/img/10-cubecube03.jpg",
     prism: {
       theme: require('prism-react-renderer/themes/dracula'),
@@ -111,37 +111,14 @@ module.exports = {
               label: "Technology stack",
               href:'/about/stack'
             },
-            
+
           ],
         },
 
-        {
-          type: 'dropdown',
-          label: 'Resources',
-          position: 'left',
-          items:[
-            // {
-            //   label: "Publications",
-            //   href:'/resources/publications'
-            // },
-
-            {
-              label: "Trainings",
-              href:'/resources/trainings'
-            },
-            {
-              label: "Hackathons",
-              href:'/resources/'
-            },
-
-            
-          ],
-        },
-        
 
 
 
-        
+
         //{to: 'tech_newsletter', label: 'Tech Newsletter', position: 'left'},
         // {to: 'trainings/', label: 'Trainings', position: 'left'},
         // {to: 'docs/', label: 'About us', position: 'left'},
@@ -161,7 +138,7 @@ module.exports = {
         //   position: 'left',
         // },
         {to: 'https://ekimetrics.com', label: 'Ekimetrics website', position: 'right'},
-         
+
       //  {to: 'https://ekimetrics.us13.list-manage.com/subscribe?u=85b8ce42caa0a733e98233bc4&id=6355d0a6f9', label: 'Newsletter', position: 'right'},
 
       //  {
@@ -218,9 +195,9 @@ module.exports = {
             },
           ],
         },
-        
+
       ],
-      
+
     },
   },
   presets: [
@@ -262,7 +239,7 @@ module.exports = {
           // Optional fields.
           anonymizeIP: true, // Should IPs be anonymized?
         },
-    
+
       },
     ],
   ],
