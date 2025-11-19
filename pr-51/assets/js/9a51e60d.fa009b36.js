@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[5683],{63871:e=>{e.exports=JSON.parse('{"label":"Thought Leadership","permalink":"/blog/tags/thought-leadership","allTagsPath":"/blog/tags","count":1}')}}]);

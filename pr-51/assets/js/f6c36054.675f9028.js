@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[9862],{51764:a=>{a.exports=JSON.parse('{"label":"Optical Character Recognition","permalink":"/blog/tags/optical-character-recognition","allTagsPath":"/blog/tags","count":5}')}}]);

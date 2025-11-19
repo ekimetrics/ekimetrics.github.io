@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[7351],{16609:a=>{a.exports=JSON.parse('{"label":"Academic Research","permalink":"/blog/tags/academic-research","allTagsPath":"/blog/tags","count":1}')}}]);

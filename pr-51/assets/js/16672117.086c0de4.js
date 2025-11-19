@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[2707],{22162:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/bert","page":1,"postsPerPage":9,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

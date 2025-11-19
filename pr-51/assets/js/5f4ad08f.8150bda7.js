@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[8750],{20956:a=>{a.exports=JSON.parse('{"label":"AI Agent","permalink":"/blog/tags/ai-agent","allTagsPath":"/blog/tags","count":1}')}}]);

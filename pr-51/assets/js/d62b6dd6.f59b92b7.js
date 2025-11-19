@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[2883],{61661:e=>{e.exports=JSON.parse('{"label":"Time series","permalink":"/blog/tags/time-series","allTagsPath":"/blog/tags","count":2}')}}]);

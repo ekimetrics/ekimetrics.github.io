@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[7193],{67245:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/supply-chain","page":1,"postsPerPage":9,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

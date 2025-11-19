@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[7337],{77203:e=>{e.exports=JSON.parse('{"label":"Epidemiology","permalink":"/blog/tags/epidemiology","allTagsPath":"/blog/tags","count":1}')}}]);

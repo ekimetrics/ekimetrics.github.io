@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[2747],{88876:a=>{a.exports=JSON.parse('{"label":"AI Workflow","permalink":"/blog/tags/ai-workflow","allTagsPath":"/blog/tags","count":1}')}}]);

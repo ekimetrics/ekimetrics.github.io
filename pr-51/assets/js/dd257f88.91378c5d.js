@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[6760],{87829:a=>{a.exports=JSON.parse('{"label":"Causal AI","permalink":"/blog/tags/causal-ai","allTagsPath":"/blog/tags","count":1}')}}]);

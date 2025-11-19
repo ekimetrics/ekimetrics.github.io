@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[5690],{23331:e=>{e.exports=JSON.parse('{"label":"Detectron2","permalink":"/blog/tags/detectron-2","allTagsPath":"/blog/tags","count":1}')}}]);

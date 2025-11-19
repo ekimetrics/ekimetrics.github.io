@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[9584],{60843:a=>{a.exports=JSON.parse('{"label":"Digital Transformation","permalink":"/blog/tags/digital-transformation","allTagsPath":"/blog/tags","count":1}')}}]);

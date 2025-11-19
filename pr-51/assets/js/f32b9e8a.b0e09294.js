@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[4057],{71411:a=>{a.exports=JSON.parse('{"label":"Data Governance","permalink":"/blog/tags/data-governance","allTagsPath":"/blog/tags","count":2}')}}]);

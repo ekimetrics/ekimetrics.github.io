@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[3716],{38658:a=>{a.exports=JSON.parse('{"label":"Foundations Models","permalink":"/blog/tags/foundations-models","allTagsPath":"/blog/tags","count":1}')}}]);

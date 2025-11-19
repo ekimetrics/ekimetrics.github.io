@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[460],{86765:a=>{a.exports=JSON.parse('{"label":"Sustainable AI","permalink":"/blog/tags/sustainable-ai","allTagsPath":"/blog/tags","count":1}')}}]);

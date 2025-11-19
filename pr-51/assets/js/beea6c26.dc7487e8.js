@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[4170],{53576:a=>{a.exports=JSON.parse('{"label":"Javascript","permalink":"/blog/tags/javascript","allTagsPath":"/blog/tags","count":1}')}}]);
