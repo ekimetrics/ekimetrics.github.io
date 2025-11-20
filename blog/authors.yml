@@ -156,3 +156,15 @@ jeanne.dubois:
   title : Senior Data Scientist
   image_url : /img/authors/jeanne_dubois.jpg
   url : https://www.linkedin.com/in/jeanne-dubois-344923b4/
+
+anand.krishnakumar:
+  name : Anand Krishnakumar
+  title : Senior Consultant, Data Engineering & Architecture
+  image_url : /img/authors/anand_krishnakumar.jpg
+  #url : https://www.linkedin.com/in/jeanne-dubois-344923b4/
+
+james.hughes:
+  name : James Hughes
+  title : Consultant, Data Science
+  image_url : /img/authors/james_hughes.jpg
+  #url : https://www.linkedin.com/in/jeanne-dubois-344923b4/
