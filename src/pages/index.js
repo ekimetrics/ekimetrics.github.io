@@ -267,19 +267,12 @@ function Home() {
 							img='img/icons/Spotlight _Monochromatic.svg'
 							description='Learn about our convictions and tech best practices'
 						/>
-						<HomePageBlock
-							title='Resources'
-							href='/resources'
-							img='img/icons/Email campaign_Monochromatic.svg'
-							description='Find out about our internal trainings & Hackathons '
-						/>
 						{/* <HomePageBlock title="Hackathons" href="/hacks" img="img/icons/Competition_Monochromatic.svg" description="Test your data science skills with our hackathons & challenges"/>
             <HomePageBlock title="Open Source" href="/opensource" img="img/icons/World wide web_Monochromatic.svg" description="Discover our open source contributions to the Data Science community"/> */}
 					</Row>
 				</div>
 
 				<LatestBlogPosts></LatestBlogPosts>
-				<TechRadar></TechRadar>
 			</main>
 		</Layout>
 	);
