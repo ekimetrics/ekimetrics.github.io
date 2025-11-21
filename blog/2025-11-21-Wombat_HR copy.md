@@ -161,8 +161,8 @@ Here’s how the process works according to the documents:
 - If you opt out after the first month, no further contributions will be made, but you will not receive a refund & your contributions to date will remain invested.
 - Please note that even if you opt out, you will be automatically re-enrolled at the next Ekimetrics plan renewal (as required by UK law). You can choose to opt out again at that point.
 For further details, please refer to The People’s Pension website and the Ekimetrics pension booklet, which you can access through the links provided in the documents. You can view the sources on the left tab. The most relevant sources are:
-- [Company Pension Scheme (CPS)](url): Provides a detailed overview of opting out, refunds, and the re-enrolment process.
-- [New Member Booklet (PDF)](url): Offers further information about managing your pension after opting out and procedures if you re-join.
+- Company Pension Scheme (CPS)(url): Provides a detailed overview of opting out, refunds, and the re-enrolment process.
+- New Member Booklet (PDF)(url): Offers further information about managing your pension after opting out and procedures if you re-join.
 
 *If you need additional clarification, please contact the HR team at hr.uk@ekimetrics.com.*
 
