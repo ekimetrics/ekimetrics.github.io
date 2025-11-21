@@ -7,7 +7,7 @@ authors: [vinod.krishnan, anand.krishnakumar, james.hughes]
 header_image_url: "img/blog/Wombat_HR_v2_header.jpg"
 image: "img/blog/Wombat_HR_v2_header.jpg"
 tags: [GenAI, Chatbot, Q&A, Evaluation, Retrieval, HyDE, Optimisation]
-draft: false
+draft: true
 description: "Upgrade the RAG chatbot assistant based on user feedback as well as quantitative data from a broader evaluation framework. We discuss our implementation here."
 
 keywords:
