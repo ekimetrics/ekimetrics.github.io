@@ -4,19 +4,22 @@ title: 'Retrieval Augmented Generation (RAG): Optimisation & evaluation techniqu
 authors: [vinod.krishnan, anand.krishnakumar, james.hughes]
 
 
-header_image_url: "img/blog/Wombat_HR_header.jpg"
-image: "img/blog/Wombat_HR_header.jpg"
-tags: [GenAI, HR, Chatbot, Q&A, HR policies, Automation]
-draft: true
+header_image_url: "img/blog/Wombat_HR_v2_header.jpg"
+image: "img/blog/Wombat_HR_v2_header.jpg"
+tags: [GenAI, Chatbot, Q&A, Evaluation, Retrieval, HyDE, Optimisation]
+draft: false
 description: "Upgrade the RAG chatbot assistant based on user feedback as well as quantitative data from a broader evaluation framework. We discuss our implementation here."
 
 keywords:
     - GenAI
-    - HR
     - Chatbot
+    - Evaluation
     - Q&A
     - HR policies
     - Automation
+    - Retrieval
+    - HyDE
+    - Optimisation
 ---
 <!-- import useBaseUrl from "@docusaurus/useBaseUrl";
 
@@ -188,7 +191,7 @@ For further educational opportunities and professional development, you may rece
 
 *[…]
 
-For more detailed or specific queries […]*
+*For more detailed or specific queries […]*
 
 ***
 The two answers here are significantly different: Wombat v1.0 produces a generic answer that is vague and repetitive in its language, whereas Wombat v2.0 produces a detailed answer where specific courses and platforms such as DataCamp or Eki Academy are mentioned. The evaluation scores increase across all different metrics here, but a key change is in the context retrieval process. The “context completeness” score increases from 0.3 to 1.0 with the upgrade, and in the second response this clearly unlocks the potential to generate a high quality response with high precision and recall.
