@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[6003],{38552:a=>{a.exports=JSON.parse('{"label":"Optimisation","permalink":"/blog/tags/optimisation","allTagsPath":"/blog/tags","count":1}')}}]);
