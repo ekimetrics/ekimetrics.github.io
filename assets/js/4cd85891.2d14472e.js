@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[8544],{72653:a=>{a.exports=JSON.parse('{"label":"Multimodal AI","permalink":"/blog/tags/multimodal-ai","allTagsPath":"/blog/tags","count":1}')}}]);
