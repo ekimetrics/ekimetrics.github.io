@@ -7,7 +7,7 @@ authors: [taher.asmi, francois.guerillon]
 header_image_url: "img/blog/Predicting_World_Multimodal.jpg"
 image: "img/blog/Predicting_World_Multimodal.jpg"
 tags: [Multimodal AI, Computer Vision, Generative AI, Predictive Modeling]
-draft: true
+draft: false
 description: "How multimodal AI turns images, text, and data into smarter, more robust predictions that drive better business decisions."
 
 keywords:
