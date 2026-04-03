@@ -1,0 +1,171 @@
+{
+  "2021/11/03/tsp": [
+    "Théo Alves Da Costa"
+  ],
+  "2021/12/22/cjc": [
+    "Sabri Belli"
+  ],
+  "2022/01/06/hackathon": [
+    "Pierre Biousse"
+  ],
+  "2022/01/27/automl_benchmark": [
+    "Quentin Tremouille"
+  ],
+  "2022/02/07/building_datalake_part_1": [
+    "Emilien BOUCAUD"
+  ],
+  "2022/02/09/ekimetrics_implements_data_mesh": [
+    "Arnaud Lievin"
+  ],
+  "2022/02/22/demand_forecasting_supply": [
+    "Alexis Cruveiller"
+  ],
+  "2022/02/28/newsletter_Feb-2022": [
+    "Samuel Chaineau"
+  ],
+  "2022/03/16/powerbi_multiple_environments": [
+    "Samuel Cordano"
+  ],
+  "2022/03/30/newsletter_March-2022": [
+    "Samuel Chaineau"
+  ],
+  "2022/04/21/docker": [
+    "Axel Richier"
+  ],
+  "2022/05/02/newsletter_April-2022": [
+    "Samuel Chaineau"
+  ],
+  "2022/06/14/bayesian_inference": [
+    "Duong Nguyen"
+  ],
+  "2022/07/05/newsletter_June-2022": [
+    "Samuel Chaineau"
+  ],
+  "2022/07/11/neural_ode": [
+    "Miguel Omenaca Muro"
+  ],
+  "2022/08/27/traditional_or": [
+    "Nathan Rouff"
+  ],
+  "2022/09/06/deep_rl": [
+    "Nathan Rouff"
+  ],
+  "2022/09/20/newsletter_Sept-2022": [
+    "Ali Ghazouani"
+  ],
+  "2022/10/18/Interpretability_sentiment_analysis_I": [
+    "Milan Bhan"
+  ],
+  "2022/10/26/Interpretability_sentiment_analysis_II": [
+    "Milan Bhan"
+  ],
+  "2022/11/10/creative_execution_and_marketing_effectiveness_part_I": [
+    "Marina Bermejo Sarmiento",
+    "Monica Brondholt Sorensen",
+    "Karin Sasaki"
+  ],
+  "2022/11/30/creative_execution_and_marketing_effectiveness_part_II": [
+    "Marina Bermejo Sarmiento",
+    "Monica Brondholt Sorensen",
+    "Karin Sasaki"
+  ],
+  "2022/12/13/creative_execution_and_marketing_effectiveness_part_III": [
+    "Marina Bermejo Sarmiento",
+    "Monica Brondholt Sorensen",
+    "Karin Sasaki"
+  ],
+  "2023/01/15/creative_execution_and_marketing_effectiveness_part_IV": [
+    "Marina Bermejo Sarmiento",
+    "Monica Brondholt Sorensen",
+    "Karin Sasaki"
+  ],
+  "2023/02/21/creative_execution_and_marketing_effectiveness_part_V": [
+    "Marina Bermejo Sarmiento",
+    "Monica Brondholt Sorensen",
+    "Karin Sasaki"
+  ],
+  "2023/02/28/building_datalake_part_2": [
+    "Emilien BOUCAUD"
+  ],
+  "2023/03/07/level_car_analytics": [
+    "Arnaud LIEVIN"
+  ],
+  "AI_Architecture_Selection": [
+    "Celine Wong",
+    "Rakhat Shakimbekov"
+  ],
+  "Bayesian_NN": [
+    "Léopold Mendes-Charrinho",
+    "Nicolas CHESNEAU"
+  ],
+  "Blind_Language_Model": [
+    "François GUERILLON"
+  ],
+  "Causal_Inference": [
+    "Toni Fortora"
+  ],
+  "ClimateQ&A": [
+    "Natalia DE LA CALZADA"
+  ],
+  "Counterfactual_Explanations": [
+    "Benjamin Wong",
+    "Milan Bhan"
+  ],
+  "Dual_Impact_Communication": [
+    "Quentin Donnars",
+    "Rémi Devaux"
+  ],
+  "ESG_Due_Diligence": [
+    "Karin Sasaki",
+    "Ruslana Tymchyk",
+    "Tiago Fleury"
+  ],
+  "Economics_online_ad": [
+    "Rémi DEVAUX"
+  ],
+  "LLMs_fail": [
+    "Jean LELONG"
+  ],
+  "Multimodal_fusion": [
+    "François GUERILLON"
+  ],
+  "Quantifying_Impact_Communication": [
+    "Quentin Donnars",
+    "Rémi Devaux"
+  ],
+  "Semifactual_Explanations": [
+    "Benjamin Wong",
+    "Milan Bhan"
+  ],
+  "Talk_to_Data_App": [
+    "Bertrand DE VERICOURT"
+  ],
+  "Uncertainty_TS": [
+    "Sami ACHOUR",
+    "Duong NGUYEN"
+  ],
+  "Under_The_Hood": [
+    "Karin Sasaki",
+    "Ruslana Tymchyk",
+    "Tiago Fleury"
+  ],
+  "Wombat_HR": [
+    "Vinod KRISHNAN",
+    "Basile EL AZHARI"
+  ],
+  "clair_anniversary": [
+    "Annabelle Blangero",
+    "Jean LELONG",
+    "Ana Ulianovici",
+    "Jeanne Dubois"
+  ],
+  "dash-deployment": [
+    "Théo Alves Da Costa"
+  ],
+  "introduction-pyepidemics": [
+    "Théo Alves Da Costa"
+  ],
+  "welcome": [
+    "Pierre Biousse"
+  ]
+}

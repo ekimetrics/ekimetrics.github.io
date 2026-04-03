@@ -1,6 +1,26 @@
 (() => {
 	const SEED = 'our-team-2025';
 
+	function normalizeName(str) {
+		if (!str) return '';
+		try {
+			return str
+				.toLowerCase()
+				.normalize('NFD')
+				.replace(/[\u0300-\u036f]/g, '') // strip accents/diacritics
+				.replace(/[^a-z\s]/g, ' ')
+				.replace(/\s+/g, ' ')
+				.trim();
+		} catch {
+			// Fallback if String.prototype.normalize is unavailable
+			return String(str)
+				.toLowerCase()
+				.replace(/[^a-z\s]/g, ' ')
+				.replace(/\s+/g, ' ')
+				.trim();
+		}
+	}
+
 	function hashStringToInt(str, seed) {
 		let h = 2166136261 ^ seed.length;
 		for (let i = 0; i < str.length; i++) {
@@ -117,12 +137,42 @@
 		return authors;
 	}
 
+	function slugFromPublicationLink(link) {
+		if (!link) return null;
+		try {
+			const url = new URL(link, window.location.origin);
+			const pathname = (url.pathname || '').replace(/\/+$/, '');
+			const idx = pathname.indexOf('/blog/');
+			if (idx === -1) return null;
+			const slug = pathname.slice(idx + '/blog/'.length).replace(/^\/+/, '');
+			return decodeURIComponent(slug);
+		} catch {
+			// Fallback for unexpected formats
+			const match = String(link).match(/\/blog\/(.+?)(?:\/|$)/);
+			return match ? decodeURIComponent(match[1]) : null;
+		}
+	}
+
+	function applyAuthorsBySlug(publications, authorsBySlug) {
+		if (!authorsBySlug) return;
+		for (const pub of publications) {
+			if (!pub) continue;
+			const slug = slugFromPublicationLink(pub.link);
+			if (!slug) continue;
+
+			const authors = authorsBySlug[slug];
+			if (Array.isArray(authors) && authors.length > 0) {
+				pub.authors = authors;
+			}
+		}
+	}
+
 	// Fuzzy match author name to person in people.json
 	function matchAuthorToPerson(authorName, people) {
-		const normalized = authorName.toLowerCase().replace(/[^a-z\s]/g, '');
+		const normalized = normalizeName(authorName);
 
 		for (const person of people) {
-			const personName = person.name.toLowerCase().replace(/[^a-z\s]/g, '');
+			const personName = normalizeName(person.name);
 			if (personName === normalized) {
 				return person;
 			}
@@ -132,7 +182,7 @@
 		const nameParts = normalized.split(/\s+/);
 		if (nameParts.length >= 2) {
 			for (const person of people) {
-				const personParts = person.name.toLowerCase().split(/\s+/);
+				const personParts = normalizeName(person.name).split(/\s+/);
 				if (personParts.length >= 2) {
 					if (
 						nameParts[0] === personParts[0] &&
@@ -383,11 +433,17 @@
 
 	async function init() {
 		try {
-			const [{ people }, { streams }, publications] = await Promise.all([
+			const [{ people }, { streams }, publications, authorsBySlug] =
+				await Promise.all([
 				loadJSON('/assets/js/people.json'),
 				loadJSON('/assets/js/team-config.json'),
 				loadPublications(),
+				loadJSON('/assets/js/publications-authors.json'),
 			]);
+
+			// RSS feed does not include authors. We enrich publications with authors
+			// extracted at build-time from the blog post HTML pages.
+			applyAuthorsBySlug(publications, authorsBySlug);
 			const { streamIdToMembers, leaders } = assignPeopleToStreams(
 				people,
 				streams
@@ -411,6 +467,13 @@
 				streamIdToMembers,
 				leaders,
 				streamPublications,
+			};
+
+			// Helpers used by stream.js/person.js
+			window.teamUtils = {
+				normalizeName,
+				matchAuthorToPerson: (authorName) => matchAuthorToPerson(authorName, people),
+				slugFromPublicationLink,
 			};
 
 			console.log('Team data loaded:', {

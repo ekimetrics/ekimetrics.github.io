@@ -12,7 +12,8 @@
 		"clear": "docusaurus clear",
 		"dev": "vite",
 		"preview": "vite preview --open",
-		"gen:people": "node scripts/generate-people.mjs"
+		"gen:people": "node scripts/generate-people.mjs",
+		"gen:pub-authors": "node scripts/generate-publications-authors.mjs"
 	},
 	"dependencies": {
 		"@backstage/plugin-tech-radar": "^0.7.3",
