@@ -2,23 +2,30 @@ const path = require('path');
 const math = require('remark-math');
 const katex = require('rehype-katex');
 
+const isProd = process.env.NODE_ENV === 'production';
 
 module.exports = {
   title: 'Eki.Lab',
   tagline: 'EkiLab - the Ekimetrics technology & innovation website. Behind the scenes of the Data Science Company',
+  clientModules: [require.resolve('./src/clientModules/gtag-shim.js')],
   plugins: [
 
     require.resolve('docusaurus-lunr-search'),
     require.resolve("docusaurus-plugin-image-zoom"),
 
-
-    [
-      '@docusaurus/plugin-google-gtag',
-      {
-        trackingID: ['UA-124520099-9','G-MQNYE0E8GE'],
-        anonymizeIP: true,
-      },
-    ],
+    // Gtag only in production: dev server does not inject gtag.js, but the plugin still
+    // registers a client module that calls window.gtag on navigation → runtime error without this split.
+    ...(isProd
+      ? [
+          [
+            '@docusaurus/plugin-google-gtag',
+            {
+              trackingID: ['UA-124520099-9', 'G-MQNYE0E8GE'],
+              anonymizeIP: true,
+            },
+          ],
+        ]
+      : []),
 
     [
       '@docusaurus/plugin-content-docs',
@@ -89,6 +96,7 @@ module.exports = {
       items: [
 
         {to: 'blog', label: 'Blog', position: 'left'},
+        {to: 'events', label: 'Events', position: 'left'},
         {href: '/publications', label: 'Publications', position: 'left'},
 
 
@@ -234,11 +242,7 @@ module.exports = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
-        googleAnalytics: {
-          trackingID: 'UA-124520099-9',
-          // Optional fields.
-          anonymizeIP: true, // Should IPs be anonymized?
-        },
+        // Analytics via @docusaurus/plugin-google-gtag only (see plugins). Avoid preset googleAnalytics (legacy window.ga).
 
       },
     ],
