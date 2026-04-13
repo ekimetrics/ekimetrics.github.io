@@ -10,7 +10,9 @@
  
 
 This event is jointly organized by [PEPR-IA](https://www.pepr-ia.fr/) and [Ekimetrics](https://www.ekimetrics.com/).
-Registration is free but mandatory before May 8, 2026: [here](https://docs.google.com/forms/d/e/1FAIpQLScJJMRD32qlXuAhFhroc1dyoF845iMiPbiDIFV3PppWijwCQQ/viewform?usp=publish-editor)
+Registration is free but mandatory before May 8, 2026: 
+
+**[Registration link](https://docs.google.com/forms/d/e/1FAIpQLScJJMRD32qlXuAhFhroc1dyoF845iMiPbiDIFV3PppWijwCQQ/viewform?usp=publish-editor)**
 
 <div
   style={{
@@ -25,28 +27,28 @@ Registration is free but mandatory before May 8, 2026: [here](https://docs.googl
   aria-label="Partner institutions"
 >
   <img
-    src="/img/events/cea_logo.png"
+    src="/img/events/elis.jpg"
     alt="CEA"
     loading="lazy"
-    style={{ height: '60px', width: 'auto', objectFit: 'contain' }}
+    style={{ height: '100px', width: 'auto', objectFit: 'contain' }}
   />
   <img
     src="/img/events/CNRS-Logo.png"
     alt="CNRS"
     loading="lazy"
-    style={{ height: '60px', width: 'auto', objectFit: 'contain' }}
+    style={{ height: '100px', width: 'auto', objectFit: 'contain' }}
   />
   <img
-    src="/img/events/inria_logo.png"
+    src="/img/events/pepr_ia.jpg"
     alt="Inria"
     loading="lazy"
-    style={{ height: '60px', width: 'auto', objectFit: 'contain' }}
+    style={{ height: '  100px', width: 'auto', objectFit: 'contain' }}
   />
   <img
     src="/img/events/eki_logo.jpg"
     alt="Ekimetrics"
     loading="lazy"
-    style={{ height: '60px', width: 'auto', objectFit: 'contain' }}
+    style={{ height: '100px', width: 'auto', objectFit: 'contain' }}
   />
 </div>
 
