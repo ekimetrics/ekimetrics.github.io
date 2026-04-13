@@ -307,20 +307,3 @@ html[data-theme='dark'] {
   margin-top: -5px; /* slight overlap for tighter spacing */
   margin-bottom: 10px;
 }
-
-/* Event pages: partner logos row */
-.event-partner-logos {
-	display: flex;
-	flex-wrap: wrap;
-	align-items: center;
-	justify-content: center;
-	gap: 1.25rem 1.5rem;
-	margin: 1.5rem 0;
-}
-
-.event-partner-logos img {
-	max-height: 52px;
-	width: auto;
-	max-width: min(140px, 28vw);
-	object-fit: contain;
-}
