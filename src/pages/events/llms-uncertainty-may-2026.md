@@ -68,7 +68,7 @@ Registration is free but mandatory before May 8, 2026:
 **Abstract**: To be updated soon.
 
 ### [Gianni Franchi](https://giannifranchi.github.io/), Research Director at AMIAD leading the Trustworthy AI group
-**Title**: Presentation of Torch-uncertainty, a deep learning framework for uncertainty quantification.
+**Title**: From token-level uncertainty to semantic uncertainty: how can we better assess the reliability of large vision language models?
 
 **Abstract**: To be updated soon.
 
@@ -81,8 +81,8 @@ This schedule will be updated with more details soon.
 |------------------|-------------------------------------------------------|
 | **14:00 – 15:00** | Sébastien Destercke — Mini-course on uncertainty in statistics |
 | **15:00 – 15:30** | Yedidia AGNIMO — Measures of uncertainty for LLMs    |
-| **15:30 – 16:00** | Coffee Break                                         |
-| **16:00 – 17:00** | Gianni Franchi — Torch-uncertainty                   |
+| **15:30 – 16:00** | Coffee break                                         |
+| **16:00 – 17:00** | Gianni Franchi — Improving reliability assessment in LVLMs                  |
 | **End**           | Cocktail                                             |
 
 ---
