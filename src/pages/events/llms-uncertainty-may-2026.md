@@ -81,8 +81,8 @@ This schedule will be updated with more details soon.
 |------------------|-------------------------------------------------------|
 | **14:00 – 15:00** | Sébastien Destercke — Mini-course on uncertainty in statistics |
 | **15:00 – 15:30** | Yedidia AGNIMO — Measures of uncertainty for LLMs    |
-| **15:30 – 16:00** | Coffee Break                                         |
-| **16:00 – 17:00** | Gianni Franchi — Improving Reliability Assessment in LVLMs                  |
+| **15:30 – 16:00** | Coffee break                                         |
+| **16:00 – 17:00** | Gianni Franchi — Improving reliability assessment in LVLMs                  |
 | **End**           | Cocktail                                             |
 
 ---
