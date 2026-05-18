@@ -1,0 +1,191 @@
+/* ── Our Team Directory ─────────────────────────────────────────── */
+
+.team-page {
+  padding: 60px 0 80px;
+}
+
+.team-hero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.team-hero h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.team-hero p {
+  color: #8d949e;
+  font-size: 1rem;
+}
+
+/* ── Filter bar ─────────────────────────────────────────────────── */
+
+.tag-filter-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+
+.tag-filter-bar-label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #8d949e;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 4px;
+}
+
+.filter-tag {
+  display: inline-block;
+  background: #1e3347;
+  color: #c8d0da;
+  border: 1px solid #2e4a63;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  user-select: none;
+}
+
+.filter-tag:hover {
+  background: #2e4a63;
+  color: #fff;
+}
+
+.filter-tag.active {
+  background: #3578e5;
+  border-color: #3578e5;
+  color: #fff;
+}
+
+/* ── Grid ───────────────────────────────────────────────────────── */
+
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 600px) {
+  .team-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Person card ────────────────────────────────────────────────── */
+
+.person-card {
+  position: relative;
+  background: rgba(22, 41, 60, 0.7);
+  border: 1px solid #2e4a63;
+  border-radius: 10px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.person-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* ── Avatar ─────────────────────────────────────────────────────── */
+
+.person-avatar {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+/* ── Card body ──────────────────────────────────────────────────── */
+
+.person-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.person-name {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 4px;
+  padding-right: 28px; /* leave room for email icon */
+}
+
+.person-role {
+  font-size: 0.85rem;
+  color: #8d949e;
+  margin: 0 0 14px;
+}
+
+/* ── Tags ───────────────────────────────────────────────────────── */
+
+.person-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.person-tag {
+  display: inline-block;
+  background: #32475a;
+  color: #c8d0da;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  user-select: none;
+}
+
+.person-tag:hover {
+  background: #3578e5;
+  color: #fff;
+}
+
+.person-tag.active {
+  background: #3578e5;
+  color: #fff;
+}
+
+/* ── Email icon ─────────────────────────────────────────────────── */
+
+.person-email {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #8d949e;
+  transition: color 0.15s;
+  line-height: 0;
+}
+
+.person-email:hover {
+  color: #3578e5;
+}
+
+/* ── Empty state ────────────────────────────────────────────────── */
+
+.team-empty {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #8d949e;
+  padding: 48px 0;
+  font-size: 0.95rem;
+}

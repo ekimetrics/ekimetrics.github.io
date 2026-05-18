@@ -1,0 +1,74 @@
+{
+  "people": [
+    {
+      "id": "duong_nguyen",
+      "name": "Duong Nguyen",
+      "role": "Senior AI Research Lead",
+      "email": "duong.nguyen@ekimetrics.com",
+      "tags": ["Time Series", "Forecasting", "Tabular Foundation Models"]
+    },
+    {
+      "id": "nicolas_chesneau",
+      "name": "Nicolas Chesneau",
+      "role": "Director of Research",
+      "email": "nicolas.chesneau@ekimetrics.com",
+      "tags": ["Computer Vision", "NLP", "GenAI"]
+    },
+    {
+      "id": "jean_lelong",
+      "name": "Jean Lelong",
+      "role": "Senior Data Scientist",
+      "email": "jean.lelong@ekimetrics.com",
+      "tags": ["NLP", "GenAI"]
+    },
+    {
+      "id": "yedidia_agnimo",
+      "name": "Yedidia Agnimo",
+      "role": "Doctoral Researcher",
+      "email": "yedidia.agnimo@ekimetrics.com",
+      "tags": ["NLP", "GenAI", "LLM Hallucinations"]
+    },
+    {
+      "id": "yann_choho",
+      "name": "Yann Choho",
+      "role": "Doctoral Researcher",
+      "email": "yann.choho@ekimetrics.com",
+      "tags": ["NLP"]
+    },
+    {
+      "id": "francois_guerillon",
+      "name": "François Guerillon",
+      "role": "Senior AI Researcher",
+      "email": "francois.guerillon@ekimetrics.com",
+      "tags": ["Deep Learning", "Model Fine-tuning", "Computer Vision", "Multimodality"]
+    },
+    {
+      "id": "andrew_mcdonald",
+      "name": "Andrew McDonald",
+      "role": "Doctoral Researcher",
+      "email": "andrew.mcdonald@ekimetrics.com",
+      "tags": ["Tabular Foundation Models", "Forecasting"]
+    },
+    {
+      "id": "sami_achour",
+      "name": "Sami Achour",
+      "role": "Senior Data Scientist",
+      "email": "sami.achour@ekimetrics.com",
+      "tags": ["Time Series", "Forecasting"]
+    },
+    {
+      "id": "audrey_poinsot",
+      "name": "Audrey Poinsot",
+      "role": "Senior AI Researcher",
+      "email": "audrey.poinsot@ekimetrics.com",
+      "tags": ["Causal Inference"]
+    },
+    {
+      "id": "milan_bhan",
+      "name": "Milan Bhan",
+      "role": "Senior ML Engineer",
+      "email": "milan.bhan@ekimetrics.com",
+      "tags": ["Interpretability", "NLP"]
+    }
+  ]
+}
