@@ -1,0 +1,109 @@
+{
+  "people": [
+    {
+      "id": "duong_nguyen",
+      "name": "Duong Nguyen",
+      "role": "Senior AI Research Lead",
+      "email": "duong.nguyen@ekimetrics.com",
+      "tags": ["Time Series", "Forecasting", "Tabular Foundation Models"]
+    },
+    {
+      "id": "nicolas_chesneau",
+      "name": "Nicolas Chesneau",
+      "role": "Director of Research",
+      "email": "nicolas.chesneau@ekimetrics.com",
+      "tags": ["Computer Vision", "NLP", "GenAI"]
+    },
+    {
+      "id": "jean_lelong",
+      "name": "Jean Lelong",
+      "role": "Senior Ai Researcher",
+      "email": "jean.lelong@ekimetrics.com",
+      "tags": ["NLP", "GenAI"]
+    },
+    {
+      "id": "yedidia_agnimo",
+      "name": "Yedidia Agnimo",
+      "role": "Doctoral Researcher",
+      "email": "yedidia.agnimo@ekimetrics.com",
+      "tags": ["NLP", "GenAI", "LLM Hallucinations"]
+    },
+    {
+      "id": "yann_choho",
+      "name": "Yann Choho",
+      "role": "Doctoral Researcher",
+      "email": "yann.choho@ekimetrics.com",
+      "tags": ["NLP"]
+    },
+    {
+      "id": "francois_guerillon",
+      "name": "François Guerillon",
+      "role": "Senior AI Researcher",
+      "email": "francois.guerillon@ekimetrics.com",
+      "tags": ["Deep Learning", "Model Fine-tuning", "Computer Vision", "Multimodality"]
+    },
+    {
+      "id": "andrew_mcdonald",
+      "name": "Andrew McDonald",
+      "role": "Doctoral Researcher",
+      "email": "andrew.mcdonald@ekimetrics.com",
+      "tags": ["Tabular Foundation Models", "Forecasting"]
+    },
+    {
+      "id": "sami_achour",
+      "name": "Sami Achour",
+      "role": "Senior AI Scientist",
+      "email": "sami.achour@ekimetrics.com",
+      "tags": ["Time Series", "Forecasting"]
+    },
+    {
+      "id": "audrey_poinsot",
+      "name": "Audrey Poinsot",
+      "role": "Senior AI Researcher",
+      "email": "audrey.poinsot@ekimetrics.com",
+      "tags": ["Causal Inference"]
+    },
+    {
+      "id": "milan_bhan",
+      "name": "Milan Bhan",
+      "role": "Senior AI Researcher",
+      "email": "milan.bhan@ekimetrics.com",
+      "tags": ["Interpretability", "NLP"]
+    },
+    {
+      "id": "victoria_danon",
+      "name": "Victoria Danon",
+      "role": "Senior Data Scientist",
+      "email": "victoria.danon@ekimetrics.com",
+      "tags": ["NLP", "GenAI"]
+    },
+    {
+      "id": "pierre_moreau",
+      "name": "Pierre Moreau",
+      "role": "Senior Data Scientist",
+      "email": "pierre.moreau@ekimetrics.com",
+      "tags": ["Interpretability"]
+    },
+    {
+      "id": "benjamin_wong",
+      "name": "Benjamin Wong",
+      "role": "Senior Data Scientist",
+      "email": "benjamin.wong@ekimetrics.com",
+      "tags": []
+    },
+    {
+      "id": "annabelle_blangero",
+      "name": "Annabelle Blangero",
+      "role": "Senior AI Research Lead",
+      "email": "annabelle.blangero@ekimetrics.com",
+      "tags": ["NLP", "GenAI", "AI Governance"]
+    },
+    {
+      "id": "toni_fortora",
+      "name": "Toni Fortora",
+      "role": "Senior Data Scientist",
+      "email": "toni.fortora@ekimetrics.com",
+      "tags": ["Causal Inference"]
+    }
+  ]
+}

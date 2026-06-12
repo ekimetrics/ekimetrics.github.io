@@ -1,0 +1,191 @@
+/* ── Our Team Directory ─────────────────────────────────────────── */
+
+.teamPage {
+  padding: 60px 0 80px;
+}
+
+.teamHero {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.teamHero h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+.teamHero p {
+  color: #8d949e;
+  font-size: 1rem;
+}
+
+/* ── Filter bar ─────────────────────────────────────────────────── */
+
+.tagFilterBar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 32px;
+  align-items: center;
+}
+
+.tagFilterBarLabel {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: #8d949e;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-right: 4px;
+}
+
+.filterTag {
+  display: inline-block;
+  background: #1e3347;
+  color: #c8d0da;
+  border: 1px solid #2e4a63;
+  border-radius: 4px;
+  padding: 4px 12px;
+  font-size: 0.78rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s, border-color 0.15s;
+  user-select: none;
+}
+
+.filterTag:hover {
+  background: #2e4a63;
+  color: #fff;
+}
+
+.filterTagActive {
+  background: #3578e5;
+  border-color: #3578e5;
+  color: #fff;
+}
+
+/* ── Grid ───────────────────────────────────────────────────────── */
+
+.teamGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 600px) {
+  .teamGrid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* ── Person card ────────────────────────────────────────────────── */
+
+.personCard {
+  position: relative;
+  background: rgba(22, 41, 60, 0.7);
+  border: 1px solid #2e4a63;
+  border-radius: 10px;
+  padding: 24px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: flex-start;
+  transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.personCard:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.35);
+}
+
+/* ── Avatar ─────────────────────────────────────────────────────── */
+
+.personAvatar {
+  flex-shrink: 0;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: #fff;
+  letter-spacing: 0.02em;
+}
+
+/* ── Card body ──────────────────────────────────────────────────── */
+
+.personBody {
+  flex: 1;
+  min-width: 0;
+}
+
+.personName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #fff;
+  margin: 0 0 4px;
+  padding-right: 28px; /* leave room for email icon */
+}
+
+.personRole {
+  font-size: 0.85rem;
+  color: #8d949e;
+  margin: 0 0 14px;
+}
+
+/* ── Tags ───────────────────────────────────────────────────────── */
+
+.personTags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.personTag {
+  display: inline-block;
+  background: #32475a;
+  color: #c8d0da;
+  border-radius: 4px;
+  padding: 2px 8px;
+  font-size: 0.75rem;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+  user-select: none;
+}
+
+.personTag:hover {
+  background: #3578e5;
+  color: #fff;
+}
+
+.personTagActive {
+  background: #3578e5;
+  color: #fff;
+}
+
+/* ── Email icon ─────────────────────────────────────────────────── */
+
+.personEmail {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: #8d949e;
+  transition: color 0.15s;
+  line-height: 0;
+}
+
+.personEmail:hover {
+  color: #3578e5;
+}
+
+/* ── Empty state ────────────────────────────────────────────────── */
+
+.teamEmpty {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: #8d949e;
+  padding: 48px 0;
+  font-size: 0.95rem;
+}

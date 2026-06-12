@@ -120,6 +120,11 @@ module.exports = {
               href:'/about/stack'
             },
 
+            {
+              label: "Our Team",
+              href:'/about/our-team'
+            },
+
           ],
         },
 
