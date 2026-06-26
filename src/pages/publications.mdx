@@ -21,35 +21,71 @@ import LongCardPub from "../components/LongCardPub.js";
   date="Ongoing"
   authors="Sami Achour, Yassine Bouher, Duong Nguyen, Nicolas Chesneau"
   title="Foundation models for time series forecasting: Application in conformal prediction"
-  description="The zero-shot capabilities of foundation models (FMs) for time series forecasting offer promising potentials in conformal prediction, as most of the available data can be allocated to calibration. This study compares the performance of Time Series Foundation Models (TSFMs) with traditional methods, including statistical models and gradient boosting, within a conformal prediction setting. Our findings highlight two key advantages of TSFMs. First, when the volume of data is limited, TSFMs provide more reliable conformalized prediction intervals than classic models, thanks to their superior predictive accuracy. Second, the calibration process is more stable because more data are used for calibration. Morever, the fewer data available, the more pronounced these benefits become, as classic models require a substantial amount of data for effective training. These results underscore the potential of foundation models in improving conformal prediction reliability in time series applications, particularly in data-constrained cases. All the code to reproduce the experiments is available."
+  description="The zero-shot capabilities of foundation models (FMs) for time series forecasting offer promising potentials in conformal prediction, as most of the available data can be allocated to calibration. This study compares the performance of Time Series Foundation Models (TSFMs) with traditional methods, including statistical models and gradient boosting, within a conformal prediction setting. Our findings highlight two key advantages of TSFMs. First, when the volume of data is limited, TSFMs provide more reliable conformalized prediction intervals than classic models, thanks to their superior predictive accuracy. Second, the calibration process is more stable because more data are used for calibration. Moreover, the fewer data available, the more pronounced these benefits become, as classic models require a substantial amount of data for effective training. These results underscore the potential of foundation models in improving conformal prediction reliability in time series applications, particularly in data-constrained cases. All the code to reproduce the experiments is available."
   href="https://arxiv.org/pdf/2507.08858"
 />
 
 <LongCardPub
   category="Pre-print"
   date="Ongoing"
+  authors="Amaury Lambert, Anna Bonnet, Pierre Clavier, Pierre Biousse, Lucas Clavières, Sophie Brouillet, Sylvie Chachay, Marie Jauffret-Roustide, Sonia Lewycka, Nicolas Chesneau, Grégory Nuel"
+  title="Alcov2: a National Questionnaire Survey for Understanding the Transmission of SARS-CoV-2 in French Households during First Lockdown"
+  description="This paper presents a fast, noninvasive and low-cost survey method designed to understand how an emerging pathogen is transmitted within households. Building on the standard household prevalence survey, which samples households and counts the number of people infected in each, it refines the approach to improve diagnosis and to estimate more parameters of the intra-household transmission model. The survey was carried out in May-June 2020, during part of France's first national lockdown, and collected responses from more than 6,000 households covering about 20,000 people, through both an open website hosted by CNRS and a socially representative panel administered by the BVA and Bilendi institutes. A classical raking procedure was used to correct sampling biases in the open survey using the representative panel, and successfully cancelled statistical biases between the two populations. The study describes the empirical distribution of the number and nature of symptoms in households and finds that age, gender, body mass index and household size are the main factors associated with the presence of symptoms, though not always in the expected direction. It shows that combining self-reporting with representative surveys can yield low-cost information on prevalence and household transmission mechanisms for emerging diseases."
+  href="https://www.medrxiv.org/content/10.64898/2026.02.23.26344954v1"
+/>
+
+<LongCardPub
+  category="LREC 2026"
+  date="May 2026"
+  authors="Arthur Vogels, Benjamin Wong, Yann Choho, Annabelle Blangero, Milan Bhan"
+  title="In-Distribution Steering: Balancing Control and Coherence in Language Model Generation"
+  description="Activation steering controls the behavior of large language models by editing their internal activations at inference time, but most methods apply a fixed steering strength that either under-controls the model or degrades the plausibility and coherence of the generated text. This work introduces In-Distribution Steering (IDS), a method that adapts the steering strength to where the input lies within the data distribution in representation space. By modulating the intervention according to how far a given input falls inside the distribution, IDS enables adaptive intervention and keeps generation stable. Across six LLMs and seven datasets, IDS reaches strong accuracy on classification tasks while producing coherent text without collapse, making it particularly well suited to real-world applications."
+  href="https://arxiv.org/pdf/2510.13285"
+/>
+
+<LongCardPub
+  category="ECML-PKDD 2026"
+  date="March 2026"
+  authors="Pierre Moreau, Emeline Pineau Ferrand, Yann Choho, Benjamin Wong, Annabelle Blangero, Milan Bhan"
+  title="Towards Faithful Multimodal Concept Bottleneck Models"
+  description="Concept Bottleneck Models (CBMs) are interpretable-by-design models that route predictions through a layer of human-interpretable concepts. They have been widely studied in vision and, more recently, in NLP, but remain largely unexplored in multimodal settings. For their explanations to be faithful, two conditions must hold: concepts must be properly detected, and concept representations must encode only their intended semantics, without smuggling extraneous task-relevant or inter-concept information into the final prediction, a phenomenon known as leakage. Existing approaches treat concept detection and leakage mitigation as separate problems and typically improve one at the expense of predictive accuracy. This work introduces f-CBM, a faithful multimodal CBM framework built on a vision-language backbone that jointly targets both aspects, combining a differentiable leakage loss to mitigate leakage with a Kolmogorov-Arnold Network prediction head, improving concept detection and faithfulness without sacrificing accuracy."
+  href="https://arxiv.org/abs/2603.13163"
+/>
+
+<LongCardPub
+  category="ICML 2026 Workshop"
+  date="January 2026"
+  authors="Milan Bhan, Jean-Noel Vittaut, Nicolas Chesneau, Sarath Chandar, Marie-Jeanne Lesot"
+  title="NeuroFaith: Evaluating LLM Self-Explanation Faithfulness via Internal Representation Alignment"
+  description="Large Language Models (LLM) have demonstrated the capability of generating free text self Natural Language Explanation (self-NLE) to justify their answers. Despite their logical appearance, self-NLE do not necessarily reflect the LLM actual decision-making process, making such explanations unfaithful. While existing methods for measuring self-NLE faithfulness mostly rely on behavioral tests or computational block identification, none of them examines the neural activity underlying the model's reasoning. This work introduces a novel flexible framework for quantitatively measuring the faithfulness of LLM-generated self-NLE by directly comparing the latter with interpretations of the model's internal hidden states. The proposed framework is versatile and provides deep insights into self-NLE faithfulness by establishing a direct connection between self-NLE and model reasoning. This approach advances the understanding of self-NLE faithfulness and provides building blocks for generating more faithful self-NLE."
+  href="https://arxiv.org/pdf/2506.09277"
+/>
+
+<LongCardPub
+  category="ICML 2026 Workshop"
+  date="January 2026"
+  authors="Duong Nguyen, Mohammed Jawhar, Nicolas Chesneau"
+  title="TFM-Retouche: A Lightweight Input-Space Adapter for Tabular Foundation Models"
+  description="Tabular foundation models (TFMs), such as TabPFN-2.6, TabICLv2, ConTextTab, Mitra, LimiX, and TabDPT, achieve strong zero-shot performance through in-context learning, but their inductive biases remain fixed at inference time. Adapting a pretrained TFM to a specific dataset or task typically requires either full fine-tuning, which is computationally expensive, or parameter-efficient tuning methods (PEFT) such as LoRA, which must be tailored to the internal architecture of each TFM. Furthermore, the evidence on whether weight-space fine-tuning improves accuracy or calibration is mixed [Tanna et al., 2026, Rubachev et al., 2025]. We introduce TFM-Retouche, a lightweight input-space residual adapter that is architecture-agnostic by design with respect to the frozen TFM backbone. TFM-Retouche learns a small residual correction in the input space to align the input data with the inductive biases of the pretrained model. The adapter is trained end-to-end through the frozen TFM, with a post-training identity guard that falls back to the unmodified TFM whenever adaptation does not help on held-out validation. On TabArena-Lite (51 datasets spanning binary classification, multiclass classification, and regression), TabICLv2-Retouche -- the framework instantiated on TabICLv2 -- is the top-ranked method on the leaderboard with light per-task tuning and ensembling, lifting aggregate Elo by +56 over the frozen TabICLv2 base and sitting on the Pareto front of predictive quality versus both training and inference time."
+  href="https://arxiv.org/pdf/2605.06047"
+/>
+
+<LongCardPub
+  category="ICML 2026"
+  date="January 2026"
   authors="Panayiotis Panayiotou, Audrey Poinsot, Alessandro Leite, Nicolas Chesneau, Marc Schoenauer, Ozgur Simcek"
   title="CausalProfiler: Generating Synthetic Benchmarks for Rigorous and Transparent Evaluation of Causal ML"
   description="Causal machine learning (Causal ML) aims to answer 'what if' questions using machine learning algorithms, making it a promising tool for high-stakes decision-making. Yet, empirical evaluation practices in Causal ML remain limited. Existing benchmarks often rely on a handful of hand-crafted or semi-synthetic datasets, leading to brittle, non-generalizable conclusions. To bridge this gap, we introduce CausalProfiler, a synthetic benchmark generator for Causal ML methods. Based on a set of explicit design choices about the class of causal models, queries, and data considered, the CausalProfiler randomly samples sets of data, assumptions, and ground truths constituting the synthetic causal benchmarks. In this way, Causal ML methods can be rigorously and transparently evaluated under a variety of conditions. This work offers the first random generator of synthetic causal benchmarks with coverage guarantees and transparent assumptions operating on the three levels of causal reasoning: observation, intervention, and counterfactual. We demonstrate its utility by evaluating several state-of-the-art methods under diverse conditions and assumptions, both in and out of the identification regime, illustrating the types of analyses and insights the CausalProfiler enables."
-  href=""
+  href="https://arxiv.org/pdf/2511.22842"
 />
 
 <LongCardPub
-  category="Pre-print"
-  date="Ongoing"
-  authors="Milan Bhan, Jean-Noel Vittaut, Nicolas Chesneau, Sarath Chandar, Marie-Jeanne Lesot"
-  title="Did I Faithfully Say What I Thought? Bridging the Gap Between Neural Activity and Self-Explanations in Large Language Models"
-  description="Large Language Models (LLM) have demonstrated the capability of generating free text self Natural Language Explanation (self-NLE) to justify their answers. Despite their logical appearance, self-NLE do not necessarily reflect the LLM actual decision-making process, making such explanations unfaithful. While existing methods for measuring self-NLE faithfulness mostly rely on behavioral tests or computational block identification, none of them examines the neural activity underlying the model's reasoning. This work introduces a novel flexible framework for quantitatively measuring the faithfulness of LLM-generated self-NLE by directly comparing the latter with interpretations of the model's internal hidden states. The proposed framework is versatile and provides deep insights into self-NLE faithfulness by establishing a direct connection between self-NLE and model reasoning. This approach advances the understanding of self-NLE faithfulness and provides building blocks for generating more faithful self-NLE."
-  href="https://arxiv.org/abs/2506.09277"
-/>
-
-<LongCardPub
-  category="Pre-print"
-  date="Ongoing"
+  category="EMNLP 2025"
+  date="November 2025"
   authors="Milan Bhan, Yann Choho, Pierre Moreau, Jean-Noel Vittaut, Nicolas Chesneau, Marie-Jeanne Lesot"
   title="Towards Achieving Concept Completeness for Textual Concept Bottleneck Models"
   description="Textual Concept Bottleneck Models (TCBMs) are interpretable-by-design models for text classification that predict a set of salient concepts before making the final prediction. This paper proposes Complete Textual Concept Bottleneck Model (CT-CBM), a novel TCBM generator building concept labels in a fully unsupervised manner using a small language model, eliminating both the need for predefined human labeled concepts and LLM annotations. CT-CBM iteratively targets and adds important and identifiable concepts in the bottleneck layer to create a complete concept basis. CT-CBM achieves striking results against competitors in terms of concept basis completeness and concept detection accuracy, offering a promising solution to reliably enhance interpretability of NLP classifiers."
-  href="https://arxiv.org/abs/2502.11100"
+  href="https://aclanthology.org/2025.findings-emnlp.106/"
 />
 
 <LongCardPub
@@ -58,7 +94,7 @@ import LongCardPub from "../components/LongCardPub.js";
   authors="Jean Lelong, Adnane Errazine, Annabelle Blangero"
   title="Agentic RAG with Knowledge Graphs for Complex Multi-Hop Reasoning in Real-World Applications"
   description="Conventional Retrieval-Augmented Generation (RAG) systems enhance Large Language Models (LLMs) but often fall short on complex queries, delivering limited, extractive answers and struggling with multiple targeted retrievals or navigating intricate entity relationships. This is a critical gap in knowledge-intensive domains. We introduce INRAExplorer, an agentic RAG system for exploring the scientific data of INRAE (France's National Research Institute for Agriculture, Food and Environment). INRAExplorer employs an LLM-based agent with a multi-tool architecture to dynamically engage a rich knowledge base, through a comprehensive knowledge graph derived from open access INRAE publications. This design empowers INRAExplorer to conduct iterative, targeted queries, retrieve exhaustive datasets (e.g., all publications by an author), perform multi-hop reasoning, and deliver structured, comprehensive answers. INRAExplorer serves as a concrete illustration of enhancing knowledge interaction in specialized fields."
-  href="https://arxiv.org/abs/2507.16507"
+  href="https://arxiv.org/pdf/2507.16507"
 />
 
 <LongCardPub
@@ -89,15 +125,13 @@ import LongCardPub from "../components/LongCardPub.js";
 />
 
 <LongCardPub
-  category=""
+  category="DSAA 2024"
   date="August 2024"
   authors="Duong Nguyen, Ana Ulianovici, Sami Achour, Soline Aubry, Nicolas Chesneau"
   title="Magazine supply optimization: a case-study"
   description="Supply optimization is a complex and challenging task in the magazine retail industry because of the fixed inventory assumption, irregular sales patterns, and varying product and point-of-sale characteristics. We introduce AthenIA, an industrialized magazine supply optimization solution that plans the supply for over 20,000 points of sale in France. We modularize the supply planning process into a four-step pipeline: demand sensing, optimization, business rules, and operating. The core of the solution is a novel group conformalized quantile regression method that integrates domain expert insights, coupled with a supply optimization technique that balances the costs of out-of-stock against the costs of over-supply. AthenIA has proven to be a valuable tool for magazine publishers, particularly in the context of evolving economic and ecological challenges."
   href="https://arxiv.org/pdf/2408.08637?"
 />
-
-
 
 <LongCardPub
   category="IJCAI 2024"
@@ -111,12 +145,11 @@ import LongCardPub from "../components/LongCardPub.js";
 <LongCardPub
   category="ICLR 2024"
   date="March 2024"
-  authors="Natalia De La Calzada, Théo Alves Da Costa, Annabelle Blangero, Nicolas Chesneau"
+  authors="Natalia De La Calzada, Théo Alves Da Costa, Annabelle Blangero, Nicolas Chesneau"
   title="ClimateQ&A: Bridging the gap between climate scientists and the general public"
   description="This research paper investigates public views on climate change and biodiversity loss by analyzing questions asked to the ClimateQ&A platform. ClimateQ&A is a conversational agent that uses LLMs to respond to queries based on over 14,000 pages of scientific literature from the IPCC and IPBES reports. Launched online in March 2023, the tool has gathered over 30,000 questions, mainly from a French audience. Its chatbot interface allows for the free formulation of questions related to nature*. While its main goal is to make nature science more accessible, it also allows for the collection and analysis of questions and their themes. Unlike traditional surveys involving closed questions, this novel method offers a fresh perspective on individual interrogations about nature. Running NLP clustering algorithms on a sample of 3,425 questions, we find that a significant 25.8% inquire about how climate change and biodiversity loss will affect them personally (e.g., where they live or vacation, their consumption habits) and the specific impacts of their actions on nature (e.g., transportation or food choices). This suggests that traditional methods of surveying may not identify all existing knowledge gaps, and that relying solely on IPCC and IPBES reports may not address all individual inquiries about climate and biodiversity, potentially affecting public understanding and action on these issues. *we use 'nature' as an umbrella term for 'climate change' and 'biodiversity loss'."
-  href="https://arxiv.org/abs/2403.14709"
+  href="https://arxiv.org/pdf/2403.14709"
 />
-
 
 <LongCardPub
   category="ECML-PKDD 2023"
@@ -145,7 +178,6 @@ import LongCardPub from "../components/LongCardPub.js";
   href="https://aclanthology.org/2023.trustnlp-1.19/"
 />
 
-
 <LongCardPub
   category="ICLR 2023"
   date="March 2023"
@@ -154,7 +186,3 @@ import LongCardPub from "../components/LongCardPub.js";
   description="Data augmentation is essential when applying Machine Learning (ML) in small-data regimes. It generates new samples following the observed data distribution while increasing their diversity and variability to help researchers and practitioners improve their models' robustness and, thus, deploy them in the real world. Nevertheless, its usage in tabular data still needs to be improved, as prior knowledge about the underlying data mechanism is seldom considered, limiting the fidelity and diversity of the generated data. Causal data augmentation strategies have been pointed out as a solution to handle these challenges by relying on conditional independence encoded in a causal graph. In this context, this paper experimentally analyzed the Acyclic Directed Mixed Graph causal augmentation method considering different settings to support researchers and practitioners in understanding under which conditions prior knowledge helps generate new data points and, consequently, enhances the robustness of their models. The results highlighted that the studied method (a) is independent of the underlying model mechanism, (b) requires a minimal number of observations that may be challenging in a small-data regime to improve an ML model's accuracy, (c) propagates outliers to the augmented set degrading the performance of the model, and (d) is sensitive to its hyperparameter's value."
   href="https://openreview.net/pdf?id=kBcAZcKypug"
 />
-
-
-
-
