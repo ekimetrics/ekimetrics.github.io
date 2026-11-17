@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[199],{52962:a=>{a.exports=JSON.parse('{"label":"Climate","permalink":"/blog/tags/climate","allTagsPath":"/blog/tags","count":1}')}}]);

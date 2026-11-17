@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[7973],{64384:a=>{a.exports=JSON.parse('{"label":"process standardisation","permalink":"/blog/tags/process-standardisation","allTagsPath":"/blog/tags","count":2}')}}]);

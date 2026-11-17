@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[5799],{51531:a=>{a.exports=JSON.parse('{"label":"Industrialization","permalink":"/blog/tags/industrialization","allTagsPath":"/blog/tags","count":1}')}}]);

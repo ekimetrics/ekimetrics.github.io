@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[6243],{72884:a=>{a.exports=JSON.parse('{"label":"Multi-Agents","permalink":"/blog/tags/multi-agents","allTagsPath":"/blog/tags","count":1}')}}]);

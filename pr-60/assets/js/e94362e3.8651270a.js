@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[8513],{30025:e=>{e.exports=JSON.parse('{"label":"Ekimetrics","permalink":"/blog/tags/ekimetrics","allTagsPath":"/blog/tags","count":1}')}}]);

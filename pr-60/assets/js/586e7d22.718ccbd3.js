@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[9815],{63469:e=>{e.exports=JSON.parse('{"label":"HR policies","permalink":"/blog/tags/hr-policies","allTagsPath":"/blog/tags","count":1}')}}]);

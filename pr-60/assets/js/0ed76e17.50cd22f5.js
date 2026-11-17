@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[3634],{45392:a=>{a.exports=JSON.parse('{"label":"IPCC","permalink":"/blog/tags/ipcc","allTagsPath":"/blog/tags","count":1}')}}]);

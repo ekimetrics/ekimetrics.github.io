@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[8246],{26844:a=>{a.exports=JSON.parse('{"label":"Cross-media","permalink":"/blog/tags/cross-media","allTagsPath":"/blog/tags","count":1}')}}]);

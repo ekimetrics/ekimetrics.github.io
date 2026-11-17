@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[5869],{96703:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/data-mesh","page":1,"postsPerPage":9,"totalPages":1,"totalCount":4,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

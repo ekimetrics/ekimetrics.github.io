@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[2810],{49470:e=>{e.exports=JSON.parse('{"label":"Technical-Decision-Frameworks","permalink":"/blog/tags/technical-decision-frameworks","allTagsPath":"/blog/tags","count":1}')}}]);

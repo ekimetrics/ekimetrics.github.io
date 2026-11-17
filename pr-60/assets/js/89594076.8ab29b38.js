@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[7241],{32075:e=>{e.exports=JSON.parse('{"label":"Object Detection","permalink":"/blog/tags/object-detection","allTagsPath":"/blog/tags","count":6}')}}]);

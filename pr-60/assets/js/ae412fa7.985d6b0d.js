@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[804],{97140:a=>{a.exports=JSON.parse('{"label":"Operational Research","permalink":"/blog/tags/operational-research","allTagsPath":"/blog/tags","count":2}')}}]);

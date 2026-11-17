@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[7449],{59678:a=>{a.exports=JSON.parse('{"label":"Containers","permalink":"/blog/tags/containers","allTagsPath":"/blog/tags","count":1}')}}]);

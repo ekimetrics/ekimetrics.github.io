@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[108],{22091:e=>{e.exports=JSON.parse('{"label":"Marketing Mix Modelling","permalink":"/blog/tags/marketing-mix-modelling","allTagsPath":"/blog/tags","count":5}')}}]);
