@@ -26,14 +26,14 @@
       "name": "Yedidia Agnimo",
       "role": "Doctoral Researcher",
       "email": "yedidia.agnimo@ekimetrics.com",
-      "tags": ["NLP", "GenAI", "LLM Hallucinations"]
+      "tags": ["NLP", "GenAI", "LLM Hallucinations", "Uncertainty Quantification"]
     },
     {
       "id": "yann_choho",
       "name": "Yann Choho",
       "role": "Doctoral Researcher",
       "email": "yann.choho@ekimetrics.com",
-      "tags": ["NLP"]
+      "tags": ["NLP", "Interpretability"]
     },
     {
       "id": "francois_guerillon",
