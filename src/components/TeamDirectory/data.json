@@ -17,7 +17,7 @@
     {
       "id": "jean_lelong",
       "name": "Jean Lelong",
-      "role": "Senior Ai Researcher",
+      "role": "Senior AI Researcher",
       "email": "jean.lelong@ekimetrics.com",
       "tags": ["NLP", "GenAI"]
     },
@@ -48,13 +48,6 @@
       "role": "Doctoral Researcher",
       "email": "andrew.mcdonald@ekimetrics.com",
       "tags": ["Tabular Foundation Models", "Forecasting"]
-    },
-    {
-      "id": "sami_achour",
-      "name": "Sami Achour",
-      "role": "Senior AI Scientist",
-      "email": "sami.achour@ekimetrics.com",
-      "tags": ["Time Series", "Forecasting"]
     },
     {
       "id": "audrey_poinsot",
@@ -89,7 +82,7 @@
       "name": "Benjamin Wong",
       "role": "Senior Data Scientist",
       "email": "benjamin.wong@ekimetrics.com",
-      "tags": []
+      "tags": ["Interpretability"]
     },
     {
       "id": "annabelle_blangero",
@@ -104,6 +97,13 @@
       "role": "Senior Data Scientist",
       "email": "toni.fortora@ekimetrics.com",
       "tags": ["Causal Inference"]
+    },
+    {
+      "id": "francois_hu",
+      "name": "François Hu",
+      "role": "Lead Researcher",
+      "email": "francois.hu@ekimetrics.com",
+      "tags": ["Bayesian Statistics", "Optimal Transport"]
     }
   ]
 }
