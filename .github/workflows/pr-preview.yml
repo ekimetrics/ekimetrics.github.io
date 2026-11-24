@@ -9,6 +9,9 @@ jobs:
   deploy-preview:
     runs-on: ubuntu-latest
     if: github.event.action != 'closed'
+    concurrency:
+      group: pr-preview-${{ github.event.number }}
+      cancel-in-progress: true
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
@@ -41,8 +44,12 @@ jobs:
           git clone https://x-access-token:${GIT_PASS}@github.com/ekimetrics/ekimetrics.github.io.git preview-repo
           cd preview-repo
 
-          # Create or switch to preview branch
-          git checkout -B $PREVIEW_BRANCH || git checkout $PREVIEW_BRANCH
+          # Switch to existing preview branch on origin, or create a new one
+          if git show-ref --verify --quiet "refs/remotes/origin/$PREVIEW_BRANCH"; then
+            git checkout -b "$PREVIEW_BRANCH" "origin/$PREVIEW_BRANCH"
+          else
+            git checkout -b "$PREVIEW_BRANCH"
+          fi
 
           # Remove existing content and copy new build
           rm -rf pr-${{ github.event.number }} || true
