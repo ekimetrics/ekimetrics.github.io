@@ -3,8 +3,6 @@ module.exports = {
     "About Ekimetrics": [
       'ekilab',
       'ekimetrics',
-      'stack',
-      'our-team',
     ],
 
   },

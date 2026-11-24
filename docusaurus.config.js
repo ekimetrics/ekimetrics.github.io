@@ -95,9 +95,9 @@ module.exports = {
 
       items: [
 
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {to: 'events', label: 'Events', position: 'left'},
+        {to: '/our-team', label: 'Our Team', position: 'left'},
         {href: '/publications', label: 'Publications', position: 'left'},
+        {to: 'events', label: 'Events', position: 'left'},
 
 
         {
@@ -116,13 +116,8 @@ module.exports = {
             },
 
             {
-              label: "Technology stack",
-              href:'/about/stack'
-            },
-
-            {
-              label: "Our Team",
-              href:'/about/our-team'
+              label: "Blog",
+              to:'/blog'
             },
 
           ],
@@ -174,7 +169,7 @@ module.exports = {
             },
             {
               label: 'Our team',
-              to: 'https://ekimetrics.com/our-team/',
+              to: '/our-team',
             },
             {
               label: 'Subscribe to our newsletter',
