@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[5407],{69213:e=>{e.exports=JSON.parse('{"label":"Architecture","permalink":"/blog/tags/architecture","allTagsPath":"/blog/tags","count":3}')}}]);

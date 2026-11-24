@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[9193],{95941:a=>{a.exports=JSON.parse('{"label":"Explainable Marketing","permalink":"/blog/tags/explainable-marketing","allTagsPath":"/blog/tags","count":1}')}}]);

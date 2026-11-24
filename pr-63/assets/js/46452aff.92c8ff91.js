@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[3837],{65746:a=>{a.exports=JSON.parse('{"label":"AthenIA","permalink":"/blog/tags/athen-ia","allTagsPath":"/blog/tags","count":1}')}}]);

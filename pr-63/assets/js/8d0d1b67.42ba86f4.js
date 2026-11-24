@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkeki_lab=self.webpackChunkeki_lab||[]).push([[2097],{40877:e=>{e.exports=JSON.parse('{"label":"Zero-shot forecasting","permalink":"/blog/tags/zero-shot-forecasting","allTagsPath":"/blog/tags","count":1}')}}]);
