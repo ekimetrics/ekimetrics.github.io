@@ -174,7 +174,7 @@ function Feature({ imageUrl, title, description }) {
 
 function HomePageBlock({ title, img, description, href }) {
 	return (
-		<Col className={styles.mainCardColumn}>
+		<Col className={clsx('col--4', styles.mainCardColumn)}>
 			<h1 style={{ fontSize: 24 }}>
 				{' '}
 				<Link to={href}>{title}</Link>
@@ -182,13 +182,16 @@ function HomePageBlock({ title, img, description, href }) {
 			{img && (
 				<div
 					style={{
-						paddingLeft: 40,
-						paddingRight: 40,
+						paddingLeft: 20,
+						paddingRight: 20,
 						paddingTop: 20,
 						paddingBottom: 20,
 					}}
 				>
-					<img src={useBaseUrl(img)} />
+					<img
+						src={useBaseUrl(img)}
+						style={{ height: '160px', width: 'auto', objectFit: 'contain' }}
+					/>
 				</div>
 			)}
 			<p style={{ marginBottom: 0 }}>{description}</p>
@@ -256,19 +259,23 @@ function Home() {
 				<div className={clsx('container', styles.card)}>
 					<Row>
 						<HomePageBlock
-							title='Blog'
-							href='/blog'
-							img='img/icons/Search engine _Monochromatic.svg'
-							description='Browse our latest articles and experiments on Data Science & AI'
+							title='Our Team'
+							href='/our-team'
+							img='img/icons/Spotlight _Monochromatic.svg'
+							description='Meet the researchers and data scientists behind Eki.Lab'
 						/>
 						<HomePageBlock
-							title='About Us'
-							href='/about'
-							img='img/icons/Spotlight _Monochromatic.svg'
-							description='Learn about our convictions and tech best practices'
+							title='Publications'
+							href='/publications'
+							img='img/icons/Search engine _Monochromatic.svg'
+							description='Discover our latest research papers and pre-prints'
 						/>
-						{/* <HomePageBlock title="Hackathons" href="/hacks" img="img/icons/Competition_Monochromatic.svg" description="Test your data science skills with our hackathons & challenges"/>
-            <HomePageBlock title="Open Source" href="/opensource" img="img/icons/World wide web_Monochromatic.svg" description="Discover our open source contributions to the Data Science community"/> */}
+						<HomePageBlock
+							title='Events'
+							href='/events'
+							img='img/icons/Campaign launch_Monochromatic.svg'
+							description='Explore our workshops, seminars, and academic-industry sessions'
+						/>
 					</Row>
 				</div>
 
